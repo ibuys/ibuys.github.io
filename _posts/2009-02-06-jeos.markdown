@@ -1,0 +1,15 @@
+--- 
+layout: post
+title: JeOS
+tags: linux work sysadmin
+---
+For better or worse, we are starting to put Ubuntu JeOS images into production in our network.  Starting off, we will only put these systems in for our non-IBM services, no WebSphere or DB2, as IBM doesn't officially support this configuration yet, but for everything else, JeOS looks like a perfect fit.
+
+Most of our production systems currently use SuSE Linux Enterprise Server (SLES), which is an excellent OS, but requires you to purchase  a license in order to download patches and updates.  This is fine for the majority of our production systems, but as the number of our virtual systems grows, so does the complexity of management overhead that goes along with it.  We can quickly put a new SLES box into production if needed, but, will it be licensed?  Will it be able to download the latest patches?  SLES 8 and 9 were fairly lenient about it, SLES 10 is not.  With Ubuntu, we never have to worry about if we are going to be able to download the latest security patches, they are always freely available, which brings me to my next point:
+
+There is very little installed with the default JeOS image, there truly is "just enough" to get up and running.  Reminds me of the bare-bones OpenBSD installs I used to do 7 or 8 (9?) years ago.  Follow up with "sudo apt-get install ufw clamav" and you've got a very secure, firewalled, anti-virus scanned system.  Yes, clam and ufw both need more configuration, but even that is dead easy.  Also, I really like the concept of not having a root user, and having to use sudo to accomplish anything.  
+
+The final thing I enjoy about Ubuntu is that it's just easy to use.  Today, I set up Request Tracker (better known as RT) from Best Practical.  It was so easy, the 3.6 version is in the repositories, so installing it was a quick apt-get away.  Comparatively, using SLES, I had to run their "make testdeps" and "make testdeps" scripts to try and download and compile all of the perl prerequisites, not to mention Apache, MySQL, and mod_perl.  
+
+RT is the first app that I'm moving over to an Ubuntu JeOS.  It will be quickly followed by Nagios, Webmin, and then Postfix and an Apache web server hosting our company web site.  The idea is to make each of these services a virtual appliance, so we could move them around easily, and work on one without affecting the others.
+

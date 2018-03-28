@@ -1,0 +1,25 @@
+--- 
+layout: post
+title: Agility
+tags: sysadmin productivity
+---
+
+To create the perfect datacenter, what would you recommend? For me, the perfect datacenter would be based on _agility_. We would be able to add new capacity when needed, and reallocate resources whenever needed, quickly and easily. We would be able to backup everything, securely and easily, off-site.  We would use, whenever possible, open source software so we would not be constricted by licensing schemes. Would we have a SAN? Yes, most likely something very simple to administrate, like a NetApp. We would boot from the SAN, have no moving parts in the servers themselves, so we would have very few hardware failures. Whenever possible we would keep to one style of hardware, ie: all blades, or all 1U rack mounts, etc…
+
+We would purchase the servers as needed. Purchasing the equipment instead of leasing it gives us more flexibility, and decreases overall cost. We still abide by the server life cycle, but instead of returning older servers to the vendor, we re-purpose them by migrating them over to test and development, or management servers. Then, when the servers have truly reached the end of serviceable life, drop them on ebay to recoup a bit of the cost. 1 We would purchase racks with built in cooling, fans at top and bottom. We would have an ambient temperature sensor hooked up to Nagios to keep an eye on the environment. Nagios, of course, would keep an eye on everything else as well.
+  
+We would run our cabling under the floor in [Snake Tray][1], gigabit Ethernet to the servers, maybe 10 Gig fiber backbone between the switches and routers? It may be expensive to implement, but it would last, and provide more than enough bandwidth. I would build a pair of [OpenBSD][2] firewalls with automatic failover and load balancing, one pair for each of two Internet connections. I suppose there would have to be two sets of firewalls on each Internet uplink, to provide a DMZ, a good place for a [Snort][3] system.
+  
+We would deploy a single operating system, possibly Ubuntu. Something with commercial support if needed, but enough freedom to keep things moving the was we want them to… no restrictions. The [Ubuntu server][4] is not bad, and with Canonical providing [support][5] its reliable enough to build a business off of. Keep everything at the same patch and kernel level.
+
+Yes, this is a pipe dream. In reality datacenters are heterogeneous, organically grown, and often stuck together with duct tape and bubble-gum.  What would we build though, if we had hundreds of thousands of dollars and a blank slate to work off of? If the task were given to me, this is what I would build.
+  
+* * *
+
+1. We may not be able to recoup much from eBay, but its better to sell them there than junk them altogether. The servers may end up in a hobbyist's garage, building the next version of Linux! 
+ 
+[1]: http://www.snaketray.com/
+[2]: http://openbsd.org
+[3]: http://www.snort.org/
+[4]: http://www.ubuntu.com/products/WhatIsUbuntu/serveredition
+[5]: http://www.ubuntu.com/support/paid

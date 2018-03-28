@@ -1,0 +1,13 @@
+---
+layout: post
+title: Details
+tags: quote culture
+---
+
+Thought of the week: 
+
+> I don’t like this “top ten” business. It’s the bottom ten that I like. I think you’ve got to go for the little things, the stones that make up the wall.
+>
+> -- Donald Knuth
+
+
