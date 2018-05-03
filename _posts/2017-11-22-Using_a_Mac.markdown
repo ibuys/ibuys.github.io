@@ -9,8 +9,11 @@ tags: mac, ipad, apple
 
 I've been enjoying watching the new iPad commercial of a kid and her iPad roaming around the city. Two things come to mind. First, is this what it's like for kids in the city? Having never lived in one myself I find it fascinating that she just roams around, takes the bus, hangs out in an alley, whatever. Second, and more important, is what she's doing with that iPad. 
 
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sQB2NjhJHvY" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sQB2NjhJHvY" frameborder="0" allowfullscreen></iframe>
+
 
 The first time we see her with the iPad she’s chatting with a friend over FaceTime, snaps a screenshot, and draws on it. She shows the screenshot to her friend, then sends a copy of it over Messages. Next she’s in an alley with a bunch of furniture, sitting in a seat and twisted to her left to type on the iPad keyboard. She notices a praying mantis on a leaf next to her and quickly snaps a photo, dropping that picture into what looks like a Pages document about bugs in the city. We see her typing in a bakery, drawing in a tree, and reading a comic on the bus. Finally, she’s lying in the grass in her backyard typing again, and when her neighbor asks her what she’s doing on her computer, she replies “what’s a computer?”
 
