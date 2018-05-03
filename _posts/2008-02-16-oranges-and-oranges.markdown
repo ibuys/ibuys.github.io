@@ -2,6 +2,7 @@
 layout: post
 title: Oranges and Oranges
 tags: linux mac culture
+date: 2008-02-16 10:49:11
 ---
 
 A couple of months ago Linux Magazine published an [article][1] written by Scott Granneman comparing Mac OS X Leopard and Ubuntu Gutsy Gibbon.  I’ve been torn between these two systems, and their respective predecessors for years, so the article was of great interest to me.  As a matter of fact, I was wondering how I missed it to begin with.  The article is well written, but can be boiled down to this one paragraph:

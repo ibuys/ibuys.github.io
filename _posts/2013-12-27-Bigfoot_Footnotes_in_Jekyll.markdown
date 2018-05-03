@@ -40,4 +40,4 @@ It may not amount to much, bit I think it's a nice addition to the site.
 
 
 [1]: http://www.leancrew.com/all-this/2013/12/tweaking-bigfoot-footnotes/
-[2]: http://cmsauve.com/labs/bigfoot/
+[2]: http://www.bigfootjs.com

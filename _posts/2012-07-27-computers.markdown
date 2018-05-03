@@ -2,6 +2,7 @@
 layout: post
 title: Living In The Technical Past
 tags: productivity setup mac
+date: 2012-07-27 10:49:11
 ---
 
 <a href="/media/trowel.png"><img src="/media/trowel_thumb.png" /></a>

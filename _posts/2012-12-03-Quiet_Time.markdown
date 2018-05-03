@@ -2,6 +2,7 @@
 layout: post
 title: Quiet Time
 tags: life personal
+date: 2012-12-03 10:49:11
 ---
 
 The office is empty this morning. I just closed iTunes, and I am enjoying listening to my own thoughts. No music, no talking, no background, just quiet. Sitting in silence is a luxury these days, and one that should not be taken for granted. 

@@ -2,6 +2,7 @@
 layout: post
 title: Electrogent's 50 Rules
 tags: life culture gear
+date: 2013-01-30 10:49:12
 ---
 
 One of my favorite things about the Internet is finding a little treasure trove of writing and style that I previously did not know existed. [Electrogent][] is one of those little gems, and his list of 50 rules for his son is full of timeless advice.

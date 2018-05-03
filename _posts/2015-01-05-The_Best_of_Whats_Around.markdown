@@ -33,6 +33,6 @@ PS. Apple, fix your bugs. Seriously, some of this is just embarrassing.
 [7]: http://www.devontechnologies.com/products/devonthink/overview.html
 [8]: http://dayoneapp.com
 [9]: http://acqualia.com/soulver/
-[10]: http://jonathanbuys.net/10-14-2013/Quicksilver.html
+[10]: http://jonathanbuys.com/10-14-2013/Quicksilver.html
 [11]: http://smilesoftware.com/TextExpander/index.html
 [12]: http://www.noodlesoft.com/hazel.php

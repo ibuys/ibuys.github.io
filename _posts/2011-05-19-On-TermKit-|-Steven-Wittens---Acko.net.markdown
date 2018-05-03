@@ -2,6 +2,7 @@
 layout: post
 title: On TermKit - Steven Wittens 
 tags: mac productivity
+date: 2011-05-19 10:49:11
 ---
 
 >I've been administering Unix machines for many years now, and frankly, it kinda sucks. It makes me wonder, when sitting in front of a crisp, 2.3 million pixel display (i.e. a laptop) why I'm telling those pixels to draw me a computer terminal from the 80s.

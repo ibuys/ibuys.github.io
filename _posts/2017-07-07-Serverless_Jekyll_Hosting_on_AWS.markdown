@@ -30,7 +30,7 @@ CodeBuild works by starting a Docker container and pulling the repository down. 
 	commands:
 	echo Build started on date
 		bundle exec jekyll build
-		aws s3 sync _site/ s3://jonathanbuys.net
+		aws s3 sync _site/ s3://jonathanbuys.com
 	  post_build:
 	commands:
 	echo Build completed on date

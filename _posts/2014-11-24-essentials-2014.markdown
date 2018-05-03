@@ -64,20 +64,20 @@ In addition to the apps, I use a handful of command line tools from time to time
 If my transition of apps that I use had a theme, it would be moving to systems where mobile is a priority. I’m no longer using Yojimbo or NetNewsWire, and to be honest, I’m a little disappointed in that fact.
 
 
-[1]:	http://jonathanbuys.net/2008/11/04/essentials.html
-[2]:	http://jonathanbuys.net/2012/07/19/New_Mac_Essentials.html
+[1]:	http://jonathanbuys.com/2008/11/04/essentials.html
+[2]:	http://jonathanbuys.com/2012/07/19/New_Mac_Essentials.html
 [3]:	https://www.backblaze.com
 [4]:	http://www.red-sweater.com
 [5]:	http://macsparky.com/omnifocus-screencasts/
 [6]:	http://qsapp.com
-[7]:	http://jonathanbuys.net/2013/10/14/Quicksilver.html
+[7]:	http://jonathanbuys.com/2013/10/14/Quicksilver.html
 [8]:	http://www.dropbox.com/
 [9]:	http://www.lightheadsw.com/caffeine/
 [10]:	http://manytricks.com/moom/
 [11]:	http://smilesoftware.com/TextExpander/
 [12]:	https://agilebits.com/onepassword
 [13]:	https://evernote.com
-[14]:	http://jonathanbuys.net/2014/10/27/Sensible_Information_Organization.html
+[14]:	http://jonathanbuys.com/2014/10/27/Sensible_Information_Organization.html
 [15]:	http://dayoneapp.com
 [16]:	https://code.google.com/p/macvim/
 [17]:	http://markedapp.com/

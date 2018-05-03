@@ -2,6 +2,7 @@
 layout: post
 title: The Computer User I Want To Be
 tags: personal setup mac
+date: 2012-08-11 10:49:11
 ---
 
 Learning about computers can be a dangerous thing. Breaking though the veneer of graphical interfaces reveals inefficiencies and inaccurate metaphors. For example, [rsync][1] copies files faster and uses fewer resources than the Finder. Copying lots of files is what rsync does best, but being a command line power tool there are a few subtleties with using it that are not readily apparent. As your skill grows, so to does the tendency to eschew modern tools in favor of "power tools". You begin to see the inefficiencies of graphical tools as problems, problems that you need to fix. I've been down that road. 
@@ -30,4 +31,4 @@ The kind of computer user I want to be is the kind who uses the simplest tool av
 
 
 [1]: https://en.wikipedia.org/wiki/Rsync
-[2]: http://jonathanbuys.net/04-03-2011/Principle_of_Least_Software.html
+[2]: http://jonathanbuys.com/04-03-2011/Principle_of_Least_Software.html

@@ -29,5 +29,5 @@ All in all I’m very happy with the few days I’ve spent with NetNewsWire 4. I
 [4]:	http://daringfireball.net/2005/10/the_life
 [5]:	https://blackpixel.com/writing/2011/06/black-pixel-acquires-netnewswire.html
 [6]:	http://bits.blogs.nytimes.com/2013/03/14/the-end-of-google-reader-sends-internet-into-an-uproar/
-[7]:	http://jonathanbuys.net/01-19-2013/iCloud_and_Core_Data.html
+[7]:	http://jonathanbuys.com/01-19-2013/iCloud_and_Core_Data.html
 [8]:	http://omnistaging.omnigroup.com/omniweb/

@@ -2,6 +2,7 @@
 layout: post
 title: A Glimpse of the Future
 tags: predictions iphone mac
+date: 2011-08-18 10:49:11
 ---
 
 The Motorola ATRIX 4G is technology released before its time. At first glance, it seems like any other Android phone with impressive technical specs and questionable user interface decisions, but the phone as a phone is not the interesting part of this device. 
@@ -24,7 +25,7 @@ The ATRIX is clearly a step in that direction, but it is too little, too soon. T
 
 
 [1]: http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/WEBTOP/Meet-WEBTOP
-[2]: http://jonathanbuys.net/03-29-2011/Keyboards_and_Wheels.html
+[2]: http://jonathanbuys.com/03-29-2011/Keyboards_and_Wheels.html
 [3]: http://www.twelvesouth.com/products/bookarc/
 [4]: https://secure.wikimedia.org/wikipedia/en/wiki/History_of_computers
 [5]: http://www.zurich.ibm.com/news/11/pcm.html

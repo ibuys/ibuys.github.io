@@ -2,6 +2,7 @@
 layout: post
 title: Letter to Lotus Notes Developers
 tags: mac productivity
+date: 2011-07-18 10:49:11
 ---
 
 I have some issues with the design of Lotus Notes. I'm a relatively new user, I started using Notes in 2006, and at the time we were using 6.5 on Windows. I've since upgraded to 8.5.2 on Mac OS X. 

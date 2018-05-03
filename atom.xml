@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Jonathan Buys</title>
+ <link href="http://jonathanbuys.com/atom.xml" rel="self"/>
+ <link href="http://jonathanbuys.com/"/>
+ <updated>{{ site.time }}</updated>
+ <id>http://jonathanbuys.com/</id>
+ <author>
+   <name>Jonathan Buys</name>
+   <email>comments@jonathanbuys.com</email>
+ </author>
+
+ {% content %}
+ 
+</feed>

@@ -2,6 +2,7 @@
 layout: post
 title: Two Views Of The Cloud
 tags: online cloud google apple
+date: 2011-06-14 10:49:11
 ---
 
 A few years ago, there was a distinction between the "world wide web" and the Internet. The distinction has decreased, but in the wake of Apple's landmark [WWDC keynote][2], I think the technical distinction between the terms is an important point to make. The difference between the Internet and the web that rides on top of the Internet forms the basis for two very different points of view for the future of personal computing. 

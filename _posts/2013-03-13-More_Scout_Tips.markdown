@@ -2,6 +2,7 @@
 layout: post
 title: More Scout Tips
 tags: farmdog paragraphs indie
+date: 2013-03-13 10:49:11
 ---
 
 Eventually I'm going to need to compile this into a proper help doc, but for now, documenting Scout with Scout will do. 

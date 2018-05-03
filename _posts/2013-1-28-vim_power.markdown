@@ -2,6 +2,7 @@
 layout: post
 title: Vim Power
 tags: blogging 
+date: 2013-01-28 10:49:11
 ---
 
 <a href="http://www.flickr.com/photos/51724787@N06/8424086311/" title="vim_icon by Jon Buys, on Flickr"><img src="http://farm9.staticflickr.com/8466/8424086311_037e32dbcf_t.jpg" width="100" height="100" alt="vim_icon"></a>No server, desktop, or laptop install is complete without Vim, and yet, there are times when I still see questions pop up on IRC about how to do basic editing of config files with vi. I remember, years ago, asking some of the same questions of an older Unix guru, and asking why I should bother learning such an eccentric and "outdated" text editor. His answer has stuck with me, he said "Because it is the only text editor guaranteed to be on every server, and some day you will need it, and have no other alternatives." Vim, short for "vi improved" is ubiquitous, but it is also so much more, and the time you spend learning it will be repaid to you tenfold in productivity. 

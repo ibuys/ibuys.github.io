@@ -64,7 +64,7 @@ This is entered in as a shell script action, and is the only action in this work
 Once I'm certain everything looks good, I run the final Automator action to upload the site: 
     
     cd /Users/USERNAME/Sites/_site/
-    rsync -avz -e ssh . USERNAME@jonathanbuys.net:/home/USERNAME/jonathanbuys.net/ > /dev/null
+    rsync -avz -e ssh . USERNAME@jonathanbuys.com:/home/USERNAME/jonathanbuys.com/ > /dev/null
     /usr/local/bin/growlnotify --appIcon Automator Site Sync Complete -m 'Check it out.'
     
 

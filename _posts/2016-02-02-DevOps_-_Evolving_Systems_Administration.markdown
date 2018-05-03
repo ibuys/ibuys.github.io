@@ -15,4 +15,4 @@ The other part of the evolution is that you have to stop thinking of the infrast
 
 Systems administration is evolving in the same way programming languages have, building up to ever higher layers of abstraction. DevOps is simply working with the developers to build the best possible system to run the application. 
 
-[1]:	http://jonathanbuys.net/02-24-2009/systems-administrator.html
+[1]:	http://jonathanbuys.com/02-24-2009/systems-administrator.html

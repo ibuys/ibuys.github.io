@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Where We Stand
+date: 2013-06-04 10:49:11
 ---
 
 In the online help for Paragraphs, I have a rather odd statement:

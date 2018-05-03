@@ -2,6 +2,7 @@
 layout: post
 title: iOS 6 Headphones
 tags: iphone hardware
+date: 2012-10-08 10:49:11
 ---
 
 I have been pleasantly surprised by one small enhancement in iOS 6 that probably affected a very small number of people. I drive a 2006 Saturn Ion that has an auxiliary port in the car stereo for plugging in things like iPhones. I have about a half-hour drive to work in the mornings, and I listen to podcasts downloaded with [Instacast][1]. Since I want to control the audible volume with my car stereo knobs, and I want the best possible signal from my iPhone, I turn the volume up to maximum for the drive.

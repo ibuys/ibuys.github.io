@@ -2,6 +2,7 @@
 layout: post
 title: Updates on Farmdog, Scout, and Go2
 tags: farmdog paragraphs indie go2
+date: 2013-03-17 10:49:11
 ---
 
 Last week I sent in the certificate of organization to recreate Farmdog as an LLC in the state of Iowa. I have the [domain name](http://farmdog.co), [twitter account](https://twitter.com/farmdogco), and a [test site](http://fdtest.site44.com) built. Assuming everything goes through with the state without problem, Farmdog Co. will be ready to launch very soon. 

@@ -2,6 +2,7 @@
 layout: post
 title: Farmdog Closed
 tags: farmdog indie life
+date: 2013-06-06 10:49:11
 ---
 
 *Update: July 30, 2013 - Farmdog is not closed, but I am rethinking everything. Paragraphs will continue to be supported for the foreseeable future.*

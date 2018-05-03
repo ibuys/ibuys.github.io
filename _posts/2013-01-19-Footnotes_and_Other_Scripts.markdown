@@ -2,6 +2,7 @@
 layout: post
 title: Footnotes and Other Scripts
 tags: farmdog paragraphs indie
+date: 2013-01-16 10:49:11
 ---
 
 I'd like a really simple way to insert footnotes in the text. However, I'm not sure how much of that I can do with the Markdown parser that I have now, which means inserting ugly HTML, which I'd really rather not have. I could do something in the generation of the site, inserting my own marker in the text and parsing through that later, but that seems like reinventing the wheel. Surely there are better ways to go about this. 

@@ -30,7 +30,7 @@ Since switching to a sanding desk [last year][3] I've become accustomed to long 
 
 [1]: http://www.amazon.com/gp/product/B015GCGOD8?psc=1&redirect=true&ref_=oh_aui_detailpage_o02_s01
 [2]: http://www.varidesk.com
-[3]: http://jonathanbuys.net/09-24-2015/standing-desk.html
+[3]: http://jonathanbuys.com/09-24-2015/standing-desk.html
 [4]: http://thewirecutter.com/reviews/best-standing-desk/
 [5]: http://www.drbunsen.org/setting-up-a-standing-desk/
 

@@ -2,6 +2,7 @@
 layout: post
 title: Uncompromising
 tags: culture mac
+date: 2011-08-24 10:49:11
 ---
 
 Others have already said so much about Steve Jobs stepping down as the CEO of Apple that I had serious doubts about adding my voice to the existing cacophony. Others have written so much, and surely so much more will be over the next few days. I had doubts, but I have this to say:

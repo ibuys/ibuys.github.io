@@ -2,6 +2,7 @@
 layout: post
 title: No Fail Diet Plan
 tags: life culture
+date: 2008-01-12 10:49:11
 ---
 
 Seriously, does anyone really need to know _how_ to loose weight these days?  No matter what super plan you choose, it always comes down to **eat less an exercise more**. There is no secret formula, and there is no magic pill that will help you achieve the body that you want.

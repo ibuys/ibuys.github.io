@@ -7,11 +7,11 @@ permalink: /100books/
 
 Latest Update: April 27, 2017
 
-## Books in Progress:
+### Books in Progress:
 
 *  The Republic Of Plato: Second Edition by Plato
 
-## The Backlog:
+### The Backlog:
 
 *  The Brothers Karamazov by Fyodor Dostoyevsky
 *  The Catcher in the Rye by J. D. Salinger
@@ -96,7 +96,7 @@ Latest Update: April 27, 2017
 *  For Whom the Bell Tolls by Ernest Hemingway
 
 
-## Finished Books:
+### Finished Books:
 
 * The Great Gatsby by F. Scott Fitzgerald
 * The Night Circus by Erin Morgenstern
@@ -121,12 +121,12 @@ Latest Update: April 27, 2017
 * Adventures of Huckleberry Finn by Mark Twain
 * Writing Down the Bones by Natalie Goldberg
 * The Call of the Wild by Jack London
-*  Moby-Dick or, The Whale (Penguin Classics) by Herman Melville
+* Moby-Dick or, The Whale (Penguin Classics) by Herman Melville
 * The Things They Carried by Tim O'Brien
 * Mr. Penumbra's 24 Hour Bookstore
 * The Art of Racing in the Rain
 * The Storied Life of A.J. Fickery
-*  A Walk in the Woods by Bill Bryson
+* A Walk in the Woods by Bill Bryson
 * Guns, Germs, and Steel by Jared Diamond
 * The Little Paris Bookshop by Nina George 
 * [The 100-Year-Old Man Who Climbed Out the Window and Disappeared][1] by Jonas Jonasson

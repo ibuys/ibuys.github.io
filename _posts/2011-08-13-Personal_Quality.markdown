@@ -2,6 +2,7 @@
 layout: post
 title: Personal Quality
 tags: life culture personal
+date: 2011-08-13 10:49:11
 ---
 
 My daughter had an ear infection. A common occurrence in children, so I brought her down to our local doctors office. The doctor took one look at her ear and knew what needed to be done. He wrote out a prescription, gave me a few instructions, and sent me on my way. I then had two choices, I could drive the twenty miles into the city to get her prescription filled by Walgreens, or I could drive seven miles over to the next town to see if the local pharmacy could take care of it. I decided on the shorter trip.

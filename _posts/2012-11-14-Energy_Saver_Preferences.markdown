@@ -2,6 +2,7 @@
 layout: post
 title: Energy Saver Preferences
 tags: mac setup productivity
+date: 2012-11-14 10:49:11
 ---
 <img src="/media/energy_saver_icon.png" /> 
 My MacBook at work sits on my desk all day and all night. When I sit down to work on it, I expect it to be ready for me, and ready to ask how high when I tell it to jump. I get a bit annoyed if I come back after a few minutes or an hour and find that the Mac has gone to sleep while I've been gone. So, I spent a few minutes in the Energy Saver preference pane to configure the machine to my schedule. 

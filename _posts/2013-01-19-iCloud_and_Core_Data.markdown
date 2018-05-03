@@ -2,6 +2,7 @@
 layout: post
 title: iCloud and Core Data
 tags: culture online mac
+date: 2013-01-17 10:49:11
 ---
 
 I inadvertently started a bit of a [conversation](http://storify.com/Jury/the-trials-of-icloud) today when I complained about the state of NetNewsWire on Twitter. I've been a NetNewsWire user for years, and I was very surprised when it was sold to Black Pixel. My surprise turned to disappointment when the application was not updated, and now NetNewsWire has stopped working for me completely. 

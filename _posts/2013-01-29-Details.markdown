@@ -2,6 +2,7 @@
 layout: post
 title: Details
 tags: quote culture
+date: 2013-01-29 10:49:11
 ---
 
 Thought of the week: 

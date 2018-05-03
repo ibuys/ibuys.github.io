@@ -2,6 +2,7 @@
 layout: post
 title: Mission Control
 tags: mac setup
+date: 2011-07-25 10:49:11
 ---
 
 

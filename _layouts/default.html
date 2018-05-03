@@ -1,18 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://jonathanbuys.com/atom.xml" />
+	<link rel="stylesheet" href="/stylesheets/normalize.css">
+	<link rel="stylesheet" href="/stylesheets/skeleton.css">
+    <link rel="stylesheet" href="/stylesheets/base.css">
+	<link rel="stylesheet" href="/stylesheets/bigfoot-number.css">
+	<title>jb&hellip;&nbsp;{{ page.title }}</title>
+    
+<script type="text/javascript" src="/js/zoom.js"></script>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/bigfoot.min.js"></script>
+<script type="text/javascript">
+    $.bigfoot();
+</script>
 
-  {% include head.html %}
+</head>
 
-  <body>
+<body onload="setupZoom()"> 
+<div class="container">
 
-    {% include header.html %}
+    <section class="header">
+      <h2 class="title">jb&hellip;&nbsp; {{ page.title }}</h2>
+    </section>
 
-    <div class="page-content">
-        {{ content }}
+
+
+
+
+
+
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+          <a class="navbar-link" href="/">Page One</a>
+          <a class="navbar-link" href="/toc/">Archives</a>
+          <a class="navbar-link" href="/best/">Start Here</a> 
+          <a class="navbar-link" href="/contact/">Contact</a>
+          <a class="navbar-link" href="/colophon/">Colophon</a>
+      </div>
+    </nav>
+
+    <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+            <div class="one column">&nbsp;</div>
+            <div class="ten columns">
+                <!-- Main Body-->
+                {{ content }}
+            </div>
+            <div class="one column">&nbsp;</div>
     </div>
 
-    {% include footer.html %}
 
-  </body>
 
+
+    <div class="row">
+        <div class="twelve columns">
+                <p class="thin_line" id="footer"></p>
+            <div class="two columns">&nbsp;</div>
+            
+            <div class="eight columns">
+                <p class="smallprint">Copyright &copy; 2007-2018 Jonathan Buys &nbsp; <a href="https://jonathanbuys.com/atom.xml">Subscribe</a> </p>
+                <p class="smallprint">ISSN: 2161-8119</p>
+            </div>
+            <div class="two columns">&nbsp;</div>
+           
+        </div>
+    </div> <!-- End of footer div -->
+
+</div> <!-- end of container wrapper -->
+
+
+
+</body>
 </html>

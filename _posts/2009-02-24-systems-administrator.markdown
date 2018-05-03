@@ -32,4 +32,4 @@ Being a sysadmin is a good job in a tech driven economy. I've got my [reservatio
 [11]: http://www.apple.com
 [12]: http://en.wikipedia.org/wiki/Data_center
 [13]: http://en.wikipedia.org/wiki/The_UNIX-HATERS_Handbook
-[14]: http://jonathanbuys.net/2008/10/end-of-an-era-2/
+[14]: http://jonathanbuys.com/2008/10/end-of-an-era-2/

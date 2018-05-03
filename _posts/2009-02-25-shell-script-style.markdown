@@ -23,7 +23,7 @@ The easiest thing to do is to create another script who's purpose in life is to 
     #!/bin/sh
     # 
     # scripty.sh: This script creates other scripts
-    # Created: 25 Feb. 2009 -- inbound@jonathanbuys.net 
+    # Created: 25 Feb. 2009 -- inbound@jonathanbuys.com 
     #
     ##############################################################
     

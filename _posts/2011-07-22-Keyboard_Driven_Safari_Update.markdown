@@ -2,6 +2,7 @@
 layout: post
 title: Keyboard Driven Safari Update
 tags: mac productivity
+date: 2011-07-22 10:49:11
 ---
 
 Since writing [Keyboard Driven Safari][1] I've updated my list of extensions that make Safari my browser of choice.
@@ -30,7 +31,7 @@ The last extension I use is the fantastic [1Password][11]. 1Password is the one 
 Dropped from the list is Google Search Cleanup. I've switched most of my search to [DuckDuckGo][12], thanks to outstanding keyboard navigation (it supports vi keyboard bindings for navigation). DuckDuckGo is a very small operation taking on giants, I can't help but root for the underdog. 
 
 
-[1]: http://jonathanbuys.net/01-27-2011/Keyboard_Driven_Safari.html
+[1]: http://jonathanbuys.com/01-27-2011/Keyboard_Driven_Safari.html
 [2]: http://stevenf.com/pages/shutup.css.html
 [3]: http://www.verticalforest.com/youtube5-extension/
 [4]: http://www.orbicule.com/incognito/

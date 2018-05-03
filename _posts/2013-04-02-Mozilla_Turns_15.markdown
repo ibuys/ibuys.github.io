@@ -2,6 +2,7 @@
 layout: post
 title: Mozilla Turns 15
 tags: opensource firefox
+date: 2013-04-02 10:49:11
 ---
 
 Mozilla has been one of my favorite open source projects since I first learned of them back in 2002. I remember downloading the Mozilla browser, and thinking that it was just like Netscape Navigator (no surprise there), an all-in-one browser that threw in the kitchen sink, just in case you needed it. You can still download it's descendant, [SeaMonkey](http://www.seamonkey-project.org/). Not long after, I heard about another browser they were calling Phoenix, that, as it was explained to me, pulled out just the web browser from Mozilla, and left everything else alone. I downloaded it, and it was fantastic. Incredibly fast, lean, and simple. It became my favorite right away. There was only one release of Phoenix, after that the browser was [renamed briefly to Firebird](http://en.wikipedia.org/wiki/History_of_Mozilla_Firefox), and finally, Firefox. 

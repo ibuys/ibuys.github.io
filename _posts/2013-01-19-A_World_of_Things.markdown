@@ -2,6 +2,7 @@
 layout: post
 title: A World of Things
 tags: culture life personal
+date: 2013-01-14 10:49:11
 ---
 
 It is very easy when living in the technology field to ignore the actual physical space we occupy. Skills once thought essential are slowly being forgotten as we move farther and farther away from a culture of being able to create and fix *things*. 

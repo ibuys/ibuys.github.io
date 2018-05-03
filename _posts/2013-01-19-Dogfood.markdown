@@ -2,6 +2,7 @@
 layout: post
 title: Dogfood
 tags: paragraphs blogging
+date: 2013-01-15 10:49:11
 ---
 
 I would like to introduce you to Scout, my desktop, baked blogging engine. I'd like to, but Scout is not quite ready yet, so I'm keeping him under wraps till I'm sure. There is only one way to be *really* sure, and that's to use Scout to publish my own blog, every day. 

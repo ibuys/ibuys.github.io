@@ -2,6 +2,7 @@
 layout: post
 title: Scout Beta 2
 tags: farmdog indie paragraphs
+date: 2013-03-20 10:49:11
 ---
 
 So, quite a bit has changed in the past week or so. I got a lot of great feedback from a few beta testers, and stomped out a few bugs. A bigger deal though came from a couple of people who noted that they got confused in some of the views on how they were meant to proceed. Confusing the customer is absolutely the last thing I want to do with Scout, so I took off my developer hat and put on my HCI hat and tore Scout apart. 

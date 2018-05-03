@@ -2,6 +2,7 @@
 layout: post
 title: No More Guns
 tags: culture life
+date: 2012-12-20 10:49:11
 ---
 
 I'm angry. You should be too. On December 14th, a young man shot his way into a locked elementary school in a small town in Connecticut and murdered twenty children and six adults. This is an abhorrent act by a mentally ill person, but the magnitude of the act was amplified because the murderer had access to guns. Big guns.  

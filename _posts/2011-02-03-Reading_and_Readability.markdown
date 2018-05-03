@@ -44,7 +44,7 @@ Readability may turn out to be more important to the future of the web than we c
 [1]: https://twitter.com/#!/CocoaSamurai/status/32554211099021314
 [2]: http://ianhin.es/wrote-about/readabilitys-embed-links/
 [3]: http://www.ftrain.com/readability.html
-[4]: http://jonathanbuys.net/01-30-2011/RSS_Triage.html
+[4]: http://jonathanbuys.com/01-30-2011/RSS_Triage.html
 [5]: http://hyperdock.bahoom.de/
 [6]: http://www.marco.org/3044068415
 [7]: http://www.basement.org/2011/02/the_new_readability_betting_on.html

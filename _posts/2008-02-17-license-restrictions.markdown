@@ -2,6 +2,7 @@
 layout: post
 title: License Restrictions
 tags: sysadmin work
+date: 2008-02-17 10:49:11
 ---
 
 Software licensing is one of the biggest expenses of high-end server systems.  The vendors charge you not only to use the software, but they charge you for how <em>efficiently</em> you want to use the software as well.  IBM, for example, charges a different license fee for <a href="http://www.cbronline.com/article_news.asp?guid=3331CC24-A0A7-4180-A7D9-032C72F9DD5F">AIX</a> determined by how many cpus are in the system.  So, to scale in response to load, weather its up or out, you have to pay for additional hardware, and then you have to pay for the ability to <em>use</em> that hardware.  We are not talking small numbers here either, we are talking in the upwards of six figures <sup><a href="#fn1-2008-02-17">1</a></sup>, in addition to the cost of the hardware.  In addition to that, if you are using proprietary applications on top of the OS, you are going to have to pay additional licensing fees for those as well.  <a href="http://www-306.ibm.com/software/webservers/appserv/was/">WebSphere</a> in particular charges on a per cpu basis.

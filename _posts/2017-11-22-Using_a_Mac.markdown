@@ -44,7 +44,7 @@ The iPad Pro right now is a professional notebook. I’m waiting for it to be a 
 [^1]:	I know, the iPad isn’t supposed to worry about “files”, but then again it does have a Files app now, so I’d say that argument also went out the window. 
 
 [1]:	https://www.youtube.com/watch?v=5_pMx7IjYKE
-[2]:	http://jonathanbuys.net/imac-two-months-in/
+[2]:	http://jonathanbuys.com/imac-two-months-in/
 [3]:	https://www.djangoproject.com
 [4]:	https://www.backblaze.com/blog/the-3-2-1-backup-strategy/
 [5]:	https://en.wikipedia.org/wiki/Drawing_board

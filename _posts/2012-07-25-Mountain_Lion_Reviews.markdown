@@ -2,6 +2,7 @@
 layout: post
 title: Mountain Lion Reviews
 tags: mac online
+date: 2012-07-25 10:49:11
 ---
 
 <a href="/media/osxml.png"><img src="/media/osxml_thumb.png" /></a>

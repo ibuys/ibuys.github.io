@@ -2,6 +2,7 @@
 layout: post
 title: New Mac Essentials - Quicksilver
 tags: productivity mac setup
+date: 2012-07-19 10:49:11
 ---
 
 ## Introduction ##
@@ -73,7 +74,7 @@ Tune in next time to focus on my favorite writing tool. Same bat-time, same bat-
 
 
 
-[1]: http://jonathanbuys.net/01-27-2011/Keyboard_Driven_Safari.html 
+[1]: http://jonathanbuys.com/01-27-2011/Keyboard_Driven_Safari.html 
 [2]: http://hibariapp.com/ 
 [3]: http://violasong.com/2012/01/hibari-design-philosophy
 [4]: http://netnewswireapp.com/

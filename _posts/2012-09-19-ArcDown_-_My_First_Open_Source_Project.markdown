@@ -2,6 +2,7 @@
 layout: post
 title: ArcDown - My First Open Source Project
 tags: opensource farmdog indie
+date: 2012-09-19 10:49:11
 ---
 
 Part of a Farmdog project I'm working on needs nice syntax highlighting for markdown. After searching around for a bit I found Ali Rantakari's [PEG Markdown Highlight](http://hasseg.org/peg-markdown-highlight/) project, and knew that it would be a perfect fit. Unfortunately, the code was not written for [ARC](http://clang.llvm.org/docs/AutomaticReferenceCounting.html), or Automatic Reference Counting, and my project was. Rantakari's code worked fantastic outside of ARC, but inside it needed a few days worth of love and attention. 

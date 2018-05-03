@@ -2,6 +2,7 @@
 layout: post
 title: iTunes Gets A Bad Rap
 tags: mac music setup
+date: 2013-01-18 10:49:11
 ---
 
 I've searched high and low for an alternative to iTunes, but I've yet to find a suitable replacement. I use iTunes for playing music, mainly over [AirPlay](https://www.apple.com/airportexpress/#airplay) in my home office, and it works great. I've got smart playlists, star ratings, and an iTunes Match account to keep everything in sync between home, work, and mobile. Given my investment of time and money over the years, it's possible that I may be suffering from some type of [sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_costs#Loss_aversion_and_the_sunk_cost_fallacy), but honestly I really enjoy iTunes. 

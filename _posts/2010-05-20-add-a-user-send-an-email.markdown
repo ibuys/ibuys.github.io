@@ -3,7 +3,7 @@ layout: post
 title: Add a User - Send an Email
 tags: sysadmin work badsoftware
 ---
-I was asked on Twitter the other day why I <a href="http://twitter.com/ibuys/status/14230359975">disliked</a> IBM's enterprise software.  This, in addition to my <a href="http://jonathanbuys.net/2009/01/22/the-sorry-state-of-enterprise-software/">previous</a> TWS rant, is my answer to that question.
+I was asked on Twitter the other day why I <a href="http://twitter.com/ibuys/status/14230359975">disliked</a> IBM's enterprise software.  This, in addition to my <a href="http://jonathanbuys.com/2009/01/22/the-sorry-state-of-enterprise-software/">previous</a> TWS rant, is my answer to that question.
 
 We wanted to do two simple tasks.  Add a new user to the system, and have the system send emails automatically when there's a problem.  Seems easy enough, unless you are using the Tivoli Workload Scheduler.  Then it's an entirely different matter.  
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On Culture
+date: 2012-12-07 10:49:11
 ---
 
 You never need to prove to anyone who you are. You simple are who you are. Claiming that someone else is faking their interest in a topic is ridiculous. Our interests and curiosities define us just as much as, if not more than, our histories and personal experiences. Friendly competition between peers on knowledge of the esoteric details of a given subject is good fun, but not a defining prerequisite for claiming curiosity about the subject. I would like to think that the previous few sentences are unnecessary in a conversation with adults, but unfortunately, as the recent conversations surrounding "fake geek girls" has shown, that is not the case. In a sad way, many of us have not matured past the social battleground of middle school. 

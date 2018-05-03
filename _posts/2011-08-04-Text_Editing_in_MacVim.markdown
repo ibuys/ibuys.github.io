@@ -2,6 +2,7 @@
 layout: post
 title: Text Editing in MacVim
 tags: vim blogging setup
+date: 2011-08-04 10:49:11
 ---
 
 The venerable BBEdit recently received a [big upgrade](http://www.barebones.com/products/bbedit/index.html), and looks poised to attract users of TextMate, which, by all accounts, has been abandoned by its developer. I tried to love BBEdit, but it always felt like trying on someone else&#8217;s clothes. They might look good, but that does not mean the clothes will be comfortable for you. Recent conversations about text editors on [Build and Analyze](http://5by5.tv/buildanalyze) led me to rethink my position, and examine in more detail how I came to choose MacVim.

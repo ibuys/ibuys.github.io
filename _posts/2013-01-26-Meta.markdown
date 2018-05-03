@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Meta
-tags: blogging 
+tags: blogging
+date: 2013-01-26 10:49:11
 ---
 
 You get good at something by doing it repeatedly. I've been writing on this site for six years now, but with little direction or topic. I've gotten good at *not* making anything of the site, which is not where I wanted to be when I wrote about why I kept this site [in 2011][1]. I've not kept to a regular schedule, or a common theme, so I am not surprised to see that the only traffic I have going to the site is my own, and a few that found the site from Google. The preceding statement will make the next seem a bit ridiculous, but bear with me. 
@@ -15,5 +16,5 @@ I am also putting up some barriers to what I will write about here. I will not w
 This is also a site about the pursuit of excellence in all that we do. This site is about using things that are worth having, and spending our time building things that are worth selling. The previous years were a warm up, the main game starts now, this is a great place to start reading.
 
 
-[1]: http://jonathanbuys.net/08-21-2011/Writing_Online.html
+[1]: http://jonathanbuys.com/08-21-2011/Writing_Online.html
 [2]: http://ostatic.com

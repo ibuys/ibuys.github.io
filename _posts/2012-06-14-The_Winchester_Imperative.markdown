@@ -2,6 +2,7 @@
 layout: post
 title: The Winchester Imperative
 tags: productivity personal
+date: 2012-06-14 10:49:11
 ---
 
 Major Charles Emerson Winchester III was a fictional character on one of my all time favorite shows, [M\*A\*S\*H][1]. While he had many memorable scenes, the one that I remember best is the first episode he is introduced. Winchester was sent to the 4077th to assist while they were short handed, and he was not used to the incredibly hectic pace that the doctors needed to work at to save the lives of the wounded. The doctors tried to prod Winchester to move faster, but he responded with a line that's been echoing in my mind lately.

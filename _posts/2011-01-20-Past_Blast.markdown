@@ -20,7 +20,7 @@ whatever that work might be.
 [The Life][3], I just wrote about this article, but I think linking to
 it today is in keeping with the spirit of the meem.
 
-[1]: http://jonathanbuys.net/09-10-2008/on-graduation-day.html
-[2]: http://jonathanbuys.net/05-14-2008/the-master-craftsman.html
+[1]: http://jonathanbuys.com/on-graduation-day/
+[2]: http://jonathanbuys.com/the-master-craftsman/
 [3]: http://daringfireball.net/2005/10/the_life
 

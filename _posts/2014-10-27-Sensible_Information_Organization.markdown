@@ -77,6 +77,6 @@ This system is new to me, but each of the components I’ve been using on and of
 [6]: http://www.smilesoftware.com/PDFpen/Scan/index.html
 [7]: http://www.noodlesoft.com/hazel.php
 [8]: http://realmacsoftware.com/ember
-[9]: http://jonathanbuys.net/08-04-2011/Text_Editing_in_MacVim.html
+[9]: http://jonathanbuys.com/08-04-2011/Text_Editing_in_MacVim.html
 [10]: http://nebulousapps.net
 [11]: http://blog.devontechnologies.com/2013/07/an-update-on-devonthink-to-go/

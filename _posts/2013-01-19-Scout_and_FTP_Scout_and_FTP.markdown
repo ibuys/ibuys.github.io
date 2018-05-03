@@ -2,6 +2,7 @@
 layout: post
 title: Scout and FTP
 tags: farmdog paragraphs indie
+date: 2013-01-19 10:49:11
 ---
 
 Building a desktop application that manages creating your site is great, but only publishing to a local folder is for the birds. After only a few posts using Scout, I can say that the process of publishing to a folder, switching to Terminal, and running rsync will not fly for any potential customers I may have. It's a pain. 

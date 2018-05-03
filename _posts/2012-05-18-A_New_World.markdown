@@ -2,6 +2,7 @@
 layout: post
 title: A New World
 tags: life personal work
+date: 2012-05-18 10:49:11
 ---
 
 CocoaHeads changed my life. This afternoon I am killing time in a coffee shop, about to head to work for an appointment with HR. When I get there, I'll turn in my badge, they will wish me luck, and I'll walk out the door. Monday, I start a new chapter in my life with [T8 Webware][1]. To say that I'm a little nervous about this change would be an understatement. I've spent time with these guys, they are smart, ambitious, and I believe in what they are doing. I'm going to be part of building something awesome, and I'm extremely excited.

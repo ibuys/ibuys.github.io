@@ -2,6 +2,7 @@
 layout: post
 title: Recovering Data From FileVault Full Disk Encryption 
 tags: mac filevault
+date: 2011-10-14 10:49:11
 ---
 
 >*Disclaimer*: If you do not have your recovery key, or if you have lost your passphrase, this post will not help you. Sorry.

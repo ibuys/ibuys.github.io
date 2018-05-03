@@ -1,0 +1,279 @@
+body{
+	font-size: 21px;
+	font-family:  Palatino, Georgia, Times, "Times New Roman", serif;
+    color: #30343e;
+	background-color: white;
+    border-top: 8px solid #878787;
+    word-wrap: break-word; /* from marco.org */
+}
+
+.header {
+  margin-top: 6rem;
+  text-align: center; 
+}
+
+
+a.header:link, a.header:visited{
+	text-decoration: none;
+	color: #F87531;
+}
+
+a.header:hover{
+	text-decoration: none;
+	color: red;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #F87531;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #F87531;
+}
+
+h1{
+	color: #808080;
+}
+
+h3{
+	color: #808080;
+	font-size: 21px;
+}
+
+
+.indexdiv {
+	padding-bottom: 8em;
+}
+
+.thin_line { 
+	border-top: 1px solid #999; 
+}
+
+.smalldate {
+	
+	font-size: 0.8em;
+	text-align: right;
+}
+
+
+.smallprint {
+	
+	font-size: 0.8em;
+	text-align: center;
+}
+
+/* from Dr. Drang */
+
+.bbpBox {
+  width: 80%;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25em;
+}
+
+.bbpBox blockquote {
+  font-size: 110%;
+  background-color: white;
+  margin: 0em !important;
+  padding: .5em 1em .5em 1em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px
+}
+
+.bbpBox blockquote a {
+  color: blue;
+  text-decoration: none;
+}
+
+.bbpBox blockquote a:hover {
+  text-decoration: underline;
+}
+
+.bbpBox blockquote .twMeta {
+  font-size: 80%;
+}
+
+.bbpBox blockquote .twAuthor {
+  font-family: Sans-serif;
+  font-size: 80%;
+  color: #aaa;
+  margin-top: 0em;
+  padding-top: .75em;
+  border-top: solid 1px #aaa;
+}
+
+.bbpBox blockquote .twDate {
+  font-family: Sans-serif;
+  font-size: 60%;
+  text-align: right;
+}
+
+.bbpBox blockquote .twAuthor img {
+  float: left;
+  margin-right: .5em;
+  height: 2.5em;
+}
+
+/* Responsive Youtube Embedding */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+  text-align: center; 
+}
+
+.navbar-link {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; 
+}
+  
+/* Larger than phone */
+@media (min-width: 550px) {
+
+  .header {
+    margin-top: 5rem; 
+    margin-bottom: 2rem; 
+   }
+
+  .value-props {
+    margin-top: 9rem;
+    margin-bottom: 7rem; 
+    }
+  .value-img {
+    margin-bottom: 1rem; 
+    }
+
+  .example-grid .column,
+  .example-grid .columns {
+    margin-bottom: 1.5rem; 
+    }
+
+  .docs-section {
+    padding: 6rem 0; 
+    }
+
+  .example-send-yourself-copy {
+    float: right;
+    margin-top: 12px; 
+    }
+
+  .example-screenshot-wrapper {
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    left: 0;
+    max-height: none; 
+    }
+}
+
+
+/* Larger than tablet */
+@media (min-width: 800px) {
+  /* Navbar */
+
+  .navbar {
+      text-align: center;
+    }
+
+  .navbar + .docs-section {
+    border-top-width: 0; 
+    }
+
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #eee;
+ /*   border-bottom: 1px solid #eee; */
+    }
+
+  .navbar-spacer {
+    display: none; 
+    }
+
+  .navbar > .container {
+    width: 100%; 
+    
+    }
+
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; 
+    }
+
+  .navbar-link.active {
+    color: #33C3F0; 
+    }
+
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    }
+
+  .has-docked-nav .navbar-spacer {
+    display: block; 
+    }
+
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; 
+    }
+
+}
+
+
+
+img{
+	border: 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+
+img.docenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+img.fullwidth {
+    width: 200%;
+    margin: 0px 0 0 -50%;
+    position: relative;
+    display: block;
+}
+

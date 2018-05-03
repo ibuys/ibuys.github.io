@@ -2,6 +2,7 @@
 layout: post
 title: Beta Testing Scout
 tags: farmdog paragraphs indie
+date: 2013-03-12 10:49:11
 ---
 
 Well, as much as I'd love to procrastinate for the rest of eternity, the time has come for Scout to take it's first baby steps out of it's private testing ground and out to a few interested folks who would be brave enough to beta test.

@@ -2,6 +2,7 @@
 layout: post
 title: Go2 1.3 Release Notes
 tags: farmdog go2 indie
+date: 2011-09-29 10:49:11
 ---
 <img src="/images/go_help.png" align="right" />
 
@@ -39,6 +40,6 @@ Thank you.
 [2]: http://www.sparrowmailapp.com/
 [3]: http://www.realmacsoftware.com/littlesnapper/
 [4]: https://github.com/Perspx/PXSourceList
-[5]: http://jonathanbuys.net/07-09-2011/The_Experiment.html
+[5]: http://jonathanbuys.com/07-09-2011/The_Experiment.html
 [6]: http://wafflesoftware.net/shortcut/
 [7]: http://www.sause.at/

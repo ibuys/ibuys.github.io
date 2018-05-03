@@ -2,6 +2,7 @@
 layout: post
 title: The Hardware Racket
 tags: work hardware sysadmin
+date: 2013-04-15 10:40:11
 ---
 
 Every now and then something just gets to me, and for the past few weeks, that something has been the process of purchasing enterprise hardware. Servers, SANs, load balancers, the kind of equipment that, instead of a price and an "Add to Cart" link, comes with directions on who to call. 

@@ -13,7 +13,7 @@ For example, I've got an Airport Express on my home wireless network, with an HP
 Ubuntu has finally fixed the dual-monitors problem that bugged me for so long, and Mint (an Ubuntu derivitive) sleeps and wakes up almost as seamlessly as my Mac. Looking at my desktop now I've got a ton of free software, in a system that works like I want it to. Given that all of the software I'm using now (with the exception of the IBM apps I need for work) is free, going back to my Mac when Rhonda's Dell comes back may be harder than initally thought. Time will tell, but the free Linux desktop is becoming harder and harder to turn down.  
 
 [1]: http://en.wikipedia.org/wiki/Softmodem
-[2]: http://jonathanbuys.net/12-24-2008/the-coffee-cup.html 
-[3]: http://jonathanbuys.net/12-24-2008/how-to-fix-linux.html 
-[4]: http://jonathanbuys.net/04-10-2008/linux-is-not-for-macbooks.html 
-[6]: http://jonathanbuys.net/09-15-2008/ubuntu-scanning.html 
+[2]: http://jonathanbuys.com/12-24-2008/the-coffee-cup.html 
+[3]: http://jonathanbuys.com/12-24-2008/how-to-fix-linux.html 
+[4]: http://jonathanbuys.com/04-10-2008/linux-is-not-for-macbooks.html 
+[6]: http://jonathanbuys.com/09-15-2008/ubuntu-scanning.html 

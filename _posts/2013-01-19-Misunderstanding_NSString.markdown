@@ -2,6 +2,7 @@
 layout: post
 title: Misunderstanding NSString
 tags: farmdog cocoa
+date: 2013-01-19 10:49:12
 ---
 
 So, while I was debugging the first post using Scout, I found an oddity in NSString. I was building the links between the posts using `stringByAppendingPathComponent`, to join the site's base URL with the path component of the individual post.  Unfortunately, that method seems to be stripping one of the forward slashes off of the `http://` string, which screws up building links. 

@@ -2,6 +2,7 @@
 layout: post
 title: Reading at Night
 tags: personal
+date: 2015-02-5 10:49:11
 ---
 
 A couple years ago I started reading classic books to my boys before bedtime. We started with [The Adventures of Tom Sawyer][1], then [Adventures of Huckleberry Finn][2], followed unsuccessfully by [Twenty Thousand Leagues Under the Sea][3] [^1]. Next, we read one of my all time favorite books, [Treasure Island][4], the classic pirate story from which nearly all other tellings of pirates are cribbed. We might go back and read that one again someday. 
