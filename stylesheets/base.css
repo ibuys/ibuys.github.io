@@ -257,13 +257,8 @@ h3{
 
 
 img{
-	border: 0;
-	display: block;
-    margin-left: auto;
-    margin-right: auto 
-    width:540px; /* you can use % */
-    height: auto;
-
+    max-width: 100%;
+    height: auto;    
 }
 
 img.docenter {
@@ -277,5 +272,21 @@ img.fullwidth {
     margin: 0px 0 0 -50%;
     position: relative;
     display: block;
+}
+
+code {
+    white-space: pre-wrap; //css3
+    white-space: moz-pre-wrap; //firefox
+    white-space: -pre-wrap; //opera 4-6
+    white-space: -o-pre-wrap; //opera 7
+    word-wrap: break-word; //internet explorer
+}
+
+pre {
+    white-space: pre-wrap; //css3
+    white-space: moz-pre-wrap; //firefox
+    white-space: -pre-wrap; //opera 4-6
+    white-space: -o-pre-wrap; //opera 7
+    word-wrap: break-word; //internet explorer
 }
 
