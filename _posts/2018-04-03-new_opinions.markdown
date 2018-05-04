@@ -1,6 +1,6 @@
 ---
 layout: post
-title: new opinions
+title: Kill Your Television
 date: 2018-04-03 14:15:46
 tags: 
 ---
