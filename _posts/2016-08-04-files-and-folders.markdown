@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Files and Folders"
+title:  Files and Folders
 date: 2016-08-04 15:57:33
 tags: featured
 cover: /media/files.png

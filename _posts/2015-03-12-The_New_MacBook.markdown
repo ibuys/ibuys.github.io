@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The New MacBook"
+title:  The New MacBook
 date: 2015-03-12 06:56:27
 cover: /media/2015-03-14_macbook.jpeg
 ---

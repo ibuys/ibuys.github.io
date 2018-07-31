@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Life Long Intellectual Pursuits"
+title:  Life Long Intellectual Pursuits
 date: 2016-07-28 07:49:06
 tags: featured
 cover: /media/burn.png
