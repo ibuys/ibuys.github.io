@@ -33,5 +33,5 @@ So, be open to learning new things, try something out of the ordinary, push your
 [3]: https://github.com/ibuys/Paragraphs
 [4]: http://www.vrac.iastate.edu/hci/degree-programs/online-masters/
 [5]: https://silverbackapp.com
-[6]: http://jonathanbuys.com/06-06-2013/Farmdog_Co._Sold.html
-[7]: http://jonathanbuys.com/05-14-2008/the-master-craftsman.html
+[6]: https://jonathanbuys.com/06-06-2013/Farmdog_Co._Sold.html
+[7]: https://jonathanbuys.com/05-14-2008/the-master-craftsman.html

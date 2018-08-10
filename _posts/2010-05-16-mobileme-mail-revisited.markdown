@@ -23,7 +23,7 @@ Apple has made strides to improve their online services since the [rocky][7] con
 
 [2]: http://www.apple.com/mobileme/features/me-dot-com.html
 [3]: http://www.sproutcore.com/what-is-sproutcore/
-[4]: http://jonathanbuys.com/media/mobileme_wait_message2.png
+[4]: https://jonathanbuys.com/media/mobileme_wait_message2.png
 [5]: http://arstechnica.com/apple/reviews/2005/04/macosx-10-4.ars/10
 [6]: http://www.tipb.com/2010/04/09/iphone-40-notes-sync/
 [7]: http://theappleblog.com/2008/11/12/break-away-from-mobileme-seven-services-to-help-you-make-the-move/

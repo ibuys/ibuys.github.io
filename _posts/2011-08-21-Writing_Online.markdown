@@ -20,16 +20,16 @@ Going back to the idea of writing being the sign of an organized mind, I honestl
 
 
 
-[1]: http://jonathanbuys.com/11-07-2010/Android-Marketplace.html
-[2]: http://jonathanbuys.com/01-27-2011/Keyboard_Driven_Safari.html
-[3]: http://jonathanbuys.com/01-16-2011/from_zero_to_the_app_store.html
-[4]: http://jonathanbuys.com/07-09-2011/The_Experiment.html
-[5]: http://jonathanbuys.com/03-11-2011/Dazzle_Them_With_Science.html
-[6]: http://jonathanbuys.com/10-10-2010/Clean-and-Clutter-Free.html
-[7]: http://jonathanbuys.com/10-09-2009/Linux_Hidden_ARP.html
-[8]: http://jonathanbuys.com/03-25-2007/change-and-blessing.html
-[9]: http://jonathanbuys.com/10-01-2010/The-Smell-of-Salt.html
-[10]: http://jonathanbuys.com/02-15-2011/Be_Great.html
-[11]: http://jonathanbuys.com/09-10-2008/on-graduation-day.html
+[1]: https://jonathanbuys.com/11-07-2010/Android-Marketplace.html
+[2]: https://jonathanbuys.com/01-27-2011/Keyboard_Driven_Safari.html
+[3]: https://jonathanbuys.com/01-16-2011/from_zero_to_the_app_store.html
+[4]: https://jonathanbuys.com/07-09-2011/The_Experiment.html
+[5]: https://jonathanbuys.com/03-11-2011/Dazzle_Them_With_Science.html
+[6]: https://jonathanbuys.com/10-10-2010/Clean-and-Clutter-Free.html
+[7]: https://jonathanbuys.com/10-09-2009/Linux_Hidden_ARP.html
+[8]: https://jonathanbuys.com/03-25-2007/change-and-blessing.html
+[9]: https://jonathanbuys.com/10-01-2010/The-Smell-of-Salt.html
+[10]: https://jonathanbuys.com/02-15-2011/Be_Great.html
+[11]: https://jonathanbuys.com/09-10-2008/on-graduation-day.html
 [12]: http://gettingreal.37signals.com/ch08_Wordsmiths.php
 [13]: http://smokeyrow.com/

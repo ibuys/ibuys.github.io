@@ -13,4 +13,4 @@ I ordered an autographed copy. Least I could do for enjoying both his writing an
 
 
 [1]: http://mattgemmell.com/changer-paperbacks-are-now-available/
-[2]: http://jonathanbuys.net/Paragraphs
+[2]: https://jonathanbuys.com/Paragraphs

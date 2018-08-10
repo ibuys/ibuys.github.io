@@ -5,7 +5,7 @@ tags: work sysadmin culture
 date: 2013-01-21 10:49:11
 ---
 
-After reading the MacSparky piece on craftsmanship, I'm reminded of how I like to look at my career as a [systems administrator](http://jonathanbuys.com/05-14-2008/the-master-craftsman.html). I find that there are times when things that are not quite right just *bother* me. Like when there are inconsistencies or one-offs scattered throughout the environment I am responsible for. There may well be perfectly logical reasons why some systems are monitored and some are not, why some are registered with configuration management and others are not, but in my mind it is these little inconsistencies that add up and make your work look sloppy.
+After reading the MacSparky piece on craftsmanship, I'm reminded of how I like to look at my career as a [systems administrator](https://jonathanbuys.com/05-14-2008/the-master-craftsman.html). I find that there are times when things that are not quite right just *bother* me. Like when there are inconsistencies or one-offs scattered throughout the environment I am responsible for. There may well be perfectly logical reasons why some systems are monitored and some are not, why some are registered with configuration management and others are not, but in my mind it is these little inconsistencies that add up and make your work look sloppy.
 
 A craftsman is not sloppy. They are careful, competent, precise, and thorough. It is knowing that the little details matter, if to no one else but you, the accumulation of details is what defines the quality of your craft. It is knowing what the right tool for the job is, it is knowing when to use the power tools, and when to do it by hand. It is knowing that every corner you cut will come back to you in the end. 
 

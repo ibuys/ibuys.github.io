@@ -10,4 +10,4 @@ date: 2017-04-07 15:14:13
 In reference to [my previous post][2] on the subject, this is the only method of using a VPN for privacy that I can recommend. 
 
 [1]:	https://sixcolors.com/post/2017/04/rolling-your-own-vpn-server/
-[2]:	http://jonathanbuys.net/Beware_of_VPNs
+[2]:	https://jonathanbuys.com/Beware_of_VPNs

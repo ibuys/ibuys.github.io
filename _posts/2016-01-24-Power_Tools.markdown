@@ -25,4 +25,4 @@ Knowing how to use the power tools will make you a better computer user. Knowing
 [3]: https://twitter.com/ibuys/status/689227413037969408
 [4]: http://www.amazon.com/Unix-Power-Tools-Third-Edition/dp/0596003307?tag=duckduckgo-osx-20
 [5]: https://support.apple.com/kb/PH21966?locale=en_US
-[6]: http://jonathanbuys.com/08-04-2011/Text_Editing_in_MacVim.html
+[6]: https://jonathanbuys.com/08-04-2011/Text_Editing_in_MacVim.html

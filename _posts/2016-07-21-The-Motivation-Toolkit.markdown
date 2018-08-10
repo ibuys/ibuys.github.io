@@ -16,4 +16,4 @@ I'd be remiss not to mention Shawn Blanc's ["The Power of a Focused Life"][2] co
 
 [1]: https://www.farnamstreetblog.com/2016/07/the-motivation-toolkit/
 [2]: https://thefocuscourse.com
-[3]: http://jonathanbuys.net/the-master-craftsman
+[3]: https://jonathanbuys.com/the-master-craftsman

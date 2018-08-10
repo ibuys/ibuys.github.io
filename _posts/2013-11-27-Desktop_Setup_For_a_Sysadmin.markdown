@@ -84,7 +84,7 @@ Over time my workflow has grown, and then condensed again, and finally settled i
 
 
 [1]: http://macsparky.com/blog/2012/4/30/keyboard-deathmatch.html
-[2]: http://jonathanbuys.com/10-14-2013/Quicksilver.html
+[2]: https://jonathanbuys.com/10-14-2013/Quicksilver.html
 [3]: (http://www.marksimonson.com/fonts/view/anonymous-pro)
 [4]: http://brew.sh
 [5]: http://www.zsh.org

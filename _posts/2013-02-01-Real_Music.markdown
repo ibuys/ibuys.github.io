@@ -25,5 +25,5 @@ The Giving Tree Band had me captivated as soon as I heard the violin, but when t
 I love music, even if I would sometimes rather drive in silence. I like to listen to music that relates to me, that's played by people who might just drop by for a cup of coffee to catch up on old times. Music that makes me feel at home. Music that reminds me of the smell of burning pine, the taste of pumpkin pie fresh on my lips, the sound of Papa's guitar, and knowing deep in your heart that you are warm, safe, and loved.
 
 
-[1]: http://jonathanbuys.com/05-13-2009/jim-sanford.html
+[1]: https://jonathanbuys.com/05-13-2009/jim-sanford.html
 [2]: https://archive.org/details/GratefulDead

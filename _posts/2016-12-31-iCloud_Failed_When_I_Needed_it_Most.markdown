@@ -43,4 +43,4 @@ I work in the technology industry. I’ve spent sixteen years (so far) studying 
 [10]:	http://www.npr.org/2016/10/22/498954197/internet-outage-update-internet-of-things-hacking-attack-led-to-outage-of-popula
 [11]:	https://1password.com
 [12]:	http://www.devontechnologies.com/products.html
-[13]:	http://jonathanbuys.com/The_Recipe
+[13]:	https://jonathanbuys.com/The_Recipe

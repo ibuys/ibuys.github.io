@@ -10,4 +10,4 @@ date: 2017-03-29 14:16:32
 Like I was talking about in [On Computing Tomorrow][2], the ability of computers to generate algorithms, or entire programs, is potentially fatal to a certain set of developers. I'm certain my role in DevOps is not immune. If you can ask a computer to look at a git repository and build the exact right environment to support that application, what need will there be for sysadmins or devops? Far less than what there is now. This train isn't going to stop, and like all technology, we either need to get on board or get run over. 
 
 [1]:	https://stratechery.com/2017/the-arrival-of-artificial-intelligence/
-[2]:	http://jonathanbuys.net/On_Computing_Tomorrow
+[2]:	https://jonathanbuys.com/On_Computing_Tomorrow

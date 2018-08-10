@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jonathan Buys</title>
- <link href="http://jonathanbuys.com/atom.xml" rel="self"/>
- <link href="http://jonathanbuys.com/"/>
+ <link href="https://jonathanbuys.com/atom.xml" rel="self"/>
+ <link href="https://jonathanbuys.com/"/>
  <updated>{{ site.time }}</updated>
- <id>http://jonathanbuys.com/</id>
+ <id>https://jonathanbuys.com/</id>
  <author>
    <name>Jonathan Buys</name>
    <email>comments@jonathanbuys.com</email>

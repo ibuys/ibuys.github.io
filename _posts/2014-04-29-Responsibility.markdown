@@ -25,7 +25,7 @@ Culture is made up of who we are together. One person making a change might not 
 [4]: http://www.theverge.com/2014/4/28/5662174/github-apologizes-for-vagueness-reveals-new-details-about-sexism
 [5]: https://web.archive.org/web/20130117043748/http://sheddingbikes.com/posts/1306816425.html
 [6]: https://www.nearlyfreespeech.net
-[7]: http://jonathanbuys.com/03-28-2013/Paragraphs.html
+[7]: https://jonathanbuys.com/03-28-2013/Paragraphs.html
 [8]: http://geekfeminism.wikia.com/wiki/Timeline_of_incidents
 [9]: http://www.sfexaminer.com/sanfrancisco/attorney-for-internet-mogul-gurbaksh-chahal-call-domestic-violence-charges-overblown/Content?oid=2540544
 [10]: http://geekfeminism.wikia.com/wiki/Hans_Reiser

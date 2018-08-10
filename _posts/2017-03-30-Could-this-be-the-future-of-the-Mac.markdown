@@ -12,4 +12,4 @@ Spoiler: yes.
 I've been saying this is the future [for years][2]. This is the only direction that makes sense. Given enough computing power a phone will eventually be the only device we need.
 
 [1]:	http://www.loopinsight.com/2017/03/30/could-this-be-the-future-of-the-mac/?utm_source=loopinsight.com/twitter&utm_campaign=twitter&utm_medium=referral
-[2]:	http://jonathanbuys.net/A_Glimpse_of_the_Future
+[2]:	https://jonathanbuys.com/A_Glimpse_of_the_Future

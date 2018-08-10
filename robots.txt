@@ -1,4 +1,4 @@
-# robots.txt for http://jonathanbuys.com
+# robots.txt for https://jonathanbuys.com
 
 User-agent: *
 Disallow: /media/

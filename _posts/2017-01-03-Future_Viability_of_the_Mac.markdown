@@ -26,7 +26,7 @@ The point is, all this handwringing over the future of the Mac is overblown. We 
 [^3]:	And some very poor ones, I’ll give you that. 
 
 [1]:	https://www.ubuntu.com/desktop
-[2]:	http://jonathanbuys.com/the-coffee-cup
+[2]:	https://jonathanbuys.com/the-coffee-cup
 [3]:	https://www.macstories.net/stories/one-year-of-ipad-pro/
 [4]:	https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists?cmpid=yhoo.headline&yptr=yahoo
 [5]:	http://www.worldwidewords.org/qa/qa-nor1.htm

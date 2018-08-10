@@ -23,6 +23,6 @@ Like Vim, BBEdit and Ulysses are power tools, but unlike Vim they are *Mac* powe
 
 We live in a blessed era of Mac productivity. We have almost an embarrassment of riches when it comes to incredibly well crafted third party applications, and we still have access to all the low-level Unix tools that attracted me to the platform thirteen years ago. I’ve waffled back and forth over using the old tools and adopting new ones, but I’m getting too old for that. I simply want my tools to work for me. As of right now, I don’t imagine I’ll be going back to mutt, vim, or anything else command line. Not when there are fantastic Mac apps that do the job either just as well, or better. 
 
-[1]:	http://jonathanbuys.com/01-28-2013/vim_power.html
-[2]:	http://jonathanbuys.com/12-23-2015/Winning_NaNoWriMo.html
+[1]:	https://jonathanbuys.com/01-28-2013/vim_power.html
+[2]:	https://jonathanbuys.com/12-23-2015/Winning_NaNoWriMo.html
 [3]:	http://www.barebones.com/company/

@@ -3,7 +3,7 @@ title: Jonathan Buys
 logo: /images/jb_logo.png
 description: Technology, Design, and Culture
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://jonathanbuys.net # the base hostname & protocol for your site
+url: https://jonathanbuys.com # the base hostname & protocol for your site
 permalink: /:title/
 
 # Main header

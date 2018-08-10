@@ -4,7 +4,7 @@ title: The end of the IT department
 tags: predictions work
 ---
 
-37 Signals comments on a trend I've been [noticing](http://jonathanbuys.com/10-27-2008/end-of-an-era-2.html) for a few years. Data centers and IT departments are not the core competency of most businesses, they are a requirement of operating the business. Or, at least, they have been for the past thirty years or so. Businesses are now seeing the benefits of moving what they are not good at, controlling IT, to what they are good at, which is whatever makes them money.
+37 Signals comments on a trend I've been [noticing](https://jonathanbuys.com/10-27-2008/end-of-an-era-2.html) for a few years. Data centers and IT departments are not the core competency of most businesses, they are a requirement of operating the business. Or, at least, they have been for the past thirty years or so. Businesses are now seeing the benefits of moving what they are not good at, controlling IT, to what they are good at, which is whatever makes them money.
 
 >You no longer need a tech person at the office to man “the server room.” Responsibility for keeping the servers running has shifted away from the centralized IT department. Today you can get just about all the services that previously required local expertise from a web site somewhere.
 

@@ -31,4 +31,4 @@ The kind of computer user I want to be is the kind who uses the simplest tool av
 
 
 [1]: https://en.wikipedia.org/wiki/Rsync
-[2]: http://jonathanbuys.com/04-03-2011/Principle_of_Least_Software.html
+[2]: https://jonathanbuys.com/04-03-2011/Principle_of_Least_Software.html

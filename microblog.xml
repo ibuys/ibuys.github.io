@@ -19,13 +19,13 @@
 
   <entry>
     <id>https://jonathanbuys.com{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://jonathanbuys.com{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="https://jonathanbuys.com{{ post.url }}"/>
     <title></title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Jonathan Buys</name>
-      <uri>http://jonathanbuys.com</uri>
+      <uri>https://jonathanbuys.com</uri>
     </author>
     <content type="html">
       <![CDATA[

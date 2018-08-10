@@ -15,4 +15,4 @@ Wouldn’t you know it, as soon as I post something about [my time in the Navy][
 I worked hard to be IT1, glad I’m not active duty to see this. 
 
 [1]:	http://navylive.dodlive.mil/2016/09/29/enlisted-rating-modernization-plan-five-things-you-need-to-know/
-[2]:	http://jonathanbuys.net/Studying_in_the_Pit
+[2]:	https://jonathanbuys.com/Studying_in_the_Pit
