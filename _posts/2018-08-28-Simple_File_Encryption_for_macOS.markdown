@@ -51,4 +51,4 @@ The first line in the script sets the EXTEN variable to “cpt”, which is what
 
 After saving these two Automator services you should be able to right click on any file in the Finder and encrypt it, and then the same again to decrypt. I’ve also added the two scripts as folder actions to two folders name “Encrypted” and “Decrypted”, so if I’d rather move and encrypt the files, I can just drag and drop them on the folders. 
 
-All in all, this gives me a little more peace of mind about saving files in iCloud and syncing them between my two Macs. They won’t be available in iOS, but for the types of files I need on both machines, that’s not a problem.
+All in all, this gives me a little more peace of mind about saving files in iCloud and syncing them between my two Macs. They won’t be available in iOS, but for the types of files I need on both machines, that’s not a problem. 
