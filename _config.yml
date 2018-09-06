@@ -10,14 +10,13 @@ github_username:  ibuys
 
 # Build settings
 markdown: kramdown
-paginate: 5
-plugins: [jekyll-paginate]
-markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown
 
-paginate: 5
+plugins: [jekyll-paginate]
+paginate: 10
 paginate_path: "/page:num/"
+
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 permalink: /:title/

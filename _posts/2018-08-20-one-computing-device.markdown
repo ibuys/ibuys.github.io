@@ -10,11 +10,9 @@ While Apple is busy making “memojis” and other ridiculous features no one as
 
 [Jump to Post][1]
 
-&gt;
-
 > Samsung DeX gives you what you want from a PC experience: a big screen, a full-size keyboard and a mouse. 
 > Just connect your phone into an external display to use apps, review documents, and watch videos on a PC-like interface.
 
-We are getting closer and closer to the one true 
+
 
 [1]:	https://www.samsung.com/global/galaxy/apps/samsung-dex/
