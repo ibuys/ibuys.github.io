@@ -5,14 +5,15 @@ image: /media/books.png
 permalink: /100books/
 ---
 
-Latest Update: April 27, 2017
+Latest Update: 
 
 ### Books in Progress:
 
-*  The Republic Of Plato: Second Edition by Plato
+* Just some fun fiction books. 
 
 ### The Backlog:
 
+*  The Republic Of Plato: Second Edition by Plato
 *  The Brothers Karamazov by Fyodor Dostoyevsky
 *  The Catcher in the Rye by J. D. Salinger
 *  The Wealth of Nations (Modern Library Classics) by Adam Smith
