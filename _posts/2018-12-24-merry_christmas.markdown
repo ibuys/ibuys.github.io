@@ -2,7 +2,7 @@
 layout: post
 title: Merry Christmas 
 date: 2018-12-24 06:16:25
-tags: life
+tags:
 ---
 
 # Merry Christmas
