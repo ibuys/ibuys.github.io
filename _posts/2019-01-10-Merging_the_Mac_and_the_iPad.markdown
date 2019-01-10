@@ -2,7 +2,7 @@
 layout: post
 title: Merging the Mac and the iPad
 date: 2019-01-10 11:21:44
-tags: 
+tags: [mac, ipad, ios, apple]
 ---
 
 It seems undeniable that, [given an infinite timescale][1], Apple will eventually simplify their two most popular systems into a single platform. Merging MacOS and iOS would, theoretically anyway, provide the users with the best of both worlds, and developers would finally have a single platform to target instead of two. This concept seems to run counter to what Apple executives have said in the past about the Mac, specifically that "[the Mac keeps going forever][2]", but the interview that statement comes from is five years old now, which… in silicon valley terms, really is forever ago.
