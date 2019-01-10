@@ -3,8 +3,8 @@
   <channel>
     <title>jb…</title>
     <description></description>
-    <link>https://jonathanbuys.com</link>
-    <atom:link href="https://jonathanbuys.com/atom.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Merging the Mac and the iPad</title>
@@ -31,8 +31,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/Merging_the_Mac_and_the_iPad/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/Merging_the_Mac_and_the_iPad/</guid>
+        <link>http://localhost:4000/Merging_the_Mac_and_the_iPad/</link>
+        <guid isPermaLink="true">http://localhost:4000/Merging_the_Mac_and_the_iPad/</guid>
       </item>
     
       <item>
@@ -54,8 +54,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/a_dream_jekyll_app/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/a_dream_jekyll_app/</guid>
+        <link>http://localhost:4000/a_dream_jekyll_app/</link>
+        <guid isPermaLink="true">http://localhost:4000/a_dream_jekyll_app/</guid>
       </item>
     
       <item>
@@ -73,8 +73,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/The_Beauty_of_a_Clean_Slate/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/The_Beauty_of_a_Clean_Slate/</guid>
+        <link>http://localhost:4000/The_Beauty_of_a_Clean_Slate/</link>
+        <guid isPermaLink="true">http://localhost:4000/The_Beauty_of_a_Clean_Slate/</guid>
       </item>
     
       <item>
@@ -105,8 +105,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/An_Optimistic_2019/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/An_Optimistic_2019/</guid>
+        <link>http://localhost:4000/An_Optimistic_2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/An_Optimistic_2019/</guid>
       </item>
     
       <item>
@@ -119,8 +119,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/merry_christmas/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/merry_christmas/</guid>
+        <link>http://localhost:4000/merry_christmas/</link>
+        <guid isPermaLink="true">http://localhost:4000/merry_christmas/</guid>
       </item>
     
       <item>
@@ -156,8 +156,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/Software_Subsciptions_and_Native_Apps/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/Software_Subsciptions_and_Native_Apps/</guid>
+        <link>http://localhost:4000/Software_Subsciptions_and_Native_Apps/</link>
+        <guid isPermaLink="true">http://localhost:4000/Software_Subsciptions_and_Native_Apps/</guid>
       </item>
     
       <item>
@@ -192,8 +192,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/The_2018_iPad_Pro/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/The_2018_iPad_Pro/</guid>
+        <link>http://localhost:4000/The_2018_iPad_Pro/</link>
+        <guid isPermaLink="true">http://localhost:4000/The_2018_iPad_Pro/</guid>
       </item>
     
       <item>
@@ -238,8 +238,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/The_Typewriter_Project/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/The_Typewriter_Project/</guid>
+        <link>http://localhost:4000/The_Typewriter_Project/</link>
+        <guid isPermaLink="true">http://localhost:4000/The_Typewriter_Project/</guid>
       </item>
     
       <item>
@@ -275,8 +275,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/Less,_But_Better/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/Less,_But_Better/</guid>
+        <link>http://localhost:4000/Less,_But_Better/</link>
+        <guid isPermaLink="true">http://localhost:4000/Less,_But_Better/</guid>
       </item>
     
       <item>
@@ -324,8 +324,8 @@
 
             ]]>
             </content>
-        <link>https://jonathanbuys.com/Taking_Notes/</link>
-        <guid isPermaLink="true">https://jonathanbuys.com/Taking_Notes/</guid>
+        <link>http://localhost:4000/Taking_Notes/</link>
+        <guid isPermaLink="true">http://localhost:4000/Taking_Notes/</guid>
       </item>
     
   </channel>
