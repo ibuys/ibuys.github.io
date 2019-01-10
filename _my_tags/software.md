@@ -1,4 +1,0 @@
----
-slug: software
-name: software
----

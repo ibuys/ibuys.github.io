@@ -1,4 +1,0 @@
----
-slug: drdrang
-name: drdrang
----

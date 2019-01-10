@@ -1,4 +1,0 @@
----
-slug: shell]
-name: shell]
----

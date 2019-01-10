@@ -1,4 +1,0 @@
----
-slug: work
-name: work
----

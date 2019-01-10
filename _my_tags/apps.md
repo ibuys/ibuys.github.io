@@ -1,4 +1,0 @@
----
-slug: apps
-name: apps
----

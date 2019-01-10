@@ -1,4 +1,0 @@
----
-slug: predictions
-name: predictions
----

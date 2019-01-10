@@ -1,4 +1,0 @@
----
-slug: nagios
-name: nagios
----

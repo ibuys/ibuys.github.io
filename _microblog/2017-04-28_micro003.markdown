@@ -1,8 +1,0 @@
----
-layout: microblog-post
-title: chirp, chirp
-date: 2017-04-26 07:34:39
-tags: 
----
-
-This is just another test of the microblog format. 

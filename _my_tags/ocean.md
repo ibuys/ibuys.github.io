@@ -1,4 +1,0 @@
----
-slug: ocean
-name: ocean
----

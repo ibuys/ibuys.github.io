@@ -1,4 +1,0 @@
----
-slug: osvids
-name: osvids
----

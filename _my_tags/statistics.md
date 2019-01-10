@@ -1,4 +1,0 @@
----
-slug: statistics
-name: statistics
----

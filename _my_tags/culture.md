@@ -1,4 +1,0 @@
----
-slug: culture
-name: culture
----

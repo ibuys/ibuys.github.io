@@ -1,4 +1,0 @@
----
-slug: blogging
-name: blogging
----

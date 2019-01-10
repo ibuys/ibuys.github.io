@@ -1,4 +1,0 @@
----
-slug: site
-name: site
----

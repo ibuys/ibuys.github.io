@@ -1,4 +1,0 @@
----
-slug: hosting
-name: hosting
----

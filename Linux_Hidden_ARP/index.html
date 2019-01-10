@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>jb… | Linux Hidden ARP</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Linux Hidden ARP">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonathanbuys.com/Linux_Hidden_ARP/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="jb…">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://jonathanbuys.com/Linux_Hidden_ARP/">
+  <meta name="twitter:title" content="Linux Hidden ARP">
+  <meta name="twitter:description" content="">
+
+  
+    <meta property="og:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="https://jonathanbuys.com/atom.xml" type="application/rss+xml" rel="alternate" title="jb… Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-212606391baaa7b16463b92b3c519b56832ab53456441e045807984cad648a1e.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-7f522908aad16b87e703f470834aceb4a7ff176aa3d0ea38bc79efa11ac38c6d.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-02e2f267b21f6c4c71f528ac48c0e6b6680d4c968ac2a5fa52e4f416874e52a4.css" disabled="true">
+    
+
+  
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <a href="/" class="header-logo" title="jb…">jb…</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="/about" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/microblog/" title="Chirp, chirp">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/ibuys" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/atom.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme" xlink:href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <article class="article ">
+          <header class="article-header">
+            <h1>Linux Hidden ARP</h1>
+            <p></p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                October 9, 2009
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  7 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/tag/work">work</a>
+                
+                  <a href="/tag/linux">linux</a>
+                
+                  <a href="/tag/sysadmin">sysadmin</a>
+                
+              </div>
+            </div>
+          </header>
+
+          <div class="article-content">
+            <p>To enable an interface on a web server to be part of an IBM load balanced cluster, we need to be able to share an ip address between multiple machines. This breaks the IP protocol however, because you could never be sure which machine will answer for a request for that IP address. To fix this problem, we need to get down into the IP protocol and investigate how the Address Resolution Protocol or ARP, works.</p>
+
+<p>Bear with me as I go into a short description on how an IP device operates on an IP network. When a device receives a packet from its network, it will look at the destination IP address and ask a series of questions from it:</p>
+
+<ol>
+  <li>Is this MY ip address?</li>
+  <li>Is this ip address on a network that I am directly connected to?</li>
+  <li>Do I know how to get to this network?</li>
+</ol>
+
+<p>If the answer to the first question is yes, then the job is done, because the packet reached its destination. If the answer is no, it asks the second question. If the answer to the second question is no, it asks the third question, and either drops the packet as unroutable, or forwards the packet on to the next IP hop, normally the device’s default gateway.</p>
+
+<p>However, if the answer to the second question is yes, the device follows another method to determine how to get the packet to it’s destination. IP addresses are not really used on local networks except by higher level tools or network aware application. On the lower level, all local subnet traffic is routed by MAC address. So when the device needs to send a packet to an IP address on the subnet that it is attached to, it follows these steps:</p>
+
+<ol>
+  <li>Check my ARP table for an IP to MAC address mapping</li>
+  <li>If needed, issue an ARP broadcast for the IP address 
+ – <em>an ARP broadcast is a question going out to all devices on the subnet that has the simple setup of “if this is your IP address, give me your MAC address”</em></li>
+  <li>Once the reply for the ARP address is received, the packet is forwarded to the appropriate host.</li>
+</ol>
+
+<p>So, to put this all in perspective, when multiple machines share the same IP address, each of the machines will reply to the ARP request, and depending on the order in which the replies are received, it is entirely possible that a different machine will respond each time. When this happens, it breaks the load balancing architecture, and brings us down to one server actually in use.</p>
+
+<p>The next question is normally: <em>Why is that? Why do the web servers need that IP address anyway?</em> The answer to this is also deep in the IP protocol, and requires a brief explanation of how the load balancing architecture works.</p>
+
+<p>To the outside world, there is one ip address for myserv.whatever. Our public address is 192.268.0.181 (or, whatever). This address is assigned three places on one subnet: load balancer, first web server, and second web server. The only server that is needs to respond to ARP requests is load balancer. When the load balancer receives a packet destined for 192.168.0.181, it replaces the destination MAC address with one of the addresses from one of the web servers, first web server or second web server, and forwards it on. This packet still has the original source and destination IP addresses on it, so remember what happens when an IP device on an IP network receives a packet… it asks the three questions outlined above. So, if the web servers did not have the 192.168.0.181 address assigned to them, they would drop the packet (because they are not set up to route, they would not bother asking the second or third questions). Since the web servers do have the ip address assigned to one of their interfaces, they accept the packet and respond to the request (usually an http request).</p>
+
+<p>So, that covers the <em>why?</em>, let’s look at <em>how?</em>. Enable the hidden ARP function by entering the following into /etc/sysctl.conf:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Disable response to broadcasts. 
+# You don't want yourself becoming a Smurf amplifier.
+net.ipv4.icmp_echo_ignore_broadcasts = 1 
+# enable route verification on all interfaces 
+net.ipv4.conf.all.rp_filter = 1 
+# enable ipV6 forwarding 
+#net.ipv6.conf.all.forwarding = 1 
+net.ipv4.conf.all.arp_ignore = 3 
+net.ipv4.conf.all.arp_announce = 2
+</code></pre></div></div>
+
+<p>The relevant settings are explained here:</p>
+
+<p><strong>arp_ignore = 3</strong>: <em>Do not reply for local addresses configured with <strong>scope host</strong>, only resolutions for global and link addresses are replied.</em></p>
+
+<p>For this setting the really interesting part is the <em>configured with scope host</em> part. Before, using <code class="highlighter-rouge">ifconfig</code> to assign addresses to interfaces we did not have the option to configure a scope on an interface. A newer (well, relatively speaking) command, <code class="highlighter-rouge">ip addr</code> is needed to assign the scope of host to the loopback device. The command to do this is:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ip addr add 192.168.0.181/32 scope host dev lo label lo:1
+</code></pre></div></div>
+
+<p>There are some important differences in the syntax of this command that need to be understood to make use of it on a regular basis. The first is the idea of a <em>label</em> being added to an interface. <code class="highlighter-rouge">ip addr</code> does not attempt to fool you into thinking that you have multiple physical interfaces, it will allow you to add multiple addresses to an existing interface and apply labels to them to distinguish them from each other. The labels allow <code class="highlighter-rouge">ifconfig</code> to read the configuration and see the labels as different devices.</p>
+
+<p>example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lo	Link encap:Local Loopback 
+	inet addr:127.0.0.1 Mask:255.0.0.0 
+	inet6 addr: ::1/128 Scope:Host 
+	UP LOOPBACK RUNNING MTU:16436 Metric:1 
+	RX packets:9477 errors:0 dropped:0 overruns:0 frame:0 
+	TX packets:9477 errors:0 dropped:0 overruns:0 carrier:0 
+	collisions:0 txqueuelen:0 
+	RX bytes:902055 (880.9 Kb) TX bytes:902055 (880.9 Kb)
+	
+lo:1	Link encap:Local Loopback
+		inet addr:192.168.0.181 Mask:255.255.255.255
+		UP LOOPBACK RUNNING MTU:16436 Metric:1
+lo:2	Link encap:Local Loopback 
+		inet addr:192.168.0.184 Mask:255.255.255.255 
+		UP LOOPBACK RUNNING MTU:16436 Metric:1
+</code></pre></div></div>
+
+<p>Here, <code class="highlighter-rouge">lo</code>, <code class="highlighter-rouge">lo:1</code>, and <code class="highlighter-rouge">lo:2</code> are viewed as separate devices by <code class="highlighter-rouge">ifconfig</code>.</p>
+
+<p>Here is the output from the ip addr show command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1: lo: &lt;LOOPBACK,UP&gt; mtu 16436 qdisc noqueue 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 brd 127.255.255.255 scope host lo
+    inet 192.168.0.181/32 scope host lo:1
+    inet 192.168.0.184/32 scope host lo:2
+    inet 192.168.0.179/32 scope host lo:3
+    inet 192.168.0.174/32 scope host lo:4
+    inet 192.168.0.199/32 scope host lo:5
+    inet 192.168.0.213/32 scope host lo:8
+    inet 192.168.0.223/32 scope host lo:9
+    inet 192.168.0.145/32 scope host lo:10
+    inet 192.168.0.217/32 scope host lo:11
+    inet 192.168.0.205/32 scope host lo:12
+    inet 192.168.0.202/32 scope host lo:13
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+</code></pre></div></div>
+
+<p>Here we can see that the <code class="highlighter-rouge">lo:1</code> (etc…) addresses are assigned directly under the standard <code class="highlighter-rouge">lo</code> interface, and are only differentiated from the standard loopback address by their label.</p>
+
+<p>Here is the same output from the eth2 device:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4: eth2: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 00:10:18:2e:2e:a2 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.73/24 brd 192.168.0.255 scope global eth2
+    inet 192.168.0.186/24 brd 192.168.0.255 scope global secondary eth2:1
+    inet 192.168.0.183/24 brd 192.168.0.255 scope global secondary eth2:2
+    inet 192.168.0.176/24 brd 192.168.0.255 scope global secondary eth2:3
+    inet 192.168.0.178/24 brd 192.168.0.255 scope global secondary eth2:4
+    inet 192.168.0.201/24 brd 192.168.0.255 scope global secondary eth2:7
+    inet 192.168.0.212/24 brd 192.168.0.255 scope global secondary eth2:8
+    inet 192.168.0.222/24 brd 192.168.0.255 scope global secondary eth2:9
+    inet 192.168.0.147/24 brd 192.168.0.255 scope global secondary eth2:10
+    inet 192.168.0.219/24 brd 192.168.0.255 scope global secondary eth2:11
+    inet 192.168.0.46/24 brd 192.168.0.255 scope global secondary eth2:5
+    inet 192.168.0.208/24 brd 192.168.0.255 scope global secondary eth2:12
+    inet 192.168.0.204/24 brd 192.168.0.255 scope global secondary eth2:13
+    inet6 fe80::210:18ff:fe2e:2ea2/64 scope link 
+       valid_lft forever preferred_lft forever
+</code></pre></div></div>
+
+<p>Same as above, the addresses do not create virtual interfaces, they are simply applied to the real interface and assigned a label for management by <code class="highlighter-rouge">ifconfig</code>.
+Without the label, <code class="highlighter-rouge">ifconfig</code> will not see the assigned address.</p>
+
+<p><strong>arp_announce = 2</strong>:	Always use the best local address for this target. In this mode we ignore the source address in the IP packet and try to select local address that we prefer for talks with the target host. Such local address is selected by looking for primary IP addresses on all our subnets on the outgoing interface that include the target IP address. If no suitable local address is found we select the first local address we have on the outgoing interface or on all other interfaces, with the hope we will receive reply for our request and even sometimes no matter the source IP address we announce.</p>
+
+<p>This one is a little tricky, but I believe it deals with how the web servers talk with the clients requesting web pages. In order for the web page to come up and maintain a session, when the server sends a packet back to the client, it needs to come from the source ip address of the hidden ip address. In order to do this, the web server looks at the destination address of the client packet, and then responds using that as it’s source IP address instead of it’s actual IP address. Clear as mud, right!</p>
+
+<p>I hope this helps explain things a little better about the hows and whys of the web server’s side of load balancing. Note however, that I didn’t talk at all about the edge server. That’s because the edge servers job is done at the application level, and correct configuration of it does not require special consideration at the OS level.</p>
+
+          </div>
+          <div class="article-share">
+            
+            
+            <a href="https://twitter.com/home?status=Linux+Hidden+ARP%20-%20https://jonathanbuys.com/Linux_Hidden_ARP/%20by%20@ibuys" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://jonathanbuys.com/Linux_Hidden_ARP/" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"/></svg>
+            </a>
+            <a href="https://plus.google.com/share?url=https://jonathanbuys.com/Linux_Hidden_ARP/" title="Share on Google+" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 128 128"><path d="M40.7 55.9v16.1c0 0 15.6 0 22 0C59.2 82.5 53.8 88.2 40.7 88.2c-13.3 0-23.7-10.8-23.7-24.2s10.4-24.2 23.7-24.2c7.1 0 11.6 2.5 15.8 5.9 3.3-3.3 3.1-3.8 11.6-11.9 -7.2-6.6-16.8-10.6-27.4-10.6C18.2 23.3 0 41.5 0 64c0 22.5 18.2 40.7 40.7 40.7 33.6 0 41.8-29.3 39-48.8H40.7zM113.9 56.7V42.6h-10.1v14.1H89.4v10.1h14.5v14.5h10.1V66.8H128V56.7H113.9z"/></svg>
+            </a>
+          </div>
+
+          
+        </article>
+        <footer class="footer ">
+  <p>
+Copyright © 2007-2019 Jonathan Buys
+  </p>
+  <p>
+  ISSN: 2161-8119
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  <script src="/assets/vendor-0fb4b91f7ad6c193a69224eba7a01b691a2d7528ee672607575ccc0df3aea545.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+  <script src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js" type="text/javascript"></script>
+
+</body>
+</html>

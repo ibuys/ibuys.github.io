@@ -1,4 +1,0 @@
----
-slug: microloan
-name: microloan
----

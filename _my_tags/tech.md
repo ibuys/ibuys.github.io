@@ -1,4 +1,0 @@
----
-slug: tech
-name: tech
----

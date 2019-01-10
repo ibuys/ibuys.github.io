@@ -1,4 +1,0 @@
----
-slug: gear
-name: gear
----

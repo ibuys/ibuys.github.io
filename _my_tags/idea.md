@@ -1,4 +1,0 @@
----
-slug: idea
-name: idea
----

@@ -1,4 +1,0 @@
----
-slug: information
-name: information
----

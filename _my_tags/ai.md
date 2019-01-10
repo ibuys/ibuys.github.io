@@ -1,4 +1,0 @@
----
-slug: ai
-name: ai
----

@@ -1,4 +1,0 @@
----
-slug: php
-name: php
----

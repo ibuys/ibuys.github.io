@@ -1,4 +1,0 @@
----
-slug: maker
-name: maker
----

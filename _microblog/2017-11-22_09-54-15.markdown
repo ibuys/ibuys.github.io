@@ -1,7 +1,0 @@
----
-layout: microblog-post
-title: chirp, chirp
-date: 2017-11-22 09:54:15
----
- 
-Combining Spotlight, Jekyll,  and Automator makes for a pretty nice way to quickly publish. Not quite as smooth as a dedicated Twitter client, but close.

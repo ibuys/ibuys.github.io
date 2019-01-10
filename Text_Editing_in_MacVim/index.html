@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>jb… | Text Editing in MacVim</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Text Editing in MacVim">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonathanbuys.com/Text_Editing_in_MacVim/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="jb…">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://jonathanbuys.com/Text_Editing_in_MacVim/">
+  <meta name="twitter:title" content="Text Editing in MacVim">
+  <meta name="twitter:description" content="">
+
+  
+    <meta property="og:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="https://jonathanbuys.com/atom.xml" type="application/rss+xml" rel="alternate" title="jb… Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-212606391baaa7b16463b92b3c519b56832ab53456441e045807984cad648a1e.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-7f522908aad16b87e703f470834aceb4a7ff176aa3d0ea38bc79efa11ac38c6d.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-02e2f267b21f6c4c71f528ac48c0e6b6680d4c968ac2a5fa52e4f416874e52a4.css" disabled="true">
+    
+
+  
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <a href="/" class="header-logo" title="jb…">jb…</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="/about" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/microblog/" title="Chirp, chirp">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/ibuys" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/atom.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme" xlink:href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <article class="article ">
+          <header class="article-header">
+            <h1>Text Editing in MacVim</h1>
+            <p></p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                August 4, 2011
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  4 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/tag/vim">vim</a>
+                
+                  <a href="/tag/blogging">blogging</a>
+                
+                  <a href="/tag/setup">setup</a>
+                
+              </div>
+            </div>
+          </header>
+
+          <div class="article-content">
+            <p>The venerable BBEdit recently received a <a href="http://www.barebones.com/products/bbedit/index.html">big upgrade</a>, and looks poised to attract users of TextMate, which, by all accounts, has been abandoned by its developer. I tried to love BBEdit, but it always felt like trying on someone else’s clothes. They might look good, but that does not mean the clothes will be comfortable for you. Recent conversations about text editors on <a href="http://5by5.tv/buildanalyze">Build and Analyze</a> led me to rethink my position, and examine in more detail how I came to choose MacVim.</p>
+
+<p>Several years ago, I was sitting with a contractor as he installed a new firewall on our network. He was explaining to me how Unix systems relied on text files, and how all Unix systems came with a text editor named <em>vi</em>. I asked, in my ignorance, why anyone should bother using such ancient technology, when a modern graphical text editor was available. Pragmatically, he replied that someday I would be connected to a server through SSH or telnet and the only way to edit a file would be with vi. I took his advice to heart, and I am glad I did.</p>
+
+<p>Over the years as I have dug deeper and deeper into Unix (and later Linux) systems, I accumulated a few of my favorite vi tricks which I kept in an exrc file. I had complicated macros that would do things like building the skeleton of a shell script, or insert a comment with my name and email address, or the current date. OK, maybe it was not that complicated, but every time I hit the mapped key combo, I smiled. I learned to navigate to an exact line in a file, to yank and paste text, and generally how to get along with the only text editor I could be sure was on each and every server I was responsible for. I did not realize it at the time, but I was building up valuable expertise, and, it seems, more importantly, a type of muscle memory.</p>
+
+<p>In the past, I always kept my work on the servers separate from my “work” I did on my Mac. My Mac was a hobby, but work was important. When TextMate appeared, I downloaded a copy to use for building web sites. I enjoyed TextMate, but there was never love. Love takes time, frustration, and understanding. Love was what I was building at work with vi. I simply did not understand it at the time.</p>
+
+<p>In fact, for many years I kept the attitude that vi was not a modern text editor. It was simply a tool for work and that on a Mac I should be able to use a graphical text editor that did lots of fancy tricks. It was not until this summer, after years of building my vi knowledge on the server that I decided to use vi for a Python programming course on my Mac. I downloaded a copy of <a href="https://code.google.com/p/macvim/">MacVim</a>, spent a few days configuring it the way I liked it, and, for what feels like the first time, felt completely comfortable in my text editor.</p>
+
+<p>I had already overcome the biggest obstacle to vi: the learning curve. Slowly, over years of use, I had become fluent in one of the most powerful text editors available.</p>
+
+<p>I will not go into the details of how to configure MacVim, there are several articles for that already. If you are interested, I keep my MacVim configuration in <a href="https://github.com/ibuys/My-MacVim-Config">GitHub</a>. What I will say is that taking the time to learn the basics of vi, and taking a few days, maybe a week, to find the magic combination of plugins and configurations that work for you, is worth the effort. MacVim is like a gateway drug. Once you get used to using it, you might find yourself attempting to navigate a new email in Mail with vi key bindings.</p>
+
+<p>I am still learning new things with MacVim. There are precious few tricks that another editor can do that MacVim cannot. However, choosing MacVim is akin to choosing a partner to share your life. The more you put into the relationship, the more you get out of it. In any relationship, over time you become aware of the others shortcomings, but if the relationship is healthy, those shortcomings are very easy to overlook. If you spend serious time in text, it behooves you to spend serious time learning your tools.</p>
+
+<p>MacVim is actively developed, has a dedicated community, is easily extendible, and can fly through the biggest text files with ease. However, it does take time to understand, and I will not try to tell you that the commands you use to control MacVim are intuitive or “easy”. Nothing worth doing is ever easy.</p>
+
+
+          </div>
+          <div class="article-share">
+            
+            
+            <a href="https://twitter.com/home?status=Text+Editing+in+MacVim%20-%20https://jonathanbuys.com/Text_Editing_in_MacVim/%20by%20@ibuys" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://jonathanbuys.com/Text_Editing_in_MacVim/" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"/></svg>
+            </a>
+            <a href="https://plus.google.com/share?url=https://jonathanbuys.com/Text_Editing_in_MacVim/" title="Share on Google+" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 128 128"><path d="M40.7 55.9v16.1c0 0 15.6 0 22 0C59.2 82.5 53.8 88.2 40.7 88.2c-13.3 0-23.7-10.8-23.7-24.2s10.4-24.2 23.7-24.2c7.1 0 11.6 2.5 15.8 5.9 3.3-3.3 3.1-3.8 11.6-11.9 -7.2-6.6-16.8-10.6-27.4-10.6C18.2 23.3 0 41.5 0 64c0 22.5 18.2 40.7 40.7 40.7 33.6 0 41.8-29.3 39-48.8H40.7zM113.9 56.7V42.6h-10.1v14.1H89.4v10.1h14.5v14.5h10.1V66.8H128V56.7H113.9z"/></svg>
+            </a>
+          </div>
+
+          
+        </article>
+        <footer class="footer ">
+  <p>
+Copyright © 2007-2019 Jonathan Buys
+  </p>
+  <p>
+  ISSN: 2161-8119
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  <script src="/assets/vendor-0fb4b91f7ad6c193a69224eba7a01b691a2d7528ee672607575ccc0df3aea545.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+  <script src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js" type="text/javascript"></script>
+
+</body>
+</html>

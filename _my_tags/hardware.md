@@ -1,4 +1,0 @@
----
-slug: hardware
-name: hardware
----

@@ -1,4 +1,0 @@
----
-slug: converging
-name: converging
----

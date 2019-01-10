@@ -1,4 +1,0 @@
----
-slug: ideas
-name: ideas
----

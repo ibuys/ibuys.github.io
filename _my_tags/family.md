@@ -1,4 +1,0 @@
----
-slug: family
-name: family
----

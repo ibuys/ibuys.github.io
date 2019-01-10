@@ -1,4 +1,0 @@
----
-slug: farmdog
-name: farmdog
----
