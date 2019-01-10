@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Shell Script Style
-tags: linux work productivity
+tags: [linux, work, productivity]
 ---
 
 My co-worker and I spent the better part of yesterday afternoon going through a former employee's shell scripts to try to determine what they were and what he was trying to do. The script worked, for a while, but there were several mistakes. The mistakes were not in strict syntax, they were in style. Here are a few simple rules to follow to write great scripts:

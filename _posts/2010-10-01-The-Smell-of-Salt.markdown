@@ -2,7 +2,7 @@
 layout: post
 title: The Smell of Salt
 date: 2010-10-01 10:16:25
-tags: life navy ocean
+tags: [life, navy, ocean]
 ---
 
 A long, long time ago, what seems like a different life now, I was a Sailor.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On TermKit - Steven Wittens 
-tags: mac productivity
+tags: [mac, productivity]
 date: 2011-05-19 10:49:11
 ---
 

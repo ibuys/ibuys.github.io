@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The Unix Love Affair
-tags: work sysadmin linux
+tags: [work, sysadmin, linux]
 ---
 There's been times when I've walked away from the command line, times when I've thought about doing something else for a living.  There's even been brief periods of time when I've flirted with Windows servers.  However, I've always come back to Unix, in one form or another.  Starting with Solaris, then OpenBSD, then every flavor of Linux under the sun, to AIX, and back to Linux.  Unix is something that I understand, something that makes sense.  
 

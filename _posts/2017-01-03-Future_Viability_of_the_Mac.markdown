@@ -2,7 +2,7 @@
 layout: post
 title: Future Viability of the Mac
 date: 2017-01-03 12:53:51
-tags: 
+tags: [mac, apple]
 ---
 
 Despite aspirations of expanding my fields of interest and adopting new hobbies outside of technology, my day-to-day work gets done on a Mac. I’ve got a vested interest in the Macs continued survival, I’m one of those “truck drivers” that uses their machine for all it’s worth, and would have a difficult time transitioning to anything else. In my job I need to run shell scripts and build Docker containers, I need to ssh to Linux servers and RDP into Windows instances. I need to write, edit, and run Python code that connects to a database through a ssh tunnel. I need to do things that are either difficult or simply impossible with iOS, but are dead simple[^1] with a Mac. 

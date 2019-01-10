@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading at Night
-tags: personal
+tags: [personal]
 date: 2015-02-5 10:49:11
 ---
 

@@ -1,16 +1,16 @@
 ---
 layout: post
 title: The end of the IT department
-tags: predictions work
+tags: [predictions, work]
 ---
 
-37 Signals comments on a trend I've been [noticing](https://jonathanbuys.com/10-27-2008/end-of-an-era-2.html) for a few years. Data centers and IT departments are not the core competency of most businesses, they are a requirement of operating the business. Or, at least, they have been for the past thirty years or so. Businesses are now seeing the benefits of moving what they are not good at, controlling IT, to what they are good at, which is whatever makes them money.
+37 Signals comments on a trend I've been [noticing][1] for a few years. Data centers and IT departments are not the core competency of most businesses, they are a requirement of operating the business. Or, at least, they have been for the past thirty years or so. Businesses are now seeing the benefits of moving what they are not good at, controlling IT, to what they are good at, which is whatever makes them money.
 
 >You no longer need a tech person at the office to man “the server room.” Responsibility for keeping the servers running has shifted away from the centralized IT department. Today you can get just about all the services that previously required local expertise from a web site somewhere.
 
-via: [The end of the IT department - (37signals)](http://37signals.com/svn/posts/2785-the-end-of-the-it-department)
+via: [The end of the IT department - (37signals)][2]
 
-John Gruber from Daring Fireball has a [comment](http://daringfireball.net/linked/2011/02/23/dhh-it-dept) that matches what my thoughts have been when I try to explain the consolidation I see in the sysadmin field:
+John Gruber from Daring Fireball has a [comment][3] that matches what my thoughts have been when I try to explain the consolidation I see in the sysadmin field:
 
 >Certain of the comments on Hansson’s post remind me of this quote from Upton Sinclair: “It is difficult to get a man to understand something when his salary depends upon his not understanding it.”
 
@@ -28,8 +28,14 @@ Desktop support departments are a symptom of misguided use of technology in the 
 
 Change is coming. I can feel it, see it on the horizon. Between web services, increased business specialization, and incredibly small and powerful computers, there is a shift in the culture of work brewing. 
 
-Alex Payne from Bank Simple [sees it](http://banksimple.com/engineering/2011/01/03/engineering-at-banksimple/)
+Alex Payne from Bank Simple [sees it][4]
 
 >Finally on the technology front, we’re deploying into Amazon’s cloud. Our information security architecture allowed for this even before Amazon announced PCI compliance; their support for these more stringent security standards is a happy bonus for us. Using AWS today is a no-brainer, particularly for an operation of our modest scale and performance requirements.
 
-They are a *bank*, and they are gong to be using Amazon's AWS. Independently responsible employees, outsourced data center, and no IT department. How long will your business hold on to the '90s mentality of what IT needs to be. 
+They are a *bank*, and they are gong to be using Amazon's AWS. Independently responsible employees, outsourced data center, and no IT department. How long will your business hold on to the '90s mentality of what IT needs to be.
+
+
+[1]: https://jonathanbuys.com/10-27-2008/end-of-an-era-2.html
+[2]: http://37signals.com/svn/posts/2785-the-end-of-the-it-department
+[3]: http://daringfireball.net/linked/2011/02/23/dhh-it-dept
+[4]: http://banksimple.com/engineering/2011/01/03/engineering-at-banksimple/

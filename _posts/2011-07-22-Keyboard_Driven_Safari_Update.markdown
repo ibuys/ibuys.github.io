@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keyboard Driven Safari Update
-tags: mac productivity
+tags: [mac, productivity]
 date: 2011-07-22 10:49:11
 ---
 

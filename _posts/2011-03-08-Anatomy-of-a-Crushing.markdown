@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anatomy of a Crushing 
-tags: linux online culture indie
+tags: [linux, online, culture, indie]
 ---
 
 >*We charged money for a good or service*

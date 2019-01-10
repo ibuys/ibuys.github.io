@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Jim Sanford
-tags: personal life
+tags: [personal, life]
 ---
 
 

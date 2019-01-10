@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dogfood
-tags: paragraphs blogging
+tags: [paragraphs, blogging]
 date: 2013-01-15 10:49:11
 ---
 

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Macs, Netbooks, and Education
-tags: apple education mac
+tags: [apple, education, mac]
 ---
 
 What does it mean when an [entire][1] [community][2] [springs][3] up around hacking together a product that is not otherwise available? Apple has been [adamant][4] that it is not interested in the netbook market, but according to the many users who are breaking Apple's EULA and installing OS X on Dell Minis, the market is there, and waiting.

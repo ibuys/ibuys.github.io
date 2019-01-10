@@ -2,7 +2,7 @@
 layout: post
 title: A Fresh Coat of Paint
 date: 2018-03-26 08:38:50
-tags: 
+tags: [jekyll, blogging]
 ---
 
 I spent some time remodeling the old digs here, adding a fresh coat of paint in the form of a new theme, new hosting, and a shiny new SSL lock. 

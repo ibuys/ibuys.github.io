@@ -1,7 +1,7 @@
 ---
 layout: post
 title: End of an Era
-tags: work sysadmin predictions
+tags: [work, sysadmin, predictions]
 redirect_from: /10-27-2008/end-of-an-era.html
 ---
 

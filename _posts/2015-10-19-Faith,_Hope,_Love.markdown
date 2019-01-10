@@ -2,7 +2,7 @@
 layout: post
 title: Faith, Hope, Love
 date: 2015-10-19 15:30:36
-tags: 
+tags: [faith, culture, personal]
 ---
 
 What if Christians *actually* lived the way Jesus commanded us to? 

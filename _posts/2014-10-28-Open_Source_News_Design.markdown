@@ -2,7 +2,7 @@
 layout: post
 title: Open Source News Design
 date: 2014-10-28 20:44:12
-tags: opensource, news, design
+tags: [opensource, news, design]
 ---
 
 Finding good design in open source can be hard, but it’s almost impossible to find in open source news sites. These sites take “reader hostile” to a new level. Take example “A”, Phoronix:

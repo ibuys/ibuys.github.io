@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emotions and Machines
-tags: online culture hci
+tags: [online, culture, hci]
 ---
 
 I've been using different forms of computer "chat" for over ten years now, starting with operator-to-operator communications over a 9600baud satcom circuit in the Navy.  Over time, I've become used to using certain forms of "emoticons" to convey subtle nuances in the conversation that are unnecessary in face to face communications. I even have friends with whom I communicate with entirely over chat.  

@@ -2,7 +2,7 @@
 layout: post
 title: Winning NaNoWriMo
 date: 2015-12-23 21:49:03
-tags: writing
+tags: [writing]
 ---
 
 So, I won [NaNoWrimo](http://nanowrimo.org), and wrote a “novel”. Although, it’s not *really* a novel, more like a novella, and it’s not *really* written just yet, it’s 50,000 words that somewhat make up a complete story, but with more plot holes than you can shake a stick at. Couple that with the number of inconsistencies in the world building, flat characters, characters who’s names I forget half way through the writing, and two chapters that I decided I was going to throw away completely, and you’ve got what is colloquially known as a first draft. 

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Spit and Polish
-tags: linux work productivity
+tags: [linux, work, productivity]
 ---
 
 After spending a week with <a href="http://www.ubuntu.com/">Linux</a> as my sole computer, I find it very refreshing to come back home to my Mac.  FedEx says my wife's PC should be here tomorrow, so she can go back to Word 2007 and I can have Mactimus Prime back.  It's not that I didn't enjoy working with Linux, I did, but I've found that once the geeky pleasure of discovering something new wears off, there are problems.  

@@ -3,6 +3,7 @@ layout: post
 title: On Computing Tomorrow
 date: 2017-01-14 09:05:02
 cover: /images/covers/harvest.jpg
+tags: [personal, work, mac]
 ---
 
 I’ve been thinking more about my defense of the Mac as a long-term computing platform, and I’m slowly coming around to understanding that at the base of my ideas is a type of willful ignorance that I should know better than to indulge in. The world is changing, computers are changing, and how we work and interact with them is changing drastically. To get to the root of this, let’s follow the five “whys” of why I need a Mac to work. 

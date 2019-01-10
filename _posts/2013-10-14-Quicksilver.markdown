@@ -2,7 +2,7 @@
 layout: post
 title: Quicksilver
 date: 2013-10-14 20:32:12
-tags: mac, productivity, quicksilver, automation
+tags: [mac, productivity, quicksilver, automation]
 redirect_from: /10-14-2013/Quicksilver.html
 ---
 

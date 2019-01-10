@@ -2,7 +2,7 @@
 layout: post
 title: On Graduation Day
 date: 2008-09-10 10:16:25
-tags: personal life
+tags: [personal, life]
 redirect_from: /09-10-2008/on-graduation-day.html
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Long View
 date: 2015-01-16 06:45:02
-tags: philosophy
+tags: [philosophy, culture]
 ---
 
 Computers as tools for creation are unique in that they change and evolve over time as software is updated. A hammer that you buy today can reasonably be expected to perform the same in twenty years, assuming that the tool is taken care of properly. Similarly, the bench that you build with the hammer will still be good to sit on, no matter what happens to the hammer that built it. Not so with computers and software. Not only do the tools used to create change over time and perform in sometimes unexpected ways, the artifacts of our creation are often subject to artificial limitation on use. How ridiculous would it be for a bench to only be able to be sat in if you were holding the hammer you used to build it? And yet, this is the arrangement we agree to with our software more often than not. 

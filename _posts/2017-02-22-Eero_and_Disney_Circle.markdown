@@ -2,7 +2,7 @@
 layout: post
 title: Eero and Disney Circle
 date: 2017-02-22 15:12:31
-tags: 
+tags: [personal]
 ---
 
 > tldr: If you have a Circle device and an Eero mesh network, plug the Circle into the Eero connected to your modem with an ethernet cable. 

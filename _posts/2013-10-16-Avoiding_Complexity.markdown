@@ -2,7 +2,7 @@
 layout: post
 title: Avoiding Complexity
 date: 2013-10-16 10:10:04
-tags: mac setup
+tags: [mac, setup]
 ---
 
 I've noticed a tendency in my Mac setup to veer towards higher levels of complexity. In truth, I'd rather not use anything outside of the Apple provided ecosystem, but for one reason or another I'm constantly drawn to other apps and command line tools. It is a struggle to find balance between applications that actually enhance my productivity, and distractions that pull me away from the task I'm attempting to use my computer for. 

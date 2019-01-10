@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wallpaper
-tags: mac setup productivity
+tags: [mac, setup, productivity]
 ---
 
 Desktop wallpaper is a cheap trick. It's only purpose is to make your computer screen look *pretty*, but I have yet to come across a photo or a work of art that I found to be anything but distracting. There is very little difference between UI elements like windows and objects depicted in a picture behind the windows. If you can see it, your brain needs to identify it. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Please Give
-tags: life culture
+tags: [life, culture]
 ---
 
 <div class="video-container">

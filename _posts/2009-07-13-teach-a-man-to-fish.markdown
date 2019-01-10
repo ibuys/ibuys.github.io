@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Teach A Man To Fish
-tags: work life culture
+tags: [work, life, culture]
 ---
 As a general rule, I really don't like consultants.  Not that I have anything against any of them personally, it's just that as a whole, most consultants I've worked with are no better than our own engineers and administrators.  The exception that proves this rule is our recent VMWare consultant, who was both knowledgeable and willing to teach.  Bringing in an outside technical consultant to design, install, or configure a software system is admitting that not only do we as a company not know enough about the software, we don't plan on learning enough about it either.  Bringing in a consultant is investing in that companies knowledge, and not investing in our own.  
 

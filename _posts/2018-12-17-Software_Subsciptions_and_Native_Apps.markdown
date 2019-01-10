@@ -2,7 +2,7 @@
 layout: post
 title: Software Subscriptions and Bundled Apps
 date: 2018-12-17 13:01:56
-tags: 
+tags: [apps, personal]
 ---
 
 The Omni Group's recent announcement that they'd have a subscription option for OmniFocus has me thinking about how I'm going to be handling third-party software in the future. I'm not angry at them, they are still (for now) offering OmniFocus for purchase, but I wonder how much longer they'll want to keep with the old-style model of licensing when and if subscriptions turn out to be far more lucrative. 

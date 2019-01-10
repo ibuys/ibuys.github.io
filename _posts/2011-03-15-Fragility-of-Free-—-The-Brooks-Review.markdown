@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fragility of Free - The Brooks Review
-tags: online culture software
+tags: [online, culture, software]
 ---
 
 >When you pay for software/services upfront you know how much it is going to cost right away.

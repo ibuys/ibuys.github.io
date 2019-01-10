@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Back in Black
-tags: quicksilver mac productivity
+tags: [quicksilver, mac, productivity]
 ---
 <a href="/media/qs_icon.png"><img class="center" src="/media/qs_icon.png" /></a>
 

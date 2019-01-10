@@ -2,7 +2,7 @@
 layout: post
 title: The Future of DevOps is AI
 date: 2017-12-07 09:03:10
-tags: 
+tags: [work, devops, ai]
 ---
 
 The work of systems administration, that is, racking new hardware, running cables, and loading operating systems, is quickly becoming eclipsed by devops. Servers come from the factory ready to rack, and the base operating system has become nearly meaningless in the context of running applications thanks to Docker. All you need is a baseline Linux install, the specifics of what each application needs to run are taken care of inside the Docker container. 

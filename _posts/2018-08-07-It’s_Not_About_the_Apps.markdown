@@ -2,7 +2,7 @@
 layout: post
 title:  It’s Not About the Apps
 date: 2018-08-07 09:01:53
-tags: 
+tags: [productivity, apps]
 ---
 
 David and Katie are great, they really are. I’ve enjoyed MPU, like most of you have, for years. I’ve bought the books, the scanners, implemented the workflows, heck, my paperless workflow is *still* a derivative of David’s book. Most of all though, I’ve bought the apps. Lots of apps, and there’s a couple things to say about that. 

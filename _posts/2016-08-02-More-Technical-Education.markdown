@@ -2,7 +2,7 @@
 layout: post
 title: Write it Down
 date: 2016-08-02 07:49:06
-tags: education, learning
+tags: [education, learning]
 ---
 
 If you really want to remember something, write it down. By hand.

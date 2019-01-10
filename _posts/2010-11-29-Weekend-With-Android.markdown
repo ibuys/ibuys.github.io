@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weekend With Android
-tags: life android
+tags: [life, android]
 ---
 
 I should have known better... I do know better, but it was on sale, and it was Black Friday, and I bought an Android phone.  I purchased the [HTC Desire][1], a perfectly reasonable choice in high-end smart phones.  Android 2.1, a 1GHz processor, 512M of RAM, and an 8G MicroSD card for storage.  The phone is well designed, solidly built, and aesthetically pleasing, but at this point, its still on probation, I might take it back.  

@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Make it Matter
-tags: tech culture media
+tags: [tech, culture, media]
 date: 2012-07-30 10:49:11
 ---
 
-<div class="auto-resizable-iframe">
-  <div>
-<iframe width="640" height="360" src="http://www.youtube.com/embed/80RI3VepJDI" frameborder="0" allowfullscreen></iframe>
-  </div>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="http://www.youtube.com/embed/80RI3VepJDI" allowfullscreen></iframe>
 </div>
 
 

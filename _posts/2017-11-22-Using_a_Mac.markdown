@@ -2,7 +2,7 @@
 layout: post
 title: What's a Computer?
 date: 2017-11-22 09:52:44
-tags: mac, ipad, apple
+tags: [mac, ipad, apple]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving The Right HA Problem
-tags: linux sysadmin
+tags: [linux, sysadmin]
 ---
 
 High Availability, HA for short, refers to an applications ability to continue operating after a hardware failure. HA comes in many different shapes and sizes, but two methods in production today are the presence of multiple machines performing the same task, and pairs of machines in a master-slave setup. Sometimes the master-slave setup is extended to include several slaves, but the main idea is that if the master should *go away*, the slave will pick up where the master left off, with no interruption in service. 

@@ -2,7 +2,7 @@
 layout: post
 title: The Typewriter Project
 date: 2018-10-25 09:46:04
-tags: 
+tags: [personal]
 ---
 
 ![the desk][1]

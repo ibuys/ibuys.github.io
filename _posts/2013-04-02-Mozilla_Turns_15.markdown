@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mozilla Turns 15
-tags: opensource firefox
+tags: [opensource, firefox]
 date: 2013-04-02 10:49:11
 ---
 

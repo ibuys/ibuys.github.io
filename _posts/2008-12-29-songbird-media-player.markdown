@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Songbird Media Player
-tags: opensource music
+tags: [opensource, music]
 ---
 
 Songbird is a very young product with a very bright future. The Mozilla based media player has come a long way since first releasing a beta, unfortunately to unseat the ruling titan iTunes, Songbird still has a very long ways to go. Songbird is open source, packed with features, and seemingly infinitely expandable through various add-ons and web integration. Also, like the rest of the Mozilla suite, Songbird is cross-platform, a point that becomes glaringly obvious the moment the app is launched.

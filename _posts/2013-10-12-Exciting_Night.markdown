@@ -2,7 +2,7 @@
 layout: post
 title: Exciting Night
 date: 2013-10-12 23:07:29
-tags: life
+tags: [life]
 ---
 
 My wife and I were sitting at the dinner table chatting, winding down for the night, when I saw a pair of headlights shining in our back window. The back side of our house faces the middle school parking lot, with a good amount of lawn and trees between the edge of my land and the beginning of the gravel, so it is not *too* unusual to see cars back there, but late on a Saturday night did seem strange. 

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The Linux Box and Upgrading Java
-tags: linux sysadmin work
+tags: [linux, sysadmin, work]
 ---
 
 As a general rule, I really don't like to go outside of the box when it comes to Linux. And by that, I mean that I don't like going outside of what is provided by what ever distribution you are using, be that SLES, Red Hat, or Ubuntu. A lot of people put a lot of work into making sure that the packages that are available for the distribution actually work in the distribution and do not interfere with any other apps. Linux will let you do what ever you want, but just because you _can_ do something, doesn't mean that you _should_.

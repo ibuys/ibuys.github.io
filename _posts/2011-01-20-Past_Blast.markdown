@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Past Blast
-tags: online culture
+tags: [online, culture]
 ---
 
 I've loved reading some of the "Past Blast" articles that have been

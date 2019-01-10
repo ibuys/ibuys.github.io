@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Responsibility
-tags: culture
+tags: [culture]
 date: 2014-04-29 22:43:18
 ---
 

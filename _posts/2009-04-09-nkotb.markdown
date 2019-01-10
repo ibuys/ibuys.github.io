@@ -2,7 +2,7 @@
 layout: post
 title: NKOTB
 date: 2009-04-09 10:16:25
-tags: personal life music
+tags: [personal, life, music]
 ---
 
 When I was younger, 20 years ago or so I suppose, the New Kids On The Block

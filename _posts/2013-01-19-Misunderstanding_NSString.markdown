@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Misunderstanding NSString
-tags: farmdog cocoa
+tags: [farmdog, cocoa]
 date: 2013-01-19 10:49:12
 ---
 

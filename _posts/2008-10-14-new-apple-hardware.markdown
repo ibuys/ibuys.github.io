@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: New Apple Hardware
-tags: apple hardware
+tags: [apple, hardware]
 ---
 
 There's a lot to think about in the new MacBook line. The aluminum MacBooks are unquestionably what I wanted in the white MacBook that I have now: sturdy construction, fast graphics, and a sleek powerbook look to them. Apple has further blurred the line between their professional and consumer line, something they started with the aluminum iMac, continued with the MacBook Air, and now have completed with the MacBook.

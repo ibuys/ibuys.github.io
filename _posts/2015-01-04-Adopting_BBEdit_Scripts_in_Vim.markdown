@@ -2,7 +2,7 @@
 layout: post
 title: Adopting BBEdit Scripts for Vim
 date: 2015-01-04 16:00:01
-tags: vim, BBedit, drdrang
+tags: [vim, BBedit, drdrang]
 ---
 
 In addition to my experiments with the design of this site, I was also testing out BBEdit as my main writing and programming tool. BBEdit didn't stick, but I did like some of the scripting the good [Dr. Drang][1] has done, and wanted to adopt a few for MacVim. I started with three of his scripts today, one to paste and select text in one command, one to convert a tab-separated table to Markdown, and another to even up the Markdown table so it's easier to read in plain text. 

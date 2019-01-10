@@ -2,7 +2,7 @@
 layout: post
 title: Nirvana
 date: 2017-02-05 21:22:57
-tags: music, personal
+tags: [music, personal]
 cover: /images/covers/nirvana.jpg
 ---
 

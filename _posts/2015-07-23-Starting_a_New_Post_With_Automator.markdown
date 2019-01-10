@@ -2,7 +2,7 @@
 layout: post
 title: Starting a New Post With Automator
 date: 2015-07-23 05:37:19
-tags: mac,automation
+tags: [mac, automation]
 ---
 
 Automator is one of my favorite tools on the Mac, and unfortunately one of the most unappreciated. I have several workflows and services that I've built up over the years, things that I could have turned to a third-party tool like Keyboard Maestro, Alfred, or even my beloved Quicksilver for, but I like the simplicity of using a built-in application. 

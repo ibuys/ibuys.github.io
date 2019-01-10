@@ -2,7 +2,7 @@
 layout: post
 title: 9/11
 date: 2008-01-06 10:16:25
-tags: life
+tags: [life]
 ---
 
 I slept. The world changed all around me, and I slept.

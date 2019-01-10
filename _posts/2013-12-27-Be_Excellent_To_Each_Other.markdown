@@ -2,7 +2,7 @@
 layout: post
 title: Be Excellent To Each Other 
 date: 2013-12-27 12:33:27
-tags: culture tech online indie
+tags: [culture, tech, online, indie]
 ---
 
 The recent row over iA Writer's developers and their patent application reminded me what a small community the Mac developers are. The real problem was never about iA attempting to patent their work, the issue was that they forgot their place in the ecosystem. There are a few in the community that give freely and abundantly, like [Brett Terpstra][1], and when iA threatened to use their patents offensively against Terpstra's Marked, the community rightfully condemned them. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keyboards and Wheels
-tags: mac hardware productivity
+tags: [mac, hardware, productivity]
 ---
 
 I have one wish for the next major iOS release: full keyboard support. The iPad works with the bluetooth keyboard, and the original iPad came with a keyboard dock, but support for doing things other than basic text is sparse at best. My wish list is small, but meaningful. I would like to see support for **all** the keys on the keyboard, the ability to command-tab between running applications, and arrow key navigation for apps that include table views.

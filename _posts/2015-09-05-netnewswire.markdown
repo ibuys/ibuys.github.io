@@ -2,6 +2,7 @@
 layout: post
 title: NetNewsWire 4
 date: 2015-09-05 09:09:31
+tags: [apple, mac, apps]
 ---
 
 <img src="/media/nnw-icon.jpg" />

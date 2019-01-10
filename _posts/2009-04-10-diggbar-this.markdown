@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: DiggBar This
-tags: online programming php
+tags: [online, programming, php]
 ---
 
 I've put a lot of work into this site.  I've put thought into how I want the URLs to look, how the layout should feel, and since the site has my name on it, I wanted it to be good.  I created a custom theme for the site which will purposefully only work here, and I've even done a bit of personal "branding" I suppose with the jb{ logo. 

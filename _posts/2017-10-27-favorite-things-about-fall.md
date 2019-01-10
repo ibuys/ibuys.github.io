@@ -2,6 +2,7 @@
 layout: post
 title: My Favorite Things About Fall 🍁🍂
 date: 2017-10-26 10:18:25
+tags: [personal, fun]
 ---
 
 [Top Four][1] is one of my favorite podcasts. Possibly my number one, although its probably tied with [ATP][2] and [The Talk Show][3]. It’s a strong contender. Marco and Tif Arment chat about some random group of things, and attempt to rank said things, usually failing because they can’t make up their minds. It’s adorable. It’s clear that the two of them are having a good time, and listening always makes me laugh. 

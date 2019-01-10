@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No More Guns
-tags: culture life
+tags: [culture, life]
 date: 2012-12-20 10:49:11
 ---
 

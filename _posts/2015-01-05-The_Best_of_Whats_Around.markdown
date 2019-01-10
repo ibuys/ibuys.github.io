@@ -2,7 +2,7 @@
 layout: post
 title: The Best of What's Around
 date: 2015-01-05 21:19:49
-tags: apple,software,quality,linux
+tags: [apple, software, quality, linux]
 ---
 
 Marco struck a nerve with his [latest post][1] lamenting the declining quality of Apple software. The post was picked up by "analysts" and debated on television by a panel of "experts". While I understand the frustrations of those affected by more serious bugs than I've seen, I can't help but wonder if they really understand what the alternatives are like. 

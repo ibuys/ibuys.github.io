@@ -2,6 +2,7 @@
 layout: post
 title: Reinventing The Wheel
 date: 2012-10-12 10:49:11
+tags: [ideas, technology, ipad]
 ---
 
 ### Or, Redesigning the Tablet Computer ###

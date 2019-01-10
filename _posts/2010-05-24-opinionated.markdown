@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opinionated
-tags: online mac setup personal
+tags: [online, mac, setup, personal]
 ---
 
 As a carpenter has his tools, so do I, as a "knowledge worker" have my computer. I spend many hours a day with my Mac. I have my workflow honed and finely tuned, and I know when something is wrong with my computer, when there is more friction than there needs to be. I am a Systems Administrator, so my knowledge work is to ensure that other people can get their work done. My job is to keep the servers, services, and systems I support up and running 24x7. The tools I use to get this job done mean a lot to me, and over the years I've tried many of them with varying levels of success. I know exactly what my ideal setup is, and I'm working towards filling out my toolbox with the very best as I strive to bring my craft to the next level of mastery.

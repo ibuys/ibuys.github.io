@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Thinking
-tags: hci work
+tags: [hci, work]
 ---
 
 The ability to visualize a complex system is key to a real understanding of it. To me, this applies to computers and technology. To [Daniel Tammet][1], this applies to numbers and letters, on a far, far more vast scale. Daniel is a savant, an extraordinary person who pushes the boundaries of what we believe we know about human capability and learning. What he has to say rings a bell, because how he views his numbers and letters is similar to how I understand the inner workings of a computer. I can visualize what is going on, or what I want to happen. I can do this because I've worked and studied the computer field for years, and because I enjoy the work. What I've found is that there is a distinct difference between understanding the technology and memorizing what happens when you click a button.

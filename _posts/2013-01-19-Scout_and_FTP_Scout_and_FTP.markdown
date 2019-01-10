@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scout and FTP
-tags: farmdog paragraphs indie
+tags: [farmdog, paragraphs, indie]
 date: 2013-01-19 10:49:11
 ---
 

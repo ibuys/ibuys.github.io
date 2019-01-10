@@ -2,7 +2,7 @@
 layout: post
 title: Zen, Art, and Tools
 date: 2013-11-11 15:38:13
-tags: productivity mac linux
+tags: [productivity, mac, linux]
 ---
 
 I've been a Mac user since returning to the states in 2003, but I've been a Unix user for a few years longer. Originally, I was drawn to the Mac because it was a fantastic interface on top of a solid BSD Unix core, but as I grew more familiar with the platform, I became more drawn to the level of attention to detail. The Mac is a quality machine, but today I'm writing this on a Dell running FreeBSD. 

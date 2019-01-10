@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beta Testing Scout
-tags: farmdog paragraphs indie
+tags: [farmdog, paragraphs, indie]
 date: 2013-03-12 10:49:11
 ---
 

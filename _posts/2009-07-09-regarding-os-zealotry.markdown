@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Regarding OS Zealotry
-tags: work linux culture
+tags: [work, linux, culture]
 ---
 
 Today I found myself in the unfortunate situation of defending Linux to a man I think I can honestly describe as a Windows zealot.  I hate doing this, as it leads to religious wars that are ultimately of no use, but it's really my own fault for letting myself be sucked into it.  It started when we were attempting to increase the size of a disk image in vmware, while Red Hat guest was running.  It didn't work, and we couldn't find any tools to rescan the scsi bus, or anything else to get Linux to recognize that the disk was bigger.  I was getting frustrated, and the zealot began to laugh, saying how easy this task was in Windows.  Obviously, I felt slighted since I'm one of the Unix admins at $work, and decided I needed to defend the operating system and set of skills that pays the bills here at home.  And so, we started trading snide remarks back and forth about Linux and Windows.

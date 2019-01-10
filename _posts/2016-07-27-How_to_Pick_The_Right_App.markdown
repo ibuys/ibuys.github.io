@@ -2,7 +2,7 @@
 layout: post
 title: How to Pick The Right App
 date: 2016-07-27 07:33:19
-tags: hci, apps
+tags: [hci, apps]
 ---
 
 Computers are complex tools; designers and developers are always trying to strike a balance between usability and usefulness. I have a theory that over time a computers configuration grows to resemble the mental state of its primary user. Each machine is a unique mix of file and folder organization methods, naming schemes[^1], and application choices. Those choices can reflect the level of technical knowledge and values of the user, but only if the user has made a conscious choice in what apps to use. 

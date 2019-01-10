@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Fix Linux
-tags: linux productivity
+tags: [linux, productivity]
 ---
 
 It's been nine years since I first installed Linux on a computer of mine. It didn't last long back then, since I actually wanted to use the computer for surfing the web, sending email, and playing games. Linux has come a long way since then, and now it's a reliable desktop system at work. However, my system is reliable (and enjoyable) because I am a geek, and I know exactly what it needs to make it run smooth.

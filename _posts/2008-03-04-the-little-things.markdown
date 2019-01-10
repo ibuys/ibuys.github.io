@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The Little Things
-tags: linux productivity
+tags: [linux, productivity]
 ---
 
 Today I was out in the data center and decided to boot into Linux to get some work done on my Dell laptop. I was busy populating our internal wiki with hardware and OS data from our servers (how many dimms, what size, kernel level, etc...), which is a lot of work, lots of copy and paste, formating, grepping, going back and forth between the terminal and firefox. Lots of moving around, but not a lot of cpu or memory intensive tasks, just basic office tasks. I'm using [Ubuntu][1], with Gnome and the desktop effects turned on, and I got so frustrated that I booted back into Windows. I hate to say it, but I was able to get more done in Windows today than I could in Linux.

@@ -2,7 +2,7 @@
 layout: post
 title: The Mediacom SSH Issue
 date: 2018-03-07 08:38:50
-tags: 
+tags: [networking, work]
 ---
 
 Sometimes it’s a miracle the Internet works at all. For the past week or so I’ve been unable to clone, pull from, or push to private Git repositories from either Bitbucket or Github using the normal `git clone git@bitbucket.org:whatever/whatevs.git` syntax. The problem had the symptoms of a blocked port or a bad network route; I’d issue the command in Terminal and wait, and wait, and wait, and the command would eventually timeout. After a quick look at the Github documentation I tried `ssh -T git@github.com` which also timed out and confirmed my suspicions. The ssh protocol was not getting through, but VPN and normal web traffic was. 

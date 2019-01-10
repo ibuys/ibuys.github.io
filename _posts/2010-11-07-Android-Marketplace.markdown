@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Marketplace Inconsistencies 
-tags: android life
+tags: [android, life]
 permalink: /11-07-2010/Android-Marketplace.html
 ---
 

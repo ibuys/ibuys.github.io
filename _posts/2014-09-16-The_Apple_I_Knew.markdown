@@ -1,7 +1,7 @@
 ---
 title: The Apple I Knew
 date: 2014-09-16 13:44:05
-tags: apple, unix 
+tags: [apple, unix] 
 ---
 
 As usual, [John Gruber][1] has the best take on the Apple Watch that I’ve read, and one sentence in particular stood out. 

@@ -2,7 +2,7 @@
 layout: post
 title: Goodbye to The Annual Review
 date: 2015-04-15 21:28:57
-tags: 
+tags: [culture, apple]
 ---
 
 John Siracusa hung up his cape today, [announcing on his blog](http://hypercritical.co/2015/04/15/os-x-reviewed) that he would no longer be reviewing OS X. 

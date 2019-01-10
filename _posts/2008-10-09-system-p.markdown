@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: System P
-tags: work sysadmin
+tags: [work, sysadmin]
 ---
 
 The more I learn about IBM's P-Series UNIX systems, the more impressed I am.  I've been a very harsh critic of them in the past, but that may have just been my ignorance of the platform. The P is, no doubt, expensive... however, when you look at what it can do, and at how many x86 systems you'd need to do the same thing, the P begins to justify its cost.

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Oranges and Oranges
-tags: linux mac culture
+tags: [linux, mac, culture]
 date: 2008-02-16 10:49:11
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Hardware Racket
-tags: work hardware sysadmin
+tags: [work, hardware, sysadmin]
 date: 2013-04-15 10:40:11
 ---
 
@@ -9,7 +9,7 @@ Every now and then something just gets to me, and for the past few weeks, that s
 
 Most hardware is not purchased *directly* from the manufacturer. It's purchased through resellers, and each reseller will have a regional representative who will want to meet with you. The resellers don't really want to just sell you the hardware, they want to "partner" with you to "build a solution". They want to add consulting fees to your hardware purchase, and they want to jack up their margin on selling the hardware as much as possible. 
 
-It's not small money we are talking about either. I've seen purchases of a single piece of equipment drop by $22,000 by modifying a single software line item. How much of that cost was the actual price of the software, and how much of it was reseller markup we will never know. The reseller program is built to keep us in the dark. For example, NetApp has a few nice bullet points on their "[Become a NetApp Partner](http://www.netapp.com/us/partners/become-a-partner/resellers.aspx)" page:
+It's not small money we are talking about either. I've seen purchases of a single piece of equipment drop by $22,000 by modifying a single software line item. How much of that cost was the actual price of the software, and how much of it was reseller markup we will never know. The reseller program is built to keep us in the dark. For example, NetApp has a few nice bullet points on their "[Become a NetApp Partner][1]" page:
 
 > The NetApp Partner Program for Resellers is designed to help you grow your business and maximize profitability. With NetApp® products and services in your portfolio, you can deliver innovative storage and data management solutions that satisfy even your most demanding customers.
 > 
@@ -31,6 +31,8 @@ I've heard that it is "unethical" to share the quote we get from one reseller wi
 
 Here's another example of resellers behaving badly. We were in a meeting with a salesman, and an engineer from his company, and they had a manufacturer on a conference call to discuss the equipment we were pricing out. When we got to the end of the meeting and we thought we had all of our questions answered, we hung up on the manufacturer, and the resellers started undercutting their manufacturer "partner" to try to sell us a similar piece of equipment from another manufacturer. They said it was because they wanted to partner with us to make sure we got the best deal, but I was left with the impression that the equipment they tried to pitch simply gave them a fatter margin. 
 
-This is the biggest draw, in my opinion, for open source software and [hardware](http://www.opencompute.org). If we can match the performance of these big name vendors using hardware that we can purchase from NewEgg, we won't have to deal with slimy resellers.
+This is the biggest draw, in my opinion, for open source software and [hardware][2]. If we can match the performance of these big name vendors using hardware that we can purchase from NewEgg, we won't have to deal with slimy resellers.
 
 
+[1]: http://www.netapp.com/us/partners/become-a-partner/resellers.aspx
+[2]: http://www.opencompute.org

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Cocoa
-tags: programming cocoa 
+tags: [programming, cocoa] 
 ---
 
 Last summer I decided to dive into programming and give it everything I've got.  For months, I would get up at 5 and pour through the [Hillgass][1] book, every page, every challenge.  I'd revisit it at night, after the kids were in bed, and code till I couldn't stay awake any more.  I finished the book, and started coding my first real application.  It was then that I found out how very little reading one book gave you.  Hillegass says he gives you 80%, I'm thinking it's more like 50%, tops.  I reached out to the Cocoa Dev mailing list for help, and eventually even went to a CocoaHeads meeting with the local chapter.  Meeting some "real" developers, I despaired.  There was far, far too much that I didn't know, I felt that it would take me an entire lifetime to learn what I needed to know.  I gave up, wrote [Goodbye Cocoa][2], and focused on something else.

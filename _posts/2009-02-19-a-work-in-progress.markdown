@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: A Work in Progress
-tags: blogging mac setup
+tags: [blogging, mac, setup]
 ---
 
 A few days ago I decided that I was not going to use anyone else's theme on my site. It happened after I stumbled across another site using the exact same theme as mine. Unavoidable really, as long as you are using someone else's theme. So, the decision was to either stop using Wordpress, or to design my own theme. I love Wordpress, so I decided to go with the latter. 

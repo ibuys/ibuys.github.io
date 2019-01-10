@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Managing Nagios Configs
-tags: sysadmin nagios
+tags: [sysadmin, nagios]
 ---
 
 We don't have a very big Nagios installation, comparatively anyway, but it is big enough to find that the default layout for configurations is insane.  I tried using the provided layout, until I wound up with single text files with thousands of lines in them. This made it very hard to do individual customizations for servers, and separating out who wants to be notified for what.  Here is what I came up with for managing our Nagios configs.  

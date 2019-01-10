@@ -2,7 +2,7 @@
 layout: post
 title: Technical Education in K-12
 date: 2013-09-16 23:17:55
-tags: education mac life
+tags: [education, mac, life]
 ---
 
 Our small school is nearing the end of the four-year cycle for a one-to-one program that provides all students in grades six through twelve with a white MacBook. Students are free to take the laptop home, and parents must sign an agreement to pay for any damages. Over the course of the past few years I have become strongly, almost vehemently opposed to the program. 

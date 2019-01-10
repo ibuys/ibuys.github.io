@@ -2,7 +2,7 @@
 layout: post
 title: Change and Blessing
 date: 2007-03-25 10:16:25
-tags: life
+tags: [life]
 ---
 
 On Monday, the 23rd, at 9:17 AM, we were blessed with our fourth child, Jacob. Jacob and his Mom are home now, after a few days stay in the hospital at the University of Iowa. Jacob is strong and healthy, waking every few hours to eat and burp and have his diaper changed.
@@ -19,7 +19,7 @@ My wife was not doing as well as I had hoped. The anesthesia that she wasgiven m
 
 As if this wasn't enough, I've also come to the end of the semester forcollege. I had three term papers to write, two for one class and one foranother. I finished two of them over the weekend, but the last one I didn'tfinish till yesterday.
 
-On Tuesday I dropped off the kids at school and went down to the hospital. Ivisited Jacob and my wife for an hour or so (she was feeling much better),then jumped in my car and headed to Des Moines for an interview. Yes, aninterview. That's why I needed my dry cleaning, I was picking up my suit. Oncein Des Moines I wanted to print out a fresh copy of my resume, so I went allover town looking for a Kinkos. I finally found one, but their system was notworking at the time, and I had run out of time. I jumped in my car and startedchanging into my suit. I tied my tie in my rear view mirror, and really had noidea how I looked when I stepped out of my car in my suit at [CommunicationsData Services](http://cds-global.com).
+On Tuesday I dropped off the kids at school and went down to the hospital. Ivisited Jacob and my wife for an hour or so (she was feeling much better),then jumped in my car and headed to Des Moines for an interview. Yes, aninterview. That's why I needed my dry cleaning, I was picking up my suit. Oncein Des Moines I wanted to print out a fresh copy of my resume, so I went allover town looking for a Kinkos. I finally found one, but their system was notworking at the time, and I had run out of time. I jumped in my car and startedchanging into my suit. I tied my tie in my rear view mirror, and really had noidea how I looked when I stepped out of my car in my suit at [Communications Data Services](http://cds-global.com).
 
 The interview went way better than I could have imagined. We talked for almostfour hours and I felt like we really hit it off. I met with the entire teamand we talked Linux and AIX for a while. They must have felt as good about thematch as I did, because by Friday morning I had an offer that I could not turndown. I accepted the offer, and start May 14th.
 

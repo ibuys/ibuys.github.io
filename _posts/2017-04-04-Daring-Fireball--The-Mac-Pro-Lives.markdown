@@ -2,6 +2,7 @@
 layout: post
 title: Daring Fireball - The Mac Pro Lives
 date: 2017-04-04 07:31:00
+tags: [apple, mac]
 ---
 
 

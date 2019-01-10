@@ -2,7 +2,7 @@
 layout: post
 title: A Different Vision of the Future
 date: 2014-01-12 08:04:25
-tags: predictions work culture
+tags: [predictions, work, culture]
 ---
 
 I ran across a [few][1] [articles][2] in the past week or so that predict the majority of the population will be living in cities by 2050.[^1] I don't dispute the projection, these people generally know what they are talking about, but I would like to do a bit of daydreaming of my own. I can envision a world of small towns populated by remote workers and independent service providers, communities with relationships that are closer, deeper, and happier than their city dwelling counterparts. 

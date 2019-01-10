@@ -2,7 +2,7 @@
 layout: post
 title: Merry Christmas
 date: 2014-12-24 20:44:12
-tags: personal, life, driving
+tags: [personal, life, driving]
 ---
 
 

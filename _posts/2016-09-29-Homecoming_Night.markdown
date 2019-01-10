@@ -2,7 +2,7 @@
 layout: post
 title: Homecoming Night
 date: 2016-09-29 21:17:16
-tags: 
+tags: [personal]
 ---
 
 One of the surest ways I know I’m well on my way to crotchety old man status is not the grey in my hair, but my gut reaction to a certain tradition in our small town. To celebrate homecoming, our high school cheerleaders and dance team spends the night covering the high school football players houses, cars, and possibly yards [with toilet paper][1], saran wrap, and plastic forks. They call it tradition, I call it vandalism, but, like so many other things in this tiny Iowa town, I’m simply outvoted. 

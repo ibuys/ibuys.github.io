@@ -1,7 +1,0 @@
----
-title: Why Mac?
-date: 2014-10-28 20:35:40
-tags: apple, developers
----
-
-

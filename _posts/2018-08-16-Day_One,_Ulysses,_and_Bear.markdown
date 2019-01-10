@@ -2,7 +2,7 @@
 layout: post
 title: Day One, Ulysses, and Bear
 date: 2018-08-16 07:56:21
-tags: 
+tags: [apps, productivity]
 ---
 
 I’ve been using, and subscribing to, [Ulysses][1], [Bear][2], and [Day One][3] for a while now. It seems a bit silly, especially since they all do basically the same thing. On the surface they are all writing apps, but once I start to think a little deeper about them I can see where the differences lay. 

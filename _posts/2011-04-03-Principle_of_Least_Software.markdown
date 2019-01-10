@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Principle of Least Software
-tags: mac personal productivity
+tags: [mac, personal, productivity]
 ---
 
 Use only the software that you need. No more, no less. Choose one application for each task, and become an expert on that application. 

@@ -2,7 +2,7 @@
 layout: post
 title: Standing Desk Review
 date: 2016-05-12 07:27:36
-tags: 
+tags: [work, desk]
 ---
 
 For the past two months I've been working, on and off, with a [Rocelco Height Adjustable Standing Desk Riser][1], a less expensive choice for working at a standing desk than the popular [VARIDESK][2]. The Rocelco is a solid alternative for budget conscious workers, but as with most products, the drop in price comes with a set of trade-offs. 

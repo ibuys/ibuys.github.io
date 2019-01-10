@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Imperfect Dock
-tags: mac setup productivity
+tags: [mac, setup, productivity]
 ---
 
 Brent Simmons recently [wrote about][1] his dislike of the iCal interface in the latest developer preview of OS X 10.7. In his article, he says how the torn paper present in the interface of the latest build would eventually force him to find an alternative, because he would always want to finish tearing the paper off. What caught my attention in the article more than iCal was how Brent deals with the Trash in the Dock. He constantly empties the trash, a habit I share.

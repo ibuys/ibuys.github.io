@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The Sorry State of Enterprise Software
-tags: work hci sysadmin
+tags: [work, hci, sysadmin]
 ---
 
 I've been unlucky enough to be working with quite a few pieces of so called "enterprise" software, the worst of which I've been working with lately is called the Tivoli Workload Scheduler. TWS is, at its core, a glorified cron.  It is a scheduler, you can create jobs, or scripts, and have them executed at given times. You are supposed to be able to cascade jobs, and create dependencies between jobs. This is all well and good, but there are some serious problems with this software.

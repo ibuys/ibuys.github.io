@@ -2,7 +2,7 @@
 layout: post
 title: cloudchain
 date: 2016-07-14 07:45:09
-tags: sysadmin, aws, work
+tags: [sysadmin, aws, work]
 ---
 
 Today, the team I'm a part of at TargetSmart is releasing our [first open source project][1], a bit of Python I like to call "cloudchain". cloudchain is designed to make it easy to store and retrieve secrets using AWS. cloudchain relies on the AWS Identity and Access Management (IAM) [Key Management Service][2] (KMS) to securely store and manage access to encryption keys, and stores the encrypted secret in a [DynamoDB][3] table.

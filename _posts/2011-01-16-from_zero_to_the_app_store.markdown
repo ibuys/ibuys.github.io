@@ -2,7 +2,7 @@
 layout: post
 title: From Zero to the App Store
 date: 2011-01-16 10:16:25
-tags: farmdog indie cocoa
+tags: [farmdog, indie, cocoa]
 redirect_from: /01-16-2011/from_zero_to_the_app_store.html
 ---
 

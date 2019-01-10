@@ -2,7 +2,7 @@
 layout: post
 title: Research Kit and the GPL
 date: 2015-04-14 21:53:43
-tags: 
+tags: [health, apple]
 ---
 
 Apple released ResearchKit as an open source project on [GitHub](https://github.com/ResearchKit/ResearchKit) today. The project is complete with pull requests, a wiki, and a few sample projects to get started. While the project is great in its own right, it was the context of this tweet by Daniel Jalkut that caught my eye:

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Slowly Evolving an IT System
-tags: work sysadmin
+tags: [work, sysadmin]
 ---
 
 We are going through a major migration at work, upgrading our four and a half year old IBM blades to brand spanking new HP BL460 G6's.  We run a web infrastructure, and the current plan is to put our F5's, application servers, and databases in place, test them all out, and then take a downtime to swing IPs over and bring up the new system.  It's a great plan, it's going to work perfectly, and we will have the least amount of downtime with this plan.  Also... I hate it.

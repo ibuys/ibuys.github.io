@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Contextual Search
-tags: mac productivity
+tags: [mac, productivity]
 ---
 
 My personal browser of choice has almost always been <a href="http://www.omnigroup.com/applications/omniweb/">Omniweb</a>. Omniweb and I went through a tough time for a while when it (she?) was crashing frequently and generally having a tough time of it. The Omni Group has once again straightened things out, and she (yea, I've decided Omniweb is a she) is once again fast, sleek, and powerful. There is one small item about the browser that bothers me though, and that is the lack of a search function from the browsers contextual menu that pops up when you select a word and right click on it.

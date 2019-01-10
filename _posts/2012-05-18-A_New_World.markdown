@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A New World
-tags: life personal work
+tags: [life, personal, work]
 date: 2012-05-18 10:49:11
 ---
 

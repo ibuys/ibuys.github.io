@@ -2,7 +2,7 @@
 layout: post
 title: For The Public Good
 date: 2013-09-10 20:57:18
-tags: opensource education culture
+tags: [opensource, education, culture]
 ---
 
 I just finished another article for [OStatic](http://ostatic.com/blog/the-internet-as-public-property) where I imagine what web services would be good candidates for public, non-profit organizations. The two services I came up with are search and email, both I consider essential Internet tools. I've wondered about the democratization of the Internet before. [One thought](http://ostatic.com/blog/one-server-per-person) I had was wondering about the possibility of each household owning their own "server", or server type device that connected them to the Internet, but also became *part* of the Internet. 

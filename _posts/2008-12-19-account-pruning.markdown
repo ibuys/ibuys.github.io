@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Account Pruning
-tags: online personal
+tags: [online, life]
 ---
 
 I'm a geek. Understanding that little fact puts me a little closer to being in touch with myself, and understanding that I've got a habit of trying out every new service or technology that comes along. That's fun, but in the case of online services, I wind up with accounts all over the place. So, the past few days I've been pruning my online accounts down to what I really need.  

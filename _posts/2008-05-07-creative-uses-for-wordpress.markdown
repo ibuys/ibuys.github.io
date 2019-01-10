@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creative Uses for Wordpress
-tags: work linux shell 
+tags: [work, linux, shell] 
 ---
 
 Where I spend my days ($WORK), we have multiple monitoring systems for just about every service on every server that we have.  Many of these are <a href="http://www.nagios.org/">Nagios</a>, some are built in, and others are <a href="https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto&amp;cp=1-11-15-25%5E849_4000_100__">SiteScope</a>.  All of the systems generate email alerts that either go to our pagers, our email, or both.  From time to time, management would ask a question like "How many pages do you get in a week on average", which up till a couple of months ago, our answer was always "It just depends".

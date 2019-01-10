@@ -2,7 +2,7 @@
 layout: post
 title: Force Touch Band
 date: 2015-03-23 06:56:27
-tags: apple 
+tags: [apple, microsoft] 
 ---
 
 We took a trip to the mall the other day, and I took that chance to check out the new [Force Touch trackpad][1] on the MacBook Pro. Force Touch is an incredible feat of engineering, I couldn't stop thinking about *how* it was working. If I didn't know better, I'd assume that Apple just made a few minor enhancements to the trackpad to produce the different click. I really couldn't tell there was no depression of the glass; the illusion is phenomenally good. 

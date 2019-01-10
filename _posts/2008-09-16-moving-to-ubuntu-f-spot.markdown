@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Moving to Ubuntu - F-Spot
-tags: linux productivity 
+tags: [linux, productivity] 
 ---
 
 I mentioned in my last post that I was giving up my MacBook so my wife could go to college, and (until I can justify the cost of another Mac) that leaves me with her Linux PC. After the first few days of using Linux at home,as opposed to managing Linux servers at work, here are my initial impressions.

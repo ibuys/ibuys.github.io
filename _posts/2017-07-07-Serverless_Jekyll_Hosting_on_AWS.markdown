@@ -2,7 +2,7 @@
 layout: post
 title: Serverless Jekyll Hosting on AWS
 date: 2017-07-07 09:38:14
-tags: 
+tags: [aws, jekyll, blogging]
 ---
 
 This is a bit silly, I’ll be the first to admit. The contraption I’ve built to host this site is clearly unnecessary, especially when I could host the site on [Github][1] for free, with very little effort, but I was curious, so down the rabbit hole I went. 
@@ -13,27 +13,30 @@ There are four components of this system: Github, which hosts the code for the s
 
 CodeBuild works by starting a Docker container and pulling the repository down. It then looks for a file named `buildspec.yml` which contains the instructions to build the project. This file contains arbitrary Linux commands, whatever you need to build your code. Mine looks something like this:
 
-	version: 0.2
-	
-	env:
-	  variables:
-	SITEBUILD: "yes"
-	phases:
-	  install:
-	commands:
-	apt-get update -y
-	  pre_build:
-	commands:
-	gem install bundler
-		bundle install
-	  build:
-	commands:
-	echo Build started on date
-		bundle exec jekyll build
-		aws s3 sync _site/ s3://jonathanbuys.com
-	  post_build:
-	commands:
-	echo Build completed on date
+{% highlight yaml %}
+version: 0.2
+
+env:
+  variables:
+SITEBUILD: "yes"
+phases:
+  install:
+commands:
+apt-get update -y
+  pre_build:
+commands:
+gem install bundler
+    bundle install
+  build:
+commands:
+echo Build started on date
+    bundle exec jekyll build
+    aws s3 sync _site/ s3://jonathanbuys.com
+  post_build:
+commands:
+echo Build completed on date
+{% endhighlight %}
+
 
 The interesting thing about this system is that I could replace Jekyll with [Hugo][5], [Hakyll][6], or any other static site generator, even my own scripts, and the system would stay the same. I’d just need to update `buildspec.yml` with the new commands to install the right tools and build the site. Hosting costs so far have been pennies, my cost this month *might* reach $1.27, and for the past couple months the cost has been below one dollar. 
 

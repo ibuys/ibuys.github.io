@@ -1,10 +1,5 @@
-# robots.txt for https://jonathanbuys.com
+# www.robotstxt.org/
 
+# Allow crawling of all content
 User-agent: *
-Disallow: /media/
-Disallow: /images/ 
-Disallow: /stylesheets/
-Disallow: /README
-Disallow: /CNAME
-Disallow: /go2-bookmarklet.html
-
+Disallow:

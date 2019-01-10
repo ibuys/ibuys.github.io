@@ -2,7 +2,7 @@
 layout: post
 title: The GI Hole
 date: 2009-01-31 10:16:25
-tags: life navy
+tags: [life, navy]
 ---
 
 In December 1995 I was halfway through boot camp, a time called service week.

@@ -2,7 +2,7 @@
 layout: post
 title: Starting Over 
 date: 2008-04-22 10:16:25
-tags: life
+tags: [life, culture]
 ---
 
 My wife wanted me to read something that she was writing the other day, so I sat down at her laptop on our table and read through it. While I was there, I happened to glance at her email, an old hotmail account, and noticed that she has emails going all the way back to ‘01. A quick glance at my gmail tells me that there is no way I can tell how far back my email goes, but I'm pretty sure that I've lost everything prior to ‘05 or so. I've been accused of having email ADD in the past, and I'm fairly certain there is a bit of truth to it. It seems to hold true for a lot of the technology in my life, I'm just never satisfied with it, and wind up tweaking, fiddling, and otherwise screwing around with my tools until they are either just right or completely screwed up and I throw the entire thing in the trash and start over.

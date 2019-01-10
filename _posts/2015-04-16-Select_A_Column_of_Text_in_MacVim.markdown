@@ -2,7 +2,7 @@
 layout: post
 title: Select A Column of Text in MacVim
 date: 2015-04-16 19:47:06
-tags: 
+tags: [vim]
 ---
 
 I often need to work with columns of text; output from commands, text grabbed from a web page, what have you. Since I have a somewhat odd aversion to using a spreadsheet like a normal person, I discovered, nearly by accident, that I could easily select a column of text in [MacVim.][1] 

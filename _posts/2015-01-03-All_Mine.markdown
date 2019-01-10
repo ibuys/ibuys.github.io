@@ -2,7 +2,7 @@
 layout: post
 title: All Mine
 date: 2015-01-03 20:20:07
-tags: site, hosting
+tags: [site, hosting, blogging]
 ---
 
 

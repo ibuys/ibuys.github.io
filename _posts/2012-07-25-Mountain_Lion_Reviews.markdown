@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mountain Lion Reviews
-tags: mac online
+tags: [mac, online]
 date: 2012-07-25 10:49:11
 ---
 

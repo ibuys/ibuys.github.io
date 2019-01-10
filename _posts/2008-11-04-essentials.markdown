@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Essentials
-tags: mac setup productivity
+tags: [mac, setup, productivity]
 ---
 
 Inspired by Mark Pilgrim's [Essentials][17] post, I thought I'd come up with my own list of essential software.

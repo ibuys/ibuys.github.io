@@ -2,7 +2,7 @@
 layout: post
 title: New Mac Essentials - 2014 Edition
 date: 2014-11-24 20:44:12
-tags: software, unix, mac
+tags: [software, unix, mac]
 ---
 
 It appears I’ll be getting a new Mac soon, which means it’s time to take inventory of what I need. I’ve written about this a [couple][1] of [times][2] before, and it’s interesting to look back and see what apps stick, and which have gone by the wayside. 

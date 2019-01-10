@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Build Something Better
-tags: indie farmdog
+tags: [indie, farmdog]
 ---
 
 What would it take to change computers? What would it take to build something truly revolutionary in a time where most of the design philosophy of a computer is taken for granted?

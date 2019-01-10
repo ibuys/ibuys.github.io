@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS 6 Headphones
-tags: iphone hardware
+tags: [iphone, hardware]
 date: 2012-10-08 10:49:11
 ---
 

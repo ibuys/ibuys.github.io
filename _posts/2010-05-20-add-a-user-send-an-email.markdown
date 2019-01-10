@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Add a User - Send an Email
-tags: sysadmin work badsoftware
+tags: [sysadmin, work, badsoftware]
 ---
 I was asked on Twitter the other day why I <a href="http://twitter.com/ibuys/status/14230359975">disliked</a> IBM's enterprise software.  This, in addition to my <a href="https://jonathanbuys.com/2009/01/22/the-sorry-state-of-enterprise-software/">previous</a> TWS rant, is my answer to that question.
 
