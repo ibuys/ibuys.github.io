@@ -1,4 +1,0 @@
----
-slug: safari
-name: safari
----

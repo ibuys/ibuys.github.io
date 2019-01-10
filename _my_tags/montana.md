@@ -1,4 +1,0 @@
----
-slug: montana
-name: montana
----

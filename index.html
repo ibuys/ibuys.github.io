@@ -1,55 +1,1150 @@
----
-layout: default
-title: ""
-description: ""
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>jb… | </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<ul class="article-list">
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonathanbuys.com/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="jb…">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://jonathanbuys.com/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+
+  
+    <meta property="og:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="https://jonathanbuys.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="https://jonathanbuys.com/atom.xml" type="application/rss+xml" rel="alternate" title="jb… Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-212606391baaa7b16463b92b3c519b56832ab53456441e045807984cad648a1e.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-7f522908aad16b87e703f470834aceb4a7ff176aa3d0ea38bc79efa11ac38c6d.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-02e2f267b21f6c4c71f528ac48c0e6b6680d4c968ac2a5fa52e4f416874e52a4.css" disabled="true">
+    
+
+  
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <a href="/" class="header-logo" title="jb…">jb…</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="/about" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/microblog/" title="Chirp, chirp">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/ibuys" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/atom.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme" xlink:href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <ul class="article-list">
+  
+    <li class="article-list-item ">
+      <a href="/Merging_the_Mac_and_the_iPad/" title="Merging the Mac and the iPad">
         <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
+          Merging the Mac and the iPad
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h5>
       </a>
       <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
+        
+          <p>It seems undeniable that, <a href="http://atp.fm">given an infinite timescale</a>, Apple will eventually simplify their two most popular systems into a single platform. Merging MacOS and iOS would, theoretically anyway, provide the users with the best of both worlds, and developers would finally have a single platform to target instead of two. This concept seems to run counter to what Apple executives have said in the past about the Mac, specifically that “<a href="https://www.macworld.com/article/2090829/macs/apple-executives-on-the-mac-at-30-the-mac-keeps-going-forever.html">the Mac keeps going forever</a>”, but the interview that statement comes from is five years old now, which… in silicon valley terms, really is forever ago.</p>
+
+
+        
       </p>
       <div class="article-list-footer">
         <span class="article-list-date">
-          {{ post.date | date: "%B %-d, %Y" }}
+          January 10, 2019
         </span>
         <span class="article-list-divider">-</span>
         <span class="article-list-minutes">
-          {% capture words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-          {% unless words contains "-" %}
-            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
-          {% endunless %}
+          
+          
+            4 minute read
+          
         </span>
         <span class="article-list-divider">-</span>
         <div class="article-list-tags">
-          {% for tag in post.tags %}
-            <a href="{{ 'tag/' | relative_url }}{{ tag }}">{{ tag }}</a>
-          {% endfor %}
+          
+            <a href="/tag/mac">mac</a>
+          
+            <a href="/tag/ipad">ipad</a>
+          
+            <a href="/tag/ios">ios</a>
+          
+            <a href="/tag/apple">apple</a>
+          
         </div>
       </div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
+  
+    <li class="article-list-item ">
+      <a href="/a_dream_jekyll_app/" title="A Dream Jekyll App">
+        <h5>
+          A Dream Jekyll App
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’ve never been 100% happy with this site. On the one hand, Jekyll lets me have full control of my content, and I never have to worry about losing any of it or having anything locked inside a database on a server somewhere. On the other hand, things like adding media is more complicated than I’d like. I’ve written scripts to help, of course, but I’d really rather have the best of both worlds.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 7, 2019
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/apps">apps</a>
+          
+            <a href="/tag/mac">mac</a>
+          
+            <a href="/tag/jekyll">jekyll</a>
+          
+            <a href="/tag/blogging">blogging</a>
+          
+        </div>
+      </div>
     </li>
-  {% endif %}
+  
+    <li class="article-list-item ">
+      <a href="/The_Beauty_of_a_Clean_Slate/" title="It's the Price">
+        <h5>
+          It's the Price
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>The recent hubbub about <a href="https://daringfireball.net/2019/01/apples_terrible_no_good_very_bad_earnings_warning">Apple’s earnings guidance</a> has “analysts” and pundits talking a lot about China and the global economic situation. I’m sure there’s something to all that, but my take is simpler… the new iPhones are priced too high.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 4, 2019
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/apple">apple</a>
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/iphone">iphone</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/An_Optimistic_2019/" title="An Optimistic 2019">
+        <h5>
+          An Optimistic 2019
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>CPG Gray and Myke Hurley have been talking about assigning a <em>theme</em> to a year on their <a href="https://www.relay.fm/cortex">Cortex podcast</a>, in lieu of new year’s resolutions. I quite like this idea, and I’ve decided to adopt it. I’ve decided that my personal theme for 2019 is <strong>finishing</strong>.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 2, 2019
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/productivity">productivity</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/merry_christmas/" title="Merry Christmas">
+        <h5>
+          Merry Christmas
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Let’s give generously this Christmas, and here’s to a happy new year. May the peace of Christ, which surpasses all understanding, guard your hearts and minds in the coming months.</p>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 24, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Software_Subsciptions_and_Native_Apps/" title="Software Subscriptions and Bundled Apps">
+        <h5>
+          Software Subscriptions and Bundled Apps
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>The Omni Group’s recent announcement that they’d have a subscription option for OmniFocus has me thinking about how I’m going to be handling third-party software in the future. I’m not angry at them, they are still (for now) offering OmniFocus for purchase, but I wonder how much longer they’ll want to keep with the old-style model of licensing when and if subscriptions turn out to be far more lucrative.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 17, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/apps">apps</a>
+          
+            <a href="/tag/personal">personal</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/The_2018_iPad_Pro/" title="The 2018 iPad Pro">
+        <h5>
+          The 2018 iPad Pro
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Sometimes even I get caught up in waves of pessimism, and the recent onslaught of negativity against smart phones, social media, and technology in general has been no exception. It was while I was mulling over the affect of technology on our society that I watched the most recent Apple event where they released an updated MacBook Air, Mac Mini, and a new line of iPad Pros. The Air and the Mini look great, although it’s too bad that they are more expensive than previous models. What really caught my attention though were the iPads.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 31, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            4 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/ipad">ipad</a>
+          
+            <a href="/tag/apple">apple</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/The_Typewriter_Project/" title="The Typewriter Project">
+        <h5>
+          The Typewriter Project
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p><img src="/media/type_desk.jpg" alt="the desk" /></p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 25, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            4 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Less,_But_Better/" title="Less, But Better">
+        <h5>
+          Less, But Better
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’m becoming increasingly interested in an emerging line of Eink devices that intentionally do less than other devices in the same category. Of course, the oldest and most widely known device is the Amazon Kindle, which my wife still claims as the best gift I ever gave her.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          September 6, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/future">future</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Taking_Notes/" title="Taking Notes">
+        <h5>
+          Taking Notes
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I loved Yojimbo for many years. I still think it’s the most “Mac-like” app for taking notes and storing data. The best thing about it was that when capturing data with the hotkey, it would look at your clipboard before presenting you with a UI, and customize the UI for the data. It was fast, fit in perfectly with the Mac, and was rock-solid reliable.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 29, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/productivity">productivity</a>
+          
+            <a href="/tag/apps">apps</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Simple_File_Encryption_for_macOS/" title="Simple File Encryption for macOS">
+        <h5>
+          Simple File Encryption for macOS
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>For years now I’ve wanted a simple way to encrypt or decrypt a file in macOS, so this morning I built it. This takes five to ten minutes to setup, and provides the encryption service as a right-click menu item and a pair of folders with folder actions enabled. Here’s what I did.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 28, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/mac">mac</a>
+          
+            <a href="/tag/security">security</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Day_One,_Ulysses,_and_Bear/" title="Day One, Ulysses, and Bear">
+        <h5>
+          Day One, Ulysses, and Bear
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’ve been using, and subscribing to, <a href="https://ulysses.app">Ulysses</a>, <a href="http://www.bear-writer.com">Bear</a>, and <a href="https://dayoneapp.com">Day One</a> for a while now. It seems a bit silly, especially since they all do basically the same thing. On the surface they are all writing apps, but once I start to think a little deeper about them I can see where the differences lay.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 16, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/apps">apps</a>
+          
+            <a href="/tag/productivity">productivity</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/It-s_Not_About_the_Apps/" title="It’s Not About the Apps">
+        <h5>
+          It’s Not About the Apps
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>David and Katie are great, they really are. I’ve enjoyed MPU, like most of you have, for years. I’ve bought the books, the scanners, implemented the workflows, heck, my paperless workflow is <em>still</em> a derivative of David’s book. Most of all though, I’ve bought the apps. Lots of apps, and there’s a couple things to say about that.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 7, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/productivity">productivity</a>
+          
+            <a href="/tag/apps">apps</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/a-fresh-coat-of-paint/" title="A Fresh Coat of Paint">
+        <h5>
+          A Fresh Coat of Paint
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I spent some time remodeling the old digs here, adding a fresh coat of paint in the form of a new theme, new hosting, and a shiny new SSL lock.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          March 26, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/jekyll">jekyll</a>
+          
+            <a href="/tag/blogging">blogging</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/The_Mediacom_SSH_Issue/" title="The Mediacom SSH Issue">
+        <h5>
+          The Mediacom SSH Issue
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Sometimes it’s a miracle the Internet works at all. For the past week or so I’ve been unable to clone, pull from, or push to private Git repositories from either Bitbucket or Github using the normal <code class="highlighter-rouge">git clone git@bitbucket.org:whatever/whatevs.git</code> syntax. The problem had the symptoms of a blocked port or a bad network route; I’d issue the command in Terminal and wait, and wait, and wait, and the command would eventually timeout. After a quick look at the Github documentation I tried <code class="highlighter-rouge">ssh -T git@github.com</code> which also timed out and confirmed my suspicions. The ssh protocol was not getting through, but VPN and normal web traffic was.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          March 7, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/networking">networking</a>
+          
+            <a href="/tag/work">work</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/aws_dropbox/" title="Dropbox and AWS">
+        <h5>
+          Dropbox and AWS
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Dropbox apparently saved a boatload of money by moving their infrastructure off of AWS and building out their own data centers. Taken at face value this might seem like a strike against AWS, but the way I see it this was the only way Dropbox was going to be able to differentiate themselves as a service. Their job is to provide cloud storage, something AWS can do easily, but if that’s the only thing you are getting from AWS, it’s going to cost an arm and a leg. This news once again got me thinking about the industry as a whole, my place in it, and how I think about cloud services.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          March 4, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            4 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/aws">aws</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/A_New_macOS/" title="A New macOS">
+        <h5>
+          A New macOS
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’ve heard several people on podcasts or blog posts claim that they’d like to see Apple hold off on new features that nobody wants and just fix the existing bugs in the Mac. This claim is normally followed up with a missive that they can’t imagine what Apple could add to the Mac at this point anyway, since macOS is a stable, mature operating system. Well, I can think of a few things.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          February 21, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            4 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/mac">mac</a>
+          
+            <a href="/tag/apple">apple</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/The_Future_of_DevOps_is_AI/" title="The Future of DevOps is AI">
+        <h5>
+          The Future of DevOps is AI
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>The work of systems administration, that is, racking new hardware, running cables, and loading operating systems, is quickly becoming eclipsed by devops. Servers come from the factory ready to rack, and the base operating system has become nearly meaningless in the context of running applications thanks to Docker. All you need is a baseline Linux install, the specifics of what each application needs to run are taken care of inside the Docker container.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 7, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            3 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/work">work</a>
+          
+            <a href="/tag/devops">devops</a>
+          
+            <a href="/tag/ai">ai</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Using_a_Mac/" title="What's a Computer?">
+        <h5>
+          What's a Computer?
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’ve been enjoying watching the new iPad commercial of a kid and her iPad roaming around the city. Two things come to mind. First, is this what it’s like for kids in the city? Having never lived in one myself I find it fascinating that she just roams around, takes the bus, hangs out in an alley, whatever. Second, and more important, is what she’s doing with that iPad.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          November 22, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            6 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/mac">mac</a>
+          
+            <a href="/tag/ipad">ipad</a>
+          
+            <a href="/tag/apple">apple</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Veterans_Day/" title="Veterans Day">
+        <h5>
+          Veterans Day
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I gave a talk at our school Veterans Day assembly today. I didn’t get everything I wanted to say in, but it seemed to go over well.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          November 9, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            7 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/navy">navy</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/imac-two-months-in/" title="Two Months With iMac Prime">
+        <h5>
+          Two Months With iMac Prime
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>The 27” iMac 5K is unquestionably the best computer I’ve ever owned. After two months of daily use, for twelve to fourteen hours per day, I can say without reservation that this machine is fantastic. Obviously, I’m late to the bandwagon on this, better reviews than what I would write <a href="https://sixcolors.com/post/2014/10/review-27-inch-imac-with-retina-5k-display/">have</a> <a href="https://www.imore.com/retina-5k-imac-review">already</a> <a href="https://www.macworld.com/article/2842025/mac-computers/review-imac-with-retina-5k-display-is-among-apple-s-brightest-lights.html">been</a> <a href="https://www.macstories.net/news/the-27-inch-imac-with-retina-5k-display/">written</a>, and although those reviews are from 2014, they hold up well enough for the 2017 upgrade too. The screen is beautiful, like a massive glossy magazine. The machine is fast enough so I <em>nearly</em> never have to wait. Basically, it’s everything I need from a computer.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          November 8, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            4 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/mac">mac</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/favorite-things-about-fall/" title="My Favorite Things About Fall 🍁🍂">
+        <h5>
+          My Favorite Things About Fall 🍁🍂
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p><a href="https://www.relay.fm/topfour">Top Four</a> is one of my favorite podcasts. Possibly my number one, although its probably tied with <a href="http://atp.fm">ATP</a> and <a href="https://daringfireball.net/thetalkshow/">The Talk Show</a>. It’s a strong contender. Marco and Tif Arment chat about some random group of things, and attempt to rank said things, usually failing because they can’t make up their minds. It’s adorable. It’s clear that the two of them are having a good time, and listening always makes me laugh.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          October 26, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/fun">fun</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/The_City_Museum/" title="The City Museum">
+        <h5>
+          The City Museum
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>I’m in St. Louis for the <a href="https://thestrangeloop.com">Strange Loop conference</a>, and the conference kicked off last night with a party at the <a href="https://www.citymuseum.org">City Museum</a>. I didn’t bother to look into the museum much before I came. A few friends told me a bit about it, but it wasn’t enough for me to really understand what the museum was; the City Museum isn’t a museum, its a mad amusement park.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          September 29, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/personal">personal</a>
+          
+            <a href="/tag/work">work</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Running_Again/" title="Running Again">
+        <h5>
+          Running Again
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>At the beginning of Spring, I signed up for two races, the half-marathon <a href="http://damtodam.com">Dam to Dam</a> in the summer, and the full Des Moines Marathon in October. This was my second half, but I’d never come close to a full marathon, so signing up for it was aspirational motivation. I was training with a group running long on Saturday mornings, so as the time for the half approached and I started thinking about the full, I was feeling more and more confident that I would actually be able to run it. Then I ran the half, and things went wrong.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 29, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            5 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/running">running</a>
+          
+            <a href="/tag/health">health</a>
+          
+            <a href="/tag/personal">personal</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item ">
+      <a href="/Serverless_Jekyll_Hosting_on_AWS/" title="Serverless Jekyll Hosting on AWS">
+        <h5>
+          Serverless Jekyll Hosting on AWS
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>This is a bit silly, I’ll be the first to admit. The contraption I’ve built to host this site is clearly unnecessary, especially when I could host the site on <a href="https://pages.github.com">Github</a> for free, with very little effort, but I was curious, so down the rabbit hole I went.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          July 7, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/aws">aws</a>
+          
+            <a href="/tag/jekyll">jekyll</a>
+          
+            <a href="/tag/blogging">blogging</a>
+          
+        </div>
+      </div>
+    </li>
+  
+  
+    <li class="article-pagination ">
+      
+        <a href="/posts/page/2/" class="article-pagination-left"><svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-left">
+  <use href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left" xlink:href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left"></use>
+</svg>
+ Older posts</a>
+      
+      
+    </li>
+  
 </ul>
+
+        <footer class="footer ">
+  <p>
+Copyright © 2007-2019 Jonathan Buys
+  </p>
+  <p>
+  ISSN: 2161-8119
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  <script src="/assets/vendor-0fb4b91f7ad6c193a69224eba7a01b691a2d7528ee672607575ccc0df3aea545.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+  <script src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js" type="text/javascript"></script>
+
+</body>
+</html>

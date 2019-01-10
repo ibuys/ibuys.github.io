@@ -1,4 +1,0 @@
----
-slug: paragraphs
-name: paragraphs
----

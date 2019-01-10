@@ -1,4 +1,0 @@
----
-slug: quote
-name: quote
----

@@ -1,4 +1,0 @@
----
-slug: ipad
-name: ipad
----
