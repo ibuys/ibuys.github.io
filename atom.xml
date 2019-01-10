@@ -10,6 +10,27 @@
         <title>Merging the Mac and the iPad</title>
         <description></description>
         <pubDate>Thu, 10 Jan 2019 05:21:44 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>It seems undeniable that, <a href="http://atp.fm">given an infinite timescale</a>, Apple will eventually simplify their two most popular systems into a single platform. Merging MacOS and iOS would, theoretically anyway, provide the users with the best of both worlds, and developers would finally have a single platform to target instead of two. This concept seems to run counter to what Apple executives have said in the past about the Mac, specifically that “<a href="https://www.macworld.com/article/2090829/macs/apple-executives-on-the-mac-at-30-the-mac-keeps-going-forever.html">the Mac keeps going forever</a>”, but the interview that statement comes from is five years old now, which… in silicon valley terms, really is forever ago.</p>
+
+<p>Since then we’ve seen some interesting ideas come to market, like Microsoft’s <a href="https://en.wikipedia.org/wiki/Surface_Studio">Surface Studio</a>, a desktop computer with a 27” 4k touchscreen and stylus , <a href="https://www.youtube.com/watch?v=XBBF4X-frOU">and an odd dial</a> that can sit either on the desk or directly on the screen. Samsung is hooking their Galaxy phones up to a keyboard, monitor, and mouse to use the phone as a desktop computer through <a href="https://www.samsung.com/us/explore/dex/">the DeX dock</a>. Outside of Apple, touchscreens on mobile computers are nearly ubiquitous, from Windows 10 PCs to convertible Chromebooks. Inside of Apple though, we’ve seen almost no crossing of the streams… <em>almost</em>.</p>
+
+<p>The iPad Pro is a computer unlike any other. Incredibly powerful, but hamstrung by limited software and user interaction capabilities. Geek Bench <a href="https://browser.geekbench.com/ios-benchmarks">scores are impressive</a>, but you can’t hook up a thumb drive. It looks like a good device for free-form drawing and artistic work, but outside of basic static sties you can’t use it for web development. More than anything, iOS’s reimagining of an operating system for the modern, mobile world eschews decades of proven user experience work that’s gone into the MacOS user interface. MacOS is consistent, discoverable, and reliable. A good Mac app behaves similarly to the other apps that run on the Mac. Copy &amp; paste, <a href="https://daringfireball.net/2018/12/ios_still_hasnt_gotten_undo_right">undo &amp; redo</a>, and <a href="https://mattgemmell.com/mac-keyboard-shortcuts/">standard keyboard shortcuts</a> function the same across well-designed 3rd party apps and Apple’s own bundled apps. At least they did, until Mojave.</p>
+
+<p>Mojave introduced four new bundled applications to the Mac. Home, News, Stocks, &amp; Voice Memos were ported directly over from iOS using an as-yet-unnamed unified development framework popularly referred to as <a href="https://www.imore.com/marzipan">Marzipan</a>. Apparently the framework is only half-baked, because the apps themselves do not at all act like they belong on the platform. Keyboard shortcuts are missing, UI elements are entirely out of place, it’s a mess. On a recent episode of <a href="https://daringfireball.net/thetalkshow/2018/12/24/ep-238">The Talk Show</a>, Jason Snell and John Gruber discuss the future of these apps, and Snell suggests that what makes a “Mac app” might be changing to meld around what these new iOS apps on the Mac become once the framework is more stable. Niether Jason nor John are slouches when it comes to discussing the Mac, but in this particular case I think Jason is wrong.</p>
+
+<p>What makes a good Mac app is not an indiscernable feel or look to the application. A good Mac app behaves the way that the Mac has taught people to expect applications to behave since 1984. That’s how an application looks and feels like it belongs on the Mac, when things are where they are expected to be, and the application responds as expected when the user interacts with it. If Apple wants to bring iOS apps to the Mac, I certainly hope they have more in store <a href="http://benjaminmayo.co.uk/marzipan">than this</a>. These iOS apps are going to have to learn to behave how the users of the platform expect them to behave, not the other way around.</p>
+
+<p>In many ways, I think Apple found themselves at this crossroads almost on accident. In fact, I think the “macification” of the iPad is to its detriment. iOS was never meant to be used the way the iPad Pro is advertised. Features like multitasking and windowing seem like they were wedged into the OS when Apple found themselves with a less popular platform than they’d hoped. Apple thought that the iPad was the future of computing… <a href="https://marco.org/2017/01/31/the-wrong-future">what if they’re wrong</a>?</p>
+
+<p>Apple stubbornly wants the iPad to be the future of computing, so they’ve been focusing on making it more capable for <em>power users</em>, adding more and more hardware power and confusing the pure simplicity of iOS with undiscoverable features and unfulfilled promises. What if, in the next couple years, Apple decides to right the ship and build a truly <em>good</em> MacBook/iOS hybrid?</p>
+
+<p>What about <a href="http://atp.fm/episodes/306">an ARM mac</a> with a detachable touchscreen? Or one that folds over on itself? What if Apple learned all the best lessons from Microsoft’s experiments with their Surface lineup and <em>did it right</em> with the Mac? What about an iMac you can draw on? I’d love to be able to create my OmniGraffle drawings on my Mac with a huge canvas and an Apple Pencil. I’d love to be able to use touch on my Mac to interact with the UI when appropriate, and use the trackpad and keyboard when not. Let the Mac grow the way the users actually want it to grow and let the iPad go back to being <em>just</em> the best tablet on the market. Apple could simplify iOS again, and concentrate on making the Mac the best tool for <a href="https://jonathanbuys.com/A_New_macOS/">getting things done</a>.</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/Merging_the_Mac_and_the_iPad/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/Merging_the_Mac_and_the_iPad/</guid>
       </item>
@@ -18,6 +39,21 @@
         <title>A Dream Jekyll App</title>
         <description></description>
         <pubDate>Mon, 07 Jan 2019 08:09:31 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>I’ve never been 100% happy with this site. On the one hand, Jekyll lets me have full control of my content, and I never have to worry about losing any of it or having anything locked inside a database on a server somewhere. On the other hand, things like adding media is more complicated than I’d like. I’ve written scripts to help, of course, but I’d really rather have the best of both worlds.</p>
+
+<p>I’ve considered creating an application to manage this for me. Like <a href="https://www.red-sweater.com/marsedit/">MarsEdit</a> for Jekyll and GitHub Pages. A text editor with a git client and an understanding of Jekyll site structure. It could even let the user sign up for GitHub and setup the repository. I thought I might setup my old Paragraphs app to do this for me… I could tear out the site rendering code and replace it with a wrapper around a libgit2. But, the text editor in Paragraphs needs a lot of work, and there would be multiple parts of the app that would need considerable rework to get it to an even <em>barely functional</em> state. The other option would be to create a new app from scratch, but at this point if you aren’t creating an iOS app in Swift when starting anew what are you even doing with your life? Problem is I don’t know either Swift or iOS development. My skills in this area are basically outdated.</p>
+
+<p>A search for “Jekyll” in the Mac App Store finds one result, for a “markup viewer” app with dubious usefulness. A quick Duck search finds a couple people with the same idea, one that setup a web GUI, which is not at all what I’m talking about, and one that started something five years ago and never finished it. From what I can tell, the app that I want doesn’t exist. Too bad <a href="https://ulysses.app">Ulysses</a> and <a href="https://ia.net/writer">IA Writer</a> added support for Medium into their apps instead of GitHub pages.</p>
+
+<p>So should I build this app or not? It’s basically a text editor that you can drop media on, hit publish, and have it push the site to GitHub. The same thing I have now, but automated, simple, and beautiful. Is there a market for this style of app? Would GitHub allow it? Could I learn the skills required to create it in a reasonable time? iOS development is supposed to be easier than macOS… but I’m not sure that applies when you’re carrying so much baggage around from the old style of development.</p>
+
+<p>In the end, I’m not sure it’d be worth the effort for me. I’ve already got a beautiful text editor, and my scripts and workflows make it simple for me to create and publish new posts. I think I’ve talked myself out of building this app myself, but darned if I wouldn’t love for someone else to build it.</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/a_dream_jekyll_app/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/a_dream_jekyll_app/</guid>
       </item>
@@ -26,6 +62,17 @@
         <title>It's the Price</title>
         <description></description>
         <pubDate>Fri, 04 Jan 2019 08:19:30 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>The recent hubbub about <a href="https://daringfireball.net/2019/01/apples_terrible_no_good_very_bad_earnings_warning">Apple’s earnings guidance</a> has “analysts” and pundits talking a lot about China and the global economic situation. I’m sure there’s something to all that, but my take is simpler… the new iPhones are priced too high.</p>
+
+<p>I’m not ready to spend a thousand bucks on a new phone, even though the X-series looks very nice. I’ve talked to several other people who feel the same way I do, one just this morning, even though we are both still running the 6S. Personally, at this price, I’ll keep running my phone till it doesn’t work anymore.</p>
+
+<p>Of course, if Apple came out with a real successor to the iPhone SE, maybe an X-series SE at a similar price point as the previous SE, I’d be very interested in that. But, we’ll see how the next year or so plays out.</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/The_Beauty_of_a_Clean_Slate/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/The_Beauty_of_a_Clean_Slate/</guid>
       </item>
@@ -34,6 +81,30 @@
         <title>An Optimistic 2019</title>
         <description></description>
         <pubDate>Wed, 02 Jan 2019 08:52:47 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>CPG Gray and Myke Hurley have been talking about assigning a <em>theme</em> to a year on their <a href="https://www.relay.fm/cortex">Cortex podcast</a>, in lieu of new year’s resolutions. I quite like this idea, and I’ve decided to adopt it. I’ve decided that my personal theme for 2019 is <strong>finishing</strong>.</p>
+
+<p>Over the years I’ve started, made significant progress, and then dropped several projects once they got to a state I considered “good enough”. I care about the projects too much to drop them completely, but I’ve lacked the motivation to drive them the final mile to completion.</p>
+
+<p>I’ve waffled a bit on adopting this theme because there is something to be said for leaving things behind that don’t work, but after considering it for a while it actually fits perfectly. It’s time to make a decision. This year, I’ll either finish the project, or leave it behind forever.</p>
+
+<p>So, what kind of projects?</p>
+
+<ul>
+  <li>This site</li>
+  <li><a href="https://github.com/ibuys">My old Mac apps</a></li>
+  <li>The NaNoWriMo Manuscript</li>
+  <li>Basement living spaces (trim, new carpet, etc…)</li>
+  <li>Landscaping</li>
+  <li>Running a marathon</li>
+</ul>
+
+<p>A lot of this falls under the heading of “one of these days…”; adopting <em>finishing</em> as my theme of the year is mentally preparing myself for the fact that the day has come. Posting here is just further motivation not to publicly embarrass myself by not following through. This time next year, we’ll see how much I was actually able to get done, and what got left behind.</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/An_Optimistic_2019/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/An_Optimistic_2019/</guid>
       </item>
@@ -42,6 +113,12 @@
         <title>Merry Christmas</title>
         <description></description>
         <pubDate>Mon, 24 Dec 2018 00:16:25 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>Let’s give generously this Christmas, and here’s to a happy new year. May the peace of Christ, which surpasses all understanding, guard your hearts and minds in the coming months.</p>
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/merry_christmas/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/merry_christmas/</guid>
       </item>
@@ -50,6 +127,35 @@
         <title>Software Subscriptions and Bundled Apps</title>
         <description></description>
         <pubDate>Mon, 17 Dec 2018 07:01:56 -0600</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>The Omni Group’s recent announcement that they’d have a subscription option for OmniFocus has me thinking about how I’m going to be handling third-party software in the future. I’m not angry at them, they are still (for now) offering OmniFocus for purchase, but I wonder how much longer they’ll want to keep with the old-style model of licensing when and if subscriptions turn out to be far more lucrative.</p>
+
+<p>On the one hand, software developers need a sustainable business model, and if the market of available Mac users to sell to is not getting any bigger, they need to figure out how to keep getting money out of the people they’ve already sold to. It’s a simple enough equation. On the other hand though, we could wind up with a lot of subscriptions. Off the top of my head I’ve already got:</p>
+
+<ul>
+  <li>Cable TV</li>
+  <li>Netflix</li>
+  <li>Hulu</li>
+  <li>Amazon Prime</li>
+  <li>My local paper (Yep, I still read the paper)</li>
+  <li>Apple Music</li>
+  <li>2 TB of iCloud Drive</li>
+  <li>SiriusXM</li>
+</ul>
+
+<p>To be honest, the list is a bit ridiculous, but different people in my household enjoy different things, and so here we are. Hopefully several of these will be cancelled in the next year or two.</p>
+
+<p>I’ve tended to avoid most software subscriptions. When TextExpander switched to a subscription I exported all my snippets and bought Keyboard Maestro. Over the past year I’ve cancelled Bear and Ulysses, opting instead for Apple’s Notes app for the former, and nothing yet for the latter. When I start working on my novel again, it’s likely that I’ll switch to Scrivner, unless they too go to subscriptions, at which point I’ll probably toss a coin between the two.</p>
+
+<p>Bear was already in a bit of a precarious position because the bundled Notes app Apple makes has gotten so good in the past few years. OmniFocus is in a similar position with Reminders. While Reminders and OmniFocus are two very different apps, at the core they both do the same thing, give me lists of tasks to do. OmniFocus is obviously far more powerful, and better at giving me the right thing to work on at the right time, but I could get by with Reminders. Come to think of it, I could get by with pen and paper… I did so for years before I converted to OmniFocus.</p>
+
+<p>Being “Sherlocked” has never been a good thing for developers. They are always in a better position when their application offers something that Apple is unlikely to copy or absorb into their operating system. MindNode for example, Day One and OmniGraffle come to mind as well. If developers are going to be asking consumers for more money, the value of the software they deliver must be significantly higher than what is available for free out of the box with macOS.</p>
+
+<p>I truly want to see the Apple developer community thrive, but I’m not sure how far I’m willing to go with them on this journey to everything being a subscription.</p>
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/Software_Subsciptions_and_Native_Apps/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/Software_Subsciptions_and_Native_Apps/</guid>
       </item>
@@ -58,6 +164,34 @@
         <title>The 2018 iPad Pro</title>
         <description></description>
         <pubDate>Wed, 31 Oct 2018 04:46:04 -0500</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>Sometimes even I get caught up in waves of pessimism, and the recent onslaught of negativity against smart phones, social media, and technology in general has been no exception. It was while I was mulling over the affect of technology on our society that I watched the most recent Apple event where they released an updated MacBook Air, Mac Mini, and a new line of iPad Pros. The Air and the Mini look great, although it’s too bad that they are more expensive than previous models. What really caught my attention though were the iPads.</p>
+
+<p>I’m drawn to the iPad in a way that’s difficult to explain. It’s an embodiment of an optimistic view of the future of technology and society, where our computing devices silently and invisibly do their jobs in the background of our lives. Apple likes to use the term “magical” in their marketing copy, and while I don’t like the term used in the way they do, I think it does somewhat apply to the iPad<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. A pane of glass the size of a sheet of paper that becomes whatever the app on it is. The rest of the device disappears behind the application, so that what you are holding is an email, a web browser, a game, a calendar… whatever you need it to be. Your gateway to knowledge, work, and entertainment looks <a href="https://pbs.twimg.com/media/CdCCB0NXEAAYG7r.jpg">less like this</a>, and <a href="https://cdn.cultofmac.com/wp-content/uploads/2012/10/stevejobsipad-e1349433508120.jpg">more like this</a>.</p>
+
+<p>The iPad is a device designed to fit into a natural way of living. What can be more fitting than sitting down with something you can hold in your hand and examining it? Or walking around with it and taking notes of the things you see? In many ways the Apple Watch is the best current example of invisible technology. It sits on my wrist and silently enhances my day, encouraging me to be more healthy, active, and to take time to be still and breath once in a while. I’ll have more to say about the watch at a later date, probably a one-year review. So far, I’ve worn it every day since I got it for Christmas last year.</p>
+
+<p>Of course, humans being the ridiculous creatures that we are, we always find ways to <a href="https://en.wikipedia.org/wiki/Mobile_phone_overuse">screw things up</a>. What good thing has humanity not decided to take too much of? I like the iPad, and the iPhone too, but what I don’t like are the applications that have been designed to prey on innate weaknesses in the human psyche. Like rats in a maze, we get hits of dopamine in our brains when we see someone “liked” something we’ve shared. Sites like Facebook, Twitter, Instagram, and Snapchat have been intentionally designed specifically to target those areas of the brain that are susceptible to addiction. This is bad, but it’s not the iPad or iPhone’s fault.</p>
+
+<p>These devices are <em>tools</em>. Amazing, incredible, mind-boggling tools, but still tools. What’s important to remember is that the iPad becomes whatever app you are running at the time. So if you run Snapchat, that’s what the device <em>is</em>. On the other hand, if you run OmniFocus, the iPad becomes something else entirely. The problem is not in the technology; it is, of course, <em>in us</em>. Luckily, I think that’s the conclusion the rest of the world will come to eventually as well. Technology advances so much faster than social norms can keep up with, it takes us a while to realize what we are doing to ourselves. Like smoking, it’s my opinion that social media without limits, as we know it now, will be regulated to the fringes within a generation.</p>
+
+<p>Finally, now that I’ve talked myself out of running away to the woods and living in a cave for the rest of my life, what about that new iPad Pro?</p>
+
+<p><a href="https://www.macstories.net/news/the-new-129-and-11-inch-ipad-pros-the-macstories-overview/">MacStories</a> and <a href="https://sixcolors.com/post/2018/10/brooklyn-event-impressions-the-ipad-pro-is-a-computer/">Six Colors</a> have good initial write-ups, but what caught my eye the most was the switch from a lightning port to USB-C. My ears pricked up when Apple highlighted during the keynote that you could use this port to hook straight up to an external monitor, which is one of the <a href="https://jonathanbuys.com/Using_a_Mac/">items on my list</a> of what the iPad needs to be a working machine for <em>most</em> people. The external monitor support looks pretty limited however, leaving it up to the application for how they wish to deal with it. Par for the course so far, it seems the hardware for the iPad is miles ahead of the software.</p>
+
+<p>But does it really matter in my concept of future work and how I’d <em>like</em> to work? I’m not sure it does anymore. If my dream of future technology is to be able to pick up my workspace and walk anywhere and be able to sit down and get right to work, perhaps the iPad is closer now than it ever has been in the past. I still need to be able to type, but I also need to read and take notes, participate in meetings, make network diagrams, and interact with the various web-based consoles I depend on for my work. Of course, I could do all that with a MacBook now, but a MacBook brings with it macOS and a long history of computing ideas that iOS eschews. Perhaps my list is not as important as I thought. Maybe the 2018 iPad Pro is the device I’ve been waiting for to make the technology necessary in my life disappear. I’m intrigued once again.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I still extremely dislike the name “iPad”. “Slate” or “Canvas” would have been so much better. It’s too bad Apple married themselves to the “iSomething” moniker. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/The_2018_iPad_Pro/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/The_2018_iPad_Pro/</guid>
       </item>
@@ -66,6 +200,44 @@
         <title>The Typewriter Project</title>
         <description></description>
         <pubDate>Thu, 25 Oct 2018 04:46:04 -0500</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p><img src="/media/type_desk.jpg" alt="the desk" /></p>
+
+<p>A phrase I’ve found myself repeating to friends and family from time to time recently is that “some things used to be better”. As a technologist, and an optimist, I’m normally very positive about the future, but lately I’ve come to think about the place some modern technology has in our lives as increasingly negative. I’m rethinking, yet again, our relationship with the many devices we’ve invited into our lives.</p>
+
+<p>While I was pondering this topic and waiting for the mechanic to finish with my car I wandered into a second-hand store and found this beauty of a machine on sale for $5. Of course I brought it home. The typewriter is a Montgomery Ward Signature 440T, made in Nagoya, Japan in 1968<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. It appears to be in perfect working order, although it’s extremely dirty inside. My intention is to restore it as best I can, which for the moment I believe means taking it apart and cleaning it, then putting it back together. I’ll put a new ribbon on it, and from there I think it’ll be ready to type.</p>
+
+<p><img src="/media/typewriter.jpg" alt="the desk" /></p>
+
+<p>Perhaps I’ll send out a letter or two with it. Maybe address envelops. I don’t know that it’s really got a lot of practical use other than looking cool on my desk, but it’s a project, a hobby, and things done for fun don’t need to be practical.</p>
+
+<p>The machine is entirely mechanical. No electricity, and it’s lasted fifty years so far. I imagine it could last another fifty if I take care of it. I don’t think I can say the same about my iPhone or the iMac I’m writing this on. Eventually the components in both devices will wear out. The battery will fail to take a charge, the screen will start to fade, the drives will start to give errors. Things break over time, and in our disposable culture the answer is to throw it away and buy another one. Meanwhile, the typewriter I bought for five bucks has lasted for fifty years.</p>
+
+<p>It’s a single-purpose machine. Created back before attention was a sparse commodity. Before the Internet, before smartphones, before twitter or facebook. All gears and pulleys, levers and hammers. You have to think hard about what you are writing, and not make any mistakes while typing. If you do you have to pull the entire page out and start over again.</p>
+
+<p>I’ve been thinking about what we’ve lost, and what we’ve gained over the years. It’s true that the Internet enables new business models, my own included, but are we really better off now? I’m not sure we can objectively say that the Internet has made the world a better place. Have smartphones made us happier? Research says we are now more alone and isolated than ever, with increasing rates of depression and negativity. Politically we are at each others throats, failing to see the world as it is and instead seeing it through the lens of partisanship. 24-hour news creates catastrophes where there were none, everything is an emergency.</p>
+
+<p>In the middle of all this, we are struggling to find peace, happiness, acceptance, and love. The Amish reject any technology that they feel would pull them apart instead of bringing them closer together. I think they are on to something there. Of course, I have no intention of converting, but it does leave me wondering “where do we go from here?”</p>
+
+<p>I’ve said for a while that I thought the best technology was nearly invisible, silently enhancing our lives in the background while we go about our day. Unfortunately, today’s technology has been developed to provide what people <em>want</em>, but too often ignores what they <em>need</em>. I wonder if what we need most is a cultural shift to view the negative aspects of technology as being as harmful to us as cigarettes and alcohol. Sure, the smoker loves to smoke, but it’s killing him. Looks like all of us love social media too, but it’s breaking us from the inside. There’s something about the psychology of being online that changes our behavior in ways that are completely aberrant.</p>
+
+<p>The affects of computers and the internet on our society are compounding. My wife is a teacher, and the school started giving the kids computers years ago. Now she’s thinking about going back to books and paper just so she can get the kids to pay attention to the class and not be distracted by what the computer provides. What will happen to these kids in the next ten to fifteen years? Will they be able to concentrate on hard problems at all?</p>
+
+<p>For thousands of years people lived pretty much the same from one generation to the next. Technology has always advanced, but never so fast as it has in the past one-hundred years. So much has changed at such an unprecedented pace. Our psyches and our bodies are not prepared for what the technology has given us.</p>
+
+<p>It’s possible that I’m getting to a certain age where people tend to reminisce about how things were when they were young, but I don’t feel like I’m quite that old yet. It’s just a different world now. Is it the world we want it to be? I wonder. I look at my typewriter project and wonder.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Serial Number L9373629, if you want to know. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/The_Typewriter_Project/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/The_Typewriter_Project/</guid>
       </item>
@@ -74,6 +246,35 @@
         <title>Less, But Better</title>
         <description></description>
         <pubDate>Thu, 06 Sep 2018 04:24:11 -0500</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>I’m becoming increasingly interested in an emerging line of Eink devices that intentionally do less than other devices in the same category. Of course, the oldest and most widely known device is the Amazon Kindle, which my wife still claims as the best gift I ever gave her.</p>
+
+<p><img src="/media/kindle.jpg" /></p>
+
+<p>It’s thin, and about the width and height of a paperback book, but light enough to throw in her purse. The battery lasts for weeks and she devours books on it. It is a single-purpose device that excels at that purpose, even though there are other tablets that can do more, and are similar in size and price. They do more, but they don’t do the one thing she wants to do with the device quite as well.</p>
+
+<p>The next logical step up from the kindle is <a href="https://remarkable.com">reMarkable</a>, “the paper tablet”. An Eink tablet dedicated to being an electronic notebook, and <em>only</em> an electronic notebook. The reMarkable comes with a special purpose stylus that lets you write and draw on the tablet, including marking up PDFs. There are no “apps” for the tablet, no internet access, just the tablet, the stylus, and your thoughts. If the price point for the tablet were not so high, I’d consider getting one myself, but at $600 it’s still a bit steep for me. But… <em>maybe</em>.</p>
+
+<p>If I were to decide on getting a reMarkable, I’d most likely also back the <a href="https://www.indiegogo.com/projects/light-phone-2#/">Light Phone II</a>.</p>
+
+<p><img src="/media/lightphone.png" /></p>
+
+<p>This is a phone that intentionally only does a small handful of tasks. Phone calls, texts, a contacts list, and an alarm clock. The original Light Phone was meant to be paired with your smartphone, this one is intended to stand alone. It’s been a few years since I went without an iPhone, and I honestly have mixed feelings about the possibility of going back. But the Light Phone doesn’t <em>feel</em> like going backwards, it feels like the next step forward.</p>
+
+<p>Moving forward, like this <a href="https://www.android.com/object/vote/magic-calendar/">calendar concept</a> from <a href="http://www.koshotsuboi.com/index.html">Kosho Tsuboi Design</a>.</p>
+
+<p><img src="/media/magic-calendar.jpg" /></p>
+
+<p>A beautifully conceptualized calendar intended to hang on the wall of your home. Unfortunately, we can’t go out and buy this calendar just yet. I believe we are still waiting on the technology to advance sufficiently for it to be a reasonable purchase. But, the concept behind it is in a similar vein to the previous three items. A dedicated device that does one thing, does it <em>very</em> well, is low power, low maintenance, and just blends into the background of your life. It becomes the invisible computing goal I’ve been pursuing for the past fifteen years.</p>
+
+<p>For the longest time I thought Apple was going to be the one to deliver on invisible computing, and I still think they’ve got a foot in the door. However, I can’t help but think how much better an Apple Watch might be if it had an Eink display and was dedicated solely to fitness tracking and telling me the time. What would a MacBook with an Eink display and an arm processor look like? A dedicated writing machine with a battery that lasted for weeks? If nothing else it’s an interesting thought experiment.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Dieter_Rams">Dieter Rams</a> applied the phrase “less but better” to his approach to design, I apply it to what I want out of life. Less busyness, less junk, less drama, better relationships, better activities, better adventures. In the same way that I want to own less things, but better things, I want the devices I own to do less, but to do it better than their multifunction counterparts. Most of all, I want the devices we own to respect the humanity in our lives, not exploit our psychology for corporate greed. There’s truth in what these projects are doing, but will it be enough to be successful?</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/Less,_But_Better/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/Less,_But_Better/</guid>
       </item>
@@ -82,6 +283,47 @@
         <title>Taking Notes</title>
         <description></description>
         <pubDate>Wed, 29 Aug 2018 09:30:29 -0500</pubDate>
+            <content type="html">
+            <![CDATA[
+                <p>I loved Yojimbo for many years. I still think it’s the most “Mac-like” app for taking notes and storing data. The best thing about it was that when capturing data with the hotkey, it would look at your clipboard before presenting you with a UI, and customize the UI for the data. It was fast, fit in perfectly with the Mac, and was rock-solid reliable.</p>
+
+<p>But, time passed, things changed, the iPhone changed computing forever, and Yojimbo just didn’t keep up. it didn’t adopt a widescreen view, it didn’t offer iCloud sync, it didn’t have an iPhone app, it didn’t adopt the new UI widgets for the toolbar, it didn’t adopt Markdown, etc…. It still works, but it feels old and stagnate.</p>
+
+<p>I’ve talked to the devs a few times, and they always give the same feedback. No future plans for an iPhone app. No plans to change anything, just to keep it running as is. So, I too started looking elsewhere.</p>
+
+<p><em>DEVONthink</em></p>
+
+<p>Great app, really, but holy cow is it deep and complicated. It can do so much, whenever I spend a significant amount of time using it I start to feel overwhelmed and start questioning how much I really need a single app to do everything when there are individual apps that do things better. Like the text editor, and the PDF markup. Hazel can automatically file things for you, although not based on AI, but it does a good job.</p>
+
+<p>The ability to capture text and web archives is good. And if you really need deep textual analysis of your data, this is the way to go. If not, there are other alternatives.</p>
+
+<p><em>Evernote</em></p>
+
+<p>Did you know Evernote use to be an app that was just one long page? That might have been an early beta or something, I don’t know. Anyway, again, for capturing text and web content, it does a great job, but it’s not really Mac-like, and it’s still a bit of a roach motel for data. Also, I’ve run into weird limits on things when I really start digging in. For me, I’d rather my data stayed on my Mac in a format that I can move around. Except…</p>
+
+<p><em>Bear</em></p>
+
+<p>My current favorite for managing text, some images, and some captured web content. It doesn’t save web archives, but the Safari plugin will grab the text of the page you are looking at and try to extract the text to Markdown. It does a fair job. Great for storing bits of code and random pieces of information that I know I’ll need later.</p>
+
+<p><em>Apple Notes</em></p>
+
+<p>Rich text formatting leaves something to be desired, but syncing is solid and Notes does a good job of being a reliable place to put data. If Apple merged the best of Notes and Bear we’d have a winner. That stupid textured background always annoys me though.</p>
+
+<p><em>Eagle Filer</em></p>
+
+<p>A lot like Yojimbo, but it gets updated far more often and keeps data in an open format. Unfortunately it also suffers from the same drawbacks in sync and iOS companion apps. And it also looks dated to my eyes :man_shrugging:t2:.</p>
+
+<p><em>Everything Else</em></p>
+
+<p>Let’s not forget crowd favorite Simplenote + NVAlt, which I suppose is still a thing but I’m not sure Brett is ever going to release that updated NVAlt replacement. Then there’s Microsoft’s OneNote, which Circus Ponies blames for killing their Notebook app. If you’re into Microsoft, I guess that’s another way to go. There’s Keep It Together, which I think was renamed just “Together”, and I think abandoned. There’s StickyBrain, which became SOHO Notes, which is now Notelife… I guess? Oh, and let’s not forget the new hotness of Agenda, which combines Notes and a Calendar.</p>
+
+<p><em>The Finder</em></p>
+
+<p>Overwhelmed? Me too. That’s why I just went back to the Finder. I feel your pain, I really do. I’ve tried every application, method, and system out there to manage my data, and I still don’t have a perfect system. If Yojimbo was modernized and an iPhone app created, I think I’d have it, but as it is, Bare Bones just doesn’t have the motivation to work on it.</p>
+
+
+            ]]>
+            </content>
         <link>https://jonathanbuys.com/Taking_Notes/</link>
         <guid isPermaLink="true">https://jonathanbuys.com/Taking_Notes/</guid>
       </item>
