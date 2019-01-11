@@ -1,0 +1,7 @@
+---
+layout: microblog-post
+title: chirp, chirp
+date: 2017-11-22 09:37:30
+---
+ 
+Enjoying rediscovering indie Mac applications and the open web. Things we lost along the way, but some of us are keeping it alive.

@@ -1,0 +1,32 @@
+---
+layout: post
+title: osvids
+tags: [online, indie, osvids]
+---
+
+I've been writing online since around 2000, starting with a [geocities][1] site. After that, I had a [50megs.com][2] site that offered *gasp* 50 Megabytes of online storage! (Just noticed, they still do!)  After a couple of years, I noticed a company named [1and1][3] that was offering three years of free hosting and the domain of your choice. That was a deal I couldn't pass up, and I grabbed the domain name sourceport.org. I used the domain, but didn't get a whole lot accomplished with it. I used it for a while to sell PCs as firewalls with [OpenBSD][4], but that didn't end well, so then I started a [Wordpress][5] blog with that domain name. Unfortunately, the person who owns the sourceport dot com address had a beef with me, so I moved the blog over to a new domain: jonstechblog.com. While I was using this blog, I moved away from wordpress and started using a Mac application named [RapidWeaver][6]. I switched to RapidWeaver because it made the task of posting videos of Linux distros that I was testing out easy. I was testing the distros anyway, so I figured, why not share it with the world.
+
+One day, I got an email from the guys at [OSDir][7], asking about a "link exchange". It turns out he thought I was on to something, and that he was toying with the same idea. He donated all of his videos to me, we exchanged links, and osvids.com was born. OSVids was a big hit, and got very popular very fast, starting with an interview I did with Tina Gasperson from NewsForge.
+
+It turns out that the site grew too popular too fast. When I first started uploading the videos, I was encoding them with quicktime, which turned out to be a very bad idea from a usability standpoint for my target audience. The Linux crowd demanded an open format, so I offered downloads in [Ogg-Vorbis][8] format in addition to switching to the more widely deployed flash. Starting out with Quicktime had another very bad side effect: bandwidth. The quicktime files were huge, and I went from a negligible bandwidth use to 1.5 Terabytes in one month. This took a toll on my wallet in a big way. I noticed an advertisement for a hosting company that claimed "Unlimited Bandwidth!", so I signed up and moved OSVids over to their servers. Another bad idea. I learned quickly that there is no such thing as "unlimited bandwidth", as OSVids quickly brought there servers to a screeching halt. I complained, they tried to respond, and eventually I moved the site back over to 1and1. Even on shared hosting, 1and1's servers never skipped a beat, and I never had any downtime with them. But, like I said, I paid for it.
+
+I kept up the site for a few months steadily adding videos of new distros as they were released. Then, several things happened in my personal and professional life that caused OSVids to begin a slow but steady decline. The most major item was the loss of hardware. Through some unfortunate events, I lost the nice IBM laptop that I was using to create the videos. I tried using my Mac, but the resolution was too low on the iBook, and even after upgrading to a MacBook, the resolution was far too low. In addition, we sold our house, moved to a new state, I had to find a new job, and we had some semi-serious in-law issues. The biggest news was finding out that we were expecting. So, I tried several different approaches to make OSVids work, but in the end I had to shut the site down. Not because it didn't get any traffic, it did, but... it was an *open loop that needed to be closed*, and I couldn't find anyone who wanted to take the time to do all the video encoding and manual coding of the web site that made OSVids run. I lost most of the data from the site, but what I found I uploaded to [YouTube][9].
+
+I started this blog a few months after loosing OSVids. I needed to completely reboot my online presence. I found that what I really needed was more time offline, to really think about why I wanted to write, and what I wanted to write about. After some thought, I've decided on a simple blog hosted here on github. 
+
+I've been inspired by [Daring Fireball][10], and [Dive into Mark][11], and a host of other great sites. I hope that over the years as my writing voice develops I'll be able to look back on what I've written here and see my work progress. I do not write this blog for it to be popular, I write it because I love to write.
+
+The loss of OSVids was unfortunate, but really inevitable. Even without my life going nuts at the time, the rise of YouTube, Google Video, and all the other video sharing sites quickly made my hand-coding and inability to accept submissions from fans obsolete. Perhaps there is still room for OSVids. I still own the osvids.net domain, and I've been contemplating bringing it back. For now, I've really come full circle, but as a much more experienced writer. In the end, its just me and my blog, but if you'd care to join me, I'd love to have you.
+
+
+[1]: http://geocities.yahoo.com/
+[2]: http://www.50megs.com/
+[3]: http://1and1.com
+[4]: http://openbsd.org
+[5]: http://www.wordpress.org
+[6]: http://www.realmacsoftware.com/rapidweaver
+[7]: http://shots.osdir.com/
+[8]: http://www.vorbis.com
+[9]: http://www.youtube.com/user/osvids
+[10]: http://daringfireball.net
+[11]: http://diveintomark.org
