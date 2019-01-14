@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Friendly Conversation for the Drive 
-tags: online culture
+tags: [online, culture]
 ---
 
 It's snowing again, which means my normal 40-minute commute will now be closer to an hour. I'm actually a bit excited by the prospect of a long drive; it will give me some time to catch up on my favorite podcasts, most of which come from [Dan Benjamin at 5by5][1].  

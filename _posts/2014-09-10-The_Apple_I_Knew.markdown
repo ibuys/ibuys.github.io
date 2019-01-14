@@ -3,7 +3,7 @@ layout: post
 title: The Apple I Knew
 date: 2014-09-10 13:44:05
 image: /media/UNIXad.png
-tags: apple, unix 
+tags: [apple, unix] 
 ---
 <img src="/media/UNIXad.png" />
 

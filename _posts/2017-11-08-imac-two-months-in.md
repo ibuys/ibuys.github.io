@@ -3,6 +3,7 @@ layout: post
 title: Two Months With iMac Prime
 date: 2017-11-08 10:18:25
 cover: /images/covers/imac_extreme_angle_large_2x.jpg
+tags: [personal, mac]
 ---
 
 The 27” iMac 5K is unquestionably the best computer I’ve ever owned. After two months of daily use, for twelve to fourteen hours per day, I can say without reservation that this machine is fantastic. Obviously, I’m late to the bandwagon on this, better reviews than what I would write [have][1] [already][2] [been][3] [written][4], and although those reviews are from 2014, they hold up well enough for the 2017 upgrade too. The screen is beautiful, like a massive glossy magazine. The machine is fast enough so I *nearly* never have to wait. Basically, it’s everything I need from a computer. 

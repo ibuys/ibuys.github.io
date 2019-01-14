@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A World of Things
-tags: culture life personal
+tags: [culture, life, personal]
 date: 2013-01-14 10:49:11
 ---
 

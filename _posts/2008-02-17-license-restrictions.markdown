@@ -1,7 +1,7 @@
 ---
 layout: post
 title: License Restrictions
-tags: sysadmin work
+tags: [sysadmin, work]
 date: 2008-02-17 10:49:11
 ---
 

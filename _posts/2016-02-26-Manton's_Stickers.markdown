@@ -2,7 +2,7 @@
 layout: post
 title: Manton's Stickers
 date: 2016-02-26 10:15:21
-tags: 
+tags: [culture, apple]
 ---
 
 I was listening to [Core Intuition][1] a few weeks back and Manton said that if anyone was interested in his project to let him know, and he would send a couple of stickers. I was interested, so I emailed him a quick note, and quickly forgot about it. 

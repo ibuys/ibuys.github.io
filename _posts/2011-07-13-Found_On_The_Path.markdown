@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Found On The Path
-tags: life
+tags: [life]
 date: 2011-07-13 10:49:11
 ---
 

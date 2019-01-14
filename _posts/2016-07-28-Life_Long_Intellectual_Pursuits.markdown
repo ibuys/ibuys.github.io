@@ -2,7 +2,7 @@
 layout: post
 title:  Life Long Intellectual Pursuits
 date: 2016-07-28 07:49:06
-tags: featured
+tags: [personal, education]
 cover: /media/burn.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Details
-tags: quote culture
+tags: [quote, culture]
 date: 2013-01-29 10:49:11
 ---
 

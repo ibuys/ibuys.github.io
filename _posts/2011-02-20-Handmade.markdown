@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Handmade
-tags: culture maker
+tags: [culture, maker]
 ---
 
 I love these videos from Field Notes.

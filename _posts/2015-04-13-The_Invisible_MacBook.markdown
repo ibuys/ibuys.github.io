@@ -2,7 +2,7 @@
 layout: post
 title: The Invisible MacBook
 date: 2015-04-13 21:14:26
-tags: 
+tags: [macbook, culture, apple]
 ---
 
 A thread of minimalism weaves through Apple's products, starting with the Bondi blue iMac and flowing to the Apple Watch. One could argue that the minimal thread weaves back to the original Macintosh, a single, all-in-one device that made computing accessible, but I think the theme is most visible when looking at the modern age of Apple. Jony Ive's designs have consistently focused on aesthetically pleasing, usable design. A concept that simultaneously puts the device at the center of our day, and almost makes it disappear.  Technology is best when it is nearly invisible. The Apple Watch may be the culmination of this invisible tech, but it's the [new MacBook](http://www.apple.com/macbook/) that I believe embodies the design philosophy of Apple best. When the lid is closed on the new 12" Retina MacBook, it's so small and light that you hardly know it's there. 

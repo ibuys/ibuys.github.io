@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Glimpse of the Future
-tags: predictions iphone mac
+tags: [predictions, iphone, mac]
 date: 2011-08-18 10:49:11
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Beware of VPNs
 date: 2017-04-04 12:59:19
-tags: 
+tags: [vpn, security]
 ---
 
 I've seen quite a few smart people recommend using a VPN service in the wake of the U.S. government's decision to repeal privacy rules for ISPs. Unfortunately, I find this advice to be a bit misguided, or at least ill-informed. You can move your risk around, but in the end this comes down to an issue of trust, and avenues of recourse. 

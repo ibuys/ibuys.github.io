@@ -2,6 +2,7 @@
 layout: post
 title: What it Does
 date: 2014-06-10 22:57:09
+tags: [apple, culture]
 ---
 
 Our relationship with technology has become unexpectedly skewed. I was just reading through Sid O’Neill's recent article, [Losing Apple][1], and found myself nodding along on several points, particularly here:

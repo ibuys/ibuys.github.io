@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Personal Rules for Cocoa Happiness
-tags: programming cocoa 
+tags: [programming, cocoa] 
 ---
 
 

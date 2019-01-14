@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Computer User I Want To Be
-tags: personal setup mac
+tags: [personal, setup, mac]
 date: 2012-08-11 10:49:11
 ---
 
@@ -15,8 +15,8 @@ I was recently in Chicago attending training for Hadoop. I used DEVONthink to ta
 
 DEVONthink was on my list of Mac Essentials, but I'm removing it. I have spent far too long thinking about how files are stored and the most efficient way to get to them. I’ve spent too long thinking about how to “manage a project”, instead of moving on to the next task in the project. When I consider my own tendency to overcomplicate my computer use, I realize that being the fiddly geek who spends his time tweaking his .muttrc file is not the guy I want to be. I believe in learning your tools, and learning them well, but I also believe in using as little software as possible. Most of all, I believe in using your computer as the tool it was intended to be. A bicycle for the mind. 
 
-<div class="video-container">
-<iframe width="640" height="480" src="http://www.youtube.com/embed/xqxWlvJ35yk" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="http://www.youtube.com/embed/xqxWlvJ35yk" allowfullscreen></iframe>
 </div>
 
 When I bring my computer to life in the morning I want as little friction as possible between me and the tasks I need to accomplish. I can’t afford to think about the most efficient way to store a task, or file a PDF, or title an email. I simply need to *do* the task, read the document, and write the email. So, I’ve spent a good portion of today reorganizing my files, removing unnecessary applications, and streamlining my process. Time spent sharpening the saw is time well invested. 

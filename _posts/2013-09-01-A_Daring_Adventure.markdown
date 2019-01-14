@@ -2,7 +2,7 @@
 layout: post
 title: A Daring Adventure
 date: 2013-09-01 21:30:23
-tags: life indie farmdog
+tags: [life, indie, farmdog]
 ---
 
 *or, A Good Life*

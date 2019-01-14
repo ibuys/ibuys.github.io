@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: First Things First
-tags: life personal
+tags: [life, personal]
 ---
 
 My phone went through the wash today.  Turns out it happened first thing this morning.  I really should be more careful about cleaning out my pockets before throwing something in the washing machine, but to be honest, I never liked that phone to begin with.  It had a faulty battery, and a faulty USB charger, so it would almost never fully charge and when it did, it would drain quickly.  The Bluetooth on it didn't work either.  So, it wasn't that great of a phone, and now its gone, and good riddance to it.  Now, I'm faced with the prospect of finding a replacement phone, but this comes with complications.

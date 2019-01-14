@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Energy Saver Preferences
-tags: mac setup productivity
+tags: [mac, setup, productivity]
 date: 2012-11-14 10:49:11
 ---
 <img src="/media/energy_saver_icon.png" /> 

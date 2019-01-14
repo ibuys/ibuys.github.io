@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keyboard Driven Safari
-tags: mac setup safari
+tags: [mac, setup, safari]
 ---
 
 <a href="/media/safari.png"><img src="/media/safari_thumb.png" /></a>

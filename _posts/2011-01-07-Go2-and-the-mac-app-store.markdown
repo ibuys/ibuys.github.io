@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go2 and the Mac App Store
-tags: farmdog go2 apple
+tags: [farmdog, go2, apple]
 ---
 
 Yesterday, Go2 was one of approximately 1000 applications available on launch day of the <a href="http://itunes.apple.com/us/app/go2/id407815526?mt=12">Mac App Store</a>. It's been a nerve wracking experience, but overall I'm pretty happy so far with the way its gone.  I've been able to identify a couple of last minute bugs and get their fixes incorporated into version 1.1, which I've had in beta testing for about a month now.  

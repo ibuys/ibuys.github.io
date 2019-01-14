@@ -2,7 +2,7 @@
 layout: post
 title: The Life We Live
 date: 2017-03-22 08:29:04
-tags: personal
+tags: [personal]
 ---
 
 My daughter's cheerleading coach passed away last night. What was first thought of as diabetes turned out to be an extremely aggressive cancer that took her after only a few months. She was only ten years older than my wife and I. Her family, and our community, will be grieving deeply for her loss.

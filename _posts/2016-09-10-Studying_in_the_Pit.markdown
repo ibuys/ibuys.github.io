@@ -3,6 +3,7 @@ layout: post
 title: Studying in the Pit
 date: 2016-09-10 20:04:07
 cover: /media/ussplatte.jpeg
+tags: [personal, work]
 ---
 
 I just started reading [Cal Newport’s *Deep Work*][1] and I’ve found myself nodding along in agreement through the introduction and first two chapters. His description of the environment needed for intense, concentrated study reminded me of a time I went through a period of deep work, one that is unfortunately difficult to replicate. 

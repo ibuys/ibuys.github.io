@@ -1,7 +1,7 @@
 ---
 layout: post
 title: osvids
-tags: online indie osvids
+tags: [online, indie, osvids]
 ---
 
 I've been writing online since around 2000, starting with a [geocities][1] site. After that, I had a [50megs.com][2] site that offered *gasp* 50 Megabytes of online storage! (Just noticed, they still do!)  After a couple of years, I noticed a company named [1and1][3] that was offering three years of free hosting and the domain of your choice. That was a deal I couldn't pass up, and I grabbed the domain name sourceport.org. I used the domain, but didn't get a whole lot accomplished with it. I used it for a while to sell PCs as firewalls with [OpenBSD][4], but that didn't end well, so then I started a [Wordpress][5] blog with that domain name. Unfortunately, the person who owns the sourceport dot com address had a beef with me, so I moved the blog over to a new domain: jonstechblog.com. While I was using this blog, I moved away from wordpress and started using a Mac application named [RapidWeaver][6]. I switched to RapidWeaver because it made the task of posting videos of Linux distros that I was testing out easy. I was testing the distros anyway, so I figured, why not share it with the world.

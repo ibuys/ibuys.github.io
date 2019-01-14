@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mandatory
-tags: work culture
+tags: [work, culture]
 ---
 
 My workplace is adopting Agile methodologies for our development and client relations departments. As part of the adoption, it was decided that all of IT would attend a three hour overview of what Agile is and why it was important. This is all fine and well, but in making the training mandatory, instead of optional, the organizers lost a good deal of opportunity.

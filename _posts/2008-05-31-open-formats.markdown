@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Open Formats
-tags: opensource apple 
+tags: [opensource, apple] 
 ---
 
 Remember the early days of networking... before TCP/IP became the standard protocol?  Well, neither do I, but I've read about it.  That's years ago now, but back then, each computer manufacturer developed their own method of networking their machines together, and each method, or protocol, was incompatible with the other.  Apple had AppleTalk, Novell had IPX/SPX, Xerox had XNS, and on and on it went.  TCP/IP was born out of the desire to create a vendor independent network, which became known as ARPAnet, and later, the Internet.

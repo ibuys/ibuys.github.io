@@ -2,7 +2,7 @@
 layout: post
 title: Introversion Intuition Thinking Judgment
 date: 2011-04-13 10:16:25
-tags: life personal
+tags: [life, personal]
 redirect_from: /04-13-2011/Introversion_Intuition_Thinking_Judgement.html
 ---
 

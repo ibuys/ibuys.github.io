@@ -2,7 +2,7 @@
 layout: post
 title: Things That Dont Belong in Browsers
 date: 2014-12-02 20:44:12
-tags: software, design, ux
+tags: [software, design, ux]
 ---
 
 I still have a soft spot in my heart for Firefox, but it’s not my primary browser. I use Safari for just about everything, except the rare occasion when I *need* flash, then I use Chrome. Firefox is only used in the even rarer occasion that I need to use a site that Safari doesn’t support properly. Since I use all three browsers, I keep an eye on new features and development, wondering if something new from Firefox will draw me away from Safari. 

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Communications
-tags: work culture
+tags: [work, culture]
 ---
 
 Ask any mechanic, machinist, or carpenter what the single most important thing that contributes to their success is, and what they are bound to tell you is "having the right tool for the job".  Humans excel in creating physical tools to accomplish a certain task.  From hammers to drive a nail to the Jaws of Life to pry open a car, the right tool will save time, money, and frustration.  It's interesting to note the contrast that people have such a hard time with <em>conceptual</em> tools.  Software designed to accomplish a specific task, or several tasks, is often forced into a role that it may not fit into, making the experience kludgy, like walking through knee deep mud.  

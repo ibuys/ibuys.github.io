@@ -2,6 +2,7 @@
 layout: post
 title: That’s Fine For Marco
 date: 2016-09-09 22:28:45
+tags: [apple, culture]
 ---
 
 Overcast is moving to an [ad-supported business model][1].

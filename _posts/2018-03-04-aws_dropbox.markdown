@@ -2,7 +2,7 @@
 layout: post
 title: Dropbox and AWS
 date: 2018-03-04 14:39:53
-tags: 
+tags: [aws]
 ---
 
 

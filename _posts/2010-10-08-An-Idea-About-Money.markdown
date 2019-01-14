@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Idea About Money
-tags: idea microloan indie
+tags: [idea, microloan, indie]
 ---
 
 So, last night, when I should have been sleeping, I had an idea. What if, instead of going to a bank to get a loan, you could ask a few of your Internet friends for a loan instead?  Say you want $1000 for a new iMac, you go to some imaginary website and tell it how much you want. This website does a quick credit check to get your credit score, and then determines your interest rate based on that score. You agree to the rate, and your request is posted anonymously to the site.

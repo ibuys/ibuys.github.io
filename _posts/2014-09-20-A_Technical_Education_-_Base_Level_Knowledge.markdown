@@ -2,7 +2,7 @@
 layout: post
 title: A Technical Education - Base Level Hardware
 date: 2014-09-20 21:19:18
-tags: ate, hardare
+tags: [education, hardare]
 ---
 
 The first and most important thing to remember when considering a computer is that computers are machines. Incredible, wondrous, bordering on magical machines, but machines nonetheless. They were built by people who are no smarter than you, and designed by people every bit as fallible as you. There are no magic incantations, no special spells, and no generational gap that make one group of people better able to understand computers than another. Computers are machines, machines that **you** can understand. 

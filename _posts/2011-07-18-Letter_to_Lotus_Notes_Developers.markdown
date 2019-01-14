@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Letter to Lotus Notes Developers
-tags: mac productivity
+tags: [mac, productivity]
 date: 2011-07-18 10:49:11
 ---
 

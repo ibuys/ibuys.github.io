@@ -2,7 +2,7 @@
 layout: post
 title: Burn it Down
 date: 2013-12-26 13:36:19
-tags: personal life
+tags: [personal, life]
 ---
 
 As the year comes to an end it would be easy to look back and see all of the things that didn't work. Mistakes were made, endeavors failed, and it was generally a tough year. Some things that I thought would work out did not, and some things I thought I had more time before I had to deal with came due. Sometimes, when things aren't working out, it's best to burn it all to the ground and start over. 

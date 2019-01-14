@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vim Power
-tags: blogging 
+tags: [blogging, vim] 
 date: 2013-01-28 10:49:11
 ---
 

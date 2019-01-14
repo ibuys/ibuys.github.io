@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: AutoYast
-tags: work linux sysadmin
+tags: [work, linux, sysadmin]
 ---
 
 

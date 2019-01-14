@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: New Years Day
-tags: life
+tags: [life]
 ---
 
 <a href="/media/yellow_rose_main.jpg"><img src="/media/yellow_rose_main_thumb.jpg" /></a>

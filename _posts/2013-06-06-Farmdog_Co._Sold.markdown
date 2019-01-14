@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Farmdog Closed
-tags: farmdog indie life
+tags: [farmdog, indie, life]
 date: 2013-06-06 10:49:11
 ---
 

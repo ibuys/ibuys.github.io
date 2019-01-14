@@ -2,7 +2,7 @@
 layout: post
 title: The September Apple Event
 date: 2016-09-08 07:50:14
-tags: 
+tags: [apple, hardware]
 cover: /media/ios10.png
 ---
 

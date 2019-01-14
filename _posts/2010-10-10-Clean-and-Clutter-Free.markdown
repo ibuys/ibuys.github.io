@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clean and Clutter Free
-tags: work hci
+tags: [work, hci]
 ---
 I like to keep both my desk and my computer desktop clean and clutter free.  I've found that when there is less visual noise, I'm able to better concentrate and focus.  In the article "The Proximity Compatibility Principle: Its Psychological Foundation and Relevance to Display Design", Wickens and Carswell outline scientific principle's that back up my personal preference.  
 

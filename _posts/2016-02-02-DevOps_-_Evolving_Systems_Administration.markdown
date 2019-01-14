@@ -2,7 +2,7 @@
 layout: post
 title: DevOps & Evolving Systems Administration
 date: 2016-02-02 10:11:21
-tags: work
+tags: [work, devops]
 ---
 
 The phrase “DevOps” gets thrown around quite a bit, so I thought it might be helpful for me to write down exactly what it means to me. DevOps is the evolution of [systems administration][1]. A few years ago, I noticed that the SysAdmin field was finally starting to change, after years of being relatively static. For decades, A sysadmin would set up the hardware, install the operating system, setup SSH (or, telnet in the bad old days), install your application, and get it running. Even when virtualization became more mainstream and worked its way into production workloads, it didn’t change the core tasks of a sysadmin. There were simply more boxes to manage, and without appropriate configuration management, each virtual machine became a unique little snow flake. A few tools became more commonplace like CFEngine, Puppet, or Chef to ease the burden of virtual machine sprawl, but it wasn’t until cloud computing came along that the role of a sysadmin really started to change.  

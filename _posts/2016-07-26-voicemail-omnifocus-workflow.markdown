@@ -2,7 +2,7 @@
 layout: post
 title: Voicemail to OmniFocus Workflow
 date: 2016-07-26 11:05:07
-tags: OmniFocus, ios, workflow
+tags: [OmniFocus, ios, workflow]
 ---
 
 

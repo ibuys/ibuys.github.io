@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Linux is not for MacBooks
-tags: linux productivity
+tags: [linux, productivity]
 ---
 
 I recently gave Linux my second, and final, serious shot at running it full time as my primary operating system on my MacBook. This time, it lasted all of three days before I dug out my Leopard install disk and began the long migration back to OS X. To preempt any questions on the subject, no I didn't [dual boot][1], and no, I didn't have a good [time machine][2] backup. I was going to force myself to learn to do things the Linux way on my laptop.

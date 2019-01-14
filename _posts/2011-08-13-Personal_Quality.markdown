@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Personal Quality
-tags: life culture personal
+tags: [life, culture, personal]
 date: 2011-08-13 10:49:11
 ---
 

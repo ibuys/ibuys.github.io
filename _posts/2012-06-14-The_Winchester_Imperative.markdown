@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Winchester Imperative
-tags: productivity personal
+tags: [productivity, personal]
 date: 2012-06-14 10:49:11
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recovering Data From FileVault Full Disk Encryption 
-tags: mac filevault
+tags: [mac, filevault]
 date: 2011-10-14 10:49:11
 ---
 

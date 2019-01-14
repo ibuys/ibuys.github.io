@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Tough to Turn Down
-tags: linux productivity
+tags: [linux, productivity]
 ---
 
 I've been using Linux for nearly a decade now. I first had a guy I met in a Navy school install it on my old IBM desktop. Back then, it was very hard to find the right drivers, and just about impossible to get on the Internet, seeing how almost every modem that shipped with a PC was a [WinModem][1]. X11 configuration was error prone to say the least, drivers for the sound card were hard to come by, and out in the rural English countryside where we lived, broadband was almost unheard of. Installing software could be a nightmare. Say I wanted to install a music player to listen to my CDs. The music player would have dependencies, certain libraries that needed to be installed, so I'd go and download the dependencies and try to install them, only to find out that the dependencies had dependencies! So, I'd download further dependencies, and eventually I'd be able to listen to my music. And then I'd try to launch something else, only to find out that in fulfilling the dependencies of the music player, I'd broken the dependencies of the other application that _used_ to be installed and working.

@@ -2,7 +2,7 @@
 layout: post
 title: Simple File Encryption for macOS
 date: 2018-08-28 12:44:22
-tags: 
+tags: [mac, security]
 ---
 
 For years now I’ve wanted a simple way to encrypt or decrypt a file in macOS, so this morning I built it. This takes five to ten minutes to setup, and provides the encryption service as a right-click menu item and a pair of folders with folder actions enabled. Here’s what I did. 

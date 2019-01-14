@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Writing and Word Processing
-tags: life online productivity opensource
+tags: [life, online, productivity, opensource]
 ---
 
 A friend of mine is having a heck of a time with his new MacBook. He's a recent convert to Macs, and as a philosophy student he spends a _lot_ of time in Word. When he first bought his shiny new MacBook, he was surprised to find out there was no word processor in it. I pointed out TextEdit, which he quickly dismissed as not nearly powerful enough for what he needed to do. So, back to the store he went to pick up a copy of iWork '08, and started working with Pages.

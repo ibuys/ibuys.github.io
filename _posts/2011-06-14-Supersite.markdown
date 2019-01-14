@@ -2,7 +2,7 @@
 layout: post
 title: Supersite
 date: 2011-06-14 12:00:00
-tags: online culture mac
+tags: [online, culture, mac]
 ---
 
 Daring Fireball linked to Paul Thurrott today, citing Paul's comment that Lion is simply an evolutionary, rather than revolutionary update. [John says][8]:

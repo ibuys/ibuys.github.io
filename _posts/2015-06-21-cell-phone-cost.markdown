@@ -2,6 +2,7 @@
 layout: post
 title:      Smartphone Cost and Value
 date:       2015-06-21 15:35:00
+tags: [iphone, apple]
 ---
 
 iPhones are expensive. Well, not just iPhones, all smart phones, Android, Windows, what have you. These little gadgets that we can walk out of a Verizon store with without paying a penny *now* wind up costing thousands *later*, once you consider the total cost of ownership. This is especially true if you are paying for an entire family, possibly one with two teenage daughters with phones of their own. 

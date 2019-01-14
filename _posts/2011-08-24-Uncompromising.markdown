@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Uncompromising
-tags: culture mac
+tags: [culture, mac]
 date: 2011-08-24 10:49:11
 ---
 

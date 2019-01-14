@@ -2,7 +2,7 @@
 layout: post
 title: US Cellular Strikes Back
 date: 2015-12-23 21:17:18
-tags: cellular, personal
+tags: [cellular, personal]
 ---
 
 Let me start by saying that US Cellular has the best coverage in Iowa. No matter where we go in the state, we’ve got a great signal, almost always in LTE. My Internet access is fast, and I can’t remember the last time I dropped a call. The cellular service is great, and the only reason I stick with US Cellular. After days like today I need to remind myself of these facts, because almost every time I interact with them face to face, on the phone, or over the Internet I leave frustrated and feeling like I’m being duped. 

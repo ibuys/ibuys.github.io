@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Nagios Check Scheduling
-tags: nagios sysadmin linux work
+tags: [nagios, sysadmin, linux, work]
 ---
 
 Or, maybe a better title for this would be "They rebooted the server, why didn't I get a page?"  I've had that question asked of me a few times, and I've never had a good answer, so I thought I'd take a closer look at Nagios and see what is going on. 

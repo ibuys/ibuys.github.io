@@ -2,7 +2,7 @@
 layout: post
 title: Cellular Options
 date: 2015-01-02 10:40:29
-tags: information, data
+tags: [information, data, personal]
 ---
 
 I pulled into the gas station on my way home after a long day, picked up my phone in my left hand, intending to put it in my pocket, and opened the door of my pickup. While pushing the door of the truck open, the phone slipped out of my hand and fell face down on the pavement, shattering the screen. 

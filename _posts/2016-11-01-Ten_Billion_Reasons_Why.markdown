@@ -2,7 +2,7 @@
 layout: post
 title: Ten Billion Reasons Why
 date: 2016-11-01 08:13:03
-tags: 
+tags: [culture, apple]
 ---
 
 What could an organization comprised of some of the smartest, most driven people on the planet do with ten *billion* dollars in a year?  Apple increasing their R&D budget [five-fold over the past decade][1] is interesting, but the numbers they are talking about are [not uncommon][2] in the rest of the tech industry. What I find noteworthy is the comparison with NASA.

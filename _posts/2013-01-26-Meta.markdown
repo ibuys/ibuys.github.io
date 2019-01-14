@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meta
-tags: blogging
+tags: [blogging]
 date: 2013-01-26 10:49:11
 ---
 

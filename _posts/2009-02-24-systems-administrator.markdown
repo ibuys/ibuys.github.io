@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Systems Administrator
-tags: work culture sysadmin life
+tags: [work, culture, sysadmin, life]
 ---
 
 From time to time I'm asked by members of my family or friends of mine outside the tech industry what it is that I do for a living. When I respond that I'm a sysadmin, or [systems administrator][1] for [Linux][2] and [UNIX][3] servers, more times than not I get the "deer in the headlights" look that says I may as well be speaking Greek. So, for a while, I've taken to saying "I work in IT", or "I work with computers, really big computers" or even "I'm a computer programmer", which isn't exactly accurate. Although I do write scripts, or even some moderate [perl][4], I'm still not officially a programmer. I'm a systems administrator, so, let me try to explain, my dear friends and family, what it is I do in my little box all day.

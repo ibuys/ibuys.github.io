@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Paperman
-tags: culture life
+tags: [culture, life]
 date: 2013-01-31 10:49:11
 ---
 
-<div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/1QAI4B_2Mfc" frameborder="0" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe src="http://www.youtube.com/embed/1QAI4B_2Mfc" allowfullscreen></iframe>
 </div>
 
 Just beautiful.

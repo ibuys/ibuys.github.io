@@ -2,7 +2,7 @@
 layout: post
 title: Mac Power Tools
 date: 2016-01-26 15:00:09
-tags: unix, hci, mac
+tags: [unix, hci, mac]
 ---
 
 My brief experiment with mutt ended mostly how I expected it would. With me turning on my email in Mail.app again and carrying on as normal. I try to understand the draw to using such an archaic tool as mutt, but there’s simply nothing about it that appeals to me. Not at this stage of my life anyway. 

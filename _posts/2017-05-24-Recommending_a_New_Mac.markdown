@@ -2,7 +2,7 @@
 layout: post
 title: Recommending a New Mac
 date: 2017-05-24 15:01:03
-tags: 
+tags: [apple, mac, education]
 ---
 
 I got an email from my mom the other day asking me for a recommendation on a new Mac. The first question I asked was what her budget was like. She said she’d like to keep it under a grand, which right away narrowed the field quite a bit. Next I asked what she would be using the machine for, to which she replied with the standard home use cases of “income taxes, email, scanning, internet, etc”, as well as printing to a Brother ink jet. 

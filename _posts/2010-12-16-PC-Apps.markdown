@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PC Apps
-tags: apple culture mac
+tags: [apple, culture, mac]
 ---
 ![alt text](/media/mas.jpg "Mac App Store")
 

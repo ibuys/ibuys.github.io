@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delicious Bookmarks
-tags: online mac productivity culture
+tags: [online, mac, productivity, culture]
 ---
 
 Word leaked out yesterday that Yahoo has it's popular Delicious bookmarking service [on the chopping block][1].  I don't personally have an account, not anymore, so the closing won't affect me. Twitter tells a different story, my stream lit up with people upset about the decision.  Yahoo's leak, coupled with their announcement that the company is [laying off 4% of it's workforce][2] right before Christmas, caused a fairly good sized migration from Delicious to [Pinboard][3].  I do have a Pinboard account, and I think I even have a few bookmarks saved, but its been weeks since the last time I visited the site.  

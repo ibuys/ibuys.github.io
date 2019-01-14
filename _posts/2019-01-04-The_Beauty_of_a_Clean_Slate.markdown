@@ -2,7 +2,7 @@
 layout: post
 title: It's the Price
 date: 2019-01-04 14:19:30
-tags: 
+tags: [apple, personal, iphone]
 ---
 
 The recent hubbub about [Apple's earnings guidance][1] has "analysts" and pundits talking a lot about China and the global economic situation. I'm sure there's something to all that, but my take is simpler… the new iPhones are priced too high.

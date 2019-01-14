@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stereotypically
-tags: personal culture
+tags: [personal, culture]
 date: 2011-07-18 10:49:11
 ---
 

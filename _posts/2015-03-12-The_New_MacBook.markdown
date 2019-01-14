@@ -3,6 +3,7 @@ layout: post
 title:  The New MacBook
 date: 2015-03-12 06:56:27
 cover: /media/2015-03-14_macbook.jpeg
+tags: [mac]
 ---
 
 The tech world is once again loosing their grip after Apple has gone, as they see it, too far, too fast with the new [MacBook](https://www.apple.com/macbook/). They can think of a thousand reasons why the Mac’s single USB-C port is a deal-breaker for any sane person. The single port is too restrictive. What if I want to hook up a USB mouse while I'm charging? Why isn't there a removable battery? Why can't I expand the storage? Less space than a Nomad. Lame. 

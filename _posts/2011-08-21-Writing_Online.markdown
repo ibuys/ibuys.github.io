@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing Online
-tags: blogging life personal
+tags: [blogging, life, personal]
 date: 2011-08-21 10:49:11
 ---
 

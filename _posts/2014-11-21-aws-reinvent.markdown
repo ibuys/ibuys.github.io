@@ -2,7 +2,7 @@
 layout: post
 title: AWS reInvent Conference
 date: 2014-11-21 20:44:12
-tags: cloud,aws,automation
+tags: [cloud, aws, automation]
 ---
 
 The re:Invent conference was fascinating.

@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Electrogent's 50 Rules
-tags: life culture gear
+tags: [life, culture, gear]
 date: 2013-01-30 10:49:12
 ---
 
-One of my favorite things about the Internet is finding a little treasure trove of writing and style that I previously did not know existed. [Electrogent][] is one of those little gems, and his list of 50 rules for his son is full of timeless advice.
+One of my favorite things about the Internet is finding a little treasure trove of writing and style that I previously did not know existed. [Electrogent][1] is one of those little gems, and his list of 50 rules for his son is full of timeless advice.
 
 >Thanks to science, we have all sorts of polymers, synthetics, polyesters, crystalline, and other man-made materials for making life a little better. However, few materials are as awesome, timeless, and useful as leather.
 
@@ -22,9 +22,8 @@ One of my favorite things about the Internet is finding a little treasure trove 
 
 Life is meant to be a quest of continuous self-improvement, becoming a little better every day. Electrogent gets it. 
 
-Don't miss his fantastic [gallery](http://gallery.electrogent.com/).
+Don't miss his fantastic [gallery][2].
 
 
-
-
-[Electrogent]: http://www.twitter.com/Electrogent
+[1]: http://www.twitter.com/Electrogent
+[2]: http://gallery.electrogent.com/

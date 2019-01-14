@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MobileMe Mail Revisited
-tags: mac apple online productivity
+tags: [mac, apple, online, productivity]
 ---
 <a href="/media/mobileme_logo.png"><img src="/media/mobileme_logo_thumb.png" /></a>
 

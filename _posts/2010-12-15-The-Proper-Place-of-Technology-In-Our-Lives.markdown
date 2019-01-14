@@ -2,7 +2,7 @@
 layout: post
 title: The Proper Place of Technology In Our Lives
 date: 2010-12-15 10:16:25
-tags: online culture essay
+tags: [online, culture, essay]
 ---
 
 It's now the middle of December, which signals the end of my first semester of

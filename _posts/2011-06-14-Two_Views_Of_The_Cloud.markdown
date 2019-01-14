@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two Views Of The Cloud
-tags: online cloud google apple
+tags: [online, cloud, google, apple]
 date: 2011-06-14 10:49:11
 ---
 

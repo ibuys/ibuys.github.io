@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apotheker Seeks to Save HPs Lost Soul With Software Growth - Businessweek
-tags: online culture apple
+tags: [online, culture, apple]
 ---
 
 >Starting next year, every one of the PCs shipped by HP will include the ability to run WebOS in addition to Microsoft Corp.’s Windows, Apotheker said.

@@ -2,7 +2,7 @@
 layout: post
 title: Philippians
 date: 2017-03-26 20:19:32
-tags: 
+tags: [faith, personal]
 ---
 
 The book of Philippians is such a beautiful, and challenging book. This is what I needed to hear tonight:

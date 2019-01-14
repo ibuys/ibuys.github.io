@@ -2,6 +2,7 @@
 layout: post
 title: Should All Software Be Free
 date: 2012-07-22 10:49:11
+tags: [culture, linux]
 ---
 
 ## Introduction ##

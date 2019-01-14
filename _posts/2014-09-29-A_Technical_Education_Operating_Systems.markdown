@@ -2,7 +2,7 @@
 layout: post
 title: A Technical Education - The Operating System
 date: 2014-09-29 14:29:52
-tags: ate
+tags: [education, linux]
 ---
 
 It’s good to think of a computer as something like a cake with several layers. If the hardware is the first, and foundational layer, then the operating system is the second, and applications are the third. Today, we are going to look at that second layer, and leave with a basic understanding of what an operating system is, what it does, and what the differences are between the major operating systems available today.

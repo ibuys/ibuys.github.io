@@ -2,6 +2,7 @@
 layout: post
 title: Small Site Update
 date: 2014-07-11 15:11:51
+tags: [blogging, personal]
 ---
 
 I've been publishing this site with Jekyll for several years. I'm not sure exactly when I switched over from Wordpress, but it's long enough ago that I've forgotten when I started.[^footer] Over the past few weeks I've run into a few issues with Jekyll that have caused me to reevaluate if it was still the right choice for me. The short answer is no, the long answer is that this site is now published with my own Python script. 

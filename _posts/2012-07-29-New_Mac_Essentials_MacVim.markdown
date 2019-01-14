@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Mac Essentials - MacVim
-tags: mac setup productivity vim
+tags: [mac, setup, productivity, vim]
 date: 2012-07-29 10:49:11
 ---
 

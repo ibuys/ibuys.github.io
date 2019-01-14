@@ -2,7 +2,7 @@
 layout: post
 title: Making The Move From Sysadmin to DevOps
 date: 2016-02-03 11:57:06
-tags: work
+tags: [work, devops]
 ---
 
 Everyone’s professional path follows a slightly different trajectory. We are each a unique recipe of skills, experience, and interests, which shape who we are and how we come to be in the careers that we have. My experience in moving from a systems administrator to a devops role is unique, because, well, we are all unique. 

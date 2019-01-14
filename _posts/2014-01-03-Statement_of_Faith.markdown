@@ -2,7 +2,7 @@
 layout: post
 title: Statement of Faith
 date: 2014-01-03 05:57:20
-tags: faith life
+tags: [faith, life]
 ---
 
 I am a Christian. I believe that Jesus is the Son of God, that he became a man and was born to a virgin. Jesus lived a perfect, sinless life, and died on the cross as the ultimate sacrifice for all of humanity, for all time, past and future. He was raised from the dead three days later, spoke to his disciples, and now sits enthroned in glory in heaven at the right hand of the Father. Through Faith, I accept this truth, and I accept Jesus as my personal savior. 

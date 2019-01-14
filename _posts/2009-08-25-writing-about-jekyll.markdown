@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Writing about Jekyll 
-tags: blogging online 
+tags: [blogging, online] 
 --- 
 
 I'm writing an article for [TAB][1] about my new blogging engine, [Jekyll][2]. I've taken most of the reliance on the command line out of dealing with Jekyll on a day to day basis, and instead have a few Automator workflows in the scripts menu in the Mac menubar. It's a great setup, I'm really enjoying it. I'm sure there will be quite a bit of enhancement yet to come, but my initial workflow looks like this:

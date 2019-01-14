@@ -2,7 +2,7 @@
 layout: post
 title: The New Setup
 date: 2016-03-07 20:11:47
-tags: work, desk
+tags: [work, desk]
 ---
 
 <a href="/media/IMG_0716.jpg"><img src="/media/IMG_0716_thumb.jpg" /></a>

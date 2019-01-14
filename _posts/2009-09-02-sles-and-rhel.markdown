@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SLES and RHEL
-tags: work linux sysadmin
+tags: [work, linux, sysadmin]
 ---
 
 Comparing two server operating systems, like SuSE Linux Enterprise Server (SLES) and RedHat Enterprise Linux (RHEL), needs to answer one question, "what do we want to do with the overall system"? The version of Linux running underneath the application is immaterial, as long as the application supports that version. It is my opinion that we should choose the OS that supports all of our applications, and gives us the best value for our money.

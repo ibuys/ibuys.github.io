@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Real Music
-tags: life montana music
+tags: [life, montana, music]
 date: 2013-02-01 10:49:11
 ---
 <img src="/media/montana.jpg" />

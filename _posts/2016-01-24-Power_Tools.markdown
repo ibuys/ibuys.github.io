@@ -2,7 +2,7 @@
 layout: post
 title: Power Tools
 date: 2016-01-24 15:00:09
-tags: unix, hci
+tags: [unix, hci]
 ---
 
 After reading through Matt Gemmell's [latest post][1] on mutt and the good doctor's [response][2], I fired up my old mutt config and gave it another run through. Well, after being a bit snarky on [Twitter][3], of course. 

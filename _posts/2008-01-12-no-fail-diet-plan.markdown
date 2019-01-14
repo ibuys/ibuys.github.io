@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Fail Diet Plan
-tags: life culture
+tags: [life, culture]
 date: 2008-01-12 10:49:11
 ---
 

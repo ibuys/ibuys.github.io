@@ -2,7 +2,7 @@
 layout: post
 title: Be Great
 date: 2011-02-15 10:16:25
-tags: maker culture work
+tags: [maker, culture, work]
 redirect_from: /02-15-2011/Be_Great.html
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Veterans Day
 date: 2017-11-09 10:40:17
-tags: 
+tags: [personal, navy]
 ---
 
 I gave a talk at our school Veterans Day assembly today. I didn't get everything I wanted to say in, but it seemed to go over well. 

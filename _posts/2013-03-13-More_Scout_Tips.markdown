@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More Scout Tips
-tags: farmdog paragraphs indie
+tags: [farmdog, paragraphs, indie]
 date: 2013-03-13 10:49:11
 ---
 

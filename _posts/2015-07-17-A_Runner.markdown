@@ -2,7 +2,7 @@
 layout: post
 title: A Runner
 date: 2015-07-17 18:55:21
-tags:  personal, running
+tags:  [personal, running]
 ---
 
 

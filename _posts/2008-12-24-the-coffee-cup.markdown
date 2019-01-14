@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The Coffee Cup
-tags: work linux productivity quicksilver
+tags: [work, linux, productivity, quicksilver]
 redirect_from: /12-24-2008/the-coffee-cup.html
 ---
 

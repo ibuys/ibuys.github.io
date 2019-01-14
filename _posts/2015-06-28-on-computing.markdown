@@ -2,6 +2,7 @@
 layout: post
 title:      On Computing
 date:       2015-06-28 15:35:00
+tags: [culture, personal]
 ---
 
 I often daydream about *not* caring about my computer, and being able to go blissfully through my life with little concern about the mix of applications, storage of data, and how I interact with the machine, but that’s just a dream. The truth is I do care. I care a lot. I care enough that I’ve developed my own personal philosophy of computer use. I use this to determine which services and applications I will most likely be happy with. It helps me, maybe it will help you too.  

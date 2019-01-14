@@ -2,7 +2,7 @@
 layout: post
 title: Thinking it Through
 date: 2016-09-25 19:47:34
-tags: 
+tags: [personal, productivity]
 ---
 
 My favorite new-to-me site is [Farnam Street][1] by Shane Parrish. I’ve been experiencing a slow change of interests over the past several months as Apple and tech related news fails to grab my attention. The last time this happened I lost more than a professional interest in the open source community, an area I left years ago and haven’t looked back. I can’t find it in me to care enough about iOS 10 to read the book-length treaties on it at MacStories, in fact the latest iPhone or iOS barely interests me enough to learn what’s in it and if it is anything of use to me. 

@@ -2,7 +2,7 @@
 layout: post
 title: Less, But Better
 date: 2018-09-06 09:24:11
-tags: 
+tags: [personal, future]
 ---
 
 I'm becoming increasingly interested in an emerging line of Eink devices that intentionally do less than other devices in the same category. Of course, the oldest and most widely known device is the Amazon Kindle, which my wife still claims as the best gift I ever gave her. 

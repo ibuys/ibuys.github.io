@@ -2,7 +2,7 @@
 layout: post
 title: The Experiment
 date: 2011-07-09 10:16:25
-tags: farmdog indie personal
+tags: [farmdog, indie, personal]
 redirect_from: /07-09-2011/The_Experiment.html
 ---
 

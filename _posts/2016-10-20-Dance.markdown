@@ -2,7 +2,7 @@
 layout: post
 title: The Dancer
 date: 2016-10-20 13:08:23
-tags: 
+tags: [personal]
 cover: /images/covers/deer.jpg
 ---
 

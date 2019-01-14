@@ -3,6 +3,7 @@ layout: post
 title: Site Design Non-Update
 date: 2014-03-23 21:41:23
 footnote: sdnu
+tags: [blogging, personal]
 ---
 
 The site design of *jb* was very nearly upgraded tonight. Well, upgraded is not quite the word for it. Changed is more accurate. Even though I'm quite happy with the look and feel of the site, from time to time I get frustrated with one aspect of it or another. I've spent more time that I want to admit thinking about readability, fonts, font sizes, spacing, kerning, and the like, but occasionally I'll look at another site and think "that looks *good*". And then mine looks like crap for a day or so. 

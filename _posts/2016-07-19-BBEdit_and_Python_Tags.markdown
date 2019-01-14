@@ -2,7 +2,7 @@
 layout: post
 title: BBEdit and Python Tags
 date: 2016-07-19 08:42:20
-tags: python, ctags, bbedit 
+tags: [python, ctags, bbedit] 
 ---
 
 I'm in the process, a very long process, of switching from Vim to BBEdit as my primary editor. The reasons are long and varied, but boil down to me being tired of screwing around with Vim's configuration. I do a lot of work in Python now, and I'm using the experience of building and maintaining cloudchain to learn how to navigate BBEdit. Hopefully, someday I'll be as good here as I was with Vim. 
