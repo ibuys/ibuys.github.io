@@ -1,4 +1,0 @@
----
-slug: hci
-name: hci
----
