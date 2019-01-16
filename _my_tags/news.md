@@ -1,0 +1,4 @@
+---
+slug: news
+name: news
+---

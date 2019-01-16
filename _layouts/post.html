@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<div id="post">
 	<article>
+	    <h3>{{ page.title }}</h3>
 		{{content}}
 	</article>
-</div>
+              <div class="article-list-tags">
+                {% for tag in page.tags %}
+                  <a href="{{ 'tag/' | relative_url }}{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+              </div>

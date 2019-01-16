@@ -13,15 +13,22 @@ markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown
 
-plugins: [jekyll-paginate]
-paginate: 10
-paginate_path: "/page:num/"
-
 inter_post_navigation: false
-highlightjs_theme: "monokai-sublime"
+highlighter: rouge
 permalink: /:title/
 
 collections:
+  my_tags:
+    output: true
+    permalink: /tag/:slug/
   microblog:
     output: true
     permalink: /microblog/:year/:month/:slug/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: articles_by_tag

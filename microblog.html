@@ -1,17 +1,15 @@
 ---
-layout: page
-title: chirp, chirp
-permalink: /microblog/
+layout: default
+title:  "chirp, chirp"
 ---
-<section class="microblog-posts">
-  {% for post in site.microblog reversed %}
-    <div class="microblog-post">
-     
-      <footer class="microblog-post__footer">
-        <small><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ post.url }}" title="Permalink to Microblog post">{{ post.date | date: "%a, %b %d, %Y at %I:%M%P" }}</time></a></small>
-      </footer>
-       {{ post.content }}
-       
-    </div>
-  {% endfor %}
-</section>
+
+{% for post in site.microblog reversed %}
+
+        <article class="post">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+            {{ post.content }}
+
+        </article>
+{% endfor %}
+

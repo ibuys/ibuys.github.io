@@ -1,15 +1,15 @@
 ---
-layout: page
+layout: default
 title: 100 Books
 image: /media/books.png
 permalink: /100books/
 ---
 
-Latest Update: 
+Latest Update: 2019-01-16
 
 ### Books in Progress:
 
-* Just some fun fiction books. 
+*  Holy Bible: English Standard Version
 
 ### The Backlog:
 
@@ -77,7 +77,6 @@ Latest Update:
 *  The Red Badge of Courage (Wordsworth Classics) by Stephen Crane
 *  Lives of the Noble Grecians and Romans, Plutarch's Lives, improved 8/11/2010 by Plutarch
 *  The Strenuous Life: Essays and Addresses by Theodore Roosevelt
-*  Holy Bible: New American Standard Bible (NASB) by The Lockman Foundation
 *  Lonesome Dove: A Novel by Larry McMurtry
 *  Maltese Falcon (Read a Great Movie) by Dashiell Hammett
 *  The Long Goodbye by Raymond Chandler
