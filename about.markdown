@@ -3,9 +3,6 @@ layout: default
 title: A Discussion on Quality, Culture, & Technology 
 ---
 
-<p class="smalldate">by Jonathan Buys.</p>
-
-
 <img src="/media/jeans_and_flannel.jpg" />
 Rocking the flannel and jeans since 1979.
 
