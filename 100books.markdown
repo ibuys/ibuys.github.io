@@ -13,6 +13,7 @@ Latest Update: 2019-01-16
 
 ### The Backlog:
 
+*  Till We Have Faces: CS Lewis
 *  The Republic Of Plato: Second Edition by Plato
 *  The Brothers Karamazov by Fyodor Dostoyevsky
 *  The Catcher in the Rye by J. D. Salinger
