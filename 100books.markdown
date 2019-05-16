@@ -9,7 +9,7 @@ Latest Update: 2019-01-16
 
 ### Books in Progress:
 
-*  Holy Bible: English Standard Version
+Currently looking for something fun to read. 
 
 ### The Backlog:
 
@@ -95,6 +95,7 @@ Latest Update: 2019-01-16
 *  Fifth Business by Robertson Davies
 *  The Art of Doing Science and Engineering by Richard W. Hamming
 *  For Whom the Bell Tolls by Ernest Hemingway
+*  Holy Bible: English Standard Version
 
 
 ### Finished Books:
