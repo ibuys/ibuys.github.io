@@ -5,7 +5,7 @@ date: 2015-04-14 21:53:43
 tags: [health, apple]
 ---
 
-Apple released ResearchKit as an open source project on [GitHub](https://github.com/ResearchKit/ResearchKit) today. The project is complete with pull requests, a wiki, and a few sample projects to get started. While the project is great in its own right, it was the context of this tweet by Daniel Jalkut that caught my eye:
+Apple released ResearchKit as an open source project on [GitHub][1] today. The project is complete with pull requests, a wiki, and a few sample projects to get started. While the project is great in its own right, it was the context of this tweet by Daniel Jalkut that caught my eye:
 
 <div class="bbpBox" id="t588033049943810049">
 <blockquote>
@@ -19,4 +19,7 @@ The license that they chose, the BSD license, permits the most "free" use of the
 
 I've made similar arguments before. The GNU community far too often overlooks actual utility in pursuit of a utopian dream. But, trust is a complicated subject, and trust and control are at the heart of what the GNU project is fighting for. They believe that if you do not have access to the source code of an application or device, that opens you up to being manipulated, spied on, or otherwise harassed. The license is designed to prevent anyone from taking a GPL licensed code base and closing it to public access. They are correct, to a point. However, the same people who make that argument are more often than not consumers of free online services like Gmail and Google Docs.
 
-The proponents of the GPL like to define different levels and explanations of "freedom".  Free as in beer, free as in speech, and so on. Apple released code today that is designed to make the world a better place, and left it on the table for anyone to do whatever they wish with it. Study it, change it, use it as the base for your next hit app, whatever you like. That is real freedom, all around. 
+The proponents of the GPL like to define different levels and explanations of "freedom".  Free as in beer, free as in speech, and so on. Apple released code today that is designed to make the world a better place, and left it on the table for anyone to do whatever they wish with it. Study it, change it, use it as the base for your next hit app, whatever you like. That is real freedom, all around.
+
+
+[1]: https://github.com/ResearchKit/ResearchKit
