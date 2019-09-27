@@ -1,0 +1,35 @@
+I"e<p>This is a bit silly, I’ll be the first to admit. The contraption I’ve built to host this site is clearly unnecessary, especially when I could host the site on <a href="https://pages.github.com">Github</a> for free, with very little effort, but I was curious, so down the rabbit hole I went.</p>
+
+<p>I thought it would be interesting to <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">host my site on S3</a>. The site is entirely static,  no database back end or dynamic programming required to generate the site, it’s just HTML, CSS, and Javascript. I also wanted to understand the <a href="https://aws.amazon.com/codebuild/">AWS CodeBuild</a> service, and how I might be able to use it for other projects.</p>
+
+<p>There are four components of this system: Github, which hosts the code for the state. The domain name is registered and managed through <a href="https://aws.amazon.com/route53/">Route53</a>, where I’ve configured an “A” record as an alias to point at the S3 bucket which hosts the site. Finally, CodeBuild is the glue which pulls the code from Github, runs <code class="highlighter-rouge">jekyll build</code>, and pushes the site to S3.</p>
+
+<p>CodeBuild works by starting a Docker container and pulling the repository down. It then looks for a file named <code class="highlighter-rouge">buildspec.yml</code> which contains the instructions to build the project. This file contains arbitrary Linux commands, whatever you need to build your code. Mine looks something like this:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">version</span><span class="pi">:</span> <span class="s">0.2</span>
+
+<span class="na">env</span><span class="pi">:</span>
+  <span class="na">variables</span><span class="pi">:</span>
+<span class="na">SITEBUILD</span><span class="pi">:</span> <span class="s2">"</span><span class="s">yes"</span>
+<span class="na">phases</span><span class="pi">:</span>
+  <span class="na">install</span><span class="pi">:</span>
+<span class="na">commands</span><span class="pi">:</span>
+<span class="s">apt-get update -y</span>
+  <span class="s">pre_build</span><span class="pi">:</span>
+<span class="na">commands</span><span class="pi">:</span>
+<span class="s">gem install bundler</span>
+    <span class="s">bundle install</span>
+  <span class="s">build</span><span class="pi">:</span>
+<span class="na">commands</span><span class="pi">:</span>
+<span class="s">echo Build started on date</span>
+    <span class="s">bundle exec jekyll build</span>
+    <span class="s">aws s3 sync _site/ s3://jonathanbuys.com</span>
+  <span class="s">post_build</span><span class="pi">:</span>
+<span class="na">commands</span><span class="pi">:</span>
+<span class="s">echo Build completed on date</span></code></pre></figure>
+
+<p>The interesting thing about this system is that I could replace Jekyll with <a href="https://gohugo.io">Hugo</a>, <a href="https://jaspervdj.be/hakyll/">Hakyll</a>, or any other static site generator, even my own scripts, and the system would stay the same. I’d just need to update <code class="highlighter-rouge">buildspec.yml</code> with the new commands to install the right tools and build the site. Hosting costs so far have been pennies, my cost this month <em>might</em> reach $1.27, and for the past couple months the cost has been below one dollar.</p>
+
+<p>I’ve been considering making this system more user friendly and monetizing it somehow. There’s a business model to be had in here somewhere, if I care to pursue it. Even though blogging in general appears to be in somewhat of a decline, publishing platforms will always be needed.</p>
+
+:ET

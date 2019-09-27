@@ -1,0 +1,77 @@
+I"G<p>In addition to my experiments with the design of this site, I was also testing out BBEdit as my main writing and programming tool. BBEdit didn’t stick, but I did like some of the scripting the good <a href="http://www.leancrew.com/all-this/2012/11/markdown-table-scripts-for-bbedit/">Dr. Drang</a> has done, and wanted to adopt a few for MacVim. I started with three of his scripts today, one to paste and select text in one command, one to convert a tab-separated table to Markdown, and another to even up the Markdown table so it’s easier to read in plain text.</p>
+
+<p>Since Dr. Drang’s scripts read from stdin and output to stdout<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup>, converting them to Vim was very easy, once I found the right syntax for my vimrc file<sup id="fnref:fn2"><a href="#fn:fn2" class="footnote">2</a></sup>. My first thought was that I would be able to copy the same syntax I use for calling the outstanding <a href="http://drbunsen.github.io/formd/">formd by Seth Brown</a>, but formd is meant to parse the entire text of the file, not just the selection. Eventually, I found my answer on <a href="http://stackoverflow.com/questions/2575545/vim-pipe-selected-text-to-shell-cmd-and-receive-output-on-vim-info-command-line">StackOverflow</a>.</p>
+
+<p>My vimrc file now has the following lines:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>" Even up a markdown table
+vmap &lt;leader&gt;mn &lt;esc&gt;:'&lt;,'&gt;!~/Unix/bin/Normalize-Tables.py&lt;CR&gt;
+
+" Convert a tab separated tabel to a markdown table
+vmap &lt;leader&gt;mt &lt;esc&gt;:'&lt;,'&gt;!~/Unix/bin/Tabs-to-Markdown-Tables.pl&lt;CR&gt;
+</code></pre></div></div>
+
+<p>The first word, <code class="highlighter-rouge">vmap</code>, maps the shortcut to visual selections in Vim. Next, <code class="highlighter-rouge">&lt;leader&gt;mn</code> creates the shortcuts <code class="highlighter-rouge">,mn</code> for <em>Normalize-Tables.py</em> and <code class="highlighter-rouge">,mt</code> for <em>Tabs-to-Markdown-Tables.pl</em>.</p>
+
+<p>The next part <code class="highlighter-rouge">&lt;esc&gt;:'&lt;,'&gt;</code> grabs the selection and passes it to the command, which starts with an exclamation point<sup id="fnref:fn3"><a href="#fn:fn3" class="footnote">3</a></sup> and ends with <code class="highlighter-rouge">&lt;CR&gt;</code>, which stands for “Carriage Return”.</p>
+
+<p>I need to spend some time in my vimrc file to sort out the naming convention for all the key maps, but for now, I’m thinking “,mn” for “markdown normalize”, and “,mt” for “markdown from tabs”.</p>
+
+<p>For the third part I’m borrowing from Dr. Drang, I wanted to paste and select text at the same time. Once again I had to turn to <a href="http://stackoverflow.com/questions/4312664/is-there-a-vim-command-to-select-pasted-text?rq=1">StackOverflow</a>, and now have this mapped in vimrc:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nnoremap &lt;leader&gt;sp :set paste&lt;CR&gt;:put  *&lt;CR&gt;:set nopaste&lt;CR&gt; &lt;Bar&gt; `[v`]
+</code></pre></div></div>
+
+<p>The first part sets the mapping, <code class="highlighter-rouge">,sp</code>, which I’m thinking of as “select paste”, and then pastes the text from the OS X system clipboard. Next, the <code class="highlighter-rouge">&lt;Bar&gt;</code> entry strings two mappings together in Vim. Finally, <code class="highlighter-rouge">\</code>[v`]` performs the selection on the last change to the text.</p>
+
+<p>So, now I can take text from Excel like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Left align	Center align	Right align
+This	This	This
+column	column	column
+will	will	will
+be	be	be
+left	center	right
+aligned	aligned	aligned
+</code></pre></div></div>
+
+<p>paste and select it with <code class="highlighter-rouge">,sp</code>, followed by <code class="highlighter-rouge">,mt</code> to convert the table to Markdown.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|Left align|Center align|Right align|
+|--|--|--|
+|This|This|This|
+|column|column|column|
+|will|will|will|
+|be|be|be|
+|left|center|right
+|aligned|aligned|aligned|
+</code></pre></div></div>
+
+<p>and finally <code class="highlighter-rouge">,mn</code> to even the table up nicely:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left align | Center align | Right align |
+|:-----------|:------------|:-------------|
+| This       | This        | This         |
+| column     | column      | column       |
+| will       | will        | will         |
+| be         | be          | be           |
+| left       | center	   | right        |
+| aligned    | aligned     | aligned      |
+</code></pre></div></div>
+
+<p>As always, my thanks to the good Doctor for scripts and inspiration.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>As God intended. <a href="#fnref:fn1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2">
+      <p>Someday, someone will create the perfect app for managing your vimrc file, but today is not that day. <a href="#fnref:fn2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn3">
+      <p>Or a bang, if you’re an old Unix guy. <a href="#fnref:fn3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

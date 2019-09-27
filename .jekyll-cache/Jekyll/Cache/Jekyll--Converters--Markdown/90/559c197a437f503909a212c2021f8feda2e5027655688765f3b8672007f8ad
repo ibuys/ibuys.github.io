@@ -1,0 +1,60 @@
+I"�<p>Last summer I decided to dive into programming and give it everything I’ve got.  For months, I would get up at 5 and pour through the <a href="http://www.amazon.com/exec/obidos/ASIN/0321503619/bignerdranch-20">Hillgass</a> book, every page, every challenge.  I’d revisit it at night, after the kids were in bed, and code till I couldn’t stay awake any more.  I finished the book, and started coding my first real application.  It was then that I found out how very little reading one book gave you.  Hillegass says he gives you 80%, I’m thinking it’s more like 50%, tops.  I reached out to the Cocoa Dev mailing list for help, and eventually even went to a CocoaHeads meeting with the local chapter.  Meeting some “real” developers, I despaired.  There was far, far too much that I didn’t know, I felt that it would take me an entire lifetime to learn what I needed to know.  I gave up, wrote <a href="http://ibuys.github.com/2008/12/goodbye-cocoa.html">Goodbye Cocoa</a>, and focused on something else.</p>
+
+<p>Months passed by, and I began to rethink my initial approach to development.  It became clear to me that I was trying to accomplish too much, and that I needed to start with something very small.  At work, I wrote a small shell script that I use to ssh to the servers.  The script was very small, and very, very handy.  I called the script “go”.  To use it, I just type <strong>go servername</strong> and I’m there.  I decided turning that script into a gui cocoa app would be a great practice, a great learning exercise.  So, I downloaded Xcode again, and fired it up.</p>
+
+<p>This is the cocoa Go.  There are sheets for default preferences and individual host details.  The idea is to stay as close to the keyboard as possible, so all of the buttons are bound to the standard key combos.  CMD-N creates a new host, CMD-, shows the preferences sheet, CMD-i shows the info sheet, Delete removes a host, and return launches Terminal with an ssh session to the currently selected host open.  That’s Go in a nutshell.  You can add hosts, and set up easy ssh to the hosts.  The green light at the left of each host will (eventually) show if you can ping the host or not.  I have the ping code down, and I have the code that shows the light down, I just need to tie them together in an if/then loop, and then set that loop inside of a timer to update every so often.</p>
+
+<p>There is a lot of spit and polish left to add to Go.  Adding a decent “About Go” panel, adding some nice looking help, and creating a decent status bar menu for it to live in for starters.  I’d also love to add some of the really nice Core Animation stuff to the main Go window… just because its there.  Getting Go to where it is now has been a lot of fun, and someday it may even be ready for public consumption.  One of the first things I did with Go was to put it into an online Subversion repository, which I host here.  Another thing I did very early on was to add the <a href="http://sparkle.andymatuschak.org/">Sparkle</a> framework for auto-updating, since I’ve got a friend in Maine who tests Go out for me on a fairly regular basis.  After adding Sparkle to it, I followed <a href="http://www.entropy.ch/blog/Developer/2008/09/22/Sparkle-Appcast-Automation-in-Xcode.html">these</a> instructions to create an automated workflow to compile Go, create a zip file of it, digitally sign the zip archive, upload the archive to my server, and update the appcast xml file.  An awesome amount of automation.</p>
+
+<p>Adding the ability to ping was a challenge.  A few of the forum posts that I saw said that there was no way to do it, and since you had to open up a raw socket to do it, you’d have to have root privileges.  That was obviously not going to fly, but I couldn’t believe that there wasn’t already an existing cocoa class to do it.  After much searching, I found <a href="http://developer.apple.com/samplecode/SimplePing/index.html">SimplePing</a>, buried in the Apple Developer site.  I downloaded it, imported the class into Go, and gave it a shot.  Calling SimplePing seemed to work!  It would ping the host when I called it.  Unfortunately, even if it tried to ping and could not reach the host, it still returned a return code of 0.  That was not going to do.  So, looking through the C code of SimplePing I found this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (error == 0) //was able to wait for reply successfully (whether we got a reply or not)
+{
+    if (gotResponse == 1)
+    {
+		{numberPacketsReceived = numberPacketsReceived + 1;}
+	}
+}
+</code></pre></div></div>
+
+<p>which I changed to this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (error == 0) //was able to wait for reply successfully (whether we got a reply or not)
+{
+    if (gotResponse == 1)
+	{
+		{numberPacketsReceived = numberPacketsReceived + 1;}
+	} else {
+		error = 1;
+	}
+}
+</code></pre></div></div>
+
+<p>and all was right with the world again.</p>
+
+<p>Adding the ability to launch Terminal and ssh to the selected host was also an interesting challenge.  Apple provides a framework to add the ability to manipulate other applications through AppleScript, called the <a href="http://www.apple.com/applescript/features/scriptingbridge.html">ScriptingBridge</a>.framework.  To actually be able to call the Terminal, I needed Go to know what AppleScript Terminal would accept.  So, I ran this command:
+<code class="highlighter-rouge">sdef /Applications/Utilities/Terminal.app | sdp -fh --basename Terminal --bundleid com.apple.Terminal</code>
+This created a header file “Terminal.h”, which I was able to import into Go.  From there, I created a “ScriptController” class, where I have this piece of code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+ (void)runTerminal:(id)sender withUserName:(NSString *)userName andHostName:(NSString *)hostName;
+{
+// Create our terminal object
+TerminalApplication *terminal = [SBApplication applicationWithBundleIdentifier:@"com.apple.Terminal"];
+
+// Get selected host name and IP address from NSTable
+NSString *script = [NSString stringWithFormat:@"ssh %@@%@", userName, hostName]; 
+
+// Run the script
+[terminal doScript:script in:nil ];
+[terminal activate];
+</code></pre></div></div>
+
+<p>This allows you to pass a user name and host name to this class, which will create a ssh script, and pass that script to Terminal via AppleScript.</p>
+
+<p>Since it was fairly easy to add this ability, I’ve been playing with the idea of also adding VNC capability to Go.  Leopard includes a Screen Sharing application, which is based on VNC, so I’m hoping to be able to script it in a similar way.  I also looked into Microsoft’s Remote Desktop Client and <a href="http://cord.sourceforge.net">CoRD</a>, but neither allows AppleScript, so it would be very difficult to tie them into Go.</p>
+
+<p>Go is a “document based” application.  That means that you can create different “sets” of hosts, and save those sets as individual files.  So, if you are on a team, you can share your set with the rest of your team.</p>
+
+<p>The concept of Go is pretty simple, you have a set of places, and you want quick access to those places.  I’m toying with the idea of adding a lot more capability to Go, like storing bookmarks, Finder folders, ftp, sftp, etc…  It will be interesting to see how it goes.  Right now, I’m just trying to get the basics down.  Programming is perhaps the most challenging thing I’ve ever done, but I’m glad I didn’t give up for good.</p>
+
+:ET

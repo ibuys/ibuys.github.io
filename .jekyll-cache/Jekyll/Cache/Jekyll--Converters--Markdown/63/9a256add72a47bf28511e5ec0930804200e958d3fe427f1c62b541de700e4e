@@ -1,0 +1,55 @@
+I"s<p>I can’t quite make up my mind on how I feel about “link blogging”. On the one hand, there’s already a lot of people out there who do it better than I can. On the other hand, sometimes I want to share something and make a few pithy comments about it. It’s out of that second feeling that this script is born.</p>
+
+<p>The script started out as an Automator action, but having an Automator wrapper around a single shell script seemed like overkill.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+	
+<span class="nv">TITLE</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari" 
+	set pageTitle to (do JavaScript "document.title" in document 1)
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">URL</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari" 
+	set pageURI to (get URL of document 1)	
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">TEXT</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari"
+set selectedText to (do JavaScript "(window.getSelection().toString())" in document 1)
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">QUOTEDTEXT</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"&gt;"</span><span class="p">;</span> <span class="nb">echo</span> <span class="nt">-n</span> <span class="nv">$TEXT</span><span class="sb">`</span>
+
+<span class="nv">LINK</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nt">-n</span> <span class="o">[</span>Jump to Post]<span class="p">;</span> <span class="nb">echo</span> <span class="nt">-n</span> <span class="se">\(</span><span class="nv">$URL</span><span class="se">\)</span><span class="sb">`</span>
+
+<span class="nv">NAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$TITLE</span> | <span class="nb">sed </span>s/<span class="se">\ </span>/-/g<span class="sb">`</span>
+<span class="nv">USERNAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">whoami</span><span class="sb">`</span>
+<span class="nv">POSTNAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">date</span> <span class="s2">"+%Y-%m-%d"</span>-<span class="nv">$NAME</span><span class="sb">`</span>	
+<span class="nb">echo</span> <span class="nv">$POSTNAME</span>
+<span class="nv">POST_FQN</span><span class="o">=</span>~/Public/Site/_posts/<span class="nv">$POSTNAME</span>.markdown
+
+<span class="nv">POST_DATE</span><span class="o">=</span><span class="sb">`</span><span class="nb">date</span> <span class="s2">"+%Y-%m-%d %H:%M:%S"</span><span class="sb">`</span>
+
+<span class="nb">echo</span> <span class="s2">"---"</span> <span class="o">&gt;&gt;</span><span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"layout: post"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"title: </span><span class="nv">$TITLE</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"date: </span><span class="nv">$POST_DATE</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"---"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+
+<span class="nb">echo</span> <span class="s2">"</span><span class="nv">$LINK</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">""</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"</span><span class="nv">$QUOTEDTEXT</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">""</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+
+<span class="nb">echo</span> <span class="nv">$POST_FQN</span>
+
+/usr/bin/open <span class="nv">$POST_FQN</span>
+</code></pre></div></div>
+
+<p>That first line is pretty ugly. I don’t recall when I wrote this, but it’s been working reliably for long enough that I don’t feel the need to change it just yet. Then again, a shell script that calls AppleScript that calls JavaScript seems pretty ridiculous.</p>
+
+<p>This script looks at the current web page in Safari and grabs the title, URL, and any selected text and builds a new post in the format my site builder script expects. Similar to my previous New Post script, this one opens the new file in MacVim, ready for writing.</p>
+
+<p>I call the script from Quicksilver using the <code class="highlighter-rouge">Run…</code> command, and tied the command to <code class="highlighter-rouge">^⎇ ⌘ P</code> for a hotkey.</p>
+
+<p>I might start putting more links on the site. There are often things that I find might be interesting to a certain segment of the Mac community, mainly the more technical and scientific groups, that I haven’t done anything significant with. I’d like to change that.</p>
+
+:ET

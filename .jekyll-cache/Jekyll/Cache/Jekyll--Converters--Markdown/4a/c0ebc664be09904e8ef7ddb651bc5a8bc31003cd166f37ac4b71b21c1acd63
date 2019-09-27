@@ -1,0 +1,75 @@
+I"� <p>Computers are complex tools; designers and developers are always trying to strike a balance between usability and usefulness. I have a theory that over time a computers configuration grows to resemble the mental state of its primary user. Each machine is a unique mix of file and folder organization methods, naming schemes<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, and application choices. Those choices can reflect the level of technical knowledge and values of the user, but only if the user has made a conscious choice in what apps to use.</p>
+
+<p>A user making the right application choice is empowered in a way that she wasn’t before. Suddenly this opaque machine begins to bend to her will and provide results, she feels the machine working <em>with</em> her and not against her. Tasks which were too complicated are made understandable, and eventually she is able to forget the computer and become enveloped in the flow of her work. Sometimes finding this flow is difficult, but it is almost always worth the effort.</p>
+
+<p>But how can someone find the right app? In this sense, especially in the Mac and iOS ecosystems, we have an embarrassment of riches. Even for something as basic as a word processor, there are several choices for all types of uses. Off the top of my head I can list:</p>
+
+<ul>
+  <li>Microsoft Word</li>
+  <li>Apple Pages</li>
+  <li>LibreOffice Write</li>
+  <li>Mellel</li>
+  <li>Nisus Writer Pro</li>
+  <li>Scrivener</li>
+  <li>Ulysses<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></li>
+  <li>Byword</li>
+  <li>IA Writer</li>
+</ul>
+
+<p>The list goes on. If you are looking for a simple text editor or note taker, the list of available apps is <a href="http://brettterpstra.com/ios-text-editors/">even more ridiculous</a>. So, what to pick, how can someone make the best choice for themselves that doesn’t waste their time and end up abandoned in frustration?</p>
+
+<p>This is actually two problems. The first is discoverability, or, how to know that an app even exists. This problem is much harder to solve, because the best apps are not always featured in the app store, and do not always show up at the top of a Google search. Personally, I find that immersing myself in the Apple community for the past thirteen years has helped tremendously. Reputable sites like Federico Viticci’s <a href="https://www.macstories.net">MacStories</a>, Jim Dalrymples <a href="http://www.loopinsight.com">The Loop</a>, Shawn Blanc’s <a href="http://thesweetsetup.com">The Sweet Setup</a>, David Sparks’ <a href="http://macsparky.com">MacSparky</a>, Jason Snell’s <a href="https://sixcolors.com">Six Colors</a>, and of course, John Gruber’s <a href="http://daringfireball.net">Daring Fireball</a> are the best places to look for reliable, and personal, application recommendations. I would avoid trying to search in either the Mac or iOS app stores.</p>
+
+<p>Once you have a handful of recommendations for a certain genre, let’s go back to our list of word processors, it’s time to start whittling down the contenders.</p>
+
+<p><em>Aesthetics</em></p>
+
+<p>Like it or not, how something looks will affect how it is used. Look at the screenshots, is the app pleasing to the eye? Can you visualize yourself doing the type of deep work you care about with this tool? If you’ve already installed the app, investigate the view options for hiding toolbars or views. The app should be inviting, a prompt for you to do your best work.</p>
+
+<p><em>Familiarity</em></p>
+
+<p>You could also call this usability. On the Mac, <em>most</em> well-designed apps function in a fairly similar way. There are common keyboard shortcuts that should be standard. In your word processor, start typing. Edit a couple of paragraphs. Does shift-option-left arrow do what you expect?<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>  Does the app not only look like it belongs on the Mac, does it <em>feel</em> like it belongs? Does it function in a way that gives you the impression it was built with care specifically for the Mac?</p>
+
+<p><em>Reputation</em></p>
+
+<p>The Mac has been <a href="http://www.folklore.org/StoryView.py?project=Macintosh&amp;story=1984.txt&amp;sortOrder=Sort+by+Date&amp;topic=The+Launch">around since 1984</a>, and iOS is coming up on a decade. Developers have had time to build reputations in the industry for themselves and the apps they create. If you like the look and feel of the app, take a few minutes to check into the history of the app and it’s developers. Are they <a href="https://twitter.com/danielpunkass">active in the community</a>? Do they have a <a href="http://www.barebones.com/support/bbedit/archived_notes.html">history of supporting their app</a>? Has the app received any recent updates? Are updates regular? What you want to find out here is if you feel you can trust the app to be around for the foreseeable future.</p>
+
+<p>Trusting that the developers care about their app means that they will put the effort in to adopt new features of the operating system as they are announced by Apple, and that they will not <a href="https://forums.plausible.coop/viewforum.php?f=3&amp;sid=8fceb80e324aa20ada5669197e3bbee9">abandon the app</a> so that it eventually stops working. Establishing this trust in your tools is essential in quieting that little voice in the back of your mind that panics when you start using the tool for significant work.  If the developer blogs regularly, is active on Twitter or other social networks, and releases updates to their app on a regular basis, chances are that they care enough about the app, and are personally invested in the app enough to keep going.</p>
+
+<p><em>Data Longevity</em></p>
+
+<p>Depending on the type of work to be done, how you feel about the longevity prospects may or may not be important. For example, I use OmniFocus for day to day task management, but I’m not especially concerned with being able to review todays tasks in twenty years. However, for our word processor example it may be very important to be able to read and edit the papers you are writing today. Maybe you are in grad school and are looking for the right tool to write your thesis, or you are a stay at home dad and want to record your thoughts for your son. How you look at data longevity is dependent on the job to be done.</p>
+
+<p>Choosing open formats is the easiest answer, but may not always be the best for day to day use. Plain text is the most future-proof, but it’s difficult to work with plain text if you want to include images or media alongside the text. To solve this problem, I’ve made the decision to work with tools that can export to an open format, normally PDF, but not necessarily use an open format natively for day to day use. This way, when I’m done writing that important paper I can hit the export button, or print to PDF, and I have a reasonable safe way to save my important information in a way that should be readable at any point in the future.</p>
+
+<p><em>fin</em></p>
+
+<p>I hope this helps, it works for me. There are probably many more aspects to choosing an application that I didn’t list here. Price and income model come to mind. Let me close with this list of companies that are worth looking into:</p>
+
+<ul>
+  <li><a href="https://www.omnigroup.com">The Omni Group</a></li>
+  <li><a href="https://www.panic.com">Panic</a></li>
+  <li><a href="http://www.barebones.com">Bare Bones Software</a></li>
+  <li><a href="https://red-sweater.com">Red Sweater Software</a></li>
+  <li><a href="http://www.ulyssesapp.com/team/">The Soulmen</a></li>
+  <li><a href="http://bloombuilt.com">Bloom Built</a></li>
+  <li><a href="https://agilebits.com">AgileBits</a></li>
+  <li><a href="https://smilesoftware.com">Smile</a></li>
+  <li><a href="http://www.devontechnologies.com">DEVONtechnolgies</a></li>
+  <li><a href="http://www.literatureandlatte.com">Literature &amp; Latte</a></li>
+</ul>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Or the lack thereof. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>What I’m using to write this post. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>It should select text going backwards one word at a time. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

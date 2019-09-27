@@ -1,0 +1,2 @@
+I"¢<p>To enable an interface on a web server to be part of an IBM load balanced cluster, we need to be able to share an ip address between multiple machines. This breaks the IP protocol however, because you could never be sure which machine will answer for a request for that IP address. To fix this problem, we need to get down into the IP protocol and investigate how the Address Resolution Protocol or ARP, works.</p>
+:ET

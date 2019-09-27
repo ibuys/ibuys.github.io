@@ -1,0 +1,57 @@
+I"�<p>I’ve been publishing this site with Jekyll for several years. I’m not sure exactly when I switched over from Wordpress, but it’s long enough ago that I’ve forgotten when I started.<sup id="fnref:footer"><a href="#fn:footer" class="footnote">1</a></sup> Over the past few weeks I’ve run into a few issues with Jekyll that have caused me to reevaluate if it was still the right choice for me. The short answer is no, the long answer is that this site is now published with my own Python script.</p>
+
+<p><em>List of Grievances</em></p>
+
+<p>Jekyll is popular enough with the geek crowd that there are probably reasonable solutions to everything listed below. However, that would assume that I’m reasonable, which I think we’ve established is not always the case. And besides, something <a href="http://www.leancrew.com/all-this/2014/07/displaying-multiple-images-in-twitter/">Dr. Drang said</a> the other day has been stuck in my head:</p>
+
+<blockquote>
+  <p>the great advantage of making your own software is that you can customize it to match your own idiosyncrasies.</p>
+</blockquote>
+
+<p>Thus, 370 lines of Python. On to the motivation to move.</p>
+
+<ul>
+  <li>Dependencies</li>
+</ul>
+
+<p>Strictly speaking, there are not <em>that</em> many Ruby <a href="https://gemnasium.com/jekyll/jekyll">dependencies for Jekyll</a>, and the are all automatically installed when running <code class="highlighter-rouge">gem install jekyll</code>. To be able to compile the gems, you need to have either the full Xcode IDE installed, or at a minimum the Xcode command line tools. Not much, still more than I thought necessary to parse text and move files.</p>
+
+<ul>
+  <li>Lost Pages</li>
+</ul>
+
+<p>One of the ways I used Jekyll was to build an internal site where I work. I use the site to keep coworkers updated with what I’m working on, but more importantly I use the site to publish reports. The reports are kept in a separate “/reports” directory under the site root, and Jekyll used to automatically compile the markdown to html in that directory along with the rest of the site. I’m not sure what happened, but at some point that stopped working, and when I rsync’d my site using the “–delete” flag, all my reports were gone. Luckily, I had a backup so I was able to quickly restore the reports, but once I realized what had happened I had to rethink my “modern living document”. <sup id="fnref:footer2"><a href="#fn:footer2" class="footnote">2</a></sup> A process I was in the middle of when I encountered the next grievance.</p>
+
+<ul>
+  <li>Failure to Build Site</li>
+</ul>
+
+<p>Jekyll failed to build my site last week because of a UTF-8 error; it was all I needed to start looking for something else. Apparently there was a special character in the title of one of my posts. Again, this wasn’t anything new, that post must have been built before because I wasn’t building anything new at the time. Something changed, I don’t know what, and troubleshooting this error led me down a rabbit hole of Ruby bugs I didn’t want to go down.</p>
+
+<p><em>Options</em></p>
+
+<p>I evaluated, and discarded, several options.</p>
+
+<ul>
+  <li>Wordpress.com</li>
+  <li>Self-Hosted Wordpress</li>
+  <li>Squarespace</li>
+  <li>Ghost</li>
+  <li>Hakyll</li>
+  <li>Hyde</li>
+  <li>Hugo</li>
+</ul>
+
+<p>I briefly looked at a few others, but these were the ones that received the most thought.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:footer">
+      <p>There was, of course, Paragraphs, but I’m content to let that go. Making peace with your past, learning from your mistakes, and moving on older and wiser is the only way to live in peace. <a href="#fnref:footer" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:footer2">
+      <p>My term for an internal, corporate blog. I maintain it as a way to avoid emailing Word documents and PowerPoint presentations to each other. When someone wants something like that from me, they get a link to an HTML document. <a href="#fnref:footer2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

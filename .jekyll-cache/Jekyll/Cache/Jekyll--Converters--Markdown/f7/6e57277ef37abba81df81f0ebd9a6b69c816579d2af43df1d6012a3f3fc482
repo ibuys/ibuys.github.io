@@ -1,0 +1,10 @@
+I"W<p>I’ve been publishing this site with Jekyll for several years. I’m not sure exactly when I switched over from Wordpress, but it’s long enough ago that I’ve forgotten when I started.<sup id="fnref:footer"><a href="#fn:footer" class="footnote">1</a></sup> Over the past few weeks I’ve run into a few issues with Jekyll that have caused me to reevaluate if it was still the right choice for me. The short answer is no, the long answer is that this site is now published with my own Python script.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:footer">
+      <p>There was, of course, Paragraphs, but I’m content to let that go. Making peace with your past, learning from your mistakes, and moving on older and wiser is the only way to live in peace. <a href="#fnref:footer" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

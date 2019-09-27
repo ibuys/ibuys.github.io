@@ -1,0 +1,65 @@
+I"�<p>I have a handful of Automator scripts I’ve created to make maintaining this site with <a href="https://github.com/mojombo/jekyll/wiki/">Jekyll</a> just a little easier. The first script let’s me highlight some text on a web page and click a bookmarklet (or, more likely, hit the command+3 key combo), and the script creates a newly formatted Jekyll post with the highlighted text in markdown quoted syntax, and opens it in my default Markdown editor.</p>
+
+<p>Here is how its done.</p>
+
+<p>First, open Automator and create a new application with a single action: “Run Shell Script”. Next, copy and paste this script into the text field:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">TITLE</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari" 
+set pageTitle to (do JavaScript "document.title" in document 1)
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">URL</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari" 
+set pageURI to (get URL of document 1)	
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">TEXT</span><span class="o">=</span><span class="sb">`</span>osascript <span class="nt">-e</span> <span class="s1">'tell application "Safari"
+set selectedText to (do JavaScript "(getSelection())" in document 1)
+end tell'</span><span class="sb">`</span>
+
+<span class="nv">QUOTEDTEXT</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"&gt;"</span><span class="p">;</span> <span class="nb">echo</span> <span class="nt">-n</span> <span class="nv">$TEXT</span><span class="sb">`</span>
+
+<span class="nv">LINK</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nt">-n</span> <span class="o">[</span><span class="nv">$TITLE</span><span class="o">]</span><span class="p">;</span> <span class="nb">echo</span> <span class="nt">-n</span> <span class="se">\(</span><span class="nv">$URL</span><span class="se">\)</span><span class="sb">`</span>
+
+<span class="nv">NAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="nv">$TITLE</span> | <span class="nb">sed </span>s/<span class="se">\ </span>/-/g<span class="sb">`</span>
+<span class="nv">USERNAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">whoami</span><span class="sb">`</span>
+<span class="nv">POSTNAME</span><span class="o">=</span><span class="sb">`</span><span class="nb">date</span> <span class="s2">"+%Y-%m-%d"</span>-<span class="nv">$NAME</span><span class="sb">`</span>
+<span class="nv">POST_FQN</span><span class="o">=</span>/Users/<span class="nv">$USERNAME</span>/Dropbox/WebLog/_posts/<span class="nv">$POSTNAME</span>.markdown
+<span class="nb">touch</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"---"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"layout: post"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"title: </span><span class="nv">$TITLE</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"---"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">""</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"</span><span class="nv">$QUOTEDTEXT</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">""</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+<span class="nb">echo</span> <span class="s2">"via: </span><span class="nv">$LINK</span><span class="s2">"</span> <span class="o">&gt;&gt;</span> <span class="nv">$POST_FQN</span>
+/usr/bin/open <span class="nv">$POST_FQN</span>	</code></pre></figure>
+
+<p>Note the line beginning <code class="highlighter-rouge">POST_FQN</code>. I have this site locally stored in a dropbox folder named “WebLog”, so you will have to change this line to point at your <code class="highlighter-rouge">_posts</code> folder. The rest should work fine. Save the script as an application somewhere that makes sense and quit Automator.</p>
+
+<p>Next, drag this bookmarklet to your bookmarks bar: <a href="javascript:location.href='blogPost:url='+location.href+'title='+decodeURIComponent(document.title\)">Blog This</a>.</p>
+
+<p>The last part is a bit of a hack, but it works well. You will need to let the operating system know that your new Automator app responds to the <code class="highlighter-rouge">blogPost://</code> url scheme. So, find your Automator application saved from the first step, control-click on it and select <code class="highlighter-rouge">Show Package Contents</code>. In the new Finder window that opens, open the <code class="highlighter-rouge">Contents</code> folder and find the file named <code class="highlighter-rouge">Info.plist</code>. Right click on that file and open it using your favorite plain text editor, something like MacVim or TextEdit.</p>
+
+<p>Find these two lines:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;key&gt;</span>CFBundleIdentifier<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;string&gt;</span>com.apple.automator.Post From Safari<span class="nt">&lt;/string&gt;</span></code></pre></figure>
+
+<p>And add this directly underneath:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;key&gt;</span>CFBundleURLTypes<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;array&gt;</span>
+    <span class="nt">&lt;dict&gt;</span>
+        <span class="nt">&lt;key&gt;</span>CFBundleURLName<span class="nt">&lt;/key&gt;</span>
+        <span class="nt">&lt;string&gt;</span>Post to Blog<span class="nt">&lt;/string&gt;</span>
+        <span class="nt">&lt;key&gt;</span>CFBundleURLSchemes<span class="nt">&lt;/key&gt;</span>
+        <span class="nt">&lt;array&gt;</span>
+            <span class="nt">&lt;string&gt;</span>blogPost<span class="nt">&lt;/string&gt;</span>
+        <span class="nt">&lt;/array&gt;</span>
+    <span class="nt">&lt;/dict&gt;</span>
+<span class="nt">&lt;/array&gt;</span></code></pre></figure>
+
+<p>Save the Info.plist file and close the Finder window. You should be all set. Highlight something on this page and click the bookmarklet.</p>
+
+:ET

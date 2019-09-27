@@ -1,0 +1,10 @@
+I"�<p>Despite aspirations of expanding my fields of interest and adopting new hobbies outside of technology, my day-to-day work gets done on a Mac. I’ve got a vested interest in the Macs continued survival, I’m one of those “truck drivers” that uses their machine for all it’s worth, and would have a difficult time transitioning to anything else. In my job I need to run shell scripts and build Docker containers, I need to ssh to Linux servers and RDP into Windows instances. I need to write, edit, and run Python code that connects to a database through a ssh tunnel. I need to do things that are either difficult or simply impossible with iOS, but are dead simple<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> with a Mac.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Well, dead simple in the sense of “if you have nearly two decades of Unix experience under your belt”. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

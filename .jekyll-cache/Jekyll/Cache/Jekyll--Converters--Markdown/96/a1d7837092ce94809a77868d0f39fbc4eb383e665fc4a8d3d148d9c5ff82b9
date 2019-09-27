@@ -1,0 +1,2 @@
+I"�<p>I have a handful of Automator scripts I’ve created to make maintaining this site with <a href="https://github.com/mojombo/jekyll/wiki/">Jekyll</a> just a little easier. The first script let’s me highlight some text on a web page and click a bookmarklet (or, more likely, hit the command+3 key combo), and the script creates a newly formatted Jekyll post with the highlighted text in markdown quoted syntax, and opens it in my default Markdown editor.</p>
+:ET

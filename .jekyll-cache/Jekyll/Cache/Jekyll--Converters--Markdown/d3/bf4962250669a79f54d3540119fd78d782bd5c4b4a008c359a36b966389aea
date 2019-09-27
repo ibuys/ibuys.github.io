@@ -1,0 +1,5 @@
+I"0<p>I mentioned in my last post that I was giving up my MacBook so my wife could go to college, and (until I can justify the cost of another Mac) that leaves me with her Linux PC. After the first few days of using Linux at home,as opposed to managing Linux servers at work, here are my initial impressions.</p>
+
+<p>My wife’s PC is a gigantic Acer laptop, with a 1.6 Ghz centrino processor and a one gig of RAM. Hooked up to my external monitor, keyboard, and mouse, the PC runs Ubuntu surprisingly well. I can’t enable the desktop effects, but since Gnome has built in <a href="http://library.gnome.org/misc/release-notes/2.22/#sect:metacity">compositing</a> support now that’s not a problem. The install went smooth, all the hardware was properly detected, wireless, sound, monitors… everything worked.</p>
+
+:ET

@@ -1,0 +1,2 @@
+I"�<p>For some reason today when I opened up MacVim and hit ,t to navigate to a file, MacVim crashed. The terminal spat out an ugly, and unhelpful error about “deadly signal SEGV”, but knowing that I just invoked the Command-T plugin, the error was easy to track down. Command-T is not like other plugins that I have installed with Pathogen, it lives on its own and is not updated as a Git submodule.</p>
+:ET

@@ -1,0 +1,9 @@
+I"�<p><a href="https://sixcolors.com/post/2017/04/rolling-your-own-vpn-server/">Jump to Post</a></p>
+
+<blockquote>
+  <p>The advantage to using Linode is that since it’s a virtual server, rather than a VPN service, I’m completely in charge of the setup and configuration of the VPN server. Again, this isn’t foolproof, because my traffic is only encrypted between my Mac and the Linode server, meaning that if Linode decided it wanted to track my outbound traffic, then I’d be in much the same boat as before. (Essentially, Linode becomes my de facto ISP.) Given, however, that Linode’s main business is hosting, and that they have their own pretty strong privacy policy, I’m not particularly concerned on that point. But, again, that’s subject to the vagaries of business.</p>
+</blockquote>
+
+<p>In reference to <a href="https://jonathanbuys.com/Beware_of_VPNs">my previous post</a> on the subject, this is the only method of using a VPN for privacy that I can recommend.</p>
+
+:ET

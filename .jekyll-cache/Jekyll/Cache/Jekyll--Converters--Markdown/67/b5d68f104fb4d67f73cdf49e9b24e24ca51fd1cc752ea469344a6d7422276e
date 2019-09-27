@@ -1,0 +1,9 @@
+I",<p>I’ve been experimenting with the design of this site for the past couple weeks. First, I used a default Jekyll template, slightly modified to my liking. Next, I tried out a very nice theme that made good use of hero images and included nice typography. I changed the name of the site to “INTERACT”, and briefly considered leaving it at that. Unfortunately, the more I looked at the site the more it looked like it belonged to someone else.</p>
+
+<p>Something reminded me of Merlin Mann and John Gruber’s <a href="http://www.43folders.com/2009/03/25/blogs-turbocharged">South By Southwest</a> panel where John said he wanted to own every pixel of his site, from the top left to the bottom right. I agree. This little part of the Internet has my name on it, it’s jonathanbuys.com, and I want to be able to point at this site and say “I built this”.</p>
+
+<p>It’s not much, I’m not a web designer. I’ve tried to optimize the site to make it easy to read, and easy to port between hosting companies. I’m back to using my own Python script for generating the site, so there might be a few inconsistencies or characters that are missing or not rendered correctly. I’m going to work on that.</p>
+
+<p>In the meantime, once again, I own every pixel of this site. From the top left, to the bottom right.</p>
+
+:ET
