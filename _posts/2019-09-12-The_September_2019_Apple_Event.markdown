@@ -46,8 +46,10 @@ $5 per month? Sold. I have high hopes for the shows they’ve advertised so far,
 As discussed on the [most recent ATP](https://atp.fm/episodes/343), the game demos were not good. I also thought they had too many videos, and I miss Jony’s British voiceovers. I also 100% agree with Marco that the forced applause from Apple Retail employees is really starting to feel fake and cringe-worthy.
 This video for the Watch was Apple at their best. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mx1by12-oF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mx1by12-oF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [1]: https://daringfireball.net/2019/09/brief_thoughts_and_observations_iphone_11_event
 [2]: https://www.macstories.net/news/iphone-11-and-11-pro-the-macstories-overview/
