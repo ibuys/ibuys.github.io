@@ -1,3 +1,0 @@
-I"�<p>Learning about computers can be a dangerous thing. Breaking though the veneer of graphical interfaces reveals inefficiencies and inaccurate metaphors. For example, <a href="https://en.wikipedia.org/wiki/Rsync">rsync</a> copies files faster and uses fewer resources than the Finder. Copying lots of files is what rsync does best, but being a command line power tool there are a few subtleties with using it that are not readily apparent. As your skill grows, so to does the tendency to eschew modern tools in favor of “power tools”. You begin to see the inefficiencies of graphical tools as problems, problems that you need to fix. I’ve been down that road.</p>
-
-:ET

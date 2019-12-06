@@ -1,2 +1,0 @@
-I":<p>For better or worse, we are starting to put Ubuntu JeOS images into production in our network.  Starting off, we will only put these systems in for our non-IBM services, no WebSphere or DB2, as IBM doesn’t officially support this configuration yet, but for everything else, JeOS looks like a perfect fit.</p>
-:ET
