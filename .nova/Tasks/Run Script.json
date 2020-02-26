@@ -1,0 +1,9 @@
+{
+  "script" : "#!\/bin\/sh\n\nexport PATH=\/usr\/local\/bin:\/usr\/local\/opt\/ruby\/bin:\/usr\/local\/opt\/openssl\/bin:\/usr\/local\/lib\/ruby\/gems\/2.6.0\/bin:$PATH\n\nif [ $NOVA_TASK_NAME == \"build\" ]; then\n\tjekyll build\nfi\n\nif [ $NOVA_TASK_NAME == \"run\" ]; then\n\tjekyll serve\nfi\n\nif [ $NOVA_TASK_NAME == \"clean\" ]; then\n\tjekyll clean\nfi",
+  "actions" : [
+    "build",
+    "run"
+  ],
+  "identifier" : "BA4AB412-8803-4942-85DC-F06E37AE352C",
+  "openLogOnRun" : "start"
+}

@@ -9,7 +9,7 @@ Latest Update: 2019-01-16
 
 ### Books in Progress:
 
-Currently looking for something fun to read. 
+The Sinister Mystery of the Mesmerizing Girl by Theodora Goss 
 
 ### The Backlog:
 
