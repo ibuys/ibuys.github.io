@@ -9,7 +9,9 @@ Latest Update: 2019-01-16
 
 ### Books in Progress:
 
-The Sinister Mystery of the Mesmerizing Girl by Theodora Goss 
+* The Invisible Library by Genevieve Cogman
+* Grave Importance by Vivian Shaw
+* The Strenuous Life: Essays and Addresses by Theodore Roosevelt
 
 ### The Backlog:
 
@@ -77,7 +79,6 @@ The Sinister Mystery of the Mesmerizing Girl by Theodora Goss
 *  All Quiet On the Western Front by A. W. Wheen
 *  The Red Badge of Courage (Wordsworth Classics) by Stephen Crane
 *  Lives of the Noble Grecians and Romans, Plutarch's Lives, improved 8/11/2010 by Plutarch
-*  The Strenuous Life: Essays and Addresses by Theodore Roosevelt
 *  Lonesome Dove: A Novel by Larry McMurtry
 *  Maltese Falcon (Read a Great Movie) by Dashiell Hammett
 *  The Long Goodbye by Raymond Chandler
@@ -134,6 +135,7 @@ The Sinister Mystery of the Mesmerizing Girl by Theodora Goss
 * [The 100-Year-Old Man Who Climbed Out the Window and Disappeared][1] by Jonas Jonasson
 * [A Guide to the Good Life: The Ancient Art of Stoic Joy][2] by William B. Irvine
 *  Rough Riders by Theodore Roosevelt
+* The Sinister Mystery of the Mesmerizing Girl by Theodora Goss
 
 
 [1]:	https://www.amazon.com/100-Year-Old-Man-Climbed-Window-Disappeared/dp/1401324649
