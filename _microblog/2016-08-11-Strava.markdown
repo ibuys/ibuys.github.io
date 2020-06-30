@@ -6,10 +6,10 @@ date: 2016-08-11 07:53:10
 [Jump to Post](http://blog.strava.com/strive/?utm_source=strava&utm_medium=mktgemail&utm_campaign=2016_08_10_Strive_8_Final)
 
 <div class="video-container">
-<iframe width="853" height="480" src="https://www.youtube.com/embed/Afi2A7m4fWU" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/Afi2A7m4fWU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 >Being an athlete is simple – all you have to do is strive.
 
-I enjoyed this set of videos from Strava. 
+I enjoyed this set of videos from Strava.
 
