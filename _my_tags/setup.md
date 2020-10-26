@@ -1,4 +1,0 @@
----
-slug: setup
-name: setup
----

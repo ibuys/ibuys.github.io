@@ -1,7 +1,0 @@
----
-layout: microblog-post
-title: chirp, chirp
-date: 2019-03-06 17:41:14
----
- 
-I love that Messages still has the old iChat screen-sharing capability. Makes remote family tech support 1000% easier. 

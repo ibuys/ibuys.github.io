@@ -1,4 +1,0 @@
----
-slug: cocoa
-name: cocoa
----

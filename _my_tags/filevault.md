@@ -1,4 +1,0 @@
----
-slug: filevault
-name: filevault
----

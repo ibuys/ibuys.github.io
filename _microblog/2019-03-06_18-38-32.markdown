@@ -1,7 +1,0 @@
----
-layout: microblog-post
-title: chirp, chirp
-date: 2019-03-06 18:38:32
----
- 
-I'm enjoying the Solar Gradient dynamic desktop in Mojave. Spending as much time at my desk as I do, it's nice to see the computer react along with the daylight outside. 

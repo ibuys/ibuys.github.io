@@ -1,4 +1,0 @@
----
-slug: bsd
-name: bsd
----

@@ -1,9 +1,0 @@
----
-layout: post
-title: Handmade
-tags: [culture, maker]
----
-
-I love these videos from Field Notes.
-
-<iframe src="http://player.vimeo.com/video/18723707" width="400" height="225" frameborder="0"></iframe><p><a href="http://vimeo.com/18723707">Field Notes: Making of Steno Book</a> from <a href="http://vimeo.com/user4372033">Coudal Partners</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
