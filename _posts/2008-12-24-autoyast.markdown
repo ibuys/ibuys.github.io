@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: AutoYast
+tags: [work, linux, sysadmin]
+---
+
+
+> I wrote this last year and never posted it. I'm glad I found it and can post it now.
+
+One of the projects I've been working on in the past week has been a rapid deployment server for SLES 9. I would have liked to deploy SLES 10, but we are constrained by our application requirements. Novell has done a great job at making it easy to deploy SLES or SLED using their Autoinstall and Installation Server options available through YaST. Using Autoinstall, YaST steps you through the options required to generate an xml file, this xml file is read by YaST during system install and automates the process. To build a network installation source, the contents of the CDs or DVD need to be copied to the hard drive, preserving symbolic links. YaSTs Installation Server makes this easy, and also makes "slipstreaming" (to borrow a Windows term) a service pack into the install source automatic. I've built the network install source both ways, and I prefer using YaST to do it for me.
+
+Even with all this being said, YaST (in SLES 9) is still missing some features that require me to edit the xml file directly. The most important feature it's missing, which they included in SLES 10, is the ability to create LVM volumes during partitioning. Not to say that it's not possible, it just requires editing the xml source file. Using a little trail and error, I was able to partition the drive with a 200MB /boot (too big, I know), a 2GB swap, and then partition the rest of the drive as LVM, and then mount /, /var, /opt, /usr, /tmp, /home, and /work inside the lvm. Works like a charm. If you need a working autoinst.xml file, you can download mine [here][1].
+
+This setup is great, but it required me to boot off of the CD, and then enter a long install=nfs://bla bla bla/bla bla autoyast=nfs://blalbalba line at boot time. To really make the system work, I needed network booting for full automation. I found a great walk through in this [pdf][2], which surprisingly enough, worked for me the first time. I had to install tftp, syslinux, and dhcp-server rpms, then edit a couple of files, move a couple of things, really no big deal.
+
+Now, I'm ready. When we get 100+ servers in, which I'm told I'll have 7 days to install, I'll be able to say "what would you like me to do with the rest of the time?"
+
+
+[1]: http://os-zen.com/download/autoinst.xml
+[2]: http://www.theopenstandard.com/blogs/chapeaurouge/files/PXE-GRub- AutoYast-HTTP.pdf

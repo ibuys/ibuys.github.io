@@ -1,0 +1,34 @@
+# Site settings
+title: jb…
+email: desk@jonathanbuys.com
+description: > # this means to ignore newlines until "baseurl:"
+  Step into the arena. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jonathanbuys.com" # the base hostname & protocol for your site
+twitter_username: ibuys
+github_username:  ibuys
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown
+
+inter_post_navigation: false
+highlighter: rouge
+permalink: /:title/
+
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:slug/
+  microblog:
+    output: true
+    permalink: /microblog/:year/:month/:slug/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: articles_by_tag

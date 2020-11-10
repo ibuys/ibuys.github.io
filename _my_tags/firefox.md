@@ -1,0 +1,4 @@
+---
+slug: firefox
+name: firefox
+---
