@@ -5,7 +5,7 @@ title: Resume
 
 ## Profile
 
-Nearly twenty years experience in the technology industry. Over seventeen years experience as a systems administrator and devops professional. Expert in Linux, scripting, automation, and scaling web systems for security, high availability, and performance. Created automation system using AWS services. Developed three applications for macOS in Objective C.
+Over twenty years experience in the technology industry. Over eighteen years experience as a systems administrator and devops professional. Expert in Linux, scripting, automation, and scaling web systems for security, high availability, and performance. Created automation system using AWS services. Developed three applications for macOS in Objective C.
 
 ## Experience
 
@@ -29,16 +29,16 @@ Active duty in the U.S. Navy for eleven years, leaving the service with an honor
 
 | ⏱  | 🖥 |
 | ------------- | ------------- |
-| 17 Years:  | Linux and Unix Administration  |
-| 17 Years:  | Shell Scripting  |
-| 9 Years:  | Version Control Systems (Git, Mercurial, Subversion)  |
-| 7+ Years:  | System Automation  |
-| 3 Years:  | Cocoa/Objective-C Mac OS X Development  |
-| 3+ Years:  | Network Security Administration  |
-| 3+ Years:  | Programming in Python  |
-| 3+ Years:  | AWS, Building fully automated infrastructure  |
-| 2+ Years:  | Jenkins/Hudson  |
-| 20 Years:  | Accepting and Overcoming the Hardest Problems  |
+| 18 Years:  | Linux and Unix Administration  |
+| 18 Years:  | Shell Scripting  |
+| 10 Years:  | Version Control Systems (Git, Mercurial, Subversion)  |
+| 8+ Years:  | System Automation  |
+| 4 Years:  | Cocoa/Objective-C Mac OS X Development  |
+| 4+ Years:  | Network Security Administration  |
+| 4+ Years:  | Programming in Python  |
+| 4+ Years:  | AWS, Building fully automated infrastructure  |
+| 3+ Years:  | Jenkins/Hudson  |
+| 20+ Years:  | Accepting and Overcoming the Hardest Problems  |
 
 ## Formal Education
 
