@@ -12,7 +12,7 @@ I have two pieces of advice:
 1. *Stay curious*. If you come across something you don’t understand, keep digging till you do. 
 2. *Start building*. The best way to learn is to do. Build a web page, build an app, build a server… whatever direction you want to go, pick a project and start digging in. As you go you’ll hit obstacles, you’ll find things that you don’t understand, when you find yourself there, remember number one and keep at it till you’ve figured it out. Honestly that’s how I’ve built my entire career. 
 
-My personal bias is to recommend the devops path, and the first step on that path is to learn Unix. You can download Linux (a Unix clone) for free, or if you have a Mac can pop open the Terminal app and go to town. Figure out what the shell is, what common commands are available to you, and start writing out a personal library of scripts. 
+My personal bias is to recommend the devops path, and the first step on that path is to learn Unix. You can download Linux (a Unix clone) for free, or if you have a Mac can pop open the Terminal app and go to town. Figure out what the shell is, what common commands are available to you, and start writing out a personal library of scripts.
 
 Unix is everywhere, it took over the world and no one even noticed. Unix is the core of macOS, iOS, Android, ChromeBooks, and every server running in the cloud. It’s in Internet of Things devices, it’s in your smartTV, it’s probably in your routers and cable modems, and if you do a search for “Unix or Linux Sysadmin” or “devops engineer” you’ll come up with thousands of available jobs. 
 
