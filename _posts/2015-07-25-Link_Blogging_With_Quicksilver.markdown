@@ -2,7 +2,7 @@
 title: Link Blogging With Quicksilver
 layout: post
 date: 2015-07-25 21:38:37
-tags: automator, mac 
+tags: automator mac 
 ---
 
 I can't quite make up my mind on how I feel about "link blogging". On the one hand, there's already a lot of people out there who do it better than I can. On the other hand, sometimes I want to share something and make a few pithy comments about it. It's out of that second feeling that this script is born. 
