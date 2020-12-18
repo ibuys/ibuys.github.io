@@ -1,3 +1,0 @@
-I"»<p>In the course of load testing a new system, we gathered the output from <a href="http://man.cx/iostat">iostat</a> from a group of servers. In addition to parsing through the device statistics, we thought it would be handy to graph the CPU stats as well. We set iostat to run every five seconds and captured the output in a text file, one per server. This gave me a sizable pool of data, but with everything I needed on separate lines.</p>
-
-:ET
