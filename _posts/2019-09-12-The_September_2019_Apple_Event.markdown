@@ -2,7 +2,7 @@
 layout: post
 title: The September 2019 Apple Event
 date: 2019-09-12 15:18:25
-tags: apple, iphone, ipad, iwatch
+tags: apple iphone ipad iwatch
 ---
 
 Several more professional sites have written longer and better articles about Apple’s recent event than I can do here. A few of my favorites in no particular order are [John Gruber’s take](1), Ryan Christoffel and Alex Guyot  cover the [new iPhones](2) and [Apple Watch](3), respectively, at MacStories, Jason Snell’s take on [hits and misses at SixColors](4),  it’s always worth a click to read everyone’s pal Jim Dalrymple at The Loop’s [thoughts on the event](6). And of course, the team at iMore has an [entire section](5) set aside for the many articles they’ve already written about what’s new.

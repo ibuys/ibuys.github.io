@@ -2,6 +2,7 @@
 layout: post
 title: Apple and why
 date: 2019-10-07 15:33:53
+tags: tweet
 ---
 
 [Jump to Post](https://www.loopinsight.com/2019/10/07/apple-and-why/)

@@ -2,6 +2,7 @@
 layout: post
 title: Multiple Macs, one location for screenshots – Tech Reflect
 date: 2020-03-24 08:57:49
+tags: tweet
 ---
 [Jump to Post](https://techreflect.net/2017/03/22/multiple-macs-one-location-for-screenshots/)
 

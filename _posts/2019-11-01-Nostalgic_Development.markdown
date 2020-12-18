@@ -2,7 +2,7 @@
 layout: post
 title: Nostalgic Development
 date: 2019-11-01 15:43:53
-tags: development, mac, web
+tags: development mac web
 ---
 
 Like many my age, my first introduction to writing code was creating basic web pages, mimicking what I could find by right-clicking on a site and selecting "view source". HTML was, and continues to be, simple. There are nested elements inside the top and bottom tags, and the styling sheet defines how those elements are presented. But, somewhere along the line we've collectively lost our way. 

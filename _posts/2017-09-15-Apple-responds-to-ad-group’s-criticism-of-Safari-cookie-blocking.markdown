@@ -2,6 +2,7 @@
 layout: post
 title: Apple responds to ad group’s criticism of Safari cookie blocking
 date: 2017-09-15 18:55:18
+tags: tweet
 ---
 [Jump to Post](http://www.loopinsight.com/2017/09/15/apple-responds-to-ad-groups-criticism-of-safari-cookie-blocking/?utm_source=loopinsight.com/twitter&utm_campaign=twitter&utm_medium=referral)
 

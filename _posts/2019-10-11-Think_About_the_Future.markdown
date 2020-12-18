@@ -2,7 +2,7 @@
 layout: post
 title: Think About the Future
 date: 2019-10-11 06:54:51
-tags: culture, future
+tags: culture future
 ---
 
 Over the past twenty years the tech industry has greased the tracks of an express train to dystopia. As age creeps up on me and my hair continues to grey, I think back on the naive optimism of my youth with increasing nostalgia. We live in a world of constant surveillance, persistent erosions of privacy, a decline of democracy, and a rise of populist demagogues. Every new year becomes the hottest year on record, America has an obesity epidemic, and starvation is still a problem around the globe. The Amazon is on fire, opiate abuse is rampant, our kids are suffering from mental health problems, and everyone is too distracted by their phones to care. In short, we've made a mess of things. 

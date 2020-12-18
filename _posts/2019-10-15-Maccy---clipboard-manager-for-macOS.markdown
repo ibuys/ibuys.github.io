@@ -2,6 +2,7 @@
 layout: post
 title: Maccy - clipboard manager for macOS
 date: 2019-10-15 10:05:01
+tags: tweet
 ---
 [Jump to Post](https://maccy.app/)
 

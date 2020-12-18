@@ -2,7 +2,7 @@
 layout: post
 title: Setting Up Webster's Dictionary
 date: 2019-03-06 10:28:48
-tags: macos, writing, blogging
+tags: macos writing blogging
 ---
 
 Via a post I saw today from [Chris Bowler][1], via a newsletter by [Sarah Bray][2], discussing an article written by [James Somers][3], wherein he describes the writing process of [John McPhee][4][^1], and how he uses a good dictionary to go from last draft to finished work. The emphasis here is on a *good* dictionary, namely the 1913 Webster's Unabridged. I won't attempt to describe how wonderful the dictionary is here, James did a fantastic job of that on his [blog five years ago][5]. I will however say that I think his installation instructions for getting the dictionary usable on your Mac are out of date. Here's the easy way to do it.

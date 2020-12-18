@@ -2,7 +2,7 @@
 layout: post
 title: Over the Air
 date: 2020-03-19 20:01:38
-tags: network, personal
+tags: network personal
 ---
 
 I recently dropped our cable service and switched our home entertainment system to be centered around the Apple TV (the box, not the service), with an app installed to watch live news, sports, and other local channels. Here's how I did it.

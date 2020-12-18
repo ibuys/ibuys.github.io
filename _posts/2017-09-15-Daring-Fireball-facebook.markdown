@@ -2,6 +2,7 @@
 layout: post
 title: I'm Done With Facebook
 date: 2017-09-15 07:14:29
+tags: tweet
 ---
 
 From Daring Fireball: Facebook Enabled Advertisers to Target ‘Jew Haters’

@@ -2,6 +2,7 @@
 layout: post
 title: Delete Previous Word or Path Item in Terminal
 date: 2020-03-24 08:37:54
+tags: tweet unix mac
 ---
 
 [Jump to Post](https://techreflect.net/2018/06/12/macos-tip-delete-previous-word-or-path-item-in-terminal/)

@@ -2,7 +2,7 @@
 layout: post
 title: Enterprise Software Again
 date: 2019-09-06 11:14:51
-tags: aws, cloud, sysadmin
+tags: aws cloud sysadmin
 ---
 
 I realized today that it’s been ten years since I dedicated an entire post to complaining about enterprise software. In that ten years not much has changed, unfortunately. Enterprise software is still crap, and it’s still more of a hassle than it’s worth. It’s best to avoid whenever possible, so when you find yourself evaluating software or services for your company, here’s a few easy markers to identify the products you should let pass by.

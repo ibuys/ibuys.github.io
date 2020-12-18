@@ -2,6 +2,7 @@
 layout: post
 title: Arcane Office – Blockchain-based private online office suite.
 date: 2019-10-15 09:51:09
+tags: tweet
 ---
 [Jump to Post](https://arcaneoffice.com/)
 

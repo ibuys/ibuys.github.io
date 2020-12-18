@@ -2,7 +2,7 @@
 layout: post
 title: Inessential Thanks
 date: 2019-01-16 15:39:01
-tags: [jekyll, blogging, design]
+tags: jekyll blogging design
 ---
 
 

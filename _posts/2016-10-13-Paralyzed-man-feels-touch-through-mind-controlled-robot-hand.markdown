@@ -2,6 +2,7 @@
 layout: post
 title: Paralyzed man feels touch through mind-controlled robot hand
 date: 2016-10-13 13:12:44
+tags: tweet
 ---
 [Jump to Post](https://www.statnews.com/2016/10/13/paralyzed-man-touch-robot-hand/?s_campaign=stat:rss)
 

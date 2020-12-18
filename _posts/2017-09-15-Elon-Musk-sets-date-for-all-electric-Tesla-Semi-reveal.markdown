@@ -2,6 +2,7 @@
 layout: post
 title: Elon Musk sets date for all-electric Tesla Semi reveal
 date: 2017-09-15 07:07:09
+tags: tweet
 ---
 [Jump to Post](http://newatlas.com/tesla-electric-semi-reveal/51340/)
 

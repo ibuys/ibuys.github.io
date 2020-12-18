@@ -2,6 +2,7 @@
 layout: post
 title: Amazon officially unveils touchscreen Echo Show - The Verge
 date: 2017-05-11 11:16:38
+tags: tweet
 ---
 [Jump to Post](https://www.theverge.com/circuitbreaker/2017/5/9/15590978/amazon-echo-show-touchscreen-price-release-date)
 

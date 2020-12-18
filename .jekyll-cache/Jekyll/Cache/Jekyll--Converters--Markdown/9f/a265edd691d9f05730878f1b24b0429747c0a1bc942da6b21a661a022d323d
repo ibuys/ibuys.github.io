@@ -1,0 +1,66 @@
+I"_<p>Or, maybe a better title for this would be “They rebooted the server, why didn’t I get a page?”  I’ve had that question asked of me a few times, and I’ve never had a good answer, so I thought I’d take a closer look at Nagios and see what is going on.</p>
+
+<p>Inside of nagios.conf are six values that are important to consider. The first is the Service Inter-Check Delay Method. This is the method that Nagios should use initially.</p>
+
+<blockquote>
+  <p>spreading out service checks when it starts monitoring. The default is to use smart delay calculation, which will try to space all service checks out evenly to minimize CPU load. Using the dumb setting will cause all checks to be scheduled at the same time (with no delay between them)! This is not a good thing for production, but is useful when testing the parallelization functionality.</p>
+</blockquote>
+
+<ul>
+  <li>n = None - don’t use any delay between checks</li>
+  <li>d = Use a “dumb” delay of 1 second between checks</li>
+  <li>s = Use “smart” inter-check delay calculation</li>
+  <li>x.xx = Use an inter-check delay of x.xx seconds</li>
+</ul>
+
+<p>The next setting to look at is the Service Check Interleave Factor.</p>
+
+<blockquote>
+  <p>This variable determines how service checks are interleaved. Interleaving the service checks allows for a more even distribution of service checks and reduced load on remote hosts. Setting this value to 1 is equivalent to how versions of Nagios previous to 0.0.5 did service checks. Set this value to s (smart) for automatic calculation of the interleave factor unless you have a specific reason to change it.</p>
+
+  <ul>
+    <li>s = Use “smart” interleave factor calculation</li>
+    <li>x = Use an interleave factor of x, where x is a number greater than or equal to 1.</li>
+  </ul>
+</blockquote>
+
+<p>I love it when there is good documentation in the config files. So, there are several checks running at once, and they are spaced out how the Nagios application thinks is best, but how many are running at once?  This is determined by the next variable, <em>Maximum Concurrent Service Checks</em>.</p>
+
+<blockquote>
+  <p>This option allows you to specify the maximum number of service checks that can be run in parallel at any given time. Specifying a value of 1 for this variable essentially prevents any service checks from being parallelized. A value of 0 will not restrict the number of concurrent checks that are being executed.</p>
+</blockquote>
+
+<p>Our variable here is set to 0, unrestricted.</p>
+
+<p>The third item that caught my eye is the Service Reaper Frequency variable.</p>
+
+<blockquote>
+  <p>This is the frequency (in seconds!) that Nagios will process the results of services that have been checked.</p>
+</blockquote>
+
+<p>Our variable here is set to 10, so every 10 seconds Nagios processes the results of the checks.</p>
+
+<p>The last value is actually a group of values collectively known as Timeout Values.</p>
+
+<blockquote>
+  <p>These options control how much time Nagios will allow various types of commands to execute before killing them off. Options are available for controlling maximum time allotted for service checks, host checks, event handlers, notifications, the ocsp command, and performance data commands. All values are in seconds.</p>
+</blockquote>
+
+<p>Our values are:</p>
+
+<ul>
+  <li>service_check_timeout=60</li>
+  <li>host_check_timeout=30</li>
+  <li>event_handler_timeout=30</li>
+  <li>notification_timeout=30</li>
+  <li>ocsp_timeout=5</li>
+  <li>perfdata_timeout=5</li>
+</ul>
+
+<p>Knowing the theory is good, but it is also good to know the exact times between checks. In the Nagios web interface there is a page for each service that is monitored with the label “Service State Information”. On this page I found the timestamp for the “Last Check Time” and the “Next Scheduled Check”. <em>Looking at several of these I found that each service check is five minutes apart… down to the second.</em></p>
+
+<p>One last item to consider is that Nagios gives each check three chances to correct itself. This means that if Nagios finds an error, it immediately schedules the next check of the service. (Ping also being considered a “service”)</p>
+
+<p>So, what all this means is a very long-winded explanation of what I thought was happening. The server was rebooted right after a service check, and it came back up before the next service check was executed.</p>
+
+:ET

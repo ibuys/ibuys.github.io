@@ -1,0 +1,2 @@
+I"÷<p>So, while I was debugging the first post using Scout, I found an oddity in NSString. I was building the links between the posts using <code class="language-plaintext highlighter-rouge">stringByAppendingPathComponent</code>, to join the siteâ€™s base URL with the path component of the individual post.  Unfortunately, that method seems to be stripping one of the forward slashes off of the <code class="language-plaintext highlighter-rouge">http://</code> string, which screws up building links.</p>
+:ET

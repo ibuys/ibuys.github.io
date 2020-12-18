@@ -2,6 +2,7 @@
 layout: post
 title: You can heal the internet
 date: 2019-09-12 07:35:31
+tags: tweet
 ---
 [Jump to Post](https://m.signalvnoise.com/you-can-heal-the-internet/)
 

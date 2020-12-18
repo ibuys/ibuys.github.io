@@ -1,0 +1,24 @@
+I"�<p>Via a post I saw today from <a href="http://chrisbowler.com/journal/wrong-dictionary">Chris Bowler</a>, via a newsletter by <a href="https://www.sarahjbray.com">Sarah Bray</a>, discussing an article written by <a href="http://jsomers.net/blog/dictionary">James Somers</a>, wherein he describes the writing process of <a href="http://jsomers.net/mcphee-draft-no-4.pdf">John McPhee</a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, and how he uses a good dictionary to go from last draft to finished work. The emphasis here is on a <em>good</em> dictionary, namely the 1913 Webster’s Unabridged. I won’t attempt to describe how wonderful the dictionary is here, James did a fantastic job of that on his <a href="http://jsomers.net/blog/dictionary">blog five years ago</a>. I will however say that I think his installation instructions for getting the dictionary usable on your Mac are out of date. Here’s the easy way to do it.</p>
+
+<p>First, download the compiled dictionary text. I downloaded it from a GitHub account, but who knows for how long that’ll be available, so I’m hosting the download here<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>. <a href="https://jonathanbuys.com/media/Webster.s.1913.dictionary.zip">Webster.s.1913.dictionary.zip</a></p>
+
+<p>Next, unzip the downloaded file and find the file named “Webster’s 1913.dictionary”. Click on the Finder’s “Go” menu and hold down the <code class="language-plaintext highlighter-rouge">⌥</code>Option key to show the hidden “Library” folder. Click on Library, and find the “Dictionaries” folder. Open it, and drag and drop the new dictionary folder into it.</p>
+
+<p>Now when you open the macOS Dictionary app, you can go into the settings (either by pressing ⌘, or by clicking on “Dictionary” then “Preferences…” in the menu bar), scroll down a bit till you find “Webster’s 1913”, click the check box next to it and drag it to the top of the list. Uncheck the “New Oxford American Dictionary”. Now when you click on a word in a good Mac app, then click just a <em>tad</em> bit harder<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>, you’ll get the definition from the new and improved Webster’s. It’ll also show up in Spotlight searches, and anywhere else the system-wide dictionary is used.</p>
+
+<p>Now you have a far richer and more useful dictionary. A useful resource if you happen to currently be, or soon will be, a college student who needs to write often, and in volume.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Good grief! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Which, ironically, is also hosted on GitHub. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>If your Mac doesn’t have the force-press feature in the trackpad, you can hit ⌘⌃D while a word is highlighted to get the definition as well. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

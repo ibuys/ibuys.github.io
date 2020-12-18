@@ -3,6 +3,7 @@ layout: post
 title: Sal Fights For the Users
 date: 2017-01-12 08:25:15
 cover: /images/covers/tron.jpg
+tags: culture
 ---
 
 [Jump to Post][1]

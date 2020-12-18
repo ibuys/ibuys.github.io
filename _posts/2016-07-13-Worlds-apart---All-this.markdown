@@ -2,6 +2,7 @@
 layout: post
 title: Worlds apart - All this
 date: 2016-07-13 19:30:30
+tags: tweet
 ---
 [Jump to Post](http://leancrew.com/all-this/2016/06/worlds-apart/)
 

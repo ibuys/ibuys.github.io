@@ -1,0 +1,18 @@
+I"�<p><a href="https://techreflect.net/2017/03/22/multiple-macs-one-location-for-screenshots/">Jump to Post</a></p>
+
+<blockquote>
+  <p>Here’s how you set up your single screenshots folder:</p>
+  <ul>
+    <li>Open a Finder window and click on iCloud Drive</li>
+    <li>Create a new folder called Screenshots</li>
+    <li>In Terminal, type these commands:
+      <ul>
+        <li>defaults write com.apple.screencapture location “~/Library/Mobile Documents/com~apple~CloudDocs/Screenshots/”</li>
+        <li>killall SystemUIServer</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<p>Another great tip from Cricket. I’ll be setting this up on my Macs from now on.</p>
+:ET

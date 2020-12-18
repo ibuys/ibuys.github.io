@@ -2,7 +2,7 @@
 layout: post
 title: Getting Small Again
 date: 2020-03-23 14:49:42
-tags: 
+tags: culture
 ---
 
 It’s been quiet here at home lately. Grey and overcast, rain morning, noon, and night. A good time to rest and recover from a lot of busy weeks. I’m essentially an introvert, and while I enjoy visiting it tends to take a lot out of me. I’ve always preferred long conversations over coffee to loud concerts or clubs. I’m on the couch this morning, my wife's dog is next to me. The dog kept us up a lot last night. It’s nearly silent, but for the breath of the dog and the clack of the keys.

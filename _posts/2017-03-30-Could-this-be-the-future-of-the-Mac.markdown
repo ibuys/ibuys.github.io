@@ -2,6 +2,7 @@
 layout: post
 title: Could this be the future of the Mac?
 date: 2017-03-30 12:34:35
+tags: tweet
 ---
 Spoiler: yes. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: That One Mac Guy
 date: 2019-03-08 09:52:12
-tags: 
+tags: mac culture
 ---
 
 I bought my first Mac in 2004, a white plastic iBook G4. It was slow, the screen resolution was terrible, but wow did I love Mac OS X. After several years of loading every Linux and BSD variant I could find on the PC I bought in '99, I finally found a stable Unix-based operating system with a logical and beautiful user interface. The Mac was exactly what I wanted in a computer. I desperately wanted to use it at work, but working in a secure military environment, that wasn't going to happen.

@@ -2,6 +2,7 @@
 layout: post
 title: The company isn’t a family – Signal v. Noise
 date: 2017-07-20 13:30:40
+tags: tweet
 ---
 
 [Jump to Post][1]

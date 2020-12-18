@@ -2,6 +2,7 @@
 layout: post
 title: Steve Jobs on Apple’s Courage
 date: 2016-09-09 12:50:28
+tags: tweet
 ---
 [Jump to Post][1]
 

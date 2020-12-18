@@ -2,6 +2,7 @@
 layout: post
 title: My Mac and iPhone setup on The Sweet Setup
 date: 2017-10-09 10:18:25
+tags: tweet
 ---
 [Jump to Post](https://thesweetsetup.com/jonathan-buys-mac-iphone-setup/)
 

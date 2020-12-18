@@ -2,7 +2,7 @@
 layout: post
 title: Healthy Tech
 date: 2020-11-09 19:50:43
-tags: psychology, apple
+tags: psychology apple
 ---
 
 I deleted my twitter account this morning. I've been on Twitter long enough to remember when it was spelled twttr, and there was a SMS bridge to a specific number, 40404 if I remember correctly. For me, it's always been a fun place to chat about Apple and technology. Twitter was a place to learn about new tech and be part of the community of developers, designers, and enthusiasts. Through Twitter I've found apps I use every day, books that I love, Authors to follow. We've chatted live through Apple keynotes, commisserated through hard times, and found common interests across the world. But… that's just not what Twitter is anymore. At least not to me. 

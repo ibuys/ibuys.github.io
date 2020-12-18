@@ -1,0 +1,10 @@
+I"�<p>Like the <a href="http://www.leancrew.com/all-this/2013/12/tweaking-bigfoot-footnotes/">good doctor</a>, I knew as soon as I saw <a href="http://www.bigfootjs.com">Bigfoot</a> that I would be adding it to this site. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> I’ve avoided footnotes up till now because the HTML formatting for them seemed far too <em>fiddley</em>, and the Jekyll Markdown processor I was using did not support them.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>I’ve always liked footnotes. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

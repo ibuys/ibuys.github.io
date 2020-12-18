@@ -2,7 +2,7 @@
 layout: post
 title: How to Survive a Grizzly Bear Attack | Outside Online
 date: 2019-02-27 07:30:44
-tags: [montana, outside, bears]
+tags: montana outside bears
 ---
 
 [Jump to Post](https://www.outsideonline.com/2390732/how-survive-grizzly-bear-attack)

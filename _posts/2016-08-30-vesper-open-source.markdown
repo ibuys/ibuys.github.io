@@ -2,7 +2,7 @@
 layout: post
 title: Vesper Sync Shutdown Tonight, Open Source Plans
 date: 2016-08-30 15:06:22
-author: buys
+tags: tweet
 ---
 [Jump to Post][1]
 
