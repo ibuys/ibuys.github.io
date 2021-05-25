@@ -5,8 +5,6 @@ date: 2021-05-25 15:29:09
 tags: linkpost
 ---
 
-> Your Wild and Precious Life
-
 [Jump to Post](https://kottke.org/21/05/your-wild-and-precious-life)
 
 Another great video find by Kottke, what are you going to do with your one "wild and precious life"? 
