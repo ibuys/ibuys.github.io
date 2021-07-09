@@ -16,13 +16,11 @@ This site uses my own theme, but the design is based heavily off of [Inessential
 
 ### Culture
 
-I name all my computers after [first generation transformers][6], and my main machine is always Prime. I think a lot about questions that are hard to answer. What is being a full-time connected society doing to us? How can we use new technology for good, how can we make the world a better place?
-
+I think a lot about questions that are hard to answer. What is being a full-time connected society doing to us? How can we use new technology for good, how can we make the world a better place?
 
 ### Personal
 
-
-I love meeting new people, and especially love good conversation. If you’d like to get in touch, you can find me on Twitter as [@ibuys][7]. If you are ever around the Midwest, drop me a line and I’ll show you the best coffee shop in town.
+I love meeting new people, and especially love good conversation. If you are ever around the Midwest, drop me a line and I’ll show you the best coffee shop in town.
 
 > So now faith, hope, and love abide, these three; but the greatest of these is love.
 
@@ -36,3 +34,4 @@ I love meeting new people, and especially love good conversation. If you’d lik
 [5]: http://inessential.com
 [6]: https://en.wikipedia.org/wiki/Transformers:_Generation_1
 [7]: http://twitter.com/ibuys
+[8]: https://www.esv.org/1+Corinthians+13/
