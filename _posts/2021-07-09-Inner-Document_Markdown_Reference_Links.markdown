@@ -11,12 +11,12 @@ Pandoc generates header identifiers for each section of the document automatical
 
 > A header without an explicitly specified identifier will be automatically assigned a unique identifier based on the header text. To derive the identifier from the header text,
 
-> Remove all formatting, links, etc.
-> Remove all footnotes.
-> Remove all punctuation, except underscores, hyphens, and periods.
-> Replace all spaces and newlines with hyphens.
-> Convert all alphabetic characters to lowercase.
-> Remove everything up to the first letter (identifiers may not begin with a number or punctuation mark).
+> * Remove all formatting, links, etc.
+> * Remove all footnotes.
+> * Remove all punctuation, except underscores, hyphens, and periods.
+> * Replace all spaces and newlines with hyphens.
+> * Convert all alphabetic characters to lowercase.
+> * Remove everything up to the first letter (identifiers may not begin with a number or punctuation mark).
 > If nothing is left after this, use the identifier section.
 
 So, the header `Header identifiers in HTML` becomes `#header-identifiers-in-html`. I did this manually exactly once before I was certain that it was going to be far too tedius and something that could be easily solved by `awk`, or so I thought.

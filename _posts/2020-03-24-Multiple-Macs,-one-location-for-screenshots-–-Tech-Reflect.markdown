@@ -10,8 +10,10 @@ tags: tweet
 > * Open a Finder window and click on iCloud Drive 
 > * Create a new folder called Screenshots 
 > * In Terminal, type these commands: 
-> 	* defaults write com.apple.screencapture location \
+> ```
+> defaults write com.apple.screencapture location \
 > “~/Library/Mobile Documents/com~apple~CloudDocs/Screenshots/” 
-> 	* killall SystemUIServer
+> killall SystemUIServer
+> ```
 
 Another great tip from Cricket. I'll be setting this up on my Macs from now on. 
