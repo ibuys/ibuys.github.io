@@ -2,7 +2,7 @@
 layout: post
 title: Inner-Document Markdown Reference Links
 date: 2021-07-09 16:29:59
-tags: bbedit, markdown
+tags: bbedit markdown
 ---
 
 I'm writing a fairly large document for internal use at work, and instead of using something like Word I've generated a bunch of markdown files that I'm stringing together with the excellent [Pandoc](https://pandoc.org) to generate a very nice PDF file with LaTeX. The resulting PDF is beautifully formatted, thanks to the [Eisvogel template](https://github.com/Wandmalfarbe/pandoc-latex-template). A key part of the PDF is a functional table of contents outline in the sidebar of Preview, and the ability to link to different parts of the PDF from arbitrary text. 

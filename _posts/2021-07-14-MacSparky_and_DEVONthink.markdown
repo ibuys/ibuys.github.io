@@ -2,7 +2,7 @@
 layout: post
 title: MacSparky and DEVONthink
 date: 2021-07-14 04:46:53
-tags: apple, devonthink
+tags: apple devonthink
 ---
 
 Yesterday I had the pleasure of chatting with [David Sparks](https://macsparky.com) about an upcoming Field Guide he's doing on DEVONthink. He had asked for power users of the app, and given that I've been going back and forth with it for years I sent him a screenshot and let him know I'd be happy to help. He responded and here we are. If you've ever listened to David on [one of his podcasts](https://www.relay.fm/people/Davidsparks), he's just as personable and friendly speaking with him one on one. 
