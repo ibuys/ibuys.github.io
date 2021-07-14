@@ -12,7 +12,7 @@ All writing on this site is done using Markdown in [BBEdit][1] on a 2017 iMac 5k
 
 ### Design
 
-This site uses my own theme, but the design is based heavily off of [Inessential][5], by Brent Simmons. I appreciated his bare-bones approach to web design and blogging, so I learned what I could from right-clicking and viewing source. Hopefully, he seems this as the sincerest form of flattery that it is. 
+This site uses my own theme, but the design is based heavily off of [Inessential][5], by Brent Simmons. I appreciated his bare-bones approach to web design and blogging, so I learned what I could from right-clicking and viewing source. Hopefully, he sees this as the sincerest form of flattery that it is. 
 
 ### Culture
 
