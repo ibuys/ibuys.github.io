@@ -5,9 +5,9 @@ date: 2021-07-14 04:46:53
 tags: apple, devonthink
 ---
 
-<img src="/media/devonthink-screenshot-2021.png" />
-
 Yesterday I had the pleasure of chatting with [David Sparks](https://macsparky.com) about an upcoming Field Guide he's doing on DEVONthink. He had asked for power users of the app, and given that I've been going back and forth with it for years I sent him a screenshot and let him know I'd be happy to help. He responded and here we are. If you've ever listened to David on [one of his podcasts](https://www.relay.fm/people/Davidsparks), he's just as personable and friendly speaking with him one on one. 
+
+<img src="/media/devonthink-screenshot-2021.png" />
 
 I'm looking forward to the new Field Guide. My part in it will be as a kind of power user addendum where a few existing users give a glimpse into what their setup looks like. I hope David can get something useful out of my rambling, overall I felt like I barely scratched the surface of what I wanted to say about DEVONthink. I didn't get into the custom CSS for Markdown display, or the Sorter menu extra, or how you can import a webpage from Safari as Markdown and strip all the adds and other junk out of it. I didn't get into backup and restores of the databases, or my Take Note hotkey (^space), or how I integrate RSS into my research database to stay on top of new developments in AWS. Ah well, there's only so much you can do in 15-20 minutes. I'm sure David already covered all of this in his Field Guide anyway.
 
