@@ -2,7 +2,7 @@
 layout: post
 title: Daring Fireball - Tim Cook and Luca Maestri on Intel
 date: 2019-05-02 07:05:45
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post](https://daringfireball.net/linked/2019/05/01/cook-maestri-intel)

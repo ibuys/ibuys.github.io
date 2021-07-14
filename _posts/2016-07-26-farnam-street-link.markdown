@@ -2,7 +2,7 @@
 layout: post
 title:  Henry Ford and the Actual Value of Education
 date: 2016-07-26 08:15:27
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.farnamstreetblog.com/2016/07/henry-ford-actual-value-education/)
 

@@ -2,7 +2,7 @@
 layout: post
 title: The ultimate guide to DuckDuckGo - BrettTerpstra.com
 date: 2019-03-08 13:02:35
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post](https://brettterpstra.com/2019/03/07/the-ultimate-guide-to-duckduckgo/)

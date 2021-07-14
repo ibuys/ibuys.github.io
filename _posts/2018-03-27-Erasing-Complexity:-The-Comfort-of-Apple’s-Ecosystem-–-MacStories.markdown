@@ -2,7 +2,7 @@
 layout: post
 title: Erasing Complexity – MacStories
 date: 2018-03-27 09:09:09
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.macstories.net/stories/apple-ecosystem-comfort/#fnref-53629-1)
 

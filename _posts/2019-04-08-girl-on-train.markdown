@@ -2,7 +2,7 @@
 layout: post
 title: The Girl on the Train
 date: 2019-04-08 08:13:33
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://www.erynnbrook.com/the-girl-on-the-train/)
 

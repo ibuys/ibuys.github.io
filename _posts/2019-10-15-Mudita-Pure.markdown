@@ -2,7 +2,7 @@
 layout: post
 title: Mudita Pure Kickstarter
 date: 2019-10-15 09:49:06
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.kickstarter.com/projects/mudita/mudita-pure-your-minimalist-phone)
 

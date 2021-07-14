@@ -2,7 +2,7 @@
 layout: post
 title: Outside Magazine - We've Reached Peak Wellness. Most of It Is Nonsense.
 date: 2019-08-08 07:37:13
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post](https://www.outsideonline.com/2399826/wellness-industry-lies-what-really-works)

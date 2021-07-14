@@ -2,7 +2,7 @@
 layout: post
 title: Rolling your own VPN server - Six Colors
 date: 2017-04-07 15:14:13
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 

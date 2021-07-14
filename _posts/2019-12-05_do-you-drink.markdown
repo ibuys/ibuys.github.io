@@ -2,7 +2,7 @@
 layout: post
 title: Do You Drink?
 date: 2019-12-05 20:53:46
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://craigmod.com/ridgeline/048/)
 

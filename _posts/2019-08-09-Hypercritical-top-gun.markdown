@@ -2,7 +2,7 @@
 layout: post
 title: Hypercritical - Top Gun
 date: 2019-08-09 09:24:09
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://hypercritical.co/2019/08/08/top-gun)
 

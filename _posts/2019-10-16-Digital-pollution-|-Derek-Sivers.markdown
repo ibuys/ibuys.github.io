@@ -2,7 +2,7 @@
 layout: post
 title: Digital pollution | Derek Sivers
 date: 2019-10-16 13:57:56
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://sivers.org/polut)
 

@@ -2,7 +2,7 @@
 layout: post
 title: Images of New MacBook Pro With Magic Toolbar Leaked in macOS Sierra 10.12.1 - Mac Rumors
 date: 2016-10-25 14:43:18
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post][1]

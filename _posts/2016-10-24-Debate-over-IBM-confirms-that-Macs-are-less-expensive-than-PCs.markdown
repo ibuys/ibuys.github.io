@@ -2,7 +2,7 @@
 layout: post
 title: IBM confirms that Macs are less expensive than PCs
 date: 2016-10-24 22:42:32
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post][1]

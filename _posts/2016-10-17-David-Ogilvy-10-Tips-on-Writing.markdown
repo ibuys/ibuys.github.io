@@ -2,7 +2,7 @@
 layout: post
 title: David Ogilvy 10 Tips on Writing
 date: 2016-10-17 12:45:30
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 

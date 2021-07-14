@@ -2,7 +2,7 @@
 layout: post
 title: NetNewsWire Comes Home
 date: 2018-09-01 09:04:57
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://inessential.com/2018/08/31/netnewswire_comes_home)
 

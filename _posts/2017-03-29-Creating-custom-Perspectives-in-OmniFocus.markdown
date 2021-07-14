@@ -2,7 +2,7 @@
 layout: post
 title: Creating custom Perspectives in OmniFocus – The Sweet Setup
 date: 2017-03-29 14:08:56
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 

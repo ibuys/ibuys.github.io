@@ -2,7 +2,7 @@
 layout: post
 title: Master Plan, Part Deux - Tesla Motors
 date: 2016-07-20 20:56:06
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.tesla.com/blog/master-plan-part-deux)
 

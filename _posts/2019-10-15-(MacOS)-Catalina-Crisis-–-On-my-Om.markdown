@@ -2,7 +2,7 @@
 layout: post
 title: (MacOS) Catalina Crisis – On my Om
 date: 2019-10-15 10:46:57
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://om.co/2019/10/14/macos-catalina-crisis/)
 

@@ -2,7 +2,7 @@
 layout: post
 title: One Computing Device
 date: 2018-08-20 09:19:15
-tags: tweet
+tags: linkpost
 ---
 
 I like to think about the future. I’m an optimist, so in my mind, the future looks pretty great, more “Meet the Robinsons” and less “Bladerunner”. 

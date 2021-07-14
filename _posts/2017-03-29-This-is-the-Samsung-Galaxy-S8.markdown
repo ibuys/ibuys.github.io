@@ -2,7 +2,7 @@
 layout: post
 title: This is the Samsung Galaxy S8, coming April 21st - The Verge
 date: 2017-03-29 14:06:40
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 

@@ -2,7 +2,7 @@
 layout: post
 title: Shirt Pocket Watch - Cheat Sheet
 date: 2017-09-25 09:54:26
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://www.shirt-pocket.com/blog/index.php/comments/cheat_sheet)
 

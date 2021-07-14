@@ -2,7 +2,7 @@
 layout: post
 title: There Are Still Reasons to Limit Your Kids' Screen Time | Outside Online
 date: 2019-01-22 07:47:09
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.outsideonline.com/2383636/there-are-still-reasons-limit-your-kids-screen-time)
 

@@ -2,7 +2,7 @@
 layout: post
 title: Moments – 512 Pixels
 date: 2019-05-09 09:27:54
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post](https://512pixels.net/2019/05/moments/)

@@ -2,7 +2,7 @@
 layout: post
 title: Pat Gallant-Charette Won't Stop Breaking Records | Outside Online
 date: 2019-03-04 07:37:55
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.outsideonline.com/2390652/marathon-swimmer-pat-gallant-charette)
 

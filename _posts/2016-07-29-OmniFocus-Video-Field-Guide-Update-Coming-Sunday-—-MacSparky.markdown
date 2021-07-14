@@ -2,7 +2,7 @@
 layout: post
 title: OmniFocus Video Field Guide Update Coming Sunday — MacSparky
 date: 2016-07-29 12:05:08
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://macsparky.com/blog/2016/7/omnifocus-video-field-guide-update-coming-sunday)
 

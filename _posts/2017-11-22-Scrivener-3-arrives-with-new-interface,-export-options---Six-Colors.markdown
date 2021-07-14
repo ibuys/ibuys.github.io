@@ -2,7 +2,7 @@
 layout: post
 title: Scrivener 3 arrives with new interface, export options - Six Colors
 date: 2017-11-22 09:50:26
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post](https://sixcolors.com/post/2017/11/scrivener-3-arrives-with-new-interface-export-options/)

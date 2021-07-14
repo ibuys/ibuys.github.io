@@ -2,7 +2,7 @@
 layout: post
 title: ‘hello again’ – 512 Pixels
 date: 2016-10-20 13:05:28
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 

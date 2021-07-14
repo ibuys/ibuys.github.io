@@ -2,7 +2,7 @@
 layout: post
 title: Instapaper Premium is now free for everyone
 date: 2016-11-02 07:13:47
-tags: tweet
+tags: linkpost
 ---
 
 [Jump to Post][1]

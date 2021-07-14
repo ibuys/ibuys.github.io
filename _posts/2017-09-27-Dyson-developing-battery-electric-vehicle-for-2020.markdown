@@ -2,7 +2,7 @@
 layout: post
 title: Dyson developing battery-electric vehicle for 2020
 date: 2017-09-27 15:02:38
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://newatlas.com/dyson-battery-electric-vehicle/51509/)
 

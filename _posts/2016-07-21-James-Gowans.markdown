@@ -2,7 +2,7 @@
 layout: post
 title: James Gowans
 date: 2016-07-21 10:16:25
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](http://jamesgowans.com/consistent/)
 

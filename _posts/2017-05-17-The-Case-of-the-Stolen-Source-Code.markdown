@@ -2,7 +2,7 @@
 layout: post
 title: The Case of the Stolen Source Code
 date: 2017-05-17 15:04:01
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://panic.com/blog/stolen-source-code/)
 

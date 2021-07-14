@@ -2,7 +2,7 @@
 layout: post
 title: Foldimate’s laundry-folding machine actually works now - The Verge
 date: 2019-01-07 05:23:13
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.theverge.com/2019/1/7/18171441/foldimate-laundry-folding-robot-ces-2019)
 

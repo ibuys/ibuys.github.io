@@ -2,7 +2,7 @@
 layout: post
 title: Explore the Flathead Valley
 date: 2019-05-08 07:57:52
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post](https://www.outsideonline.com/2395475/explore-flathead-valley)
 

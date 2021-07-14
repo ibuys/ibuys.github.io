@@ -2,7 +2,7 @@
 layout: post
 title: CHANGER paperbacks are now available! - Matt Gemmell
 date: 2016-07-13 19:45:07
-tags: tweet
+tags: linkpost
 ---
 [Jump to Post][1]
 
