@@ -1,0 +1,4 @@
+---
+slug: linkpost
+name: linkpost
+---
