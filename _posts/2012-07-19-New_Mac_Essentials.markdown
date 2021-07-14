@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Mac Essentials - Quicksilver
-tags: [productivity, mac, setup]
+tags: [productivity, mac, setup, devonthink]
 date: 2012-07-19 10:49:11
 ---
 

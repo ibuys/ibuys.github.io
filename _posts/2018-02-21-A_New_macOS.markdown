@@ -2,7 +2,7 @@
 layout: post
 title: A New macOS
 date: 2018-02-21 20:12:26
-tags: [mac, apple]
+tags: [mac, apple, devonthink]
 ---
 
 I've heard several people on podcasts or blog posts claim that they'd like to see Apple hold off on new features that nobody wants and just fix the existing bugs in the Mac. This claim is normally followed up with a missive that they can't imagine what Apple could add to the Mac at this point anyway, since macOS is a stable, mature operating system. Well, I can think of a few things.

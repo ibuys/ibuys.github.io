@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Computer User I Want To Be
-tags: [personal, setup, mac]
+tags: [personal, setup, mac, devonthink]
 date: 2012-08-11 10:49:11
 ---
 

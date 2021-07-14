@@ -2,7 +2,7 @@
 layout: post
 title: What Worked, and What Didn’t in 2016
 date: 2016-12-31 13:43:46
-tags: [icloud, mac, iphone, apps]
+tags: [icloud, mac, iphone, apps, devonthink]
 ---
 
 Part of what’s been great about using Apple products is the feeling of living just a little bit in the future. The Mac, iPod, iPhone, and iPad paved a way towards a far less complicated future, where technology was seamlessly integrated into our lives, and enhanced our day to day interactions with our work and with each other. Apple, better than anyone, understands that technology is at it’s best when it’s nearly invisible. But, living in the future comes at a price, namely a sacrifice of stability and accepted norms of *what works*. 

@@ -2,7 +2,7 @@
 layout: post
 title: Sensible Information Organization
 date: 2014-10-27 10:40:29
-tags: [information, data]
+tags: [information, data, devonthink]
 ---
 
 
