@@ -24,7 +24,7 @@ which jedi-language-server | pbcopy
 
 Finally, open the preferences for BBEdit, find the Languages section, and towards the botton add a Language-specific setting for Python. Under the Server tab, make sure you've checked the box to "Enable language server", and paste the path copied from the previous command.
 
-![bbedit-python-lsp-prefs](/media/bbedit-python-lsp-prefs.png, "bbedit-python-lsp-prefs")
+![bbedit-python-lsp-prefs](/media/bbedit-python-lsp-prefs.png)
 
 If BBEdit finds the executable at the path, there will be a green dot at the bottom labeled "Ready to start server". Otherwise, you'll see a red dot that says "absolute command path not found". If you see that make sure the commands above completed successfully. 
 
