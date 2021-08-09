@@ -5,7 +5,7 @@ date: 2021-08-08 19:46:39
 tags: linux apple culture freebsd
 ---
 
-![system76-thelio](../media/system76-thelio.png, "system76-thelio")
+![system76-thelio](/media/system76-thelio.png, "system76-thelio")
 
 From time to time I get the idea in my head that I'd like to move away from all things Apple and diversify my investment in technology. This normally manifests itself when I'm in the market for a new computer (which I am), and often in the form of a Unix workstation on my desk. The past few days I've been eyeing the [System 76 Thelio](https://system76.com/desktops).
 
