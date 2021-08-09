@@ -5,7 +5,7 @@ date: 2021-08-08 19:46:39
 tags: linux apple culture freebsd
 ---
 
-![system76-thelio](/media/system76-thelio.png, "system76-thelio")
+![system76-thelio](/media/system76-thelio.png)
 
 Years ago Alex Payne wrote "[Switching Season](https://www.al3x.net/blog/2009/08/10/switching-season)", about how he thought about switching from Mac to Linux. I know how he feels. From time to time I get the idea in my head that I'd like to move away from all things Apple and diversify my investment in technology. This normally manifests itself when I'm in the market for a new computer (which I am), and often in the form of a Unix workstation on my desk. The past few days I've been eyeing the [System 76 Thelio](https://system76.com/desktops).
 
