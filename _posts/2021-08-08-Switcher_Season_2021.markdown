@@ -7,7 +7,7 @@ tags: linux apple culture freebsd
 
 ![system76-thelio](/media/system76-thelio.png, "system76-thelio")
 
-From time to time I get the idea in my head that I'd like to move away from all things Apple and diversify my investment in technology. This normally manifests itself when I'm in the market for a new computer (which I am), and often in the form of a Unix workstation on my desk. The past few days I've been eyeing the [System 76 Thelio](https://system76.com/desktops).
+Years ago Alex Payne wrote "[Switching Season](https://www.al3x.net/blog/2009/08/10/switching-season)", about how he thought about switching from Mac to Linux. I know how he feels. From time to time I get the idea in my head that I'd like to move away from all things Apple and diversify my investment in technology. This normally manifests itself when I'm in the market for a new computer (which I am), and often in the form of a Unix workstation on my desk. The past few days I've been eyeing the [System 76 Thelio](https://system76.com/desktops).
 
 To be accurate, this is not a "Unix" workstation, since it ships running a weird version of Ubuntu Linux. I wouldn't run Linux on it though, I'd run a minimal install of [FreeBSD](https://freebsd.org) combined with the [XMonad tiling window manager](https://xmonad.org). Inside XMonad I'd have half the screen taken up by Firefox, and the other half be a terminal, most likely split with [tmux](https://github.com/tmux/tmux). I could keep Vim handy for running [Vimwiki](https://vimwiki.github.io) and all my other text editing needs, play music in [cmus](https://cmus.github.io), keep up to date with the news with [newsboat](https://newsboat.org), and handle email with [mutt](http://www.mutt.org).
 
@@ -30,3 +30,4 @@ The System76 box would be super cool, but I'd be stuck on the Intel platform whi
 I don't want my choice of computer to be making some kind of weird political or lifestyle statement, but then again, when you vote with your wallet what else can it be? I wish Apple had never become the behemoth that it is today, but it still makes the best computers. 
 
 Maybe I'm talking myself into that workstation, maybe I'm talking myself out of it. I honestly haven't decided yet. 
+
