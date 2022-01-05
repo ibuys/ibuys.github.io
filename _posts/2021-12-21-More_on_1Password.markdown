@@ -2,7 +2,7 @@
 layout: post
 title: More on 1Password
 date: 2021-12-21 06:58:05
-tags: 
+tags: mac apple culture
 ---
 
 1Password 7 was an incremental improvement on 6, and 6 was an incremental improvement on 5, and so on all the way back to the [original 1Passwd](https://app-updates.agilebits.com/product_history/OPM2#v2024). But 1Password 8, which is [now in Beta](https://releases.1password.com/mac/early-access/#1password-for-mac-8.5.0-57) is a horse of a different color.

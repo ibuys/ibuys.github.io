@@ -2,7 +2,7 @@
 layout: post
 title: My 2022 Mac Setup
 date: 2022-01-05 06:08:05
-tags: 
+tags: mac apple
 ---
 
 Starting its fifth year on my desk, my [2017 iMac 5k](https://thesweetsetup.com/jonathan-buys-mac-iphone-setup/) is still going strong, but starting to show it's age. There's still nothing that I can't do with it, but after looking at my wife's M1 MacBook Air I can't help but be just a little jealous of how fast that little machine is. I've yet to come across any computer that offers the same value as the iMac, especially when you factor in how good this 27" retina screen is. I'm tempted by both the [current 24" M1 iMac](https://www.apple.com/imac-24/), and the [new 16" M1 Max MacBook Pro](https://www.apple.com/macbook-pro-14-and-16/), but the rumor mill is talking about bigger, master iMacs and [colorful M2 MacBook Airs](https://medium.com/macoclock/the-2022-m2-macbook-air-11759d5d1d63), either of which might actually make the most sense for my desk. I want to see the entire lineup before committing. The good thing is that no matter which machine I choose, it's going to be a major speed improvement from where I am now.

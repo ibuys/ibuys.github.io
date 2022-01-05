@@ -2,7 +2,7 @@
 layout: post
 title: The Reminders Experiment
 date: 2022-01-03 05:50:50
-tags: 
+tags: mac apple
 ---
 
 Over the past month I've been experimenting with cutting down on the number of applications I use on my Mac. One in particular I though was going to stick was moving my task management system over from OmniFocus to Reminders. I enjoyed the everywhere integration of Reminders, like how Siri would include any tasks I had scheduled for the day when I asked my HomePod "What's my update?". Unfortunately, when I sat down at the end of the holiday break to think about the projects I had going at work, and how to schedule them out for the upcoming week, I realized I needed to open OmniFocus, and once it was open, I knew the experiment was over. 

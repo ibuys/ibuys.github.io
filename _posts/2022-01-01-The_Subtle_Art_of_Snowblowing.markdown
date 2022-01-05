@@ -2,7 +2,7 @@
 layout: post
 title: The Subtle Art of Snowblowing
 date: 2022-01-01 05:14:29
-tags: 
+tags: culture life
 ---
 
 If you are fortunate enough to live in a home with a driveway, and fortunate enough to live in a region that gets a lot of snow, you are already familiar with the seasonal chore of snowblowing[^1]. It is currently seven degrees Fahrenheit outside, and the weather forecast calls for five to six inches in snow today, which means that soon enough I'll bundle up and head out to take part.
