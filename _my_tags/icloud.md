@@ -1,4 +1,0 @@
----
-slug: icloud
-name: icloud
----

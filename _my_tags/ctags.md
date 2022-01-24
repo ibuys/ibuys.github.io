@@ -1,4 +1,0 @@
----
-slug: ctags
-name: ctags
----

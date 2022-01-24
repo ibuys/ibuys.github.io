@@ -1,4 +1,0 @@
----
-slug: media
-name: media
----

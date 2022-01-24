@@ -3,13 +3,16 @@ layout: default
 ---
 
 
-{% for post in site.posts limit:10 %}
+{% include career-profile.html %}
 
-        <article class="post">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p><time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date_to_long_string }}</time></p>
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-            {{ post.content }}
+{% include experiences.html %}
 
-        </article>
-{% endfor %}
+{% include projects.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}

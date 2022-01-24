@@ -1,0 +1,166 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jonathan Buys
+    tagline: Infrastructure & Security Engineering Lead
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: hello@jonathanbuys.com
+    phone:
+    website: jonathanbuys.com #do not add http://
+    linkedin:
+    xing:
+    github: ibuys
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: 2284578/jon-buys # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://jonathanbuys.com/assets/images/resume.pdf
+
+#    languages:
+#     - idiom: Python
+#       level: Experienced
+#
+#     - idiom: Objective-C
+#       level: Professional
+#
+#     - idiom: Shell
+#       level: Professional
+
+    interests:
+      - item: Running
+        link:
+
+      - item: Canoeing
+        link:
+
+      - item: Mountain Biking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      For over 20 years I've designed, built, and managed secure & scaleable Unix and Linux system architectures. Starting in the United States Navy as a Radioman, I've continually increased my knowledge and added to my skill set. I've run and terminated fiber optic cables, managed networking equipment, built automatic failover systems for databases, developed my own Mac applications in Objective-C, and now I manage autoscaling cloud infrastructure. I accept and overcome the hardest problems. 
+
+education:
+    - degree: MSc in Human Computer Interaction
+      university: Iowa State University
+      time: 2010 - 2012
+    - degree: BSc in Information Systems Management
+      university: University of Maryland University College
+      time: 2002 - 2008
+
+experiences:
+    - role: Infrastructure & Security Engineering Lead
+      time: 2016 - Present
+      company: TargetSmart
+      details: |
+        Rearchitected cloud infrastructure with CloudFormation and CodeDeploy for increased security, scaleability, and management. Developed a cloud-native, encrypted secret storage and retrieval service in Python. Deployed a customized Go binary that provided secure OAUTH2 proxy for distributed access to static sites. Led the infrastructure efforts and cloud migration projects.
+
+    - role: Systems Automation Engineer
+      time: 2014 - 2016
+      company: Chirotouch
+      details: |
+        Rebuilt the QA, Staging, and Production environments with AWS CloudFormation and CodeDeploy services, the system can rebuild an environment from scratch in approximately fifteen to twenty minutes. Managed deployment and building of Docker containers for several Ruby on Rails and Java applications. Rearchitected cloud infrastructure for security and efficiency.
+        
+    - role: Systems Administrator
+      time: 2007 - 2014
+      company: CDS Global
+      details: |
+        Responsible for designing and maintaining the Linux and AIX high-availability infrastructure for several high demand e-commerce web sites. Worked with a team to build the virtual infrastructure comprised of thirty physical servers and over 160 virtual servers. Designed, installed and maintained several systems including Puppet, Nagios, and Postfix.
+
+    - role: Systems Administrator
+      time: 1995 - 2006
+      company: United States Navy
+      details: |
+        Active duty in the U.S. Navy for eleven years, leaving the service with an honorable discharge as a first class petty officer, IT1(SW). Supervised and trained four teams of personnel (3-5 people per team) responsible for the operation and maintenance of satellite communication equipment of JMF St. Mawgan. Designed and managed the creation of a Network Operations Center that centralized network security and information assurance functions. Designed a unified network infrastructure to support five dispersed Internet cafes on the base.
+        
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Linux & Unix Administration
+        level: 98%
+
+      - name: Shell Scripting
+        level: 98%
+
+      - name: Leadership and Supervision
+        level: 95%
+
+      - name: System Automation
+        level: 95%
+
+      - name: Cloud Infrastructure
+        level: 95%
+
+      - name: Python
+        level: 60%
+
+      - name: Objective-C
+        level: 60%
+
+      - name: Accepting and Overcoming the Hardest Problems
+        level: 99%
+
+footer: >
+    Not currently looking for work. <i class="fas fa-heart"></i>

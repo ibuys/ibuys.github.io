@@ -1,4 +1,0 @@
----
-slug: quality
-name: quality
----

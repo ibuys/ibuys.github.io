@@ -1,4 +1,0 @@
----
-slug: indie
-name: indie
----

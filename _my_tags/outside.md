@@ -1,4 +1,0 @@
----
-slug: outside
-name: outside
----
