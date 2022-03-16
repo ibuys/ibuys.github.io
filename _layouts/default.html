@@ -1,25 +1,13 @@
----
-#Add "layout: compress" here to compress the html code
----
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 {% include head.html %}
+{% include header.html %}
+{% include nav.html %}
 
-<body>
-  <div class="wrapper">
-    {% include sidebar.html %}
 
-    <div class="main-wrapper">
+    <main>
+
         {{ content }}
-    </div>
-  </div>
 
-  {% include footer.html %}
+    </main>
 
-{% include scripts.html %}
-</body>
 
-</html>
-
+{% include footer.html %}
