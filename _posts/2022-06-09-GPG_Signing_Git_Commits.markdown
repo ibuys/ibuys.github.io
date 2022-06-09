@@ -19,7 +19,6 @@ Next, generate a new Ed25519 key:
 
 ```
 gpg --full-generate-key --expert
-
 ```
 
 We pick option (9) for the first prompt, Elliptic Curve Cryptography, and option (1) for the second, Curve 25519. Pick the defaults for the rest of the prompts, giving the key a descriptive name. 
@@ -28,14 +27,12 @@ Once finished you should be able to see your key by running:
 
 ```
 gpg --list-keys --keyid-format short
-
 ```
 
 The tutorial recommends using a second subkey generated from the first key to actually do the signing. So, we edit the master key by running:
 
 ```
 gpg --expert --edit-key XXXXXXX
-
 ```
 
 Replacing XXXXX with the ID of your newly generated key. Once in the gpg command line, enter `addkey`, and again select ECC and Curve 25519 for the options. Finally, enter `save` to save the key and exit the command line.
@@ -50,14 +47,12 @@ We will need the part after `ed25519/`, in this case `599D272D`. Add that to you
 
 ```
 git config --global user.signingkey 599D272D
-
 ```
 
 If you'd like `git` to sign every commit, you can add this to your config file:
 
 ```
 git config --global commit.gpgsign true
-
 ```
 
 Otherwise, pass the `-S` flag to your `git` command to sign individual commits. I'd never remember to do that, so I just sign all of them. 
@@ -74,7 +69,6 @@ Finally, Github has a simple way to add gpg keys, but first we'll need to export
 
 ```
 gpg --armor --export 599D272D
-
 ```
 
 Copy the entire output of that command and enter it into the Github console under Settings, "SSH and GPG keys", and click on "New GPG key". Once that's finished, you should start seeing nice green "Verified" icons next to your commits. 
