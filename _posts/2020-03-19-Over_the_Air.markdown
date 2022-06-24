@@ -26,7 +26,7 @@ We upgraded our home cable service last year to a bundle of TV channels, home ph
 
 The new setup has each Apple TV plugged into ethernet into an Eero router, networked to the base Eero where the Tablo box is hooked up. I've got the Tablo app downloaded on the Apple TVs which gives me a single interface for movies, tv shows, and local news, weather and sports. As a bonus, I can now watch the morning news on my iMac or MacBook in Safari by visiting my.tablotv.com. We are still in the testing things out phase, but assuming everyone's happy with the setup I'll cancel my cable and drop back down to just internet service. With the reduction in price this setup should pay for itself in about four months. 
 
-<img src="/media/home-network-tablo.png" />
+<img src="/media/home-network-tablo.png" loading="lazy" />
 
 
 

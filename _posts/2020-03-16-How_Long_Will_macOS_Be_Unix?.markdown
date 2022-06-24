@@ -5,7 +5,7 @@ date: 2020-03-16 08:24:43
 tags: mac unix
 ---
 
-<img src="/media/UNIXad.png" />
+<img src="/media/UNIXad.png" loading="lazy" />
 
 I've started to worry about the Unix core of macOS. Possibly unnecessarily, but there have been a few troubling signs over the years, the biggest of which is obviously the lack of access to a decent development environment on iOS. On iOS, web development is *possible*, but only in the barest, most basic sense of the term. As soon as you need to do anything even remotely complex, like build a Django project, run the server locally, and browse the site for testing, you are out of luck. That's fine, because it's iOS and I don't need to do development on my phone, but for years Apple has been saying that they thought iOS and specifically the iPad was the future of computing. In the past few months we've seen other signs that point towards Apple looking to simplify their products to the point where they'd no longer be usable for me. 
 

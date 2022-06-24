@@ -3,7 +3,7 @@ layout: default
 title: A Discussion on Quality, Culture, & Technology 
 ---
 
-<img src="/media/jeans_and_flannel.jpg" />
+<img src="/media/jeans_and_flannel.jpg" loading="lazy" />
 Rocking the flannel and jeans since 1979.
 
 ### Technology

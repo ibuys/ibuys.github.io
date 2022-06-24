@@ -27,15 +27,15 @@ Once you've found the right weather at the right time, you are properly dressed,
 
 The pattern you use to clear the driveway will be somewhat dependent on the weather, but I've found that normally starting in the center of the driveway and blowing snow to the left and right of it and working out towards the edges works best. 
 
-<img src="/media/snowblow-3.png" />
+<img src="/media/snowblow-3.png" loading="lazy" />
 
 You could start at one edge and work your way all the way over to the other edge. If the wind is strong in one direction crossways this is probably the best bet. 
 
-<img src="/media/snowblow-2.png" />
+<img src="/media/snowblow-2.png" loading="lazy" />
 
 You'll need room to turn around, so I've found that one or two paths right at the top of the driveway parallel to the road gives me plenty of room. However, avoid trying to snowblow the entire driveway this way, you'll wind up with a face full of snow, blowing snow all over your freshly blown driveway, and worse, blowing snow into the road. Don't blow snow into the road, that's poor form. 
 
-<img src="/media/snowblow-1.png" />
+<img src="/media/snowblow-1.png" loading="lazy" />
 
 Finally, once the driveway is cleared you may be tempted to put salt on it to prevent icing. Don't. Salt will damage your concrete, and stops working after it gets below ten degrees anyway. If icing is a safety issue, it's better to put down a chemical deicing agent. I've seen sand recommended, but I've never seen anyone using it. Overall, it's best to put the work in with the snowblower and shovel to clear all the snow off the driveway before it turns to ice, and let the sun take care of the rest of it. That way you don't have to worry about slipping. 
 
