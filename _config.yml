@@ -2,24 +2,48 @@
 title: jb…
 email: desk@jonathanbuys.com
 description: > # this means to ignore newlines until "baseurl:"
-  Step into the arena. 
+  Today is not that day. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jonathanbuys.com" # the base hostname & protocol for your site
 github_username:  ibuys
 
 # Build settings
+exclude: [CNAME, Gemfile, Gemfile.lock]
 markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown
 
-inter_post_navigation: false
+inter_post_navigation: true
 highlighter: rouge
 permalink: /:title/
+
+# Plugins
+gems: [jekyll-paginate]
+paginate: 10 # Post excerpts by page
+paginate_path: "/page/:num" # Default was "/page:num/"
+
+# Navigation
+navigation:
+  - slug: /
+    label: Home
+  - slug: /microblog
+    label: Tweet
+  - slug: /about
+    label: About
+  - slug: /contact
+    label: Contact
+  - slug: /archive/
+    label: Archive
+  - slug: /100books
+    label: Reading
 
 collections:
   my_tags:
     output: true
     permalink: /tag/:slug/
+  microblog:
+    output: true
+    permalink: /microblog/:year/:month/:slug/
 
 defaults:
   -
