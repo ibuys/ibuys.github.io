@@ -1,0 +1,37 @@
+---
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link rel="hub" href="https://pubsubhubbub.appspot.com"/>
+  <title>Tweet, tweet</title>
+  <subtitle>By Jonathan Buys</subtitle>
+  <link href="https://jonathanbuys.com/microblog"/>
+  <link type="application/atom+xml" rel="self" href="https://jonathanbuys.com/microblog.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <rights>Copyright © 2008–{{ site.time | date: "%Y" }} Jonathan Buys</rights>
+  <id>https://jonathanbuys.com</id>
+  <author>
+    <name>Jonathan Buys</name>
+    <uri>https://jonathanbuys.com</uri>
+    <email>inbox@jonathanbuys.com</email>
+  </author>
+  {% for post in site.microblog reversed %}
+
+  <entry>
+    <id>https://jonathanbuys.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="https://jonathanbuys.com{{ post.url }}"/>
+    <title></title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Jonathan Buys</name>
+      <uri>https://jonathanbuys.com</uri>
+    </author>
+    <content type="html">
+      <![CDATA[
+        {{ post.content }}
+      ]]>
+    </content>
+  </entry>
+  {% endfor %}
+</feed>
