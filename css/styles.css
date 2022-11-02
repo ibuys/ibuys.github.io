@@ -33,6 +33,11 @@ h4 {
 	color: #444;
 }
 
+hr {
+    width: 50%;
+    margin: 5em auto;
+}
+
 /* Site title */
 
 header {
