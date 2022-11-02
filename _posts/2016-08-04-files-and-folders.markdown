@@ -2,7 +2,7 @@
 layout: post
 title:  Files and Folders
 date: 2016-08-04 15:57:33
-tags: [mac, apps, productivity, devonthink]
+tags: [mac, apps, productivity]
 cover: /media/files.png
 ---
 

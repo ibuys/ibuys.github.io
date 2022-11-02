@@ -2,7 +2,7 @@
 layout: post
 title: For The Fun Of It
 date: 2014-03-01 21:57:44
-tags: [mac, culture, devonthink]
+tags: [mac, culture]
 ---
 
 

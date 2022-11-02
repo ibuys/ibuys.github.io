@@ -2,7 +2,7 @@
 layout: post
 title: Desktop Setup For a Sysadmin
 date: 2013-11-27 08:56:44
-tags: [mac, productivity, setup, devonthink]
+tags: [mac, productivity, setup]
 ---
 
 My Mac is a finely tuned machine. I have been using a Mac for Unix systems administration work since 2006, starting with a PowerMac G4, and have developed a smooth and efficient workflow. Most of the important tools are open source, and the ones that are not are very high quality. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Forgotten and Beloved 
-tags: [mac, culture, devonthink]
+tags: [mac, culture]
 date: 2012-10-24 10:49:11
 ---
 

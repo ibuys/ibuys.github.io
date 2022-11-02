@@ -7,7 +7,7 @@ date: 2012-07-30 10:49:11
 
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe src="http://www.youtube-nocookie.com/embed/80RI3VepJDI" allowfullscreen></iframe>
+  <iframe src="http://www.youtube.com/embed/80RI3VepJDI" allowfullscreen></iframe>
 </div>
 
 
@@ -16,4 +16,4 @@ date: 2012-07-30 10:49:11
 Well done, HP. Certainly much better than the recent [Apple commercials][1].
 
 
-[1]: http://www.apple.com/mac/videos/#tv-ads-mayday
+[1]: http://www.apple.com/mac/videos/#tv-ads-mayday 

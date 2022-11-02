@@ -2,7 +2,7 @@
 layout: post
 title: Personal Information Architecture
 date: 2013-07-10
-tags: [productivity, mac, devonthink]
+tags: [productivity, mac]
 ---
 
 For my computer to be useful to me I need to be able to quickly save information, and then easily retrieve it later. Saving and retrieving information sounds like a simple enough use case, but doing both quickly and easily does not. The more information you have saved on your computer, the more difficult it is to effectively retrieve the information you need the moment you need it. Researchers and developers have been tackling this issue for decades, but so far no one has come up with a single *best* solution that works for everyone. What we need is a way to store and retrieve information without having to stop and think about the method or means of organization. The organizational method should provide an effective [affordance](https://en.wikipedia.org/wiki/Affordance) without resorting to decoding the method itself. 

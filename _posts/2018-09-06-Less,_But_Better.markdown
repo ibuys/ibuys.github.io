@@ -7,7 +7,7 @@ tags: [personal, future]
 
 I'm becoming increasingly interested in an emerging line of Eink devices that intentionally do less than other devices in the same category. Of course, the oldest and most widely known device is the Amazon Kindle, which my wife still claims as the best gift I ever gave her. 
 
-<img src="/media/kindle.jpg" loading="lazy" />
+<img src="/media/kindle.jpg" />
 
 It's thin, and about the width and height of a paperback book, but light enough to throw in her purse. The battery lasts for weeks and she devours books on it. It is a single-purpose device that excels at that purpose, even though there are other tablets that can do more, and are similar in size and price. They do more, but they don't do the one thing she wants to do with the device quite as well. 
 
@@ -15,13 +15,13 @@ The next logical step up from the kindle is [reMarkable][1], "the paper tablet".
 
 If I were to decide on getting a reMarkable, I'd most likely also back the [Light Phone II][2]. 
 
-<img src="/media/lightphone.png" loading="lazy" />
+<img src="/media/lightphone.png" />
 
 This is a phone that intentionally only does a small handful of tasks. Phone calls, texts, a contacts list, and an alarm clock. The original Light Phone was meant to be paired with your smartphone, this one is intended to stand alone. It's been a few years since I went without an iPhone, and I honestly have mixed feelings about the possibility of going back. But the Light Phone doesn't *feel* like going backwards, it feels like the next step forward. 
 
 Moving forward, like this [calendar concept][3] from [Kosho Tsuboi Design][4]. 
 
-<img src="/media/magic-calendar.jpg" loading="lazy" />
+<img src="/media/magic-calendar.jpg" />
 
 A beautifully conceptualized calendar intended to hang on the wall of your home. Unfortunately, we can't go out and buy this calendar just yet. I believe we are still waiting on the technology to advance sufficiently for it to be a reasonable purchase. But, the concept behind it is in a similar vein to the previous three items. A dedicated device that does one thing, does it *very* well, is low power, low maintenance, and just blends into the background of your life. It becomes the invisible computing goal I've been pursuing for the past fifteen years. 
 

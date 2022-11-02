@@ -6,14 +6,13 @@ tags: [apple, mac, apps]
 ---
 
 <img src="/media/nnw-icon.jpg" />
-
 I’m not sure if I discovered Daring Fireball through NetNewsWire, or [NetNewsWire through Daring Fireball][1]. Either way, in my mind the two are inexorably linked to my introduction to the Mac community. A group of people who value usability and good design, typography, readability, and simple good sense. Before the Mac, my thoughts on software were that it was either written by thousands of contributors across the globe, or thousands of drones in basement cubicles. What I learned through NetNewsWire was that individual craftsmen made the best software, and I could get to know them through their work. I started making it a point to follow the people who made the software I used. 
 
 [NetNewsWire][2] was developed by [Brent Simmons][3], one of the first developers who’s blog I made a point to follow. I followed him as he was [hired by NewsGator][4], and after he left and went independent, and when he sold [NetNewsWire to Black Pixel][5]. Around this time RSS readers hit a rough patch when Google shut down [Google Reader][6], the backend syncing engine used by NetNewsWire and many other RSS readers. I wasn’t too worried at the time. Several of the competing apps quickly adopted alternative syncing engines, and I expected NetNewsWire to follow suit. 
 
 It didn’t. 
 
-Black Pixel decided against supporting third party syncing engines and opted instead to build their own. In the mean time, the older version of NetNewsWire atrophied. With no syncing engine the app was isolated, an island that needed to be a peninsula. I wanted to be able to skim the news on my phone or iPad and not have to re-read the same headlines on my Mac. Eventually I abandoned NetNewsWire in favor of ReadKit. ReadKit was *almost* as nice, but not quite. I still longed for the keyboard navigation and overall ease of use that I’d grown accustomed to. I kept checking in to see if there was progress, but very little was made public. 
+Black Pixel decided against supporting third party syncing engines and opted instead to build their own. In the man time, the older version of NetNewsWire atrophied. With no syncing engine the app was isolated, an island that needed to be a peninsula. I wanted to be able to skim the news on my phone or iPad and not have to re-read the same headlines on my Mac. Eventually I abandoned NetNewsWire in favor of ReadKit. ReadKit was *almost* as nice, but not quite. I still longed for the keyboard navigation and overall ease of use that I’d grown accustomed to. I kept checking in to see if there was progress, but very little was made public. 
 
 I’ve given Black Pixel [quite a bit of grief][7] over the past couple of years regarding their treatment of my favorite news app. In my mind it had joined the graveyard of struggling, once amazing, Mac apps along with [OmniWeb][8], VoodooPad and Yojimbo. Apps with personality and history, but unfortunately no future. Apps that couldn’t quite make the transition to the iOS era. 
 
