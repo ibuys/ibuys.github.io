@@ -19,4 +19,4 @@ Apple is trying to merge the future and the past, and that’s given us a bit of
 
 As for cannibalizing their own products, Apple has been [doing that for years](https://duckduckgo.com/?q=cannibalize+site%3Adaringfireball.net&t=h_&ia=web)… that's how they became a two-trillion dollar company. 
 
-[Jump to Post](https://www.youtube.com/watch?v=DDpXdljhstg)
+[Link](https://www.youtube.com/watch?v=DDpXdljhstg)

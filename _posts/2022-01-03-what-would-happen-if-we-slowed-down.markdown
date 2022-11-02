@@ -9,5 +9,5 @@ tags: linkpost
 
 This reminds me of initiatives to cut down to a 4-day work week. If I remember correctly, tests have shown that productivity does not go down, and workers have a better quality of life. 
 
-[Jump to Post](https://www.calnewport.com/blog/2021/09/07/what-would-happen-if-we-slowed-down/)
+[Link](https://www.calnewport.com/blog/2021/09/07/what-would-happen-if-we-slowed-down/)
 

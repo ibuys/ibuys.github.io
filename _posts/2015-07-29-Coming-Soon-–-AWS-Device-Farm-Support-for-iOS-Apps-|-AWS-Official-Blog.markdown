@@ -4,7 +4,7 @@ title: Coming Soon – AWS Device Farm Support for iOS Apps | AWS Official Blog
 date: 2015-07-29 12:31:05
 ---
 
-[Jump to Post](https://aws.amazon.com/blogs/aws/coming-soon-aws-device-farm-support-for-ios-apps/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AmazonWebServicesBlog+%28Amazon+Web+Services+Blog%29)
+[Link](https://aws.amazon.com/blogs/aws/coming-soon-aws-device-farm-support-for-ios-apps/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AmazonWebServicesBlog+%28Amazon+Web+Services+Blog%29)
 
 > We launched AWS Device Farm earlier this month with support for testing apps on Android and Fire OS devices.
 > 

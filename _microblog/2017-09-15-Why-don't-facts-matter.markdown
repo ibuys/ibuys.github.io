@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Why don't facts matter? (opinion) - CNN
 date: 2017-09-15 15:34:57
 ---
-[Jump to Post](http://www.cnn.com/2017/09/13/opinions/why-dont-facts-matter-sharot-opinion/index.html)
+[Link](http://www.cnn.com/2017/09/13/opinions/why-dont-facts-matter-sharot-opinion/index.html)
 
 >Why have human beings' brains evolved to discard perfectly valid information when it does not fit their preferred view? This seems like bad engineering, so why hasn't this glitch been corrected? 
 > 

@@ -9,5 +9,5 @@ tags: linkpost
 
 This is adorable. 
 
-[Jump to Post](https://www.instructables.com/Making-a-Tiny-Mac-From-a-Raspberry-Pi-Zero/)
+[Link](https://www.instructables.com/Making-a-Tiny-Mac-From-a-Raspberry-Pi-Zero/)
 

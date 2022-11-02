@@ -4,7 +4,7 @@ title: The Arrival of Artificial Intelligence
 date: 2017-03-29 14:16:32
 tags: linkpost
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Machine learning is different. Now, instead of humans designing algorithms to be executed by a computer, the computer is designing the algorithms. It is still Artificial Narrow Intelligence — the computer is bound by the data and goal given to it by humans — but machine learning is, in my mind, meaningly different from what has come before. Just as Shannon fused the physical with the logical to make the computer, machine learning fuses the development of tools with computers themselves to make (narrow) artificial intelligence.
 

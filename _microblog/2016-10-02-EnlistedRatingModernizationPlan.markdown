@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Navy Enlisted Rating Modernization Plan
 date: 2016-10-02 21:05:42
 ---
-[Jump to Post][1]
+[Link][1]
 
 > 2) Effective immediately, Sailors in paygrades E1-E3 will be addressed as “Seaman,” E4-E6 will be called “Petty Officer Third/Second/First Class” as appropriate, and Senior enlisted in paygrades E7-E9 will be “Chief,” “Senior Chief,” or “Master Chief” depending on their paygrade.
 > •   For example, a Sailor will no longer be called YN2. Instead, they will be called a “Second Class Petty Officer” or “Petty Officer.”

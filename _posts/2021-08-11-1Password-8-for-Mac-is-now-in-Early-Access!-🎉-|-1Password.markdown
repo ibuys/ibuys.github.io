@@ -9,5 +9,5 @@ tags: linkpost
 
 What I can feel is that this is going to be a problem. 
 
-[Jump to Post](https://blog.1password.com/1password-8-for-mac-is-now-in-early-access/)
+[Link](https://blog.1password.com/1password-8-for-mac-is-now-in-early-access/)
 

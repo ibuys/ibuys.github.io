@@ -10,4 +10,4 @@ tags: linkpost
 
 That's good news, more of this please. 
 
-[Jump to Post](https://news.mit.edu/2022/solar-desalination-system-inexpensive-0214)
+[Link](https://news.mit.edu/2022/solar-desalination-system-inexpensive-0214)

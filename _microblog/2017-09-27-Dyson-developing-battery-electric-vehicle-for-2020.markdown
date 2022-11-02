@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Dyson developing battery-electric vehicle for 2020
 date: 2017-09-27 15:02:38
 ---
-[Jump to Post](http://newatlas.com/dyson-battery-electric-vehicle/51509/)
+[Link](http://newatlas.com/dyson-battery-electric-vehicle/51509/)
 
 >James Dyson, the British inventor and businessman behind Dyson, has announced the company famous for vacuums and hand dryers plans to develop a battery-electric vehicle. In a letter to employees, Dyson said the company would have the vehicle ready by 2020.
 

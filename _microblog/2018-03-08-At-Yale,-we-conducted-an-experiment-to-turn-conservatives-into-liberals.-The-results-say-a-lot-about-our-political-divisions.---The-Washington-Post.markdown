@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: The Yale Political Experiment
 date: 2018-03-08 07:23:52
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 Yale asked participants in the study to imagine a magic genie and being given either the power to fly, or complete physical invulnerability. 
 

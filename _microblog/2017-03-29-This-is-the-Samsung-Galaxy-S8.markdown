@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: This is the Samsung Galaxy S8, coming April 21st - The Verge
 date: 2017-03-29 14:06:40
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Holding the S8, I’m struck by the fact that nothing about it feels especially surprising, and not just because damn near everything about it has been leaking for the past few months. The boldest feature is every phone’s more important feature: the screen. On the S8, it extends up and down to cover nearly the entire front of the phone. It also curves around the left and right, something Samsung is calling the “infinity display,” which gives it the look of not having any bezels at all. And speaking of curves, the four corners of the screen are also slightly curved instead of squared-off, which adds some elegance and perhaps some screen durability.
 

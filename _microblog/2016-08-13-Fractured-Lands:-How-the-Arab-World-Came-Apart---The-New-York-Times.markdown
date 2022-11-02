@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Fractured Lands - How the Arab World Came Apart
 date: 2016-08-13 10:23:23
 ---
-[Jump to Post](http://www.nytimes.com/interactive/2016/08/11/magazine/isis-middle-east-arab-spring-fractured-lands.html?hp=undefined&action=click&pgtype=Homepage&clickSource=story-heading&module=photo-spot-region&region=top-news&WT.nav=top-news&_r=0)
+[Link](http://www.nytimes.com/interactive/2016/08/11/magazine/isis-middle-east-arab-spring-fractured-lands.html?hp=undefined&action=click&pgtype=Homepage&clickSource=story-heading&module=photo-spot-region&region=top-news&WT.nav=top-news&_r=0)
 
 >On a more philosophical level, this journey has served to remind me again of how terribly delicate is the fabric of civilization, of the vigilance required to protect it and of the slow and painstaking work of mending it once it has been torn. This is hardly an original thought; it is a lesson we were supposed to have learned after Nazi Germany, after Bosnia and Rwanda. Perhaps it is a lesson we need to constantly relearn.
 

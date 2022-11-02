@@ -9,5 +9,5 @@ tags: linkpost
 
 I'm interested in functional programming. It might be time soon to sit down and start wrapping my head around it.
 
-[Jump to Post](https://acm.wustl.edu/functional/whyfp.php)
+[Link](https://acm.wustl.edu/functional/whyfp.php)
 

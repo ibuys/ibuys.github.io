@@ -7,7 +7,7 @@ tags: linkpost
 
 From Daring Fireball: Facebook Enabled Advertisers to Target ‘Jew Haters’
 
-[Jump to Post](https://daringfireball.net/linked/2017/09/14/facebook-jew-haters)
+[Link](https://daringfireball.net/linked/2017/09/14/facebook-jew-haters)
 
 Facebook has no conscience, it's bad for mental health, and every time I've logged in lately I'm log out feeling worse. No more of that.
 

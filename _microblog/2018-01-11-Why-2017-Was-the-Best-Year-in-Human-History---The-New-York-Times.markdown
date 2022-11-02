@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: Why 2017 Was the Best Year in Human History - The New York Times
 date: 2018-01-11 10:17:00
 ---
 
-[Jump to Post](https://www.nytimes.com/2018/01/06/opinion/sunday/2017-progress-illiteracy-poverty.html)
+[Link](https://www.nytimes.com/2018/01/06/opinion/sunday/2017-progress-illiteracy-poverty.html)
 
 >We all know that the world is going to hell. Given the rising risk of nuclear war with North Korea, the paralysis in Congress, warfare in Yemen and Syria, atrocities in Myanmar and a president who may be going cuckoo, you might think 2017 was the worst year ever. 
 > 

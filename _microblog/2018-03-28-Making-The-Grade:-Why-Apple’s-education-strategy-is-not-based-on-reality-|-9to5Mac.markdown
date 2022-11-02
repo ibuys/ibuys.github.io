@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: microblog-post
 title: Why Apple’s education strategy is not based on reality
 date: 2018-03-28 18:00:13
 ---

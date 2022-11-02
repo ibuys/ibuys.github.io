@@ -9,5 +9,5 @@ tags: linkpost
 
 A fascinating read, and the results are surprising. For example, I honestly would have thought the pure Unix implementation would be faster than tested. It also surprises me that Swift is so slow. I wonder if someone who knows the language well could produce an optimized version for this sorting problem.
 
-[Jump to Post](https://benhoyt.com/writings/count-words/)
+[Link](https://benhoyt.com/writings/count-words/)
 

@@ -6,7 +6,7 @@ cover: /images/covers/tron.jpg
 tags: culture
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 Sal Soghoian, writing for MacStories:
 

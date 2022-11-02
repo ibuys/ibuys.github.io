@@ -4,7 +4,7 @@ title: OmniFocus Video Field Guide Update Coming Sunday — MacSparky
 date: 2016-07-29 12:05:08
 tags: linkpost
 ---
-[Jump to Post](http://macsparky.com/blog/2016/7/omnifocus-video-field-guide-update-coming-sunday)
+[Link](http://macsparky.com/blog/2016/7/omnifocus-video-field-guide-update-coming-sunday)
 
 >I’ve been working the last few months on an update to the OmniFocus Video Field Guide. I’ve updated it for several new features and gone deep on the iOS Automation and URL linking. I'm making final edits and additions over the next few days and intend to publish it sometime Sunday (probably late).
 

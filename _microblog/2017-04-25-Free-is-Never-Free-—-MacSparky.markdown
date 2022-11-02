@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Free is Never Free — MacSparky
 date: 2017-04-25 08:00:37
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Indeed in this case, where unroll.me is owned by an analytics service, it appears that the entire purpose for the service is to get access to user email data for monetization. So apparently Unroll.me, with access to its user email accounts, collected their Lyft receipts, anonymized them, and sold them to Uber. I'm pretty sure people signing up for unroll.me don’t expect that to happen.
 

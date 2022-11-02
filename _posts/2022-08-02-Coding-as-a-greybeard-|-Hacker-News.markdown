@@ -9,5 +9,5 @@ tags: linkpost
 
 Interesting thread, especially for those of us with an increasing amount of grey. 
 
-[Jump to Post](https://news.ycombinator.com/item?id=32317441)
+[Link](https://news.ycombinator.com/item?id=32317441)
 

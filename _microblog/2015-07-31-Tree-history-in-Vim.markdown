@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Tree history in Vim
 date: 2015-07-31 09:09:31
 ---
-[Jump to Post](http://ideasintosoftware.com/history-is-a-tree/)
+[Link](http://ideasintosoftware.com/history-is-a-tree/)
 
 > I’m sure it happened to you too. 
 >

@@ -4,7 +4,7 @@ title: Foldimate’s laundry-folding machine actually works now - The Verge
 date: 2019-01-07 05:23:13
 tags: linkpost
 ---
-[Jump to Post](https://www.theverge.com/2019/1/7/18171441/foldimate-laundry-folding-robot-ces-2019)
+[Link](https://www.theverge.com/2019/1/7/18171441/foldimate-laundry-folding-robot-ces-2019)
 
 > I clipped in my Verge T-shirt to the machine, which pulled in the shirt and produced a neatly folded shirt in about five seconds. Foldimate says that you can fold an entire load of laundry in about five minutes, which includes collared shirts, pants, and medium-sized towels.
 

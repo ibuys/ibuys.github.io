@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Daring Fireball - Mylan's EpiPen Price Gouging
 date: 2016-08-23 19:43:51
 ---
-[Jump to Post][1]
+[Link][1]
 
 > I don’t know how the executives at Mylan sleep at night.
 

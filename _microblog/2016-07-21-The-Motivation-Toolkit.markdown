@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: The Motivation Toolkit
 date: 2016-07-21 08:56:52
 ---
-[Jump to Post][1]
+[Link][1]
 
 >One key to mastery is what Florida State University psychology professor Anders Ericsson calls deliberate practice – a ‘lifelong period of… effort to improve performance in a specific domain.’ Deliberate practice isn’t running a few miles each day or banging on the piano for twenty minutes each morning. It’s much more purposeful, focused, and, yes painful. Follow these steps – over and over again for a decade – and you just might become a master:
 

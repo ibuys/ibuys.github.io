@@ -6,7 +6,7 @@ tags: linkpost
 ---
 Spoiler: yes. 
 
-[Jump to Post][1]
+[Link][1]
 
 > Back to the headline. Could this be the future of the Mac? As iPhone processing power increases, could Apple create a hybrid desktop product driven by some future version of the A10 Fusion (the 64-bit system on a chip that drives the iPhone 7 and 7 Plus), a product that looks and acts like an iPhone, but that doubles as a desktop experience when you plug it into a dock, complete with large display, mouse, and keyboard?
 

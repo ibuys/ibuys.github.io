@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: Vesper Sync Shutdown Tonight, Open Source Plans
 date: 2016-08-30 15:06:22
 author: buys
 ---
-[Jump to Post][1]
+[Link][1]
 
 > We will make Vesper for iOS, Vesper for Mac, and Vesper’s JavaScript sync service open source on my personal GitHub account. This code will also be provided as historical artifacts: they’re not intended as active projects. They’re also not intended as examples of how to write apps these days.
 

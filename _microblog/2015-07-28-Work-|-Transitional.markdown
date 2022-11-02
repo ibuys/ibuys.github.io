@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: Work - Transitional
 date: 2015-07-28 07:49:44
 ---
 
-[Jump to Post](http://kevin.hoctor.com/work/)
+[Link](http://kevin.hoctor.com/work/)
 
 >I could see that my 9-to-5 job wasn’t my destiny. It didn’t fulfill me or stimulate significant personal growth. It wasn’t that I was bored, but it was more like feeling out of place—I could and should do more with my talents.
 

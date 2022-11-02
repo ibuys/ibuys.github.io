@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: Images of New MacBook Pro With Magic Toolbar Leaked in macOS Sierra 10.12.1 - Mac Rumors
 date: 2016-10-25 14:43:18
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 > macOS Sierra 10.12.1, released yesterday, includes hidden Apple Pay images that depict the brand new MacBook Pro with an OLED touch panel that's set to be announced by Apple on Thursday, October 27.
 

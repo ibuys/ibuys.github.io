@@ -5,7 +5,7 @@ date: 2017-07-20 13:30:40
 tags: linkpost
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 >You don’t have to pretend to be a family to be courteous Or kind. Or protective. All those values can be expressed even better in principles, policies, and, most importantly, actions
 

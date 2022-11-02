@@ -4,7 +4,7 @@ title: The end of do-it-yourself - TechHive Beta Blog
 date: 2012-07-24 10:49:11
 ---
 
-[Jump to Post](http://www.techhive.com/article/2000221/the-end-of-do-it-yourself.html)
+[Link](http://www.techhive.com/article/2000221/the-end-of-do-it-yourself.html)
 
 > It makes sense that you'd need a special tool or kit to replace a cracked screen, but why should I have to send away my laptop in order to upgrade the hard drive? Why should I have to be without my phone or tablet for a week while the battery is replaced because it will no longer hold a charge?
 

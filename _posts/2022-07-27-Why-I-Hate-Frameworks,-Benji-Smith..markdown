@@ -9,5 +9,5 @@ tags: linkpost
 
 This is a perfect explanation of what's wrong with modern web development. Scary thing is it was written in *2005*. 
 
-[Jump to Post](https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html)
+[Link](https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html)
 

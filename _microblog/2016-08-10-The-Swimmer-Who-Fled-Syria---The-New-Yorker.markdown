@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: The Swimmer Who Fled Syria - The New Yorker
 date: 2016-08-10 08:14:34
 ---
-[Jump to Post](http://www.newyorker.com/news/sporting-scene/the-swimmer-who-fled-syria)
+[Link](http://www.newyorker.com/news/sporting-scene/the-swimmer-who-fled-syria)
 
 > She’s focussing on the two-hundred-metre freestyle to qualify for the Olympics, but she admitted a soft spot for the butterfly. “It’s really hard,” she said. “This is why I love it.”
 

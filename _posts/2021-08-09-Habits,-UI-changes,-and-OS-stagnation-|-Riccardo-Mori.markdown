@@ -10,5 +10,5 @@ Riccardo Mori posting last month on how macOS has stagnated roughly since Lion.
 
 This reminds me of a [post I wrote in 2018](https://jonathanbuys.com/A_New_macOS/) about some features I'd love to see in the Mac. I'm still waiting for anything I wrote about to be shipped. 
 
-[Jump to Post](http://morrick.me/archives/9407)
+[Link](http://morrick.me/archives/9407)
 

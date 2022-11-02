@@ -16,6 +16,7 @@ body {
 a {
 	text-decoration: none;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	color: black;
 }
@@ -47,6 +48,12 @@ header {
 	text-align: center;
 	background-color: #002b36;	
 	}
+
+.body-text {
+margin-left: 150px;
+font-size: 18px;
+}
+
 #biglink {
 	font-size: 48px;
 	display: block;
@@ -55,7 +62,6 @@ header {
 }
 #biglink a:link, #biglink a:visited {
 	color: white;
-	text-decoration: none;
 }
 #bigbyline {
 	color: #999;
@@ -73,7 +79,6 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
 .post {
 	margin-bottom: 75px;
@@ -95,7 +100,16 @@ main {
 	font-weight: medium;
 }
 .postDateline a:hover {
-	color: rgba(70, 140, 220, 1.0);
+	color: orange;
+}
+
+.content a:link {
+	color: #333;
+}
+
+.content a:hover {
+	color: orange
+    text-decoration: underline; 
 }
 
 img, embed, object, video {
@@ -129,10 +143,12 @@ nav {
 }
 
 nav a {
-    padding: 3px;
+    padding: 6px;
 	color: #999;
     text-decoration: none;
+/* 
     font-weight: bold;
+ */
 }
 
 /* Footer */

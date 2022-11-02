@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: What 2,000 Calories Looks Like - The New York Times
 date: 2015-07-28 12:30:23
 ---
-[Jump to Post][1]
+[Link][1]
 
 >Writers, nutritionists, doctors, chefs and Michelle Obama have all been promoting a hot new diet: home-cooked food.
 

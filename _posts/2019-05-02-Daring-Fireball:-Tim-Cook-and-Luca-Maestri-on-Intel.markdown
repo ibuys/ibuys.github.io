@@ -5,7 +5,7 @@ date: 2019-05-02 07:05:45
 tags: linkpost
 ---
 
-[Jump to Post](https://daringfireball.net/linked/2019/05/01/cook-maestri-intel)
+[Link](https://daringfireball.net/linked/2019/05/01/cook-maestri-intel)
 
 Tim Cook:
 > For our Mac business overall, we faced some processor constraints in the March quarter, leading to a 5 percent revenue decline compared to last year. But we believe that our Mac revenue would have been up compared to last year without those constraints, and don’t believe this challenge will have a significant impact on our Q3 results.

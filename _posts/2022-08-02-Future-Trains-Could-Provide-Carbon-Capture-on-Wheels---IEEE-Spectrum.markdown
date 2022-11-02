@@ -9,5 +9,5 @@ tags: linkpost
 
 Trains and carbon capture, two of my favorite ideas together at last. 
 
-[Jump to Post](https://spectrum.ieee.org/carbon-capture-2657738131)
+[Link](https://spectrum.ieee.org/carbon-capture-2657738131)
 

@@ -5,7 +5,7 @@ date: 2019-05-09 09:27:54
 tags: linkpost
 ---
 
-[Jump to Post](https://512pixels.net/2019/05/moments/)
+[Link](https://512pixels.net/2019/05/moments/)
 
 > A decade ago, my wife and I saw our entire lives change in a moment when our oldest son was diagnosed with brain cancer.
 

@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Creating custom Perspectives in OmniFocus – The Sweet Setup
 date: 2017-03-29 14:08:56
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Perspectives in OmniFocus allow you to include additional task details like due date, defer date, flag status, and project status to customize your task views even further. If you wanted to see only tasks that are available to be worked on right now, require you to have access to your Mac, and are due next week, perspectives allow you to find the tasks that meet this criteria quickly and easily.
 

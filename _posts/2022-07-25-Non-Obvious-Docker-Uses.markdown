@@ -9,5 +9,5 @@ tags: linkpost
 
 Clever. 
 
-[Jump to Post](https://matt-rickard.com/non-obvious-docker-uses/)
+[Link](https://matt-rickard.com/non-obvious-docker-uses/)
 

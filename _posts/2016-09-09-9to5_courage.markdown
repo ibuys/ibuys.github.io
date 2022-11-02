@@ -4,7 +4,7 @@ title: Steve Jobs on Apple’s Courage
 date: 2016-09-09 12:50:28
 tags: linkpost
 ---
-[Jump to Post][1]
+[Link][1]
 
 9to5 Mac in reference to “courage” from the September Apple event:
 

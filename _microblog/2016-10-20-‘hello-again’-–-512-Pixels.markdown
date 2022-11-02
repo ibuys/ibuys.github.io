@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: ‘hello again’ – 512 Pixels
 date: 2016-10-20 13:05:28
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Apple today announced an event that will take place on October 27. Here’s what the invite looks like:
 

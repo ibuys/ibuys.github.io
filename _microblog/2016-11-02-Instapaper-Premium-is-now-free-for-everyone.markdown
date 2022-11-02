@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: Instapaper Premium is now free for everyone
 date: 2016-11-02 07:13:47
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 >Today we’re making Instapaper Premium available to all Instapaper users, free of charge. Instapaper Premium is the best way to experience all that Instapaper has to offer, and we’re excited to open it up to everyone.
 

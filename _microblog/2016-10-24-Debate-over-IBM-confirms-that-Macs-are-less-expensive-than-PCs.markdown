@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: IBM confirms that Macs are less expensive than PCs
 date: 2016-10-24 22:42:32
 ---
 
-[Jump to Post][1]
+[Link][1]
 
 > But isn’t it expensive, and doesn’t it overload IT? No. IBM found that not only do PCs drive twice the amount of support calls, they’re also three times more expensive. That’s right, depending on the model, IBM is saving anywhere from $273 - $543 per Mac compared to a PC, over a four-year lifespan. “And this reflects the best pricing we’ve ever gotten from Microsoft,” Previn said. Multiply that number by the 100,000+ Macs IBM expects to have deployed by the end of the year, and we’re talking some serious savings.
 

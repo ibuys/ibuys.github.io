@@ -4,7 +4,7 @@ title: NetNewsWire Comes Home
 date: 2018-09-01 09:04:57
 tags: linkpost
 ---
-[Jump to Post](http://inessential.com/2018/08/31/netnewswire_comes_home)
+[Link](http://inessential.com/2018/08/31/netnewswire_comes_home)
 
 > After some years spent traveling the world, NetNewsWire is now back where it started! It’s my app again.
 

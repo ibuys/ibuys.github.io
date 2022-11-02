@@ -4,7 +4,7 @@ title: Maccy - clipboard manager for macOS
 date: 2019-10-15 10:05:01
 tags: linkpost
 ---
-[Jump to Post](https://maccy.app/)
+[Link](https://maccy.app/)
 
 > Clipboard manager for macOS which does one job - keep your copy history at hand. Period
 

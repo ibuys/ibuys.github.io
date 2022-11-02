@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: microblog-post
 title: The Philosophy of Bruce Lee
 date: 2017-03-15 06:46:18
 ---
 
-[Jump to Post](https://www.brainpickings.org/2016/08/01/bruce-lee-notebook/)
+[Link](https://www.brainpickings.org/2016/08/01/bruce-lee-notebook/)
 
 > You will never get any more out of life than you expect
 > 

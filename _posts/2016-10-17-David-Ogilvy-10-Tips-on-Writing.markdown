@@ -4,7 +4,7 @@ title: David Ogilvy 10 Tips on Writing
 date: 2016-10-17 12:45:30
 tags: linkpost
 ---
-[Jump to Post][1]
+[Link][1]
 
 > The better you write, the higher you go in Ogilvy & Mather. People who think well, write well. Woolly minded people write woolly memos, woolly letters and woolly speeches. Good writing is not a natural gift. You have to learn to write well. Here are 10 hints:
 

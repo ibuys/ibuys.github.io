@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: CHANGER paperbacks are now available! - Matt Gemmell
 date: 2016-07-13 19:45:07
 ---
-[Jump to Post][1]
+[Link][1]
 
 >My ★★★★★ action-thriller novel, CHANGER, is now available as a beautiful, 474-page paperback!
 

@@ -1,6 +1,6 @@
 ---
 title: Link Blogging With Quicksilver
-layout: post
+layout: microblog-post
 date: 2015-07-25 21:38:37
 tags: automator, mac 
 ---
@@ -26,7 +26,7 @@ The script started out as an Automator action, but having an Automator wrapper a
 
 	QUOTEDTEXT=`echo -n ">"; echo -n $TEXT`
 
-	LINK=`echo -n [Jump to Post]; echo -n \($URL\)`
+	LINK=`echo -n [Link]; echo -n \($URL\)`
 
 	NAME=`echo $TITLE | sed s/\ /-/g`
 	USERNAME=`whoami`
@@ -37,7 +37,7 @@ The script started out as an Automator action, but having an Automator wrapper a
 	POST_DATE=`date "+%Y-%m-%d %H:%M:%S"`
 	
 	echo "---" >>$POST_FQN
-	echo "layout: post" >> $POST_FQN
+	echo "layout: microblog-post" >> $POST_FQN
 	echo "title: $TITLE" >> $POST_FQN
 	echo "date: $POST_DATE" >> $POST_FQN
 	echo "---" >> $POST_FQN

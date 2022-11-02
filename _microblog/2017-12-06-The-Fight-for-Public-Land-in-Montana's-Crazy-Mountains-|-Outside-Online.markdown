@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: The Fight for Public Land in Montana's Crazy Mountains | Outside Online
 date: 2017-12-06 20:51:30
 ---
-[Jump to Post](https://www.outsideonline.com/2263356/crazy-mountains?utm_campaign=rss&utm_source=rss&utm_medium=xmlfeed)
+[Link](https://www.outsideonline.com/2263356/crazy-mountains?utm_campaign=rss&utm_source=rss&utm_medium=xmlfeed)
 
 > In the fall of 2016, Rob Gregoire, a hunter and nearly life-long Montanan, won a state lottery for a permit to take a trophy elk in the Crazy Mountains, which rise from the plains about 60 miles north of Yellowstone National Park. Landowners around the mountains were charging about $2,000 for private hunts on their ranches. “That’s just not what I do, on principle,” Gregoire says. So he found a public access corridor that would take him into prime Crazies elk country—the federal land covered by the permit, which in total cost about $40.   
 > 

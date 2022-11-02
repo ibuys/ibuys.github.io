@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: Erasing Complexity – MacStories
 date: 2018-03-27 09:09:09
 ---
-[Jump to Post](https://www.macstories.net/stories/apple-ecosystem-comfort/#fnref-53629-1)
+[Link](https://www.macstories.net/stories/apple-ecosystem-comfort/#fnref-53629-1)
 
 > Probably for the first time since I started MacStories nine years ago, I feel comfortable using Apple's services and hardware extensively not because I've given up on searching for third-party products, but because I've tried them all. And ultimately, none of them made me happier with my tech habits. It took me years of experiments (and a lot of money spent on gadgets and subscriptions) to notice how, for a variety of reasons, I found a healthy tech balance by consciously deciding to embrace the Apple ecosystem.
 

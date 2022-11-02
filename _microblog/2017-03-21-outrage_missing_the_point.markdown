@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title:  Outrage is Missing the Point
 date: 2017-03-21 21:13:38
 ---
-[Jump to Post][1]
+[Link][1]
 
 > Restating, underscoring, or even strengthening those scientific results won’t solve that problem. The results already come from multiple fields, are reinforced by multiple lines of evidence, and have been vetted (extremely vetted, you might say) by several extended, multi-layered review processes. Collectively, we don’t know how to “know” anything more confidently than we know this stuff.
 > 

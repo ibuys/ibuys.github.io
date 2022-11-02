@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: microblog-post
 title: Climate Change Is Complex
 date: 2017-09-20 08:59:35
 ---
@@ -7,7 +7,7 @@ date: 2017-09-20 08:59:35
 > Why do people deny the science of climate change? 
 > 
 > Mostly because of ideology.
-[Jump to Post](https://www.nytimes.com/interactive/2017/climate/what-is-climate-change.html?emc=edit_clim_20170919&nl=&nlid=79646850&te=1)
+[Link](https://www.nytimes.com/interactive/2017/climate/what-is-climate-change.html?emc=edit_clim_20170919&nl=&nlid=79646850&te=1)
 
 
 Nice summary of what we know about climate change. I've never understood the opposition to environmentalism. Who doesn't want clean air, energy independence, and the jobs created by the renewable energy industry? Here in Iowa, we have factories that build windmills, that are major employers in fairly rural areas. It seems to me that most opposition to climate change science is rooted in loyalty to a party, which in turn is rooted in deep-seated cultural beliefs and animosity towards highly educated "elitists".

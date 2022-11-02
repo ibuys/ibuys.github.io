@@ -26,7 +26,7 @@ The script started out as an Automator action, but having an Automator wrapper a
 
 	QUOTEDTEXT=`echo -n ">"; echo -n $TEXT`
 
-	LINK=`echo -n [Jump to Post]; echo -n \($URL\)`
+	LINK=`echo -n [Link]; echo -n \($URL\)`
 
 	NAME=`echo $TITLE | sed s/\ /-/g`
 	USERNAME=`whoami`

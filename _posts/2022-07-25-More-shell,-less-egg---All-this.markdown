@@ -14,5 +14,5 @@ Relating to the previous link, I can't believe I've never posted a link to this 
 
 Classic. 
 
-[Jump to Post](http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/)
+[Link](http://www.leancrew.com/all-this/2011/12/more-shell-less-egg/)
 

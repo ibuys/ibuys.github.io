@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: microblog-post
 title: How to manage your windows like a pro in macOS | iMore
 date: 2018-03-29 09:34:37
 ---

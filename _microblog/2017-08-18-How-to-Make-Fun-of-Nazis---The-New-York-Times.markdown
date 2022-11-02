@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: microblog-post
 title: How to Make Fun of Nazis - The New York Times
 date: 2017-08-18 10:06:39
 ---
-[Jump to Post](https://www.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region&_r=0&mtrref=www.nytimes.com&assetType=opinion)
+[Link](https://www.nytimes.com/2017/08/17/opinion/how-to-make-fun-of-nazis.html?action=click&pgtype=Homepage&clickSource=story-heading&module=opinion-c-col-right-region&region=opinion-c-col-right-region&WT.nav=opinion-c-col-right-region&_r=0&mtrref=www.nytimes.com&assetType=opinion)
 
 >By undercutting the gravitas white supremacists are trying to accrue, humorous counterprotests may blunt the events’ usefulness for recruitment. Brawling with bandanna-clad antifas may seem romantic to some disaffected young men, but being mocked by clowns? Probably not so much. 
 >

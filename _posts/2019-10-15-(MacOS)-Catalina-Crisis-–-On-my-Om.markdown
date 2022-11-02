@@ -4,7 +4,7 @@ title: (MacOS) Catalina Crisis – On my Om
 date: 2019-10-15 10:46:57
 tags: linkpost
 ---
-[Jump to Post](https://om.co/2019/10/14/macos-catalina-crisis/)
+[Link](https://om.co/2019/10/14/macos-catalina-crisis/)
 
 > Creatives – visual and musical — are the principal constituents of macOS and the people who have supported the company’s products through thick and thin. How is that Adobe and Apple weren’t coordinating better on making everything work well is beyond imagination? For Apple to drop the ball on products that are focused on these two communities shows that something fundamentally is broken inside the company and its macOS group. 
 > 
