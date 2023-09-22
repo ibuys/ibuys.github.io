@@ -1,12 +1,32 @@
 {% include head.html %}
-{% include header.html %}
-{% include nav.html %}
-
-    <main>
-
-        {{ content }}
-
-    </main>
+	<body>
+		<div class="sidenav">
+		<!--     <header> -->
+			<header>
+				<a href="/">jb…</a>
+			</header>
 
 
-{% include footer.html %}
+			<div class="subheader">a weblog by Jonathan Buys</div>
+			<div class="divider div-transparent div-dot"></div>
+						
+			<ul>
+			  <li><a class="navbar-link" href="/">Page One</a></li>
+			  <li><a class="navbar-link" href="/contact/">Contact</a></li>
+			  <li><a class="navbar-link" href="/about/">Colophon</a></li>
+			  <li><a class="navbar-link" href="/microblog/">Chirp, Chirp</a></li>
+			  <li><a class="navbar-link" href="/archive/">Archives</a></li>			  
+			</ul>
+			<!--     </header> -->
+		</div>
+
+		<div class="main">
+
+
+			{{ content }}
+
+		</div>
+
+
+	</body>
+</html> 
