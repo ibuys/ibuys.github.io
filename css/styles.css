@@ -1,20 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 body {
 	line-height: 1.7em;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 1.2em;
 	color: #333;
 	background-color: #FBFCF8;
-}
-
-.sidenav {
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 80;
-  overflow-x: hidden;
-  padding-top: 64px;
 }
 
 a{
@@ -40,7 +32,7 @@ header {
 .subheader {
   text-align: center;	
   padding-top: 20px;
-	
+
 }
 
 .divider
@@ -77,53 +69,41 @@ header {
 	box-shadow: inset 0 0 0 2px white,
 					0 0 0 4px white;
 }
-.main {
-  max-width: 650px;
-  margin-left: 300px; /* Same as the width of the sidenav */
-  margin-right: auto;
-  padding: 0px 100px;
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
+	}
+	.sidenav {
+	  padding: 10px;
+	  flex: 50%;
+	}
+}
+
+@media (min-width: 800px) {
+	.flex-container {
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.sidenav {
+		height: 100%;
+		width: 300px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 80;
+		overflow-x: hidden;
+		padding-top: 64px;
+	}
+
+	.main {
+	  max-width: 800px;
+	  margin-left: 300px; /* Same as the width of the sidenav */
+	  margin-right: auto;
+	  padding: 0px 100px;
   
+	}
 }
-
-h1, h2, h3, h4, h5, h6 {
-	color: black;
-}
-
-h3 {
-	font-size: 28px;
-}
-
-h3 a:link, h3 a:visited {
-	color: #333;
-}
-
-h3 a:hover {
-	color: orange;
-}
-
-h4 {
-	margin-bottom: 1em;
-	color: #444;
-}
-
-hr {
-    width: 50%;
-    margin: 5em auto;
-}
-article a{
-  text-decoration: underline;
-}
-
-article a:hover{
-	color: orange;
-}
-
-article a:visited a:hover{
-	color: #333;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
