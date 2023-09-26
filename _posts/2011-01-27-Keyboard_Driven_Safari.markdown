@@ -4,7 +4,9 @@ title: Keyboard Driven Safari
 tags: [mac, setup, safari]
 ---
 
-<a href="/media/safari.png"><img src="/media/safari_thumb.png" /></a>
+<!-- <a href="/media/safari.png"><img src="/media/safari_thumb.png" /></a> -->
+![Alt](media/safari.png)
+
 
 A friend was explaining his preference for Google's Chrome browser the other day, and was using 1Password as an example of why he felt that Chrome was a better designed browser. The 1Password extension in Chrome drops down a menu that looks almost like an iOS window, which he felt was more polished than it's Safari equivalent. In Contrast the "1P" button in Safari drops down a normal cocoa menu. Funny thing is, I'm fairly certain that I had never seen that menu, simply because that's not how I use Safari.
 

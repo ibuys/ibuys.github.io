@@ -3,7 +3,7 @@ layout: post
 title: PC Apps
 tags: [apple, culture, mac]
 ---
-![alt text](/media/mas.jpg "Mac App Store")
+![alt text](/media/mas.jpg)
 
 Interesting choice of wording in Apple's most recent [press release][1].  The intent of the release is to announce the availability of the Mac App Store on January 6th, however, the interesting parts read like this:
 

@@ -30,4 +30,5 @@ I figured once I've addressed each of these issues than I can at least drive it 
 
 It's good to be a VW owner again. I'm looking forward to restoring the Bug. It'll also give me something to write about and share here. The Bug has a long way to go before I'll consider it "finished". My intention is to restore as much as possible to factory original, with occasional upgrades for safety or modern convenience. When I sit in the bug, I'd like to feel like I've been transported back in time, back to the 90's when I was first driving a VW through the woods of Montana. 
 
-<img src="/media/thebug.jpeg" loading="lazy" />
+<!-- <img src="/media/thebug.jpeg" loading="lazy" /> -->
+![Alt](media/thebug.jpeg)

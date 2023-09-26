@@ -8,7 +8,8 @@ date: 2011-07-25 10:49:11
 
 OS X Lion is a big step forward in personal computing, and, over the next few years, we are going to see a lot of our preconceptions about how computers work begin to melt away. Apple is setting a high bar for themselves and their developers. Lion is an ambitious release with ambitious goals that are going to take some time to actually come to fruition. However, as futuristic as Lion is, [Mission Control][1] feels like a step back.
 
-<a href="/media/mission_control.jpg"><img class="center" src="/media/mission_control_thumb.jpg" /></a>
+<!-- <a href="/media/mission_control.jpg"><img class="center" src="/media/mission_control_thumb.jpg" /></a> -->
+![Alt](media/mission_control.jpg)
 
 One of the best features of the Mac since 10.3 been Exposé. Exposé became a part of my workflow so easily that I came to rely on it just by muscle memory. Exposé was always one of the gems of OS X that highlighted how different the mental model of using the computer was when compared to Windows. Unfortunately, with Lion, Apple decided to cut way back on the features that were available in Exposé and mash it together with Spaces. Spaces are Apple's implementation of multiple desktops, a feature that UNIX and Linux desktops of had for decades. Spaces before 10.7 was fairly good, but I rarely used it. 
 

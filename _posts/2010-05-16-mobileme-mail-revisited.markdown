@@ -3,7 +3,9 @@ layout: post
 title: MobileMe Mail Revisited
 tags: [mac, apple, online, productivity]
 ---
-<a href="/media/mobileme_logo.png"><img src="/media/mobileme_logo_thumb.png" /></a>
+<!-- <a href="/media/mobileme_logo.png"><img src="/media/mobileme_logo_thumb.png" /></a> -->
+![Alt](media/mobileme_logo.png)
+
 
 If the only computers you use are Macs, or if you only use Microsoft Outlook on a PC, you may not have spent a significant amount of time in the web interface to [MobileMe][2].  The web interface occupies a curious spot in Apple's portfolio as one of their few products that tries to do everything, and gets very little of it right.  One piece in particular that gets most things wrong is the web interface to MobileMe Mail.
 
