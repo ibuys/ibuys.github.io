@@ -3,9 +3,7 @@ layout: post
 title: Back in Black
 tags: [quicksilver, mac, productivity]
 ---
-<!-- <a href="/media/qs_icon.png"><img class="center" src="/media/qs_icon.png" /></a> -->
-![Alt](media/qs_icon.png)
-
+<a href="/media/qs_icon.png"><img class="center" src="/media/qs_icon.png" /></a>
 
 There used to be a line between *having* a Mac, and *owning* a Mac, and that line was drawn with [Quicksilver](http://qsapp.com). Quicksilver changed the way I thought about using my computer in a very fundamental way. It led me to think more about telling it what to do, instead of clicking about asking it to do something. It led me to think about mastering my tools like a craftsman, choosing my tools with great care and thought. Quicksilver was my first step towards owning my Mac.
 

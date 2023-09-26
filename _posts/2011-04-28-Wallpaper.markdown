@@ -8,8 +8,7 @@ Desktop wallpaper is a cheap trick. It's only purpose is to make your computer s
 
 This is why, currently, my desktop looks like this:
 
-<!-- <a href="/media/desktop_28apr11.png"><img src="/media/desktop_28apr11_thumb.png" /></a> -->
-![Alt](media/desktop_28apr11.png)
+<a href="/media/desktop_28apr11.png"><img src="/media/desktop_28apr11_thumb.png" /></a>
 
 
 In contrast, the top results in both [Google][1] and [Bing][2] for the search term "desktop wallpaper" are images of nature, people, or movies. Some are nice works of art, and worth having around, but they are decoration, not functionality. If you are spending time looking at your desktop without any windows open, what are you doing?

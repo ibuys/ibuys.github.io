@@ -19,9 +19,10 @@ permalink: /:title/
 
 # Plugins
 gems: [jekyll-paginate]
-plugins: [jekyll-paginate, jekyll-markdown-responsive-image]
+plugins: [jekyll-paginate]
 paginate: 10 # Post excerpts by page
 paginate_path: "/page/:num" # Default was "/page:num/"
+
 
 # Navigation
 navigation:

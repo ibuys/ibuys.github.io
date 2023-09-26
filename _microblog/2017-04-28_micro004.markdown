@@ -1,0 +1,8 @@
+---
+layout: microblog-post
+title: chirp, chirp
+date: 2017-04-28 07:33:39
+tags: 
+---
+
+I think I'm getting it now. 

@@ -1,0 +1,7 @@
+---
+layout: microblog-post
+title: chirp, chirp
+date: 2018-08-10 15:04:31
+---
+ 
+Hey startups and small businesses, I’ve got something new for you: [ninepipe.co](https://ninepipe.co) Custom cloud infrastructure design and consulting, get in touch!
