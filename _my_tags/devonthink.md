@@ -1,4 +1,0 @@
----
-slug: devonthink
-name: devonthink
----

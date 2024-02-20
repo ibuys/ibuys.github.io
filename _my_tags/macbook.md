@@ -1,4 +1,0 @@
----
-slug: macbook
-name: macbook
----

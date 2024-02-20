@@ -1,56 +1,144 @@
-# Site settings
-title: jb…
-email: desk@jonathanbuys.com
-description: > # this means to ignore newlines until "baseurl:"
-  Today is not that day. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jonathanbuys.com" # the base hostname & protocol for your site
+# Site
+repository: ibuys/ibuys.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jonathan Buys
+title: Staff DevOps Engineer
+# email: 
+# email_title: Email (Email title override)
+# phone:
+# phone_title: Phone (Phone title override)
+website: https://jonathanbuys.com
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
 github_username:  ibuys
+stackoverflow_username: "2284578"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+    Over twenty years experience in the technology industry, I’m a seasoned technical leader with a strong track record in optimizing systems and guiding teams through complex challenges. Expert in cloud architecture, automation, and security. Expert in Linux, scripting, automation, and scaling web systems for security, high availability, and performance. Created automation system using AWS services. Developed two applications for macOS in Objective C. Strong leadership and mentoring experience. Give back to the local community by teaching Python at the local community college. 
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: TargetSmart
+        sub_title: Staff Engineer
+        caption: 2016 - present
+        link: https://targetsmart.com
+        quote: >
+          A data-driven solutions company that empowers you to better understand, engage, and activate your key stakeholders in order to achieve your goals.
+        description: | # this will include new lines to allow paragraphs
+          Leveraged AWS services to increase security and reliability of web systems. Built continuous integration system using CloudFormation, CodeDeploy, and Bitbucket Pipelines to test and deploy code in AWS. Converted all applications to Docker images running in ECS, leveraging build and test pipelines for automated deployments. Constantly monitored and  enhanced security posture of organization.
+      - layout: right
+        title: Chirotouch
+        sub_title: Systems Automation Engineer
+        caption: 2014 - 2016
+        link: https://chirotouch.com
+        quote: >
+          The cloud standard in chiropractic software.
+        description: | # this will include new lines to allow paragraphs
+          Rebuilt the QA, Staging, and Production environments with AWS CloudFormation and CodeDeploy services, the system can rebuild an environment from scratch in approximately fifteen to twenty minutes. Automated deployment system included monitoring of resources through AWS CloudWatch. Managed deployment and building of Docker containers for several Ruby on Rails and Java applications. Rearchitected cloud infrastructure for security and efficiency. Used Chef to automate legacy system maintenance. 
+      - layout: right
+        title: CDS Global
+        sub_title: Unix/Linux Systems Administrator
+        caption: 2007 - 2014
+        link: https://www.cds-global.com
+        quote: >
+          CDS Global partners with you in managing offline and online consumer touchpoints from a holistic perspective with our unique retention processes.
+        description: | # this will include new lines to allow paragraphs
+          Responsible for designing and maintaining the Linux and AIX high-availability infrastructure for several high demand e-commerce web sites. Worked with a team to build the virtual infrastructure comprised of thirty physical servers and over 160 virtual servers. Designed, installed and maintained the Puppet configuration management infrastructure for large scale automation. Designed, installed, and maintained the Nagios server and network monitoring system. Maintained the Linux postfix email server to support multiple virtual domains, providing outbound email to several applications and deliveries to thousands of individuals. 
+      - layout: right
+        title: United States Navy
+        sub_title: Unix/Linux Systems Administrator
+        caption: 1995 - 2006
+        link: https://www.navy.mil
+        quote: >
+          The United States is a maritime nation, and the U.S. Navy protects America at sea. 
+        description: | # this will include new lines to allow paragraphs
+          Active duty in the Navy for eleven years, leaving the service with an honorable discharge as a first class petty officer, IT1(SW). Supervised and trained four teams of personnel (3-5 people per team) responsible for the operation and maintenance of satellite communication equipment of JMF St. Mawgan. Designed and managed the creation of a Network Operations Center that centralized all network security and information assurance functions in one area. Designed a unified network infrastructure to support five dispersed Internet cafes on the base.
+
+
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Iowa State University
+        sub_title: Master of Science, Human Computer Interaction
+        caption: 2010 - 2012
+      - layout: top-right
+        title: University of Maryland University College
+        sub_title: Bachelor of Science, Information Systems Management
+        caption: 2000 - 2008
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Linux, Shell Scripting, Python, AWS, Puppet, Nagios, Objective-C, Systems and Network Architecture, Systems Security, Clustering, Docker
+
+
+# Footer
+footer_show_references: true
+references_title: References on request (Override references text)
 
 # Build settings
-exclude: [CNAME, Gemfile, Gemfile.lock]
-markdown: kramdown
-kramdown:
-  input: GFM # Enable GitHub Flavored Markdown
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-inter_post_navigation: true
-highlighter: rouge
-permalink: /:title/
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Plugins
-gems: [jekyll-paginate]
-plugins: [jekyll-paginate]
-paginate: 10 # Post excerpts by page
-paginate_path: "/page/:num" # Default was "/page:num/"
+plugins:
+ - jekyll-seo-tag
 
-
-# Navigation
-navigation:
-  - slug: /
-    label: Home
-  - slug: /microblog
-    label: Tweet
-  - slug: /about
-    label: About
-  - slug: /contact
-    label: Contact
-  - slug: /archive/
-    label: Archive
-  - slug: /100books
-    label: Reading
-
-collections:
-  my_tags:
-    output: true
-    permalink: /tag/:slug/
-  microblog:
-    output: true
-    permalink: /microblog/:year/:month/:slug/
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: articles_by_tag
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

@@ -1,4 +1,0 @@
----
-slug: network
-name: network
----

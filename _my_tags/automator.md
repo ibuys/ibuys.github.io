@@ -1,4 +1,0 @@
----
-slug: automator
-name: automator
----

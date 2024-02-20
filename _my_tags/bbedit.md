@@ -1,4 +1,0 @@
----
-slug: bbedit
-name: bbedit
----
