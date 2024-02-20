@@ -1,6 +1,6 @@
 # Site
 repository: ibuys/ibuys.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: /favicon.ico
 
 # Content configuration version
 version: 2
@@ -50,7 +50,7 @@ stackoverflow_username: "2284578"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/buys.jpg
 about_content: | # this will include new lines to allow paragraphs
     Over twenty years experience in the technology industry, I’m a seasoned technical leader with a strong track record in optimizing systems and guiding teams through complex challenges. Expert in cloud architecture, automation, and security. Expert in Linux, scripting, automation, and scaling web systems for security, high availability, and performance. Created automation system using AWS services. Developed two applications for macOS in Objective C. Strong leadership and mentoring experience. Give back to the local community by teaching Python at the local community college. 
 
@@ -112,12 +112,12 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Linux, Shell Scripting, Python, AWS, Puppet, Nagios, Objective-C, Systems and Network Architecture, Systems Security, Clustering, Docker
+      Linux, Shell Scripting, Python, AWS, Puppet, Monitoring, Systems and Network Architecture, Systems Security, Clustering, Docker
 
 
 # Footer
 footer_show_references: true
-references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
