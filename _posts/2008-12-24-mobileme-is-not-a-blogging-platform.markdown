@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: MobileMe is not a Blogging Platform
+date: 2008-12-24 10:16:25
 tags: [apple, online, blogging]
 ---
 
