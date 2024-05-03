@@ -10,8 +10,7 @@ tags: [mac, ipad, apple]
 I've been enjoying watching the new iPad commercial of a kid and her iPad roaming around the city. Two things come to mind. First, is this what it's like for kids in the city? Having never lived in one myself I find it fascinating that she just roams around, takes the bus, hangs out in an alley, whatever. Second, and more important, is what she's doing with that iPad. 
 
 <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sQB2NjhJHvY" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3S5BLs51yDQ?si=duypFTZNDpx614HB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 
