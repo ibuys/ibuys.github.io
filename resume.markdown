@@ -9,7 +9,7 @@ Over twenty years experience in the technology industry. Over eighteen years exp
 
 ## Experience
 
-### Senior Devops Engineer; Targetsmart — 2016-Current
+### Staff Devops Engineer; Targetsmart — 2016-Current
 
 Rearchitected cloud infrastructure with CloudFormation and CodeDeploy for increased security, scaleability, and management. Developed a cloud-native, encrypted secret storage and retrieval service in Python. Deployed a customized Go binary that provided secure OAUTH2 proxy for distributed access to static sites.
 
