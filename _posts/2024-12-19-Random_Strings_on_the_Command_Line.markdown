@@ -75,3 +75,8 @@ pgen()
 ```
 
 There's almost certainly easier ways to generate a random string in the shell, but I like this, and it works for me. 
+
+
+---
+
+> Update: The good Dr. Drang suggested ending the pipeline and running `echo` instead of `xargs` for clairity, which makes a lot of sense to me. I updated the alias to `base64 < /dev/random | head -c 32; echo`.
