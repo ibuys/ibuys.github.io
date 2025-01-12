@@ -2,6 +2,7 @@
 title: Jonathan Buys
 url: "https://jonathanbuys.com"
 baseurl: ""
+github_username:  ibuys
 
 # Sass setting
 sass/style: compressed
