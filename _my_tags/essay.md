@@ -1,4 +1,0 @@
----
-slug: essay
-name: essay
----

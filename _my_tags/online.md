@@ -1,4 +1,0 @@
----
-slug: online
-name: online
----

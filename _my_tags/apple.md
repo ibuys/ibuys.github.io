@@ -1,4 +1,0 @@
----
-slug: apple
-name: apple
----

@@ -1,4 +1,0 @@
----
-slug: psychology
-name: psychology
----

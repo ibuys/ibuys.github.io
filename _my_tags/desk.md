@@ -1,4 +1,0 @@
----
-slug: desk
-name: desk
----

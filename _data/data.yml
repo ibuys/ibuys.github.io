@@ -1,0 +1,440 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: en              # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: Jonathan Buys                      # name
+  title: Staff DevOps Engineer           # job title 
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.jpeg # file path or link to your avatar
+
+contact:
+  location: Iowa  # location, text or markdown link syntax
+  email: desk@jonathanbuys.com     # email address
+  phone:   # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: themidwestern.net      # site link without schema, like example.com, will automatically prepend "https://"
+
+  gender:                   # gender or pronoun
+  birthday:                 # birthday
+  nationality:              # nationality
+  visa:                     # passport visa
+  drivinglicense:           # driving licence
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  github: ibuys                  # https://github.com/<username>
+  gitlab:                   # https://gitlab.com/<username>
+  bitbucket:                # https://bitbucket.com/<username>
+  git:                      # selfhost git site link without schema "https://"
+  leetcode:                 # https://leetcode.com/<username>
+  codeforces:               # https://codeforces.com/profile/<username>
+  codewars:                 # https://www.codewars.com/users/<username>
+  topcoder:                 # https://profiles.topcoder.com/<username>
+  huggingface:              # https://huggingface.co/<username>
+  codepen:                  # https://codepen.io/<username>
+  tryhackme:                # https://tryhackme.com/p/<username>
+
+  # research
+  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  researchgate:             # https://www.researchgate.net/profile/<username>
+  orcid:                    # https://orcid.org/<id>
+  figshare:                 # https://figshare.com/authors/<name/id>
+  kaggle:                   # https://www.kaggle.com/<username>
+
+  # writing
+  medium:                   # https://medium.com/@<username>
+  wordpress:                # https://<username>.wordpress.com
+  blogger:                  # https://<username>.blogspot.com
+  devto:                    # https://dev.to/<username>
+
+  # creativity
+  figma:                    # https://www.figma.com/@<username>
+  behance:                  # https://www.behance.net/<username>
+  dribbble:                 # https://dribbble.com/<username>
+  artstation:               # https://www.artstation.com/<username>
+  pixiv:                    # https://www.pixiv.net/users/<id>
+  pinterest:                # https://www.pinterest.com/<username>
+  producthunt:              # https://www.producthunt.com/@<username>
+
+  # cv
+  linkedin:                 # https://linkedin.com/in/<username>
+  indeed:                   # https://my.indeed.com/p/<id>
+  xing:                     # https://www.xing.com/profile/<username>
+  fiverr:                   # https://www.fiverr.com/<username>
+  freelancer:               # https://www.freelancer.com/u/<username>
+
+  # chat
+  wechat:                   # wechat id, text or markdown link syntax
+  whatsapp:                 # https://wa.me/<number>
+  telegram:                 # https://t.me/<username>
+  messenger:                # https://m.me/<username>
+  line:                     # https://line.me/R/ti/p/@<lineid>
+  viber:                    # https://vb.me/<username>
+  threema:                  # https://threema.id/<userid>
+  signal:                   # signal username, text or markdown link syntax
+  wire:                     # wire username, text or markdown link syntax
+
+  # social
+  stackoverflow:            # https://stackoverflow.com/users/<id>
+  stackexchange:            # https://stackexchange.com/users/<id>
+  quora:                    # https://www.quora.com/profile/<username>
+  zhihu:                    # https://www.zhihu.com/people/<username>
+  goodreads:                # https://www.goodreads.com/user/show/<username>
+  strava:                   # https://www.strava.com/athletes/<id>
+  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
+  twitter:                  # https://twitter.com/<username>
+  x:                        # https://x.com/<username>
+  mastodon:  jonathanbuys@micro.blog.               # text, the format must be like "username@yourserver.com"
+  threads:                  # https://www.threads.net/@<username>
+  vk:                       # https://vk.com/<username>
+  weibo:                    # weibo username, text or markdown link syntax
+  instagram:                # https://instagram.com/<username>
+  unsplash:                 # https://unsplash.com/@<username>
+  _500px:                   # https://500px.com/p/<username>
+  youtube:                  # https://www.youtube.com/@<username>
+  tiktok:                   # https://www.tiktok.com/@<username>
+  snapchat:                 # https://www.snapchat.com/add/<username>
+  twitch:                   # https://www.twitch.tv/<username>
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    Staff DevOps Engineer with 25 years of diverse experience in the tech industry, spanning roles in systems administration, cloud engineering, and DevOps. Proven track record of leading high-performing teams, optimizing cloud infrastructure, and delivering cutting-edge solutions in AWS environments. My portfolio includes developing macOS applications, leading automation initiatives using AWS, and contributing to the local community as an adjunct Python instructor at Des Moines Area Community College.
+
+experience:
+  show: true
+  order: 2
+  title: Experiences
+  description: |
+
+  items:
+    - company: TargetSmart
+      link: '#'
+      tags: Full-time, remote
+      date: 2016.02 - Current
+      role: Staff DevOps Engineer
+      location: Remote
+      description: |
+        + Worked with a fully remote team of 3-7 to develop, implement, maintain, and update custom and out of the box applications in AWS cloud environment.
+        + Increased developer efficiency by 80\% by implementing git-based CI/CD pipelines.
+        + Migrated legacy applications to Docker using ECS.
+        + Developed a custom Python API for integrating with a third-party provider in a PCI environment, including secure end-to-end zero-knowledge encryption.
+        + Adopted and expanded an open source Go project to use our custom Single-Sign on identity provider.
+        + Wrote a custom addition to our Django site using Python and Javascript to allow clients to manage refreshing their S3 IAM keys.
+
+    - company: Future Health
+      link:
+      tags: Full-time
+      date: 2014.12 - 2016.02
+      role: Systems Automation Engineer
+      location: Urbandale, IA
+      description: |
+        + Revamped QA, Staging, and Production environments using AWS CloudFormation and CodeDeploy, enabling full environment reconstruction in under 20 minutes.
+        + Automated deployment and monitoring with CloudWatch, managed Docker container deployments for Ruby on Rails and Java applications, rearchitecting for optimal security and efficiency.
+        + Automated legacy systems with Chef, improving system reliability and operational workflows.
+
+    - company: CDS Global
+      link:
+      tags: Full-time
+      date: 2007.05 - 2014.12
+      role: Linux Systems Administrator
+      location: Des Moines, IA
+      description: |
+        + Designed, implemented, and maintained the VMware virtualization architecture for clustering and high availability. 
+        + Responsible for designing and maintaining the Linux and AIX high-availability infrastructure for several high demand E-commerce web sites.
+        + Maintained the Linux postfix email server to support multiple virtual domains.
+
+    - company: United States Navy
+      link:
+      tags: Full-time
+      date: 1995.10 - 2006.10
+      role: Information Systems Technician
+      location: Des Moines, IA
+      description: |
+        + Designed and managed the creation of a Network Operations Center that centralized all network security and information assurance functions in one area. Also designed a unified network infrastructure to support five dispersed Internet cafés on the base.
+        + Designed and implemented a network management system using SNMP, sFlow, Nmap, and 3Com Network Director.
+        + Built a test network for development and accreditation of systems before use on the production network.
+        + Managed all voice and data services for DTRA Albuquerque, White Sands Missile Range, and the Nevada Test Site.
+        + Implemented security policies utilizing access control lists, internal and external intrusion detection systems, and a Bastion Host residing in a false DMZ.
+        + Administered communications and security systems residing on the Bastion Host, including DNS (BIND), Sendmail, and Gauntlet firewall.
+        + Operated and maintained shipboard satellite communications equipment.
+        + Led emergency firefighting efforts on-site as the Attack Team Leader. 	
+        + Conducted routine maintenance and emergency repairs of shipboard equipment.
+
+
+project:
+  show: false
+  order: 3
+  title: Projects
+  description: |
+    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+
+    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+
+    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+
+  items:
+    - name: Personal project
+      link: '#'
+      tags:
+      date: 2015 - 2017
+      description: |
+        Personal project description...
+        + First
+        + Second
+
+    - name: OSS project
+      link:
+      tags: committer
+      date:
+      description: |
+        OSS project description...
+        + First
+        + Second
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+  description: |
+  items:
+    - name: AWS
+      level: 5
+    - name: Linux
+      level: 5
+    - name: Python
+      level: 4
+    - name: Monitoring
+      level: 5
+    - name: Docker
+      level: 4
+    - name: System Automation
+      level: 4
+    - name: CloudFormation
+      level: 4
+    - name: ECS
+      level: 4
+    - name: Network Security
+      level: 4
+    - name: Objective-C
+      level: 2
+
+  groups:
+    - name: Cloud Automation
+      item:
+        - AWS
+        - ECS
+        - CloudFormation
+        - System Automation
+    - name: Systems Administration
+      item:
+        - Linux
+        - System Automation
+        - Network Security
+        - Monitoring
+    - name: Programming
+      item:
+        - Python
+        - Objective-C
+
+education:
+  show: true
+  order: 5
+  title: Education
+  description: |
+  items:
+    - institution: Iowa State University
+      link: '#'
+      date: 2010 - 2012
+      major: Human Computer Interaction
+      degree: Master of Science
+
+certificate:
+  show: false
+  order: 6
+  title: Certificates
+  description: |
+    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
+
+    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
+
+    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
+
+    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
+
+  items:
+    - name: Example Certificate One
+      issuer: by Example
+      date: 2020
+      link: '#'
+      description: |
+        It's my Example Certificate One by Example.
+    - name: Example Certificate Two
+      issuer: by Example
+      date: 2020
+      link:
+      description: |
+        It's my Example Certificate Two by Example.
+
+publication:
+  show: false
+  order: 7
+  title: Publications
+  description: |
+    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
+
+    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
+
+    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
+
+    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+
+  items:
+    - title: Example Publication in Action
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link: '#'
+    - title: The Art of Example Publication
+      authors: Foo Bar
+      conference: Foobar, 2019
+      link:
+
+award:
+  show: false
+  order: 8
+  title: Awards
+  description: |
+    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
+
+    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
+
+    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+
+  items:
+    - name: Example Awared One
+      awarder: by Example
+      date: 2022
+      link: '#'
+      description: |
+        It's my Example Awared One by Example.
+    - name: Example Awared Two
+      awarder: by Example
+      date: 2022
+      link:
+      description: |
+        It's my Example Awared Two by Example.
+
+patent:
+  show: false
+  order: 9
+  title: Patents
+  description: |
+    The patent section in a resume is a dedicated section where you can showcase any patents that you have been granted or are in the process of obtaining. This section is particularly relevant for individuals who work in scientific or technical fields, as well as for individuals who have developed innovative products or technologies.
+
+    In this section, you should list the title of the patent, the name of the inventors, the patent number, and the date it was granted. If the patent is pending, you can indicate that it is "pending" or "in review." You may also want to provide a brief description of the technology or invention that the patent covers.
+
+    Including a patent section in your resume can help demonstrate your expertise and accomplishments in your field, and can help you stand out from other candidates. However, if you do not have any patents to list, it is not necessary to include this section in your resume.
+
+    Template for a pending patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date]. Patent pending.
+
+    Template for an approved patent:
+
+    + [Inventor Name]. [Pursued Year]. [Title]. [Patent Number], filed [Submitted Date], [Received Date].
+
+    The following are some examples of patent formats.
+
+    + Foo Bar. 2022. Example patent name one. US 123456, filed Oct 3, 2022. Patent pending.
+    + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
+
+organization:
+  show: false
+  order: 10
+  title: Organizations
+  description: |
+    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+
+    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
+
+    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+
+language:
+  show: false
+  order: 11
+  title: Languages
+  description: |
+    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+
+    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Professional
+
+interest:
+  show: true
+  order: 12
+  title: Interests
+  description: |
+  items:
+    - item: Camping, Hiking, Canoeing
+      link:
+    - item: Cooking
+      link:
+    - item: Woodworking
+      link:
+
+evaluation:
+  show: false
+  order: 13
+  title: Self-evaluation
+  description: |
+    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
+
+    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
+
+    A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
+
+reference:
+  show: false
+  order: 14
+  title: References
+  description: |
+    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
+
+    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
+
+    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
+
+    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
+
+  items:
+    - name: Foo One
+      link: '#'
+      title: Backend Developer
+      institution: Second Company
+      address: 1234 Example St, XXX, XY 11111
+      email: foo.one@example.com
+      phone: 111-222-333
+      description: |
+        Foo One was my colleague in Second Company.
+
+    - name: Bar Two
+      link:
+      title: Professor
+      institution: Example University
+      address: 4321 Example St, YYY, XY 22222
+      email: bar.two@example.com
+      phone: 444-555-666
+      description: |
+        Bar Two was my advisor at Example University.
+
+# close: <strong>Sorry, my resume has been hidden.</strong>

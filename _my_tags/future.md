@@ -1,4 +1,0 @@
----
-slug: future
-name: future
----
