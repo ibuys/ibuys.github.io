@@ -212,7 +212,6 @@ skill:
     - name: Systems Administration
       item:
         - Linux
-        - System Automation
         - Network Security
         - Monitoring
     - name: Programming
