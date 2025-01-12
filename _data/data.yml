@@ -87,7 +87,7 @@ contact:
   wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
   twitter:                  # https://twitter.com/<username>
   x:                        # https://x.com/<username>
-  mastodon:  jonathanbuys@micro.blog.               # text, the format must be like "username@yourserver.com"
+  mastodon:                 # text, the format must be like "username@yourserver.com"
   threads:                  # https://www.threads.net/@<username>
   vk:                       # https://vk.com/<username>
   weibo:                    # weibo username, text or markdown link syntax
@@ -385,7 +385,11 @@ interest:
   title: Interests
   description: |
   items:
-    - item: Camping, Hiking, Canoeing
+    - item: Camping
+      link:
+    - item: Hiking
+      link:
+    - item: Canoeing
       link:
     - item: Cooking
       link:
