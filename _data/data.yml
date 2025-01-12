@@ -202,28 +202,6 @@ skill:
   order: 4
   title: Skills
   description: |
-  items:
-    - name: AWS
-      level: 5
-    - name: Linux
-      level: 5
-    - name: Python
-      level: 4
-    - name: Monitoring
-      level: 5
-    - name: Docker
-      level: 4
-    - name: System Automation
-      level: 4
-    - name: CloudFormation
-      level: 4
-    - name: ECS
-      level: 4
-    - name: Network Security
-      level: 4
-    - name: Objective-C
-      level: 2
-
   groups:
     - name: Cloud Automation
       item:
