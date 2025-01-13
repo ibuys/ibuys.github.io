@@ -1,0 +1,4 @@
+---
+slug: quote
+name: quote
+---

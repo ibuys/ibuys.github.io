@@ -1,0 +1,4 @@
+---
+slug: nagios
+name: nagios
+---

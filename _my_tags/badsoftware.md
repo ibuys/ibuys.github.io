@@ -1,0 +1,4 @@
+---
+slug: badsoftware
+name: badsoftware
+---

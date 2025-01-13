@@ -1,0 +1,4 @@
+---
+slug: psychology
+name: psychology
+---

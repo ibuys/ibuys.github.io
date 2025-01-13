@@ -1,0 +1,4 @@
+---
+slug: bears
+name: bears
+---
