@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="iCloud and Core Data - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>iCloud and Core Data - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>iCloud and Core Data</h1>
+		    <p>I inadvertently started a bit of a <a href="http://storify.com/Jury/the-trials-of-icloud">conversation</a> today when I complained about the state of NetNewsWire on Twitter. I've been a NetNewsWire user for years, and I was very surprised when it was sold to Black Pixel. My surprise turned to disappointment when the application was not updated, and now NetNewsWire has stopped working for me completely. </p>
+<p>I have a group of feeds in a folder called "Read", which I keep as my must-read list. It just so happens that this list is the one that has stopped syncing with Google Reader. I recall there being conversation online about moving away from Google Reader, and how it being the only RSS syncing service was Not A Good Thing. From what I can gather, the new version of NetNewsWire was going to sync it's feeds using iCloud instead of Google Reader, a move that I would have welcomed. I keep a separate account used only for syncing my Google Reader feeds, so being able to get rid of that account would be great. Unfortunately, NetNewsWire uses core data as it's data storage back end, and development has hit enough significant problems with this setup that Black Pixel decided to work on something else instead. </p>
+<p>Reminds me of another story, another once favorite app, Yojimbo. Bare Bones has been documenting their efforts with Yojimbo <a href="http://www.barebones.com/support/yojimbo/icloud.html">publicly</a>, and have had to push back releasing a new version that supports iCloud syncing several months. They had once promised that syncing would be implemented by the time MobileMe syncing was unavailable, but were unable to meet that promise. </p>
+<p>Black Pixel and Bare Bones have some of the sharpest, and most experienced developers in the business working on these problems, and have not been able to come up with a shippable solution. In that light, I'm actually a bit glad that I didn't try to tackle iCloud syncing with Go2, and that I've settled on using plain text for storage in Scout. The plain text setup should allow me to build Dropbox (or any other comparable technology) syncing into Scout, although I'm not sure that it will be available in version 1.0. </p>
+<p>The programming, it is hard.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

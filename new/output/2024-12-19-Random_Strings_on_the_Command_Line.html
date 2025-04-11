@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="Random Strings on the Command Line - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>Random Strings on the Command Line - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>Random Strings on the Command Line</h1>
+		    <p>Browsing through some old files today I came across this note:</p>
+<p>```
+To Generate A Random String:</p>
+<p>tr -dc A-Za-z0-9_ &lt; /dev/urandom | head -c 8 | xargs</p>
+<p>```
+Curios if it still worked I pasted it into my terminal and, unsurprisingly, was met with an error: </p>
+<p><code>tr: Illegal byte sequence</code></p>
+<p>The <code>tr</code> utility is one of the many old-school Unix programs with history reaching way back to System V. It stands for "translate characters", and with the <code>-dc</code> flags on, it should have ignored all input except for alphabet characters A-Z, both upper and lower case, and the integers 0 through 9, and the underscore character. The "Illegal byte sequence" error means it was really not happy with the input it was getting from <code>/dev/urandom</code>. </p>
+<p>On macOS, the pseudo-device <code>/dev/urandom</code> is, according to the man page, "a compatibility nod to Linux". The device generates random bytes, so if we read it we'll get back raw binary data that looks like:</p>
+<p><code>00010101 01011001 10111101</code></p>
+<p>The reason the command is not working like it used to is because most modern computing system expect text character encoding to be UTF-8. When <code>tr</code> gets the string of random bytes from <code>/dev/urandom</code>, it expects the bytes to be in a specific sequence that it can translate into printable characters on the screen. Since we are intentionally generating random bytes though, we might get a few characters that translate properly, but eventually we'll encounter the "illegal byte sequence" error above. </p>
+<p>To fix the problem, all we need to do is set <code>LC_ALL=C</code> before running <code>tr</code>:</p>
+<p><code>LC_ALL=C tr -dc A-Za-z0-9_ &lt; /dev/urandom | head -c 14 | xargs</code></p>
+<p>Setting <code>LC_ALL=C</code> sets the language setting back to POSIX, or the original C ASCII encoding for text. That means when <code>tr</code> is fed a random string of bytes, it interprets each byte as a character, according to the ASCII table, which looks something like this:</p>
+<p>| Character | ASCII Decimal | ASCII Hexadecimal | Binary Representation |
+|-----------|---------------|-------------------|-----------------------|
+| A         | 65            | 41                | 01000001              |
+| B         | 66            | 42                | 01000010              |
+| C         | 67            | 43                | 01000011              |</p>
+<p>Now each byte is interpreted as a character that matches the list passed as an argument to <code>tr</code>. </p>
+<p>```
+➜ LC_ALL=C tr -dc A-Za-z0-9_ &lt; /dev/urandom | head -c 14 | xargs</p>
+<p>Rhac_WGis7tHzS
+```</p>
+<p>So, to break down each command in the pipeline:</p>
+<ul>
+<li><code>tr</code>: filters out all characters except those in the sets A-Z, a-z, 0-9, and <code>_</code></li>
+<li><code>head -c 14</code>: displays the first 14 characters of the input from <code>tr</code></li>
+<li><code>xargs</code>: adds a nice newline character at the end of the string, so it's easy to copy. </li>
+</ul>
+<p>This command could be easily adopted to use <code>base64</code> instead of <code>tr</code> without setting <code>LC_ALL=C</code> if you wanted more random characters in the string:</p>
+<p><code>base64 &lt; /dev/random | head -c 14 | xargs</code></p>
+<p>Expanding <code>head -c</code> to 34 or so makes for a nice password generator. </p>
+<p>In fact, I've aliased this to <code>pgen</code> in my <code>.zshrc</code>:</p>
+<p><code>pgen()
+{
+    base64 &lt; /dev/random | head -c 32 | xargs
+}</code></p>
+<p>There's almost certainly easier ways to generate a random string in the shell, but I like this, and it works for me. </p>
+<hr />
+<blockquote>
+<p>Update: The good Dr. Drang suggested ending the pipeline and running <code>echo</code> instead of <code>xargs</code> for clairity, which makes a lot of sense to me. I updated the alias to <code>base64 &lt; /dev/random | head -c 32; echo</code>.</p>
+</blockquote>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

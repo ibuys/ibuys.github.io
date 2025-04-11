@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="Sensible Information Organization - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>Sensible Information Organization - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>Sensible Information Organization</h1>
+		    <p>There is no one application or system that is right for managing all of your information. If there were, we wouldn’t need apps like Contacts or Calendar, those things would just be merged into the Finder, or whatever mythical computing system I found myself wishing for the past couple of weeks. This is a <em>good thing</em>, even if not having a single view into all my data drives me a bit nuts sometimes. Specialization allows applications to provide a better experience for the specific type of data they were designed to handle. </p>
+<p>I <a href="https://twitter.com/ibuys/status/526009245368471552">lamented on Twitter</a> the other day that personal information management is still not a solved problem. It’s a hard problem, because everyone’s needs for what they wish to keep and access on a computing device, how much they care about format and privacy, and the interface they prefer for accessing their data are different. What I thought I wanted, and what I spent far too long looking for, was a single application that I could actually dump <em>everything</em> into. It doesn’t exist, and it shouldn’t.</p>
+<p>The system I’ve come up with, the system that works for me, and probably only for me, is to corral the different types of data that I wish to keep in different applications, based on what they are, and if I need access to them while mobile. </p>
+<h2>Types of Data</h2>
+<p>The kind of data I frequently find myself wanting to keep falls into a few categories. </p>
+<ul>
+<li>
+<p>Notes - Small pieces of text, normally nothing more than a few lines. Like meeting minutes, lists of books to read, random ideas, etc…</p>
+</li>
+<li>
+<p>Writing - Longer articles or blog posts. May include links, images, or other media. </p>
+</li>
+<li>
+<p>Technical or Academic Reference - PDFs or Web Archives containing detailed technical information gathered for later reference when writing and professional development.</p>
+</li>
+<li>
+<p>Archived Reference - PDF scans of bills and statements. Needed at times for trend analysis (is our water bill going up?). </p>
+</li>
+<li>
+<p>Disk Images - Install files for applications like Microsoft Office, or downloaded disk images for operating system installs. Rarely needed.</p>
+</li>
+<li>
+<p>Screenshots or other images. Sometimes needed to explain or convey ideas, Also collected for inspiration or to indulge a hobby (Someday I’m going to find the perfect 1967 VW Beetle).</p>
+</li>
+<li>
+<p>Scripts or Automator workflows - Home-built tools for automating reproducible Mac workflows. </p>
+</li>
+<li>
+<p>Recipes - Everything from scanned PDFs of my wife’s great-grandmothers notecards, to saved web pages.</p>
+</li>
+<li>
+<p>Receipts - I need to be able to grab scans of these on the run quickly and easily. Good to have for later analysis of spending habits, and for tracking business expenses while traveling. </p>
+</li>
+</ul>
+<h2>Requirements</h2>
+<p>Deciding on the right place for this data depends on defining the requirements up front. </p>
+<ul>
+<li>Data must be stored in, or easily exported to, an open format.</li>
+<li>Mobile data must be available and editable on all devices.</li>
+<li>It <em>should</em> be fast and easy to get to and add to my data. The less friction in the workflow the better, but not at the expense of the previous two points. </li>
+</ul>
+<h2>Mapping Purpose to Application</h2>
+<p><em>Accessable Only on Local Device</em></p>
+<ul>
+<li>Financial or Medical Data - Filesystem</li>
+<li>Disk Images - Filesystem</li>
+<li>Archived Reference Files - Filesystem</li>
+<li>Technical or Academic Research - <a href="http://www.devontechnologies.com/products/devonthink/devonthink-pro.html">DEVONthink</a></li>
+</ul>
+<p><em>Accessable On Mobile Devices</em></p>
+<ul>
+<li>Notes    - <a href="http://brettterpstra.com/projects/nvalt/">nvALT</a> +  <a href="http://simplenote.com">Simplenote</a></li>
+<li>Recipes  - Dropbox - Until <a href="http://forum.devontechnologies.com/viewtopic.php?f=44&amp;t=16944">DTTG 2.0</a>, then we will see. </li>
+<li>Receipts - Dropbox + <a href="http://www.smilesoftware.com/PDFpen/Scan/index.html">PDFpen Scan Plus</a> + <a href="http://www.noodlesoft.com/hazel.php">Hazel</a></li>
+<li>Screenshots and other images - <a href="http://realmacsoftware.com/ember">Ember</a></li>
+<li>Writing - Dropbox + <a href="https://jonathanbuys.com/08-04-2011/Text_Editing_in_MacVim.html">MacVim</a> + <a href="http://nebulousapps.net">Nebulous Notes</a></li>
+</ul>
+<p>For things like the directions to my kids soccer games, dragging and dropping the PDF to nvAlt will extract the text and create a new note. If need be, I can open the note in MacVim and clean up the formatting, then drop the original PDF in the filesystem under archived reference files. </p>
+<p>Some data types can benefit from the organization of a database application. For that type of data, I’m leaning on the additional capabilities of DEVONthink to help me process the files and clippings I collect into new knowledge. DEVONthink’s AI engine helps me find connections to other entries that I might not have realized myself, and helps me to build a more solid understanding of the topic.</p>
+<p>I think the same basic concept applies to recipes. I’m working on building a system that can take the basic ingredients as search terms and return a collection of recipes, as well as tags for things like “lunch”, “dinner”, and “family favorite”. For now, I’ll keep the recipes in Dropbox and index them in DEVONthink. Hopefully, I’ll soon be able to import them and sync them over to the <a href="http://blog.devontechnologies.com/2013/07/an-update-on-devonthink-to-go/">mythical DEVONthink To Go 2.0</a>.</p>
+<p>This system is new to me, but each of the components I’ve been using on and off for years. While I do like to simplify my computing environment, doing so at the expense of a sensible system is foolish. My attempts to combine unlike files and data into the same system failed, but allowing each type of data to be manipulated by an application specifically designed to handle it looks promising. I’ll be sure to post updates as the system evolves.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

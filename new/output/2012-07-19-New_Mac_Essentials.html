@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="New Mac Essentials - Quicksilver - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>New Mac Essentials - Quicksilver - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>New Mac Essentials - Quicksilver</h1>
+		    <h2>Introduction</h2>
+<p>Setting up a new Mac can be fun, but time consuming too. As I scan the icons in my dock, I see several that will not be there when I upgrade to Mountain Lion. As well compartmentalized as OS X is, and as well as it handles applications, I still like to keep things as clean as possible. </p>
+<p>Part of keeping things clean is using the applications that ship with OS X. I use Safari for my browser, with my own <a href="https://jonathanbuys.com/01-27-2011/Keyboard_Driven_Safari.html">setup</a>, Mail for Email, iChat for instant messaging, and iCal for my calendar. All of my music is in iTunes, including my Grateful Dead collection. If Apple shipped a decent Twitter client and RSS feed reader, I'd use those too, but since they don't, this is where my short list of third party applications starts.</p>
+<p>For Twitter, I like using <a href="http://hibariapp.com/">Hibari</a>. It is a very simple and clean application, and I love the <a href="http://violasong.com/2012/01/hibari-design-philosophy">design philosophy</a> behind it. I do wish it had a few extra features, like viewing someone's profile in the app, or showing photographs similarly to the way the Twitter desktop app does it, but other than that I really like it. </p>
+<p>My RSS feeds are all in <a href="http://netnewswireapp.com/">NetNewsWire</a>, synced to Google Reader. Checking my list I see that I'm subscribed to 26 carefully selected sites. This list is continually revised, and if I find one that is not holding my interest as well as I'd like, it gets dropped from the list. </p>
+<p>I use <a href="http://www.devontechnologies.com/products/devonthink/overview.html">DEVONthink</a> as my <a href="http://shawnblanc.net/2009/09/yojimbo-and-anything-buckets/">anything bucket</a> and <a href="http://www.wired.com/techbiz/people/magazine/15-10/st_thompson/">outboard brain</a>. I've gone back and forth between DEVONthink, Evernote, and Yojimbo, but find DEVONthink gives me the features that I want, without reliance on some amorphous cloud.  </p>
+<p>This is where things start to get a little geeky. I initially intended for this to be a single post, but as I write, it seems like it would be better to break it down into a series of smaller posts, each dedicated to a single app. Below is the list of apps that I use on a daily basis, and each has a story. </p>
+<h2>Downloads</h2>
+<ul>
+<li><a href="http://hibariapp.com/">Hibari</a></li>
+<li><a href="http://netnewswireapp.com/">NetNewsWire</a></li>
+<li><a href="http://www.devontechnologies.com/products/devonthink/overview.html">DEVONthink</a></li>
+<li><a href="http://www.dropbox.com/">Dropbox</a></li>
+<li><a href="http://qsapp.com">Quicksilver</a></li>
+<li><a href="http://www.lightheadsw.com/caffeine/">Caffeine</a></li>
+<li><a href="http://daringfireball.net/2010/11/flash_free_and_cheating_with_google_chrome">Chrome</a></li>
+<li><a href="https://code.google.com/p/macvim/">MacVim</a></li>
+<li><a href="http://markedapp.com/">Marked</a></li>
+<li><a href="http://manytricks.com/moom/">Moom</a></li>
+<li><a href="http://www.omnigroup.com/products/omnigraffle/">OmniGraffle</a></li>
+<li><a href="http://mischneider.net/readlaterapp/">Read Later</a></li>
+<li><a href="http://smilesoftware.com/TextExpander/">TextExpander</a></li>
+<li><a href="http://www.potionfactory.com/thehitlist/">The Hit List</a></li>
+<li><a href="https://agilebits.com/onepassword">1Password</a></li>
+</ul>
+<h2>Quicksilver</h2>
+<p>Quicksilver is the king of productivity hacks for the Mac. Few applications can claim to have the impact on how a person uses their computer more than Quicksilver. At it's most base form, Quicksilver is an application launcher, but it is also so much more than that. Setup however, takes a bit of work. </p>
+<p>First, grab some plugins from Quicksilver's preferences panel. The important ones, to me, are <em>"User Interface Plugin"</em>, <em>"Clipboard Plugin"</em>, <em>"1Password Plugin</em>", and <em>"Web Search Module</em>". You can see the full list that I currently use in the screenshot below.</p>
+<p><a href="/media/qsprefs.png"><img src="/media/qsprefs_thumb.png" /></a></p>
+<p>Next, select the "Catalog" tab, then the "Quicksilver" item from the left view, and enable <em>"Internal Commands"</em>, <em>"Internal Objects"</em>, and <em>"Proxy Objects"</em>. These sources give Quicksilver some very interesting abilities. Click on the "Custom" item from the left view, and click the plus icon on the bottom and select "Web Search List". In the drawer that opens on the right, click the plus icon and edit the "Name" field to be <em>"ddg"</em>, and the URL field to be: </p>
+<pre><code>https://duckduckgo.com/?q=***
+</code></pre>
+<p>Now select the "Triggers" section of the preference pane, and click the plus icon on the bottom, then select "HotKey", and in the field marked "Select an item" type <em>"ddg"</em>, and then tab to the next field and type <em>"Search For"</em>. Next, tab to the "Target" field, which will automatically be populated with text. We do not want this text in our trigger, so we will right click on this field and select "Remove". Now click "Save". </p>
+<p><a href="/media/ddg_setup.png"><img src="/media/ddg_setup_thumb.png" /></a></p>
+<p>Double-click on the "HotKey" field to open up a drawer on the right hand side of the preferences window and assign your preferred hot key. I prefer Option-Space. Now, whenever I type my hotkey, Quicksilver opens with the third text panel open ready for me to type my DuckDuckGo search for whatever I'm looking for. When I hit return, Quicksilver opens Safari with my search results, and since I use DuckDuckGo, I use the vi keyboard commands to navigate the results, and Command-Return to open the selected results in a background tab. </p>
+<p>Click the plus button at the bottom of the Triggers panel to create a new custom trigger. Type <em>"Current Application"</em>, then tab to the next panel and type <em>"Show Menu Items"</em> and click "Save". Double-click the "HotKey" field again, and assign a new key combo to this trigger. I prefer Control-Space. This trigger gives us quick access to the menu items of whatever application has focus at the time. For example, I use it quite a bit in <a href="http://www.omnigroup.com/products/omnigraffle/">OmniGraffle</a> to group items. Any application that makes heavy use of menu items (like Photoshop) is a great fit for this trigger. </p>
+<p><a href="/media/current_app.png"><img src="/media/current_app_thumb.png" /></a></p>
+<p>Create another custom trigger, but this time type <em>"Show Clipboard"</em>. The default action should be <em>"Run"</em>, so save this command and assign it a key combo. I use Shift-Command-V. Make sure you are capturing your clipboard history in the Preferences tab. </p>
+<p><a href="/media/show_clipboard.png"><img src="/media/show_clipboard_thumb.png" /></a></p>
+<p>It is worth spending some time in the preferences, actions, and triggers portions of Quicksilver's configuration. There be gold in dem hills. I've covered what portions of Quicksilver I use, but it can do much, much more. Now that it is under rapid development again, I look forward to many more years of use. </p>
+<h2>MacVim</h2>
+<p>Tune in next time to focus on my favorite writing tool. Same bat-time, same bat-channel.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

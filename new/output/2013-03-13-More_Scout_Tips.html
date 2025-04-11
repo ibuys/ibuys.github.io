@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="More Scout Tips - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>More Scout Tips - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>More Scout Tips</h1>
+		    <p>Eventually I'm going to need to compile this into a proper help doc, but for now, documenting Scout with Scout will do. </p>
+<p>Scout handles pages just a little differently than posts. New pages do not show up on the home page, and are not organized into subfolders based on date. Pages are converted into HTML and saved in the root of the site directory, right next to index.html. To create a page, add a new post, but before the title of the page add the characters <code>@@</code>. That is two "at" symbols followed by a space. For example: <code>@@ Contact</code>.</p>
+<p>Secondly, the default theme that ships with Scout, the theme of this site, is my own creation that I've cobbled together over the past few years. What I hope to see are a few people more talented than I create some really great themes. In fact, assuming Scout is successful, I plan on hiring a designer to do just that. However, there are a number of hurdles to overcome before that happens. </p>
+<p>To create a Scout theme, create a folder with the following files inside:</p>
+<ul>
+<li>atom.xml</li>
+<li>atomTemplate.xml<ul>
+<li>The two xml files are for creating the site RSS feed. </li>
+</ul>
+</li>
+<li>base.css<ul>
+<li>Should contain all of the site CSS</li>
+</ul>
+</li>
+<li>default.html<ul>
+<li>The standard HTML template for the site. </li>
+</ul>
+</li>
+<li>indexTemplate.html<ul>
+<li>Wraps each post in a div with an id of "posts". </li>
+</ul>
+</li>
+<li>post.html<ul>
+<li>Creates the page template for each post</li>
+</ul>
+</li>
+<li>robots.txt<ul>
+<li>Not currently used, but probably should be.</li>
+</ul>
+</li>
+<li>screenshot.png<ul>
+<li>A nice screenshot of the post at 400x341 pixels.</li>
+</ul>
+</li>
+<li>toc.html<ul>
+<li>The template for building the archive or table of contents. </li>
+</ul>
+</li>
+</ul>
+<p>Scattered throughout the files listed above are strings that look like: YYYY_SCOUT_SOMETHING_YYYY. These are the Scout "Y Codes", as in, "why are they so ugly?" I was looking for something that was unlikely to be reproduced anywhere else, and this was the first thing that came to mind. I currently have the following Y codes defined:</p>
+<ul>
+<li>SCOUT_5ATOMPOSTS</li>
+<li>SCOUT_AUTHOR</li>
+<li>SCOUT_CONTENT</li>
+<li>SCOUT_CSS    </li>
+<li>SCOUT_CURRENTDATE</li>
+<li>SCOUT_CURRENTYEAR</li>
+<li>SCOUT_POST_CONTENT</li>
+<li>SCOUT_POST_DATE</li>
+<li>SCOUT_POST_TITLE</li>
+<li>SCOUT_POST_URL</li>
+<li>SCOUT_SUBTITLE</li>
+<li>SCOUT_TITLE</li>
+<li>SCOUT_URL</li>
+</ul>
+<p>Hopefully, the titles of the codes are self-explanitory, but as I have time I will be documenting them properly. For now, you can probably take a look at how the files in default.stemplate are arranged. Scout looks for these codes in the template and replaces them with the proper data from the posts to generate the site. </p>
+<p>Lastly, you should never feel like you need to save your work in Scout. Scout automatically saves your work at various intervals. For example, whenever Scout looses focus as the main window, or whenever a new post is chosen, or when a new view is looked at, Scout automatically saves the current post as a plain text markdown file saved in <code>~/Library/Application Support/Scout/Posts/</code>. If you like you can watch the file being written to in the finder or as you use the application. Likewise, if you have a markdown file that you would like Scout to know about, you simply need to name it according to the naming convention of <code>YYYY-MM-DD-HH-MM-SSSS##Title_Of_Post.markdown</code> and drop it into this directory. Next time Scout is restarted it will treat this file as its own. </p>
+<p>Scout is intended to give you control over what you write without getting in your way about it. I know there are going to be some rough edges, but as we progress I'm sure they'll get worked out.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

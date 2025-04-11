@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="The Perfect ZSH Config - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>The Perfect ZSH Config - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>The Perfect ZSH Config</h1>
+		    <p>If you spend all day in the terminal like I do, you come to appreciate it's speed and efficiency. I often find myself in Terminal for mundane tasks like navigating to a folder and opening a file; it's just faster to type where I want to go than it is to click in the Finder, scan the folders for the one I want, double-click that one, scan again… small improvements to the speed of my work build up over time. The speed is increased exponentially with the correct configuration for your shell, in my case, <code>zsh</code>. </p>
+<p><code>zsh</code> is powerful and flexible, which means that it can also be intimidating to try to configure yourself. Doubly-so when there are multiple 'frameworks' available that will do the bulk of the configuration for you. I used <a href="https://ohmyz.sh">Oh My Zsh</a> for years, but I recently abandoned it in favor of maintaining my own configuration using only the settings that I need for the perfect configuration for my use.</p>
+<p>I've split my configuration into five files:</p>
+<ul>
+<li><code>apple.zsh-theme</code></li>
+<li><code>zshenv</code></li>
+<li><code>zshrc</code></li>
+<li><code>zsh_alias</code></li>
+<li><code>zsh_functions</code></li>
+</ul>
+<p>I have all five files in a <code>dotfiles</code> git repository, pushed to a private Github repository. </p>
+<p>The <code>zshenv</code> file is read first by <code>zsh</code> when starting a new shell. It contains a collection of environmental variables I've set, mainly for development. For example:</p>
+<p><code>export PIP_REQUIRE_VIRTUALENV=true
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+export VIRTUALENV_DISTRIBUTE=true</code></p>
+<p>The next file is <code>zshrc</code>, which contains the main bulk of the configurations. My file is 113 lines, so let's take it a section at a time. </p>
+<p><code>source /Users/jonathanbuys/Unix/etc/dotfiles/apple.zsh-theme
+source /Users/jonathanbuys/Unix/etc/dotfiles/zsh_alias
+source /Users/jonathanbuys/Unix/etc/dotfiles/zsh_functions</code></p>
+<p>The first thing I do is source the other three files. The first is my prompt, which is cribbed entirely from Oh My Zsh. It's nothing fancy, but I consider it to be elegant and functional. I don't like the massive multi-line prompts. I find them to be far too distracting for what they are supposed to do. </p>
+<p>My prompt looks like this:</p>
+<p><code> ~/Unix/etc/dotfiles/ [master*]</code></p>
+<p>It gives me my current path, what git branch I've checked out, and if that branch has been modified since the last commit. </p>
+<p>The next two files, as their names suggest, contain aliases and functions. I have three functions and 16 aliases. I won't go into each of them here, as they are fairly mundane and only specific for my setup. The three functions are to print the current path of the open Finder window, to use Quicklook to preview a file, and to generate a uuid string. </p>
+<p>The next few lines establish some basic settings.</p>
+<p>```
+autoload -U colors &amp;&amp; colors
+autoload -U zmv</p>
+<p>setopt AUTO_CD
+setopt NOCLOBBER
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+```</p>
+<p>The <code>autoload</code> lines setup <code>zsh</code> to use pretty colors, and to enable the extremely useful <code>zmv</code> command for batch file renaming. The interesting parts of the <code>setopt</code> settings are the ones dealing with command history. These three commands allow the sharing of command line history between open windows or tabs. So if I have multiple Terminal windows open, I can browse the history of both from either window. I find myself thinking that the environment is broken if this is not present. </p>
+<p>Next, I setup some bindings:</p>
+<p>```
+  # start typing + [Up-Arrow] - fuzzy find history forward
+  bindkey '^[[A' up-line-or-search
+  bindkey '^[[B' down-line-or-search</p>
+<p># Use option as meta
+  bindkey "^[f" forward-word
+  bindkey "^[b" backward-word</p>
+<p># Use option+backspace to delete words
+  x-bash-backward-kill-word(){
+      WORDCHARS='' zle backward-kill-word</p>
+<p>}
+  zle -N x-bash-backward-kill-word
+  bindkey '^W' x-bash-backward-kill-word</p>
+<p>x-backward-kill-word(){
+      WORDCHARS='<em>?_-[]~!#$%^(){}&lt;&gt;|`@#$%^</em>()+:?' zle backward-kill-word
+  }
+  zle -N x-backward-kill-word
+  bindkey '\e^?' x-backward-kill-word</p>
+<p>```</p>
+<p>These settings let me use the arrow keys to browse history, and to use option + arrow keys to move one word at a time through the current command, or to use option + delete to delete one word at a time. Incredibly useful, use it all the time. Importantly, this also lets me do incremental searching through my command history with the arrow keys. So, if I type <code>aws</code>, then arrow up, I can browse all of my previous commands that start with <code>aws</code>. And when you have to remember commands that have 15 arguments, this is absolutely invaluable. </p>
+<p>The next section has to do with autocompletion. </p>
+<p>```</p>
+<h1>Better autocomplete for file names</h1>
+<p>WORDCHARS=''</p>
+<p>unsetopt menu_complete   # do not autoselect the first completion entry
+unsetopt flowcontrol
+setopt auto_menu         # show completion menu on successive tab press
+setopt complete_in_word
+setopt always_to_end</p>
+<p>zstyle ':completion:<em>:</em>:<em>:</em>:*' menu select</p>
+<h1>case insensitive (all), partial-word and substring completion</h1>
+<p>if [[ "$CASE_SENSITIVE" = true ]]; then
+  zstyle ':completion:<em>' matcher-list 'r:|=</em>' 'l:|=<em> r:|=</em>'
+else
+  if [[ "$HYPHEN_INSENSITIVE" = true ]]; then
+    zstyle ':completion:<em>' matcher-list 'm:{[:lower:][:upper:]-<em>}={[:upper:][:lower:]</em>-}' 'r:|=</em>' 'l:|=<em> r:|=</em>'
+  else
+    zstyle ':completion:<em>' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|=</em>' 'l:|=<em> r:|=</em>'
+  fi
+fi</p>
+<p>unset CASE_SENSITIVE HYPHEN_INSENSITIVE</p>
+<h1>Complete . and .. special directories</h1>
+<p>zstyle ':completion:*' special-dirs true</p>
+<p>zstyle ':completion:<em>' list-colors ''
+zstyle ':completion:</em>:<em>:kill:</em>:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)<em>=01;34=0=01'
+zstyle ':completion:</em>:<em>:</em>:*:processes' command "ps -u $USERNAME -o pid,user,comm -w -w"</p>
+<h1>disable named-directories autocompletion</h1>
+<p>zstyle ':completion:<em>:cd:</em>' tag-order local-directories directory-stack path-directories</p>
+<h1>Use caching so that commands like apt and dpkg complete are useable</h1>
+<p>zstyle ':completion:<em>' use-cache yes
+zstyle ':completion:</em>' cache-path $ZSH_CACHE_DIR</p>
+<p>zstyle ':completion:<em>:</em>:<em>:users' ignored-patterns \
+        adm amanda apache at avahi avahi-autoipd beaglidx bin cacti canna \
+        clamav daemon dbus distcache dnsmasq dovecot fax ftp games gdm \
+        gkrellmd gopher hacluster haldaemon halt hsqldb ident junkbust kdm \
+        ldap lp mail mailman mailnull man messagebus  mldonkey mysql nagios \
+        named netdump news nfsnobody nobody nscd ntp nut nx obsrun openvpn \
+        operator pcap polkitd postfix postgres privoxy pulse pvm quagga radvd \
+        rpc rpcuser rpm rtkit scard shutdown squid sshd statd svn sync tftp \
+        usbmux uucp vcsa wwwrun xfs '_</em>'</p>
+<p>if [[ ${COMPLETION_WAITING_DOTS:-false} != false ]]; then
+  expand-or-complete-with-dots() {
+    # use $COMPLETION_WAITING_DOTS either as toggle or as the sequence to show
+    [[ $COMPLETION_WAITING_DOTS = true ]] &amp;&amp; COMPLETION_WAITING_DOTS="%F{red}…%f"
+    # turn off line wrapping and print prompt-expanded "dot" sequence
+    printf '\e[?7l%s\e[?7h' "${(%)COMPLETION_WAITING_DOTS}"
+    zle expand-or-complete
+    zle redisplay
+  }
+  zle -N expand-or-complete-with-dots
+  # Set the function as the default tab completion widget
+  bindkey -M emacs "^I" expand-or-complete-with-dots
+  bindkey -M viins "^I" expand-or-complete-with-dots
+  bindkey -M vicmd "^I" expand-or-complete-with-dots
+fi</p>
+<h1>automatically load bash completion functions</h1>
+<p>autoload -U +X bashcompinit &amp;&amp; bashcompinit</p>
+<p>```</p>
+<p>That's a long section, but in a nutshell this lets me type one character, then hit tab, and be offered a menu of all the possible completions of that character. It is case-insensitive, so <code>b</code> would match both <code>boring.txt</code> and <code>Baseball.txt</code>. I can continue to hit tab to cycle through the options, and hit enter when I've found the one I want. </p>
+<p>The last section sources a few other files:</p>
+<p><code>[ -f ~/.fzf.zsh ] &amp;&amp; source ~/.fzf.zsh
+[ -f "/Users/jonathanbuys/.ghcup/env" ] &amp;&amp; source "/Users/jonathanbuys/.ghcup/env" # ghcup-env
+[ -s "/Users/jonathanbuys/.bun/_bun" ] &amp;&amp; source "/Users/jonathanbuys/.bun/_bun"
+source /Users/jonathanbuys/Unix/src/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/jonathanbuys/Unix/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code> 
+If I'm experimenting with Haskell, I'd like to load the <code>ghcup-env</code> variables. If I have <code>bun</code> installed (a way, way faster <code>npm</code>), than use that. The final two sources are for even more enhanced autosuggestions and command line syntax highlighting. So, typos or commands that don't exist will be red, good commands where <code>zsh</code> can find the executable will be green. The autosuggestions take commands from my history and suggest them, I can type right-arrow to accept the suggestion, or keep typing to ignore it. </p>
+<p>Taken together, I've been able to remove Oh My Zsh, but keep all of the functionality. My shell configuration is constantly evolving as I find ways to make things faster and more efficient. I don't consider myself a command line zealot, but I do appreciate how this setup gets out of my way and helps me work as fast as I can think.</p>
+<hr />
+<blockquote>
+<p>p.s. A lot of this configuration was taken from other sources shared around the internet, as well as the <code>zsh</code> documentation. I regret that I haven't kept references to the origins of some of these configs. If I can find the links I'll post them here.</p>
+</blockquote>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

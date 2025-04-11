@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="Setting up BBEdit 14's Python Language Server Protocol - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>Setting up BBEdit 14's Python Language Server Protocol - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>Setting up BBEdit 14's Python Language Server Protocol</h1>
+		    <p>Bare Bones released the <a href="http://www.barebones.com/products/bbedit/bbedit14.html">new version of BBEdit</a> recently and it's packed with features that teach the old dog some modern IDE tricks. When programming I mainly work in Python these days, so I obviously wanted to take advantage of BBEdit's new <a href="http://www.barebones.com/support/bbedit/lsp-notes.html">Langage Server Protocol</a> support. This lets BBEdit start a daemon for you in the background that you install separately, and the daemon takes care of things like code completion, error highlighting, and documentation. However, how to set this up specifically for Python development was a bit unclear to me. Here's how I got it working.</p>
+<p>First, and you've probably already got this setup, install <code>python3</code> with <a href="https://brew.sh">Homebrew</a> and use it to install a virtual environment.</p>
+<p><code>brew install python3
+python3 -m venv ~/Unix/env/lsp</code></p>
+<p>Next, activate the new virtual environment and install the <a href="https://github.com/pappasam/jedi-language-server">Jedi Language Server</a>. Once installed, copy the full path to the executable:</p>
+<p><code>source ~/Unix/env/lsp/bin/activate 
+pip install -U jedi-language-server
+which jedi-language-server | pbcopy</code></p>
+<p>Finally, open the preferences for BBEdit, find the Languages section, and towards the botton add a Language-specific setting for Python. Under the Server tab, make sure you've checked the box to "Enable language server", and paste the path copied from the previous command.</p>
+<p><img alt="bbedit-python-lsp-prefs" src="/media/bbedit-python-lsp-prefs.png" /></p>
+<p>If BBEdit finds the executable at the path, there will be a green dot at the bottom labeled "Ready to start server". Otherwise, you'll see a red dot that says "absolute command path not found". If you see that make sure the commands above completed successfully. </p>
+<p>Now, whenever you open a Python file BBEdit will automatically start the LSP daemon in the background and start working it's magic.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

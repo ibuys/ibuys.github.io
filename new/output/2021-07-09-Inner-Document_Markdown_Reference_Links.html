@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="Inner-Document Markdown Reference Links - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>Inner-Document Markdown Reference Links - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>Inner-Document Markdown Reference Links</h1>
+		    <p>I'm writing a fairly large document for internal use at work, and instead of using something like Word I've generated a bunch of markdown files that I'm stringing together with the excellent <a href="https://pandoc.org">Pandoc</a> to generate a very nice PDF file with LaTeX. The resulting PDF is beautifully formatted, thanks to the <a href="https://github.com/Wandmalfarbe/pandoc-latex-template">Eisvogel template</a>. A key part of the PDF is a functional table of contents outline in the sidebar of Preview, and the ability to link to different parts of the PDF from arbitrary text. </p>
+<p>Pandoc generates header identifiers for each section of the document automatically, which you can use as normal markdown-formatted links. The documentation states:</p>
+<blockquote>
+<p>A header without an explicitly specified identifier will be automatically assigned a unique identifier based on the header text. To derive the identifier from the header text,</p>
+<ul>
+<li>Remove all formatting, links, etc.</li>
+<li>Remove all footnotes.</li>
+<li>Remove all punctuation, except underscores, hyphens, and periods.</li>
+<li>Replace all spaces and newlines with hyphens.</li>
+<li>Convert all alphabetic characters to lowercase.</li>
+<li>Remove everything up to the first letter (identifiers may not begin with a number or punctuation mark).
+If nothing is left after this, use the identifier section.</li>
+</ul>
+</blockquote>
+<p>So, the header <code>Header identifiers in HTML</code> becomes <code>#header-identifiers-in-html</code>. I did this manually exactly once before I was certain that it was going to be far too tedius and something that could be easily solved by <code>awk</code>, or so I thought.</p>
+<p>It turns out that the BSD version of <code>awk</code> included with macOS doesn't support the flag needed to convert to lowercase, so instead I grabbed a quick perl command and sandwiched it between two <code>awk</code> commands:</p>
+<p><code>sed s/\ /-/g | perl -p -e 'tr/A-Z/a-z/' | sed s/^/\#/g</code></p>
+<p>Then all I needed to do was drop that in a file with a shebang header and mark it executable, move the file into BBEdit's "Text Filters" folder and it was made available to BBEdit from the Text menu. Now I just highlight some text I want to format as a link, and select the menu option. </p>
+<p>I suppose I could get even fancier and muck with the clipboard, and work all the other Pandoc rules into the script, but I imagine this will take care of %95 of my use cases for what I'm doing. That's more than enough.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="A Technical Education - The Operating System - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>A Technical Education - The Operating System - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>A Technical Education - The Operating System</h1>
+		    <p>It’s good to think of a computer as something like a cake with several layers. If the hardware is the first, and foundational layer, then the operating system is the second, and applications are the third. Today, we are going to look at that second layer, and leave with a basic understanding of what an operating system is, what it does, and what the differences are between the major operating systems available today.</p>
+<p>Chances are, you’ve already heard of a few operating systems, even if you didn’t know what the differences meant. Microsoft’s Windows is the most well known and popular operating system, powering the majority of desktop and laptop computers sold for many years now. Apple has two operating systems, OS X for desktop and notebook computers, and iOS for iPhones and iPads. Likewise, Google has two operating systems, Android and Chrome OS, both based on the open source (more on that term at a later date) Linux kernel. </p>
+<p>An operating system (OS) has two major functions. The first is to provide control of, and access to the hardware of the computer. Without an operating system, when a computer powers on it will simply sit there with nothing to do. Computers have a small built-in OS, conveniently called the BIOS, which provides access to some very basic settings, but it’s main job is to find the disk that contains the real OS and start it, or “boot it up”. </p>
+<p>When the BIOS finds the operating system, the first thing it does is load the kernel into memory. The kernel is the core of the operating system, the control point that manages access to all other resources of the machine. If there is a problem in the kernel, the entire computer crashes, which, thankfully, doesn’t happen all that often anymore. Next, a series of other programs are started that manage various functions of the computer. Eventually, the OS finishes starting all the programs that it needs to provide all the background services we rely on, and it is ready for the user. </p>
+<p>The second function of an operating system is to provide a framework for third party applications to build on. The OS provides hooks and libraries, reusable blocks of code made available to other applications to give the OS a unified and cohesive look and feel, no matter which application is in use. For example, if an application wants to draw a window on the screen, the developer doesn’t have to write all the code required to draw the window herself, she simply has to make the right calls to the OS and have the system draw the window for her. There are thousands of these programming interfaces available on each OS, but each OS does things differently. Windows not only <em>looks</em> different from OS X, it <em>feels</em> different too, that’s because the way that it functions, and the programming interfaces that it presents to third party developers are very, very different internally from OS X. </p>
+<p>This is why applications made for one operating system are often not available for another, and if they are, sometimes they look and feel a bit out of place. This is also why you can’t simply move an application from one OS to another and expect it to work. There are other, more technical explanations that have to do with compilers and runtime environments and interrupts, but for now, the important thing to understand is that applications are tied fairly deeply into the OS they were built to support. </p>
+<p>One last item that is important to understand is the concept of <em>device drivers</em>. Let’s say you have a printer, and that printer comes with a USB cable that you plug into your computer. Your computer needs to know how to talk to that printer in a way it understands, so when the paper is printed, it looks the way it should. Operating systems use a special program known as a device driver that is normally provided by the manufacturer of the printer (or whatever other device you want to connect to) and developed specifically for your operating system. Device drivers have special privileges that allow them to talk to the hardware, and allow other programs or applications to talk to the driver. </p>
+<p>Modern operating systems include drivers for thousands of different devices, and a mechanism that allows them to automatically download new drivers when they come across a device they don’t currently have. However, there may still be times when the operating system doesn’t know what to do with the device that’s plugged into it, and you may have to load the driver yourself. Normally, the manufacturer includes an installer along with the device, but unless the device is brand new, it might be a problem to install it. Third party manufacturers don’t move at the same speed as operating system development, so the drivers are often behind. Since device drivers operate at a low level in the operating system, having one that is out of date or faulty in some way can be a source of system instability. If the device you are loading a driver for is more than a year old, or if the stated supported operating system on the box is older than the one you are using, the best thing to do is visit the manufacturers web site and download and up to date driver. However, remember that that is only if the operating system doesn’t automatically do that for you.  </p>
+<p>So, the basics of an operating system are that it manages access to the hardware, provides a framework for third party development, and manages the drivers needed for extending the computer with third-party devices. This just barely skims the top of what an operating system is and can do, if you’d like to know more, the <a href="http://en.wikipedia.org/wiki/Operating_system">Wikipedia article</a> is a great next step.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+

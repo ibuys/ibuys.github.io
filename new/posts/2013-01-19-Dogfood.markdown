@@ -1,0 +1,39 @@
+---
+layout: post
+title: Dogfood
+tags: [paragraphs, blogging]
+date: 2013-01-15 10:49:11
+---
+
+I would like to introduce you to Scout, my desktop, baked blogging engine. I'd like to, but Scout is not quite ready yet, so I'm keeping him under wraps till I'm sure. There is only one way to be *really* sure, and that's to use Scout to publish my own blog, every day. 
+
+So, a little about Scout. I first got the idea a few years ago when I noticed [Jekyll][1]. I built the previous version of this site on Jekyll, and used Github as my host. Jekyll works great, but it is very much a power users' tool. Anything that requires the user to pop open the terminal is not going to pass muster with the average Joe. However, I like the idea of a static blogging engine, and luckily, I'm [not alone][2]. So, I set about trying to bring the power and control of Jekyll to a nice user interface. 
+
+![Scout looks like a text editor][3]
+
+I'd like to say that I started working on it, worked on it steadily and consistently for a few years, and now it's almost done. Unfortunatly, I had a lapse of judgement where I was not properly backing up my laptop, and was also two months behind on my offsite version control, and wound up loosing months of work on the first version. I still haven't recovered completely from that, I wrote a Wordpress importer that I still need to recreate. After loosing so much work, I got discouraged and moved on to other things.
+
+This Fall I decided to pick it back up again, and I've been working on it in every spare second that I have. I very excited about Scout, and can't wait till it's ready, but like they say, the devil is in the details, and I have to make sure this is done right. 
+
+Scout is heavily centered on the writing experience. The main interface is a plain text, markdown syntax highlighting editor, with built in preview, easy to build and customize themes, and a minimalist media manager.
+
+![Alt Text][4]
+
+
+Scout builds and publishes the entire site every time the site is exported. Once the site is uploaded to the web server, the server itself needs very little resources to serve up the site. There is no dynamic code to execute, which makes it very unlikely that the site will slow down or crash because of a high influx of traffic. 
+
+I'm using a single window for Scout, and the views fade in and out as needed. The list of previous posts is available on the left hand side of the window, but normally stays closed to concentrate on new writing. I'm also experimenting with the preferences view, trying to keep it very simple, beautiful, and functional. 
+
+![Alt Text][5]
+
+I'd like to give a time table for Scout's availability, but it would probably be a bad idea. Even writing this brief post I've noticed a few things that either need fixing or need to be enhanced. So, I'll keep polishing, and polishing, and polishing, till Scout shines as much as I can make it. Then I'll call it 1.0, release it to the world, and start fixing everything that the world finds. 
+
+I will be writing more about Scout in the coming weeks, and would love to hear your thoughts on the concept. Feel free to drop me a [line][6].
+
+
+[1]: http://jekyllrb.com
+[2]: http://inessential.com/2011/03/16/a_plea_for_baked_weblogs
+[3]: media/scout_user_interface.png
+[4]: media/scout_media_manager.png
+[5]: media/scout_prefs.png
+[6]: /contact.html

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://jonathanbuys.com/">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:site_name" content="jb">
+    <meta property="og:url" content="https://jonathanbuys.com/">
+    <meta property="og:title" content="Command-T Crashing Vim - jb">
+    <meta property="og:description" content="Some day I won't be able to do this. Today is not that day.">    
+	<title>Command-T Crashing Vim - jb</title>
+</head>
+
+<body>
+  <div class="layout">
+	<header>
+		<a href="/">JB…</a>
+		<p><a href="/archive.html">Archive</a></p>
+	</header>
+
+	<main>
+
+
+
+		<article>
+		<h1>Command-T Crashing Vim</h1>
+		    <p>For some reason today when I opened up MacVim and hit ,t to navigate to a file, MacVim crashed. The terminal spat out an ugly, and unhelpful error about "deadly signal SEGV", but knowing that I just invoked the Command-T plugin, the error was easy to track down. Command-T is not like other plugins that I have installed with Pathogen, it lives on its own and is not updated as a Git submodule. </p>
+<p>To fix the error, all I needed to do is download the latest version of Command-T as a ".vba" file and run through the install again. The install procedure is <a href="http://www.vim.org/scripts/script.php?script_id=3025">fairly simple</a>:</p>
+<blockquote>
+<p>To install open the vimball archive in Vim: </p>
+<p>vim command-t.vba </p>
+<p>Then source it: </p>
+<p><code>:so %</code> </p>
+<p>The C extension must also be then compiled; for instance, if Vimball installs your plugin files in ~/.vim, then you would do this: </p>
+</blockquote>
+<p>{% highlight bash %}
+cd ~/.vim/ruby/command-t 
+ruby extconf.rb 
+make 
+{% endhighlight %}</p>
+<p>And now everything is back to normal. Command-T is a great plugin, I recommend it. My latest adventures in Vim are available on <a href="https://github.com/jbuys/MyVim">Github</a>, if you'd like to follow along.</p>
+		</article>
+
+	</main>
+  </div>
+	<footer>
+		<p><a href="/" class="menu">Home</a> <a href='/about'>About</a></p>		
+	</footer>
+</body>
+</html>
+
+
