@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Long Will macOS Be Unix?
+title: How Long Will macOS Be Unix
 date: 2020-03-16 08:24:43
 tags: mac unix
 ---
