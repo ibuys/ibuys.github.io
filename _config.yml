@@ -15,8 +15,6 @@ kramdown:
 
 inter_post_navigation: true
 highlighter: rouge
-rouge:
-  theme: solarized
 
 permalink: /:title/
 
