@@ -2,7 +2,7 @@
 layout: post
 title: ChatGPT Designed Programming Language
 date: 2025-07-02 15:41:23
-tags: ai,programming
+tags: ai programming
 ---
 
 On a whim, I asked ChatGPT today:
