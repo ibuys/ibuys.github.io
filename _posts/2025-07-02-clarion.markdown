@@ -1,0 +1,236 @@
+---
+layout: post
+title: ChatGPT Designed Programming Language
+date: 2025-07-02 15:41:23
+tags: ai programming
+---
+
+On a whim, I asked ChatGPT today:
+
+> If you were to design a new programming language intended to be written by AI large language models like yourself, and understood by humans who need to check your work, what would the language look like? 
+
+I found it's answer fascinating. Enough that I'd like to preserve it here. It even came up with a nice name for the language, "Clarion". 
+
+## Clarion
+
+Below is a high‑level design sketch for **“Clarion”**, a hypothetical general‑purpose language optimized for two simultaneous audiences:
+
+* **Primary author:** an AI large‑language model (LLM) that can generate vast amounts of code quickly.
+* **Primary reviewer/maintainer:** a human engineer who must be able to audit, reason about and safely evolve that code.
+
+---
+
+## 1. Design Goals
+
+| Goal                   | Rationale                                                                                                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Machine‑writeable**  | Syntax must be regular, unambiguous and easily producible by generative models (no “smart” whitespace, few context‑sensitive rules).     |
+| **Human‑verifiable**   | Semantics must be obvious, explicit and compact; defaults that hide complexity are disfavoured.                                          |
+| **Formally checkable** | Every construct should have a precise, machine‑readable specification enabling static verification, model checking and proof generation. |
+| **Audit‑friendly**     | Traceability from requirement → spec → test → implementation is first‑class, not external paperwork.                                     |
+| **Gradual adoption**   | Can interoperate with C/Python/Rust so that teams can introduce AI‑generated modules incrementally.                                      |
+
+---
+
+## 2. Core Language Shape
+
+### 2.1 Surface Syntax
+
+* **Indentation‑agnostic** but **terminator‑rich**: every block ends with an `end` keyword carrying the block’s opening token, e.g. `end func`. This sacrifices a little brevity for total clarity.
+* **YAML‑like metadata headers** precede each file and major declaration, containing:
+
+  ```clarion
+  ### spec:
+  # requirement: REQ‑TR‑017
+  # safety‑critical: true
+  # proof‑obligation: VerifiedBy="SPARK"
+  ###
+  ```
+* **UTF‑8 by default** but the grammar restricts identifiers to ASCII letters, digits and `_` to minimise visual confusion.
+
+### 2.2 Types and Contracts
+
+| Feature                                     | Notes                                                                    |
+| ------------------------------------------- | ------------------------------------------------------------------------ |
+| **Algebraic data types & pattern matching** | Like in ML/Rust; deterministic exhaustiveness‑checked.                   |
+| **Refinement types**                        | `type Positive = Int where value > 0` for lightweight correctness specs. |
+| **Dependent‑like “ghost” expressions**      | Allowed only in contracts; erased before runtime.                        |
+| **Units‑of‑measure**                        | Prevent dimension errors (`Speed = m/s`).                                |
+
+Contracts use Dijkstra‑style syntax:
+
+```clarion
+func divide(n: Int, d: NonZeroInt)
+    -> (q: Int, r: Int)
+pre  d != 0
+post n == q*d + r  &&  0 <= r < abs(d)
+end func
+```
+
+### 2.3 Concurrency & Effects
+
+* **Capability‑based effects**: Every function’s signature declares which side effects it may perform (`io`, `net`, `fs`, `db`). The compiler refuses calls across mismatched capabilities.
+* **Structured concurrency** with hierarchical cancellation scopes (`task` / `end task`).
+* **Deterministic by default**: uncontrolled data races are a compile‑time error; shared mutable state must sit behind `sync`‑annotated types with statically provable hand‑off patterns.
+
+---
+
+## 3. Interaction with LLMs
+
+### 3.1 Generation‑Guiding Pragmas
+
+LLMs can embed **generation hints** that do *not* affect semantics but shape future completions:
+
+```clarion
+pragma lm_hint:
+    style = "prefer_recursive"
+    complexity_budget = "O(log n)"
+end pragma
+```
+
+Humans can delete or override these without touching logic.
+
+### 3.2 “Round‑trip Delimiters”
+
+Every top‑level entity is bracketed by stable markers so tooling can surgically update just one region:
+
+```clarion
+###<Clarion:func id=sortVersions v=1.0>###
+    ... implementation ...
+###</Clarion:func id=sortVersions>###
+```
+
+An LLM patching the function must preserve the outer marker and increment the `v` field; diff reviews become trivial.
+
+---
+
+## 4. Tooling & Verification Pipeline
+
+1. **clc (Clarion compiler)**
+
+   * Single pass, deterministic.
+   * Emits LLVM IR or WebAssembly.
+
+2. **clarion‑lint**
+
+   * Style, naming, cyclomatic complexity budgets.
+
+3. **clarion‑prove**
+
+   * Generates VCs (verification conditions) from contracts.
+   * Delegates to back‑ends (Z3, Coq, Daphne).
+   * Embeds proof outlines back into source for audit.
+
+4. **clarion‑trace**
+
+   * Traces run‑time values against contracts during testing; produces counter‑example captures for LLM fine‑tuning.
+
+5. **clarion‑doc**
+
+   * Extracts spec headers + contracts into human‑readable HTML, hyperlinked to source, tests and proofs.
+
+---
+
+## 5. Example Module
+
+```clarion
+### spec:
+# module: Payments.Core
+# requirement: PAY‑CLR‑002
+# author: GPT‑4o
+# reviewer: Alice.T
+###
+
+import std/crypto.Hash
+import std/time.Utc
+
+type Cents = Int where value >= 0
+
+record Invoice:
+    id:        Hash256
+    issued_at: Utc.Timestamp
+    amount:    Cents
+end record
+
+enum SettlementStatus:
+    | Pending
+    | Settled(at: Utc.Timestamp, ref: Hash256)
+    | Failed(reason: String)
+end enum
+
+func settle(invoice: Invoice, tx_ref: Hash256) 
+    -> (status: SettlementStatus)
+pre   invoice.amount > 0
+post  match status:
+          | Settled(at, _) => at >= invoice.issued_at
+          | Failed(_)      => true
+          | Pending        => false
+      end match
+cap   net, db
+begin
+    db.begin_tx()
+    let ok = BankApi.sendFunds(invoice.id, invoice.amount, tx_ref)
+    if ok then
+        db.recordSettlement(invoice.id, tx_ref)
+        return Settled(now(), tx_ref)
+    else
+        db.rollback()
+        return Failed("transfer rejected")
+    end if
+end func
+```
+
+A human can audit:
+
+* Preconditions/postconditions are explicit.
+* External side effects (`net`, `db`) are called out.
+* Failure modes are exhaustively enumerated.
+
+---
+
+## 6. Why Humans Can Trust It
+
+| Mechanism                                | Benefit for reviewer                                     |
+| ---------------------------------------- | -------------------------------------------------------- |
+| **Structural regularity**                | Easy to diff; little “action at a distance.”             |
+| **Contracts and capability lists**       | Immediate visibility into safety & security boundaries.  |
+| **Machine‑checked proofs**               | Eliminates gap between design and implementation.        |
+| **Round‑trip delimiters & version tags** | Changes are traceable; no silent regeneration.           |
+| **Self‑describing metadata**             | Links each line of code to higher‑level requirement IDs. |
+
+---
+
+## 7. Why LLMs Can Write It Well
+
+* **Grammar fits context‑free rules** → simpler token‑level generation.
+* **No semantic dependence on whitespace** → fewer accidental errors.
+* **Explicit block terminators** → models need not balance indentation.
+* **Generation pragmas** let prompts steer style and complexity targets.
+* **Stable markers** allow fine‑grained edits without reconstructing the file.
+
+---
+
+## 8. Relationship to Existing Languages
+
+* **Ada/SPARK** inspired contracts and determinism, but Clarion is more ergonomic for “everyday” coding.
+* **Rust** influenced ownership; Clarion lifts capability control to the type system.
+* **F★, Dafny** supply the verification lineage.
+* **Go** lent the structured‑concurrency philosophy.
+* **Python** readability goals remain, but ambiguity is removed.
+
+---
+
+### Final Thoughts
+
+Clarion deliberately sacrifices some brevity and syntactic sugar in exchange for:
+
+* **Audit clarity** – humans must *see* exactly what the AI meant.
+* **Mechanical soundness** – every compile target, proof obligation and capability is machine‑checkable.
+* **Collaborative workflows** – the language is equally hospitable to deterministic tooling, continuous integration and regenerative AI agents.
+
+This balance aims to turn AI‑generated code from a black box into a transparently engineered artifact that real teams can rely on—while still letting language models move fast.
+
+## Opinions
+
+That `func -> end func` syntax is ugly, but ChatGPT implicitly states that it's not designed for "brevity and syntactic sugar". I'm almost curious enough to see how long it would take the AI to create a complete language spec and compiler. *Almost*. 
+
