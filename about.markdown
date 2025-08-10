@@ -33,5 +33,5 @@ I love meeting new people, and especially love good conversation. If you are eve
 [4]: https://github.com/ibuys/ibuys.github.io
 [5]: http://inessential.com
 [6]: https://en.wikipedia.org/wiki/Transformers:_Generation_1
-[7]: http://twitter.com/ibuys
+[7]: https://hci.social/@jonathanbuys
 [8]: https://www.esv.org/1+Corinthians+13/
