@@ -15,7 +15,6 @@ kramdown:
 
 inter_post_navigation: true
 highlighter: rouge
-
 permalink: /:title/
 
 # Plugins
